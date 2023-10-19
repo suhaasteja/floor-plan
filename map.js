@@ -1,38 +1,65 @@
-function loadDoc() {
- var xhttp = new XMLHttpRequest();
- xhttp.onreadystatechange = function() {
-   if (this.readyState == 4 && this.status == 200) {
-   myFunction(this);
-   }
- };
- xhttp.open("GET", "floor-1.svg", true);
- xhttp.send();
-}
-function myFunction(xml) {
+function docLoop (floors) {
+
+  floors.forEach (function(svgDoc){
+    loadDoc(svgDoc);
+  });
+
+};
+
+function XMLprocess(xml, svgDoc) {
   var xmlDoc = xml.responseXML;
   var x = xmlDoc.getElementsByTagName("svg");
-  console.log(x[0]);
   var svgElement = x[0];
   //var svgElement = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   //svgElement.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
   //svgElement.setAttribute('viewBox', '0 0 200 200');
-  var latLngBounds = L.latLngBounds([[37.3348, -121.8845], [37.3362, -121.8855]]);
-  var svgOverlay2 = L.svgOverlay(svgElement, latLngBounds, {
-      opacity: 0.7,
+
+  var mysvgOverlay = L.svgOverlay(svgElement, latLngBounds, {
+      //opacity: 0.7,
       interactive: true
   });
-  svgOverlay2.addTo(map);
+  mysvgOverlay.addTo(map);
+  layerControl.addBaseLayer(mysvgOverlay, svgDoc.split(".")[0]);
+}
+
+
+function loadDoc(svgDoc) {
+
+ var xhttp = new XMLHttpRequest();
+ xhttp.onreadystatechange = function() {
+   if (this.readyState == 4 && this.status == 200) {
+   XMLprocess(this, svgDoc);
+   }
+ };
+ xhttp.open("GET", svgDoc, true);
+ xhttp.send();
 
 }
 
+function onBaseChange(e) {
+  console.log('Base layer changed - this should change marker options');
+}
+
 var map = L.map('map', {
-    renderer: L.svg()
-    })
-    .setView([37.3355, -121.88496731659605], 19);
+    crs: L.CRS.Simple,
+    minZoom: -1,
+});
+var latLngBounds = L.latLngBounds([[0,0], [1000,1000]]);
+var floors = ['Floor_1_edit.svg', 'Floor_2_edit.svg'];
+var baseMaps = {};
+var overlayMaps = {};
+var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+docLoop(floors);
+map.fitBounds(latLngBounds);
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 21,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
 
-loadDoc();
+//keep this function as a way to get coordinates for items on the map
+function onMapClick(e) {
+    alert("You clicked the map at " + e.latlng);
+}
+
+//map.on('click', onMapClick);
+
+var marker = L.marker([116, 396]).addTo(map).bindPopup("<b>Campus Entrance</b><br>Enter here from SJSU Campus.");
+
+map.on('baselayerchange', onBaseChange);
