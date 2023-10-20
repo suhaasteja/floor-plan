@@ -1,0 +1,26 @@
+[
+  {
+    "level": 1,
+    "coordinates": "116, 396",
+    "popupHead": "Campus Side Entrance",
+    "popupBody": "Enter here from the SJSU Campus"
+  },
+  {
+    "level": 1,
+    "coordinates": "854, 484",
+    "popupHead": "City Side Entrace",
+    "popupBody": "Enter here from the corner of 4th and San Fernando Streets"
+  },
+  {
+    "level": 2,
+    "coordinates": "226, 660",
+    "popupHead": "Room 213",
+    "popupBody": "SJSU Library Classroom"
+  },
+  {
+    "level": 2,
+    "coordinates": "296, 500",
+    "popupHead": "DiNapoli Gallery",
+    "popupBody": "Art gallery with rotating exhibits"
+  }
+]
