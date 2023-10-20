@@ -82,6 +82,7 @@ function onBaseChange(e) {
     collapsed: false,
     }).addTo(map);
   layerControl.addOverlay(levelMarkers, "Markers");
+  levelMarkers.addTo(map);
 }
 
 function initMarkers() {
@@ -96,6 +97,7 @@ function initMarkers() {
   });
   levelMarkers=L.layerGroup(currentMarkers);
   layerControl.addOverlay(levelMarkers, "Markers");
+  levelMarkers.addTo(map);
 }
 
 
