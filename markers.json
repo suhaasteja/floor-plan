@@ -1,26 +1,65 @@
 [
   {
     "level": 1,
+    "group": "Entrances",
     "coordinates": "116, 396",
     "popupHead": "Campus Side Entrance",
     "popupBody": "Enter here from the SJSU Campus"
   },
   {
     "level": 1,
+    "group": "Entrances",
     "coordinates": "854, 484",
     "popupHead": "City Side Entrace",
     "popupBody": "Enter here from the corner of 4th and San Fernando Streets"
   },
   {
+    "level": 1,
+    "group": "Restrooms",
+    "coordinates": "660, 364",
+    "popupHead": "Restrooms",
+    "popupBody": ""
+  },
+  {
+    "level": 1,
+    "group": "Service Points",
+    "coordinates": "426, 386",
+    "popupHead": "Circulation Desk",
+    "popupBody": "Check out books, get a library card, and more."
+  },
+  {
     "level": 2,
+    "group": "Classrooms",
     "coordinates": "226, 660",
     "popupHead": "Room 213",
     "popupBody": "SJSU Library Classroom"
   },
   {
     "level": 2,
+    "group": "Exhibit Spaces",
     "coordinates": "296, 500",
     "popupHead": "DiNapoli Gallery",
     "popupBody": "Art gallery with rotating exhibits"
+  },
+  {
+    "level": 2,
+    "group": "Meeting Rooms",
+    "coordinates": "156, 392",
+    "popupHead": "Room 225",
+    "popupBody": "Meeting room available for events and conferences."
+  },
+  {
+    "level": 2,
+    "group": "Restrooms",
+    "coordinates": "676, 352",
+    "popupHead": "Restrooms",
+    "popupBody": ""
+  },
+  {
+    "level": 2,
+    "group": "Restrooms",
+    "coordinates": "380, 660",
+    "popupHead": "Restrooms",
+    "popupBody": ""
   }
 ]
