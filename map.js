@@ -1,6 +1,7 @@
 //add global variables
 //list floors as SVG files. Floors will appear in the order listed, with the filename as the label
 var floors = ['1.svg', '2.svg'];
+var floorNames = ['Level-1', 'Level-2'];
 var latLngBounds = L.latLngBounds([[0,0], [1000,1000]]);
 var map;
 var layerControl;
@@ -11,13 +12,19 @@ var markers;
 var currentBaseLayer = 1;
 //use this variable to set marker groups that display on load
 var activeLayers = ['Restrooms'];
+var lastEventType;
+var stopHistory = false;
+
+getQueries()
 
 //start process by loading json file that contains marker data
 $(document).ready(function() {
+
   $.getJSON( "markers.json", function(data) {
     markers = data;
     buildMap(markers, floors, latLngBounds);
   });
+
 });
 
 //Primary function - called after the JSON file of markers is loaded
@@ -34,6 +41,25 @@ function buildMap (markers) {
     currentBaseLayer=e.name;
     onBaseChange();
   });
+  //update the URL when layers are changed - allows returning to state
+  map.on('overlayadd', function(e) {
+
+    if (lastEventType != 'popstate' && stopHistory == false) {
+      getActiveMarkers()
+      writeState();
+  }
+  });
+  map.on('overlayremove', function(e) {
+    if (lastEventType != 'popstate' && stopHistory == false) {
+      getActiveMarkers()
+      writeState();
+  }
+  });
+  //reload the page when the back button is used - forces page to rebuild from URL parameters
+  window.addEventListener('popstate', function(event) {
+    location.reload();
+  });
+
 
   //Click on the map to get coordinates - turn on while creating data for markers, remove for production
   $('#get-coordinates').on('click', function(e) {
@@ -43,9 +69,10 @@ function buildMap (markers) {
 }
 
 //loop through an array of SVG files
-function docLoop (floors) {
+function docLoop (floors, i) {
   floors.forEach (function(svgDoc){
-    loadDoc(svgDoc);
+    loadDoc(svgDoc, i);
+    i++
   });
   //create the layer control for the first time
   layerControl = L.control.layers(baseMaps, overlayMaps, {
@@ -56,20 +83,22 @@ function docLoop (floors) {
 };
 
 //process an XML document - runs as part of the initialization. Extracts the SVG data from its XML file and creates a Leaflet layer. Writes the layer to the layer control and adds it to the baseMaps array.
-function XMLprocess(xml, svgDoc) {
+function XMLprocess(xml, svgDoc, i) {
   var xmlDoc = xml.responseXML;
   var x = xmlDoc.getElementsByTagName("svg");
   var svgElement = x[0];
+  var levelName = svgDoc.split(".")[0];
 
-  var mysvgOverlay = L.svgOverlay(svgElement, latLngBounds, {
-      interactive: true
+  floorNames[i] = L.svgOverlay(svgElement, latLngBounds, {
+      interactive: true,
+      id: levelName
   });
    //start on the floor set in the variables above
   if (svgDoc== currentBaseLayer+".svg") {
-    mysvgOverlay.addTo(map);
+    floorNames[i].addTo(map);
   };
-  layerControl.addBaseLayer(mysvgOverlay, svgDoc.split(".")[0]);
-  baseMaps[svgDoc.split(".")[0]]=mysvgOverlay;
+  layerControl.addBaseLayer(floorNames[i], levelName);
+  baseMaps[svgDoc.split(".")[0]]=floorNames[i];
 }
 
 //get an SVG document
@@ -86,8 +115,16 @@ function loadDoc(svgDoc) {
 
 //this function runs every time the level is changed. It loops through the markers to create the layer control. Also runs on initialization
 function onBaseChange(e) {
+  console.log('onBaseChange ran');
+  stopHistory = true;
+  lastEventType = event.type;
+  //change the header;
+  $('#map-header').find('h3').text('King Library - Level ' + currentBaseLayer);
   //populates an array of active layers called activeLayers. Active layers stay active even when switching levels, and even if the group isn't present on every floor
-  getActiveMarkers();
+  if (lastEventType !="popstate") {
+    getActiveMarkers();
+    writeState();
+  };
   //clear all markers from the previous level
   deleteMarkers();
   //remove the layer control - this works better than trying to remove the layers from the control
@@ -127,6 +164,7 @@ function onBaseChange(e) {
       currentLayerGroup.addTo(map);
     }
   });
+    stopHistory = false;
 }
 
 //keep this function as a way to get coordinates for items on the map - turned on with button on dev version
@@ -167,6 +205,21 @@ function getActiveMarkers() {
       }
     }
   });
+}
+
+//get queries from URL
+function getQueries() {
+  var queryString = window.location.search;
+    if(queryString) {
+      var urlParams = new URLSearchParams(queryString);
+      currentBaseLayer = urlParams.get('level');
+      activeLayers = urlParams.get('markers').split(',');
+    }
+}
+
+//writes map state to the URL so page can be reloaded
+function writeState() {
+  window.history.pushState(null, null, '?level='+currentBaseLayer+'&markers='+activeLayers);
 }
 
 //end of function definitions
