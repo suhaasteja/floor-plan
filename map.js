@@ -19,7 +19,7 @@ getQueries()
 //start process by loading json file that contains marker data
 $(document).ready(function() {
 
-  $.getJSON( "https://sheets.googleapis.com/v4/spreadsheets/1aYZJ-eXUYM3Ak5txxG5dExsKc0RSSOFpWz6vCj2oJ9M/values/A:E?key=AIzaSyCmqnBijhOsTPfft3WE6rYAfQ1tERXPoAg", function(data) {
+  $.getJSON( "https://sheets.googleapis.com/v4/spreadsheets/1aYZJ-eXUYM3Ak5txxG5dExsKc0RSSOFpWz6vCj2oJ9M/values/A:E?key=AIzaSyCmqnBijhOsTPfft3WE6rYAfQ1tERXPoAg&alt=json", function(data) {
     markers = data;
     console.log(markers);
     buildMap(markers);
