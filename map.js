@@ -20,8 +20,20 @@ getQueries()
 $(document).ready(function() {
 
   $.getJSON( "https://sheets.googleapis.com/v4/spreadsheets/1aYZJ-eXUYM3Ak5txxG5dExsKc0RSSOFpWz6vCj2oJ9M/values/A:E?alt=json&key=AIzaSyCmqnBijhOsTPfft3WE6rYAfQ1tERXPoAg", function(data) {
-    markers = data;
-    console.log(markers);
+    markers = data.values;
+
+    var batchRowValues = data.values;
+    var rows = [];
+    for (var i=1; i<batchRowValues.length; i++) {
+      var rowObject = {};
+      for (var j=0; j<batchRowValues[i].length; j++) {
+      rowObject[batchRowValues[0][j]] = batchRowValues[i][j];
+    }
+    rows.push(rowObject);
+  }
+  console.log(rows);
+
+    markers = rows;
     buildMap(markers);
   });
 
@@ -92,7 +104,7 @@ function XMLprocess(xml, number, name) {
   var levelNumber = number;
   var levelName = floorNames[levelNumber];
   //console.log(k);
-  console.log(levelName);
+  //console.log(levelName);
   //console.log(floorNames);
   //console.log(floorNames[levelNumber]);
 
@@ -113,7 +125,6 @@ function XMLprocess(xml, number, name) {
 //this function runs every time the level is changed. It loops through the markers to create the layer control. Also runs on initialization
 function onBaseChange(e) {
   console.log('onBaseChange ran');
-  console.log(baseMaps);
   stopHistory = true;
   lastEventType = event.type;
   //change the header;
