@@ -1,7 +1,6 @@
 //add global variables
 //list floors as SVG files. Floors will appear in the order listed, with the filename as the label
-var floors = ['1.svg', '2.svg'];
-var floorNames = ['Level-1', 'Level-2'];
+var floorNames = ['Lower Level', 'Level 1', 'Level 2', 'Level 3', 'Level 4', 'Level 5', 'Level 6', 'Level 7', 'Level 8'];
 var latLngBounds = L.latLngBounds([[0,0], [1000,1000]]);
 var map;
 var layerControl;
@@ -9,7 +8,7 @@ var baseMaps = {};
 var overlayMaps = {};
 var markers;
 //use this variable to set the level the page loads on;
-var currentBaseLayer = 1;
+var currentBaseLayer = "Level 1";
 //use this variable to set marker groups that display on load
 var activeLayers = ['Restrooms'];
 var lastEventType;
@@ -22,7 +21,7 @@ $(document).ready(function() {
 
   $.getJSON( "markers.json", function(data) {
     markers = data;
-    buildMap(markers, floors, latLngBounds);
+    buildMap(markers);
   });
 
 });
@@ -33,8 +32,24 @@ function buildMap (markers) {
       crs: L.CRS.Simple,
       minZoom: -1,
   });
-
-  docLoop(floors);
+  //use jquery when to make sure all svg files load before beginning to build the map - otherwise layers seem to appear out of order on the control
+  $.when( $.ajax("0.svg"),  $.ajax("1.svg"),  $.ajax("2.svg"),  $.ajax("3.svg"),  $.ajax("4.svg"),  $.ajax("5.svg"),  $.ajax("6.svg"), $.ajax("7.svg"), $.ajax("8.svg")).done(function (svg0, svg1, svg2, svg3, svg4, svg5, svg6, svg7, svg8) {
+     XMLprocess(svg0[0],0);
+     XMLprocess(svg1[0],1);
+     XMLprocess(svg2[0],2);
+     XMLprocess(svg3[0],3);
+     XMLprocess(svg4[0],4);
+     XMLprocess(svg5[0],5);
+     XMLprocess(svg6[0],6);
+     XMLprocess(svg7[0],7);
+     XMLprocess(svg8[0],8);
+     //create the layer control for the first time
+     layerControl = L.control.layers(baseMaps, overlayMaps, {
+       collapsed: false,
+       position: 'bottomleft'
+       }).addTo(map);
+     onBaseChange();
+  });
   map.fitBounds(latLngBounds);
   //set the function that runs when the level is changed
   map.on('baselayerchange', function(e) {
@@ -68,54 +83,36 @@ function buildMap (markers) {
 
 }
 
-//loop through an array of SVG files
-function docLoop (floors, i) {
-  floors.forEach (function(svgDoc){
-    loadDoc(svgDoc, i);
-    i++
-  });
-  //create the layer control for the first time
-  layerControl = L.control.layers(baseMaps, overlayMaps, {
-    collapsed: false,
-    position: 'bottomright'
-    }).addTo(map);
-  onBaseChange();
-};
-
 //process an XML document - runs as part of the initialization. Extracts the SVG data from its XML file and creates a Leaflet layer. Writes the layer to the layer control and adds it to the baseMaps array.
-function XMLprocess(xml, svgDoc, i) {
+function XMLprocess(xml, number, name) {
   var xmlDoc = xml.responseXML;
-  var x = xmlDoc.getElementsByTagName("svg");
+  var x = xml.getElementsByTagName("svg");
   var svgElement = x[0];
-  var levelName = svgDoc.split(".")[0];
+  var levelNumber = number;
+  var levelName = floorNames[levelNumber];
+  //console.log(k);
+  console.log(levelName);
+  //console.log(floorNames);
+  //console.log(floorNames[levelNumber]);
 
-  floorNames[i] = L.svgOverlay(svgElement, latLngBounds, {
+  currentLevel = L.svgOverlay(svgElement, latLngBounds, {
       interactive: true,
       id: levelName
   });
+  //console.log(floorNames[i]);
    //start on the floor set in the variables above
-  if (svgDoc== currentBaseLayer+".svg") {
-    floorNames[i].addTo(map);
+  if (levelName == currentBaseLayer) {
+    currentLevel.addTo(map);
   };
-  layerControl.addBaseLayer(floorNames[i], levelName);
-  baseMaps[svgDoc.split(".")[0]]=floorNames[i];
+  //layerControl.addBaseLayer(currentLevel, levelName);
+  baseMaps[levelName]=currentLevel;
 }
 
-//get an SVG document
-function loadDoc(svgDoc) {
- var xhttp = new XMLHttpRequest();
- xhttp.onreadystatechange = function() {
-   if (this.readyState == 4 && this.status == 200) {
-   XMLprocess(this, svgDoc);
-   }
- };
- xhttp.open("GET", svgDoc, true);
- xhttp.send();
-}
 
 //this function runs every time the level is changed. It loops through the markers to create the layer control. Also runs on initialization
 function onBaseChange(e) {
   console.log('onBaseChange ran');
+  console.log(baseMaps);
   stopHistory = true;
   lastEventType = event.type;
   //change the header;
@@ -134,7 +131,7 @@ function onBaseChange(e) {
   //start a new layer control - will have the levels but no markers yet
   layerControl = L.control.layers(baseMaps, overlayMaps, {
     collapsed: false,
-    position: 'bottomright'
+    position: 'bottomleft'
     }).addTo(map);
   //create a new object with only the markers for this level
   var myMarkers = markers.filter((item) => item.level == currentBaseLayer);
@@ -212,7 +209,7 @@ function getQueries() {
   var queryString = window.location.search;
     if(queryString) {
       var urlParams = new URLSearchParams(queryString);
-      currentBaseLayer = urlParams.get('level');
+      currentBaseLayer = urlParams.get('level').replace('%20',' ');
       activeLayers = urlParams.get('markers').split(',');
     }
 }
