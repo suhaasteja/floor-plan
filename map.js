@@ -19,7 +19,7 @@ getQueries()
 //start process by loading json file that contains marker data
 $(document).ready(function() {
 
-  $.getJSON( "https://sheets.googleapis.com/v4/spreadsheets/1aYZJ-eXUYM3Ak5txxG5dExsKc0RSSOFpWz6vCj2oJ9M/values/A:E?alt=json&key=AIzaSyDl5APEDZ7vrF6sG37qbC7eTz0we45-g5I", function(data) {
+  $.getJSON( "https://sheets.googleapis.com/v4/spreadsheets/1aYZJ-eXUYM3Ak5txxG5dExsKc0RSSOFpWz6vCj2oJ9M/values/A:E?alt=json&key=AIzaSyCmqnBijhOsTPfft3WE6rYAfQ1tERXPoAg", function(data) {
     markers = data.values;
     //write response to expected JSON format
     var batchRowValues = data.values;
