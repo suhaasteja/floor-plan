@@ -1,7 +1,7 @@
 //add global variables
 //list floors as SVG files. Floors will appear in the order listed, with the filename as the label
 var floorNames = ['Lower Level', 'Level 1', 'Level 2', 'Level 3', 'Level 4', 'Level 5', 'Level 6', 'Level 7', 'Level 8'];
-var latLngBounds = L.latLngBounds([[0,0], [1200,1200]]);
+var latLngBounds = L.latLngBounds([[0,0], [1500,1500]]);
 var map;
 var layerControl;
 var baseMaps = {};
@@ -43,6 +43,7 @@ function buildMap (markers) {
   map = L.map('map', {
       crs: L.CRS.Simple,
       minZoom: -1,
+      attributionControl: false,
   });
   //use jquery when to make sure all svg files load before beginning to build the map - otherwise layers seem to appear out of order on the control
   $.when( $.ajax("0.svg"),  $.ajax("1.svg"),  $.ajax("2.svg"),  $.ajax("3.svg"),  $.ajax("4.svg"),  $.ajax("5.svg"),  $.ajax("6.svg"), $.ajax("7.svg"), $.ajax("8.svg")).done(function (svg0, svg1, svg2, svg3, svg4, svg5, svg6, svg7, svg8) {
@@ -127,7 +128,7 @@ function onBaseChange(e) {
   stopHistory = true;
   lastEventType = event.type;
   //change the header;
-  $('#map-header').find('h3').text('King Library - Level ' + currentBaseLayer);
+  $('#map-header').find('h3').text('King Library -  ' + currentBaseLayer);
   //populates an array of active layers called activeLayers. Active layers stay active even when switching levels, and even if the group isn't present on every floor
   if (lastEventType !="popstate") {
     getActiveMarkers();

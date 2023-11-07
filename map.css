@@ -1,5 +1,7 @@
-#map { height: 500px;
+#map { height: 600px;
   width: 100%;
+  background-color: #ffffff;
+  border:1px solid #cccccc;
  }
 .leaflet-control-layers-base::before {
   content: "Levels";
@@ -9,4 +11,8 @@
 .leaflet-control-layers-overlays::before {
   content: "On this level";
   font-weight: bold;
+}
+
+.leaflet-bottom.leaflet-left {
+  height:80%;
 }
