@@ -1,355 +1,630 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1409.5 975" style="enable-background:new 0 0 1409.5 975;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1207.8px" height="937px" viewBox="0 0 1207.8 937" style="enable-background:new 0 0 1207.8 937;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{fill:none;stroke:#231F20;stroke-width:0.3;}
-	.st2{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-	.st3{fill:#A2C9EA;stroke:#A2C9EA;stroke-miterlimit:10;}
-	.st4{fill:#A2C9EA;}
-	.st5{font-family:'Arial-ItalicMT';}
-	.st6{font-size:14px;}
-	.st7{font-family:'ArialNarrow-Italic';}
-	.st8{font-size:14.6418px;}
-	.st9{font-family:'ArialNarrow-Bold';}
-	.st10{font-size:33.4957px;}
-	.st11{fill:#F5F5C8;stroke:#000000;stroke-miterlimit:10;}
-	.st12{fill:#E5E5E5;stroke:#000000;stroke-miterlimit:10;}
-	.st13{fill:url(#Grid_1_pica_Lines);stroke:#000000;stroke-miterlimit:10;}
-	.st14{fill:#EAC16E;stroke:#000000;stroke-miterlimit:10;}
-	.st15{fill:#C3DAEA;stroke:#000000;stroke-miterlimit:10;}
-	.st16{display:none;}
-	.st17{display:inline;fill:none;}
-	.st18{display:inline;}
-	.st19{font-family:'MyriadPro-Regular';}
-	.st20{font-size:8px;}
-	.st21{font-size:10px;}
-	.st22{display:inline;fill:#E4F2F9;}
-	.st23{font-family:'Arial-BoldMT';}
-	.st24{font-size:300px;}
-	.st25{letter-spacing:7;}
-	.st26{font-size:48px;}
-	.st27{font-size:21px;}
-	.st28{fill:#C60606;stroke:#000000;stroke-miterlimit:10;}
-	.st29{fill:#FFFFFF;}
-	.st30{font-size:12px;}
-	.st31{fill:#146EDC;stroke:#000000;stroke-miterlimit:10;}
-	.st32{fill:#785AA0;stroke:#000000;stroke-miterlimit:10;}
-	.st33{fill:#785AA0;}
-	.st34{font-family:'Verdana-Bold';}
-	.st35{font-size:11px;}
-	.st36{fill:#F9E235;stroke:#000000;stroke-miterlimit:10;}
-	.st37{stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#A2C9EA;stroke-miterlimit:10;}
+	.st3{fill:#A2C9EA;}
+	.st4{font-family:'Arial-ItalicMT';}
+	.st5{font-size:14.0015px;}
+	.st6{font-family:'ArialNarrow-Bold';}
+	.st7{font-size:33.4957px;}
+	.st8{font-size:14px;}
+	.st9{font-family:'ArialNarrow-Italic';}
+	.st10{font-size:14.64px;}
+	.st11{fill:#B9DDA4;stroke:#000000;stroke-miterlimit:10;}
+	.st12{fill:#B9DDA4;stroke:#000000;stroke-width:1;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#000000;stroke-width:1.3;stroke-miterlimit:10;}
+	.st15{stroke:#000000;stroke-width:1.3;stroke-miterlimit:10;}
+	.st16{font-family:'MyriadPro-Regular';}
+	.st17{font-size:14.0018px;}
+	
+		.st18{fill:url(#SVGID_00000111154150194615332980000015661213459788828558_);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st19{fill:url(#SVGID_00000146501894203829899190000017537645396413807753_);stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st20{fill:#FCECA4;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st21{fill:#FCECA4;stroke:#000000;stroke-width:1.9997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:9.9991;}
+	.st22{fill:#E5E5E5;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st23{fill:url(#SVGID_00000169543584641791753950000015607806033448300204_);stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st24{fill:#C4EBF7;stroke:#000000;stroke-width:2.0003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.0009;}
+	.st25{fill:#E4F2F9;}
+	.st26{font-family:'Arial-BoldMT';}
+	.st27{font-size:300.0387px;}
+	.st28{letter-spacing:4;}
+	.st29{font-size:48.0063px;}
+	.st30{fill:#E5E5E5;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.0006;}
+	
+		.st31{fill:url(#SVGID_00000078761753100897336850000014599860254378445238_);stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st32{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st33{fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st34{fill:#FF0000;}
+	.st35{fill:#FFFFFF;}
+	.st36{fill:#146EDC;}
 </style>
-<pattern  x="159.5" y="975" width="72" height="72" patternUnits="userSpaceOnUse" id="Grid_1_pica_Lines" viewBox="72.2 -144.2 72 72" style="overflow:visible;">
+<pattern  y="937" width="72" height="72" patternUnits="userSpaceOnUse" id="SVGID_0000002544449893649513000" viewBox="72.2 -144.3 72 72" style="overflow:visible;">
 	<g>
-		<rect x="72.2" y="-144.2" class="st0" width="72" height="72"/>
+		<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
 		<g>
-			<line class="st1" x1="78.2" y1="-72.5" x2="78.2" y2="0"/>
-			<line class="st1" x1="102.2" y1="-72.5" x2="102.2" y2="0"/>
-			<line class="st1" x1="126.2" y1="-72.5" x2="126.2" y2="0"/>
-			<line class="st1" x1="90.2" y1="-72.5" x2="90.2" y2="0"/>
-			<line class="st1" x1="114.2" y1="-72.5" x2="114.2" y2="0"/>
-			<line class="st1" x1="138.2" y1="-72.5" x2="138.2" y2="0"/>
-		</g>
-		<g>
-			<line class="st1" x1="144" y1="-78.2" x2="216.5" y2="-78.2"/>
-			<line class="st1" x1="144" y1="-102.2" x2="216.5" y2="-102.2"/>
-			<line class="st1" x1="144" y1="-126.2" x2="216.5" y2="-126.2"/>
-			<line class="st1" x1="144" y1="-90.2" x2="216.5" y2="-90.2"/>
-			<line class="st1" x1="144" y1="-114.2" x2="216.5" y2="-114.2"/>
-			<line class="st1" x1="144" y1="-138.2" x2="216.5" y2="-138.2"/>
-		</g>
-		<g>
-			<line class="st1" x1="78.2" y1="-144.5" x2="78.2" y2="-72"/>
-			<line class="st1" x1="102.2" y1="-144.5" x2="102.2" y2="-72"/>
-			<line class="st1" x1="126.2" y1="-144.5" x2="126.2" y2="-72"/>
-			<line class="st1" x1="72" y1="-78.2" x2="144.5" y2="-78.2"/>
-			<line class="st1" x1="72" y1="-102.2" x2="144.5" y2="-102.2"/>
-			<line class="st1" x1="72" y1="-126.2" x2="144.5" y2="-126.2"/>
-			<line class="st1" x1="72" y1="-90.2" x2="144.5" y2="-90.2"/>
-			<line class="st1" x1="72" y1="-114.2" x2="144.5" y2="-114.2"/>
-			<line class="st1" x1="72" y1="-138.2" x2="144.5" y2="-138.2"/>
-			<line class="st1" x1="90.2" y1="-144.5" x2="90.2" y2="-72"/>
-			<line class="st1" x1="114.2" y1="-144.5" x2="114.2" y2="-72"/>
-			<line class="st1" x1="138.2" y1="-144.5" x2="138.2" y2="-72"/>
-		</g>
-		<g>
-			<line class="st1" x1="0" y1="-78.2" x2="72.5" y2="-78.2"/>
-			<line class="st1" x1="0" y1="-102.2" x2="72.5" y2="-102.2"/>
-			<line class="st1" x1="0" y1="-126.2" x2="72.5" y2="-126.2"/>
-			<line class="st1" x1="0" y1="-90.2" x2="72.5" y2="-90.2"/>
-			<line class="st1" x1="0" y1="-114.2" x2="72.5" y2="-114.2"/>
-			<line class="st1" x1="0" y1="-138.2" x2="72.5" y2="-138.2"/>
-		</g>
-		<g>
-			<line class="st1" x1="78.2" y1="-216.5" x2="78.2" y2="-144"/>
-			<line class="st1" x1="102.2" y1="-216.5" x2="102.2" y2="-144"/>
-			<line class="st1" x1="126.2" y1="-216.5" x2="126.2" y2="-144"/>
-			<line class="st1" x1="90.2" y1="-216.5" x2="90.2" y2="-144"/>
-			<line class="st1" x1="114.2" y1="-216.5" x2="114.2" y2="-144"/>
-			<line class="st1" x1="138.2" y1="-216.5" x2="138.2" y2="-144"/>
+			<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+			<g>
+				<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+				<g>
+					<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+					<g>
+						<line class="st1" x1="78.2" y1="-144" x2="78.2" y2="-216.5"/>
+						<line class="st1" x1="102.2" y1="-144" x2="102.2" y2="-216.5"/>
+						<line class="st1" x1="126.2" y1="-144" x2="126.2" y2="-216.5"/>
+						<line class="st1" x1="90.2" y1="-144" x2="90.2" y2="-216.5"/>
+						<line class="st1" x1="114.2" y1="-144" x2="114.2" y2="-216.5"/>
+						<line class="st1" x1="138.2" y1="-144" x2="138.2" y2="-216.5"/>
+					</g>
+					<g>
+						<line class="st1" x1="144" y1="-138.3" x2="216.5" y2="-138.3"/>
+						<line class="st1" x1="144" y1="-114.3" x2="216.5" y2="-114.3"/>
+						<line class="st1" x1="144" y1="-90.3" x2="216.5" y2="-90.3"/>
+						<line class="st1" x1="144" y1="-126.3" x2="216.5" y2="-126.3"/>
+						<line class="st1" x1="144" y1="-102.3" x2="216.5" y2="-102.3"/>
+						<line class="st1" x1="144" y1="-78.3" x2="216.5" y2="-78.3"/>
+					</g>
+					<g>
+						<line class="st1" x1="78.2" y1="-72" x2="78.2" y2="-144.5"/>
+						<line class="st1" x1="102.2" y1="-72" x2="102.2" y2="-144.5"/>
+						<line class="st1" x1="126.2" y1="-72" x2="126.2" y2="-144.5"/>
+						<line class="st1" x1="72" y1="-138.3" x2="144.5" y2="-138.3"/>
+						<line class="st1" x1="72" y1="-114.3" x2="144.5" y2="-114.3"/>
+						<line class="st1" x1="72" y1="-90.3" x2="144.5" y2="-90.3"/>
+						<line class="st1" x1="72" y1="-126.3" x2="144.5" y2="-126.3"/>
+						<line class="st1" x1="72" y1="-102.3" x2="144.5" y2="-102.3"/>
+						<line class="st1" x1="72" y1="-78.3" x2="144.5" y2="-78.3"/>
+						<line class="st1" x1="90.2" y1="-72" x2="90.2" y2="-144.5"/>
+						<line class="st1" x1="114.2" y1="-72" x2="114.2" y2="-144.5"/>
+						<line class="st1" x1="138.2" y1="-72" x2="138.2" y2="-144.5"/>
+					</g>
+					<g>
+						<line class="st1" x1="0" y1="-138.3" x2="72.5" y2="-138.3"/>
+						<line class="st1" x1="0" y1="-114.3" x2="72.5" y2="-114.3"/>
+						<line class="st1" x1="0" y1="-90.3" x2="72.5" y2="-90.3"/>
+						<line class="st1" x1="0" y1="-126.3" x2="72.5" y2="-126.3"/>
+						<line class="st1" x1="0" y1="-102.3" x2="72.5" y2="-102.3"/>
+						<line class="st1" x1="0" y1="-78.3" x2="72.5" y2="-78.3"/>
+					</g>
+					<g>
+						<line class="st1" x1="78.2" y1="0" x2="78.2" y2="-72.5"/>
+						<line class="st1" x1="102.2" y1="0" x2="102.2" y2="-72.5"/>
+						<line class="st1" x1="126.2" y1="0" x2="126.2" y2="-72.5"/>
+						<line class="st1" x1="90.2" y1="0" x2="90.2" y2="-72.5"/>
+						<line class="st1" x1="114.2" y1="0" x2="114.2" y2="-72.5"/>
+						<line class="st1" x1="138.2" y1="0" x2="138.2" y2="-72.5"/>
+					</g>
+				</g>
+			</g>
 		</g>
 	</g>
 </pattern>
-<g id="base_white">
-	<polyline class="st2" points="700.9,746.2 643.6,651.2 418.4,509.8 509.7,360.7 506.9,242.2 562,278.6 564.3,53.1 817.2,224 
-		890.6,272.6 911,228.4 970,331.7 938.1,388.4 1034.7,446.7 1068.5,388.4 1104.5,411.1 1126.8,427.2 1203.7,475.5 1288.8,530.2 
-		1346.4,565.1 1322,582.8 1204,659.8 1184.2,672.8 1139.3,736.5 1241.7,815.1 1268.3,833.7 1171,884.7 1098.1,925.9 1079.2,935.8 
-		832.4,770.5 729.5,703.7 700.9,746.2 	"/>
-</g>
-<g id="street">
-	<g id="san_fernando">
-		<line class="st3" x1="299.8" y1="126.1" x2="486.3" y2="8.1"/>
-		<line class="st3" x1="312.2" y1="146" x2="520.6" y2="14.1"/>
-		
-			<rect x="337.3" y="64.6" transform="matrix(0.848 -0.5299 0.5299 0.848 24.433 229.3282)" class="st0" width="149.6" height="15"/>
-		<text transform="matrix(0.8481 -0.5299 0.5299 0.8481 350.0209 113.8617)" class="st4 st5 st6">San Fernando Street</text>
-	</g>
-	<g id="_x34_th_street">
-		<line class="st3" x1="397.4" y1="744.7" x2="230.1" y2="421"/>
-		<line class="st3" x1="418.8" y1="735.1" x2="251" y2="410.4"/>
-		
-			<rect x="314.7" y="495.8" transform="matrix(0.8829 -0.4695 0.4695 0.8829 -230.159 218.0683)" class="st0" width="15" height="149.6"/>
-		<text transform="matrix(-0.4695 -0.8829 0.8829 -0.4695 344.6653 607.3199)" class="st4 st5 st6">Fourth Street</text>
-	</g>
-	<g id="sjsu_campus">
-		<polygon class="st4" points="1373.8,716 1348.6,696.6 1354.4,741.2 		"/>
-		
-			<rect x="1319.3" y="658.9" transform="matrix(0.9873 -0.1586 0.1586 0.9873 -97.4179 220.3597)" class="st0" width="25.2" height="123.4"/>
-		<text transform="matrix(0.1586 0.9873 -0.9873 0.1586 1327.8263 681.2714)" class="st4 st7 st8">SJSU Campus</text>
-	</g>
-</g>
-<g id="north">
+<pattern  y="937" width="72" height="72" patternUnits="userSpaceOnUse" id="SVGID_0000012268352770982641359" viewBox="72.2 -144.3 72 72" style="overflow:visible;">
 	<g>
-		<polygon class="st4" points="490.3,95.1 483,127.7 523,102.4 		"/>
-		
-			<rect x="469.7" y="69.2" transform="matrix(0.829 -0.5592 0.5592 0.829 36.1634 283.2994)" class="st0" width="23.3" height="26.6"/>
-		<text transform="matrix(0.829 -0.5592 0.5592 0.829 479.1335 96.9483)" class="st4 st9 st10">N</text>
-	</g>
-</g>
-<g id="yellow_region">
-	<polygon id="cultural_heritage" class="st11" points="1098.1,925.9 1021.2,873 1066.8,806.6 1171,884.7 	"/>
-	<polygon id="chicago_collection" class="st11" points="1179.7,870.8 1139.3,843.5 1174.9,796.6 1213.1,824.4 	"/>
-	<polygon id="asian_american_coll" class="st11" points="1065.9,721.9 1101.5,744.5 1070.7,794 1034.7,769.2 	"/>
-	<polygon id="african_coll" class="st11" points="964.4,656.8 1009.5,687.6 977.4,732.8 930.1,703.7 	"/>
-	<polygon id="steinback_center" class="st11" points="731.7,598.2 695.7,651.6 741.7,684.6 729.5,703.7 832.4,770.5 886.7,689.8 	
-		"/>
-	<polygon id="beethoven_center" class="st11" points="624.5,530.5 650,546.6 731.7,598.2 695.7,651.6 741.7,684.6 729.5,703.7 
-		700.9,746.2 643.6,651.2 573.7,607.3 	"/>
-	<polygon id="spl_coll_program" class="st11" points="703.5,465.3 650,546.6 720.6,591.2 773.8,510.5 	"/>
-	<polygon id="room_500" class="st11" points="753.8,611.3 904.5,397.2 869.3,376.4 773.8,510.5 720.6,591.2 	"/>
-	<polygon id="sjsu_spl_coll" class="st11" points="711.9,419.8 779.9,321.3 869.3,376.4 798.4,476 	"/>
-	<polygon id="california_room" class="st11" points="763.8,311.3 779.9,321.3 904.5,397.2 925.3,411.1 970,331.7 911,228.4 
-		890.6,272.6 817.2,224 	"/>
-	<polygon id="M_x2B_ML" class="st11" points="1044.9,556.7 1072.9,513 1218.8,601.6 1192,645.7 	"/>
-	<polygon id="Sound_recording" class="st11" points="1171.2,558.2 1203,499.7 1277.2,548.6 1246.8,608.2 	"/>
-	<polygon id="listening_station" class="st11" points="1203.7,475.5 1197.2,485.7 1283.4,539.1 1288.8,530.2 	"/>
-	<polygon id="goldberg_coll" class="st11" points="1204,659.8 1197.2,650.9 1315.9,576 1322,582.8 	"/>
-	<ellipse id="beehive_thesis" class="st11" cx="1297.9" cy="561.9" rx="13.6" ry="19.2"/>
-	<polygon id="ethnic_studies" class="st11" points="779.2,611.3 812.5,569.1 895.1,619.9 861.9,661.7 	"/>
-</g>
-<g id="grey_region">
-	<polygon id="toilet_1_" class="st12" points="1159.8,550.7 1203.7,475.5 1126.8,427.2 1079.6,502 	"/>
-	<polygon id="service_1_" class="st12" points="997.4,553.9 955,577.7 976.2,611.3 1021.2,585.7 	"/>
-	<polygon class="st12" points="816.6,559.7 827,546.5 904.5,594.5 893.4,611.3 	"/>
-	<polygon class="st12" points="1229.6,825.4 1241.7,815.1 1139.3,736.5 1126.8,750 	"/>
-	<polygon class="st12" points="980.7,656.8 990,645.7 1070.5,694.8 1060.7,709.1 	"/>
-	<polygon class="st12" points="1037,581.1 1044.9,569.1 1191.9,659.8 1184.2,672.8 	"/>
-	<polygon id="rooftop_terrace" class="st12" points="990,645.7 1037,581.1 1184.2,672.8 1139.3,736.5 1070.5,694.8 	"/>
-	<polygon class="st12" points="1060.7,709.1 1070.5,694.8 1139.3,736.5 1126.8,750 	"/>
-	<polyline class="st12" points="952.6,531.3 961.6,518 884.9,466.3 875.4,480.5 952.6,531.3 	"/>
-</g>
-<g id="grey_grid">
-	<polygon id="grey_grid_1_" class="st13" points="817.2,224 564.3,53.1 562,278.6 506.9,242.2 509.7,360.7 418.4,509.8 573.7,607.3 
-		624.5,530.5 650,546.6 703.5,465.3 773.8,510.5 798.4,476 711.9,419.8 779.9,321.3 763.8,311.3 	"/>
-</g>
-<g id="vertical_flow">
-	<polygon id="elevator" class="st14" points="925.3,411.1 938.1,388.4 1034.7,446.7 1070.5,468.3 1056.7,490.5 	"/>
-	<polygon id="stairs" class="st14" points="1068.5,388.4 1104.5,411.1 1070.5,468.3 1034.7,446.7 	"/>
-</g>
-<g id="atrium">
-	<polygon id="atrium_1_" class="st15" points="827,546.5 875.4,480.5 952.6,531.3 904.5,594.5 	"/>
-</g>
-<g id="text" class="st16">
-	<rect x="865.2" y="321.3" class="st17" width="78.5" height="32.6"/>
-	<text transform="matrix(1 0 0 1 876.662 331.199)" class="st18"><tspan x="0" y="0" class="st19 st6">California </tspan><tspan x="10.5" y="16.8" class="st19 st6">Room</tspan></text>
-	<rect x="606.7" y="582" class="st17" width="78.5" height="32.6"/>
-	<text transform="matrix(1 0 0 1 614.3492 591.946)" class="st18"><tspan x="0" y="0" class="st19 st6">Beethoven </tspan><tspan x="12" y="16.8" class="st19 st6">Center</tspan></text>
-	<rect x="1060" y="535.8" class="st17" width="21" height="11.6"/>
-	<text transform="matrix(1 0 0 1 1064.8696 545.7356)" class="st18 st19 st6">M</text>
-	<rect x="1181.4" y="609.3" class="st17" width="21" height="11.6"/>
-	<text transform="matrix(1 0 0 1 1182.9772 619.2899)" class="st18 st19 st6">ML</text>
-	
-		<rect x="737.5" y="379.4" transform="matrix(0.5446 -0.8387 0.8387 0.5446 21.8457 831.6148)" class="st17" width="78.5" height="32.6"/>
-	<text transform="matrix(0.5446 -0.8387 0.8387 0.5446 751.6669 422.6318)" class="st18"><tspan x="0" y="0" class="st19 st6">SJSU Special </tspan><tspan x="6.7" y="16.8" class="st19 st6">Collection</tspan></text>
-	
-		<rect x="671.3" y="497.5" transform="matrix(0.5446 -0.8387 0.8387 0.5446 -118.7828 842.1948)" class="st17" width="89.7" height="65.9"/>
-	<text transform="matrix(0.5446 -0.8387 0.8387 0.5446 673.8651 553.3656)" class="st18"><tspan x="0" y="0" class="st19 st6">Special Collec</tspan><tspan x="80.1" y="0" class="st19 st6">-</tspan><tspan x="1" y="16.8" class="st19 st6">tions Program </tspan><tspan x="24.9" y="33.6" class="st19 st6">Room</tspan></text>
-	
-		<rect x="776.1" y="642.9" transform="matrix(0.5446 -0.8387 0.8387 0.5446 -213.6886 975.1587)" class="st17" width="30.1" height="83"/>
-	<text transform="matrix(0.8387 0.5446 -0.5446 0.8387 769.9762 664.5109)" class="st18"><tspan x="0" y="0" class="st19 st6">Steinback</tspan><tspan x="9" y="16.8" class="st19 st6">Center</tspan></text>
-	
-		<rect x="828.6" y="577.6" transform="matrix(0.5446 -0.8387 0.8387 0.5446 -138.4653 983.1479)" class="st17" width="15.1" height="83"/>
-	<text transform="matrix(0.8387 0.5446 -0.5446 0.8387 800.1898 598.6292)" class="st18 st19 st6">Ethnic Studies</text>
-	<rect x="862.2" y="534.3" class="st17" width="48.9" height="14.6"/>
-	<text transform="matrix(1 0 0 1 866.4389 544.2246)" class="st18 st19 st6">Atrium</text>
-	<rect x="795.2" y="490.5" class="st17" width="31.3" height="11.9"/>
-	<text transform="matrix(1 0 0 1 800.0359 500.4594)" class="st18 st19 st6">500</text>
-	
-		<rect x="741.7" y="564.6" transform="matrix(0.5736 -0.8192 0.8192 0.5736 -130.3844 894.5884)" class="st17" width="104.7" height="15.8"/>
-	<text transform="matrix(0.5736 -0.8192 0.8192 0.5736 763.7561 611.9515)" class="st18"><tspan x="0" y="0" class="st19 st20">Punjabi, Jewish, &amp; Portuguese </tspan><tspan x="17.6" y="9.6" class="st19 st20">Heritage Collection</tspan></text>
-	
-		<rect x="945.8" y="673.1" transform="matrix(0.5446 -0.8387 0.8387 0.5446 -148.6723 1130.2278)" class="st17" width="41.3" height="57.9"/>
-	<text transform="matrix(0.8387 0.5446 -0.5446 0.8387 959.4622 681.2973)" class="st18"><tspan x="0" y="0" class="st19 st21">Africana </tspan><tspan x="-5.9" y="12" class="st19 st21">Collections</tspan></text>
-	
-		<rect x="1044.2" y="735" transform="matrix(0.5446 -0.8387 0.8387 0.5446 -153.6796 1239.7957)" class="st17" width="41.3" height="52.8"/>
-	<text transform="matrix(0.8387 0.5446 -0.5446 0.8387 1062.6941 743.8325)" class="st18"><tspan x="0" y="0" class="st19 st21">Asian</tspan><tspan x="-8.6" y="12" class="st19 st21">American </tspan><tspan x="-11.7" y="24" class="st19 st21">Collections</tspan></text>
-	
-		<rect x="1163.5" y="808.8" transform="matrix(0.5446 -0.8387 0.8387 0.5446 -163.5952 1366.0625)" class="st17" width="25.4" height="49.8"/>
-	<text transform="matrix(0.8387 0.5446 -0.5446 0.8387 1164.9323 819.7236)" class="st18"><tspan x="0" y="0" class="st19 st21">Chicago</tspan><tspan x="-4.1" y="12" class="st19 st21">Collection</tspan></text>
-	
-		<rect x="1069.4" y="822.7" transform="matrix(0.5446 -0.8387 0.8387 0.5446 -237.6917 1307.7146)" class="st17" width="32.1" height="100.1"/>
-	<text transform="matrix(0.8387 0.5446 -0.5446 0.8387 1060.5278 845.9268)" class="st18"><tspan x="0" y="0" class="st19 st21">Cultural Heritage </tspan><tspan x="-11" y="12" class="st19 st21">Center Program Room</tspan></text>
-	<rect x="1187.1" y="540.4" class="st17" width="74.1" height="32.6"/>
-	<text transform="matrix(1 0 0 1 1188.2026 547.5107)" class="st18"><tspan x="0" y="0" class="st19 st21">Sound Recording </tspan><tspan x="2.9" y="12" class="st19 st21">(Record Albums </tspan><tspan x="22.3" y="24" class="st19 st21">&amp; CDs)</tspan></text>
-	
-		<rect x="1209.3" y="497.7" transform="matrix(0.5446 -0.8387 0.8387 0.5446 120.6012 1251.9946)" class="st17" width="7.8" height="34.6"/>
-	<text transform="matrix(0.8387 0.5446 -0.5446 0.8387 1199.4077 509.7527)" class="st18 st19 st21">ML-MT</text>
-	
-		<rect x="1201.5" y="617.8" transform="matrix(0.8387 -0.5446 0.5446 0.8387 -136.7463 783.327)" class="st17" width="104.7" height="9.4"/>
-	<text transform="matrix(0.8387 -0.5446 0.5446 0.8387 1224.604 642.6572)" class="st18 st19 st20">Goldeberg Collection</text>
-	<rect x="1282.9" y="553.1" class="st17" width="30" height="21.9"/>
-	<text transform="matrix(1 0 0 1 1284.5913 558.7943)" class="st18"><tspan x="0" y="0" class="st19 st20">Beehive</tspan><tspan x="2.9" y="9.6" class="st19 st20">Thesis</tspan></text>
-	
-		<rect x="1239.5" y="467.7" transform="matrix(0.5299 -0.848 0.848 0.5299 153.5748 1293.3896)" class="st17" width="7.8" height="80.9"/>
-	<text transform="matrix(0.8481 0.5299 -0.5299 0.8481 1217.3662 493.9526)" class="st18 st19 st20">Listening Stations</text>
-	<rect x="1049.5" y="649.1" class="st17" width="92.2" height="31"/>
-	<text transform="matrix(1 0 0 1 1071.9159 659.0814)" class="st18"><tspan x="0" y="0" class="st19 st6">Rooftop</tspan><tspan x="2.1" y="16.8" class="st19 st6">Terrace</tspan></text>
-	
-		<rect x="914" y="608.7" transform="matrix(0.5446 -0.8387 0.8387 0.5446 -111.1787 1070.548)" class="st17" width="32.6" height="57.9"/>
-	<text transform="matrix(0.8387 0.5446 -0.5446 0.8387 921.4407 620.9836)" class="st18"><tspan x="0" y="0" class="st19 st21">Cultural</tspan><tspan x="-1.5" y="12" class="st19 st21">Heritage</tspan><tspan x="2.5" y="24" class="st19 st21">Center</tspan></text>
-	
-		<rect x="884" y="647.5" transform="matrix(0.5446 -0.8387 0.8387 0.5446 -159.4954 1059.1787)" class="st17" width="23.3" height="57.9"/>
-	<text transform="matrix(0.8387 0.5446 -0.5446 0.8387 880.6288 661.3295)" class="st18"><tspan x="0" y="0" class="st19 st21">Reference</tspan><tspan x="6" y="12" class="st19 st21">&amp; Folks</tspan></text>
-	<rect x="98.7" y="29.1" class="st17" width="176.3" height="232.2"/>
-	<text transform="matrix(1 0 0 1 98.7444 243.9088)" class="st22 st23 st24 st25">5</text>
-	<rect x="21.9" y="18.7" class="st17" width="300.4" height="54.6"/>
-	<text transform="matrix(1 0 0 1 21.887 53.1)" class="st18 st23 st26">Fifth Floor</text>
-	<rect x="22.9" y="83.1" class="st17" width="286" height="77.9"/>
-	<text transform="matrix(1 0 0 1 22.887 98.1376)" class="st18"><tspan x="0" y="0" class="st5 st27">Cultural Heritage</tspan><tspan x="0" y="25.2" class="st5 st27">Special Collections</tspan><tspan x="0" y="50.4" class="st5 st27">Music Research Collections</tspan></text>
-</g>
-<g id="exit" class="st16">
-	<g class="st18">
-		<circle class="st28" cx="1116.7" cy="420.3" r="16.7"/>
-		<rect x="1104.7" y="415.5" class="st0" width="23.8" height="10.5"/>
-		<text transform="matrix(1 0 0 1 1105.8629 424.0162)" class="st29 st19 st30">EXIT</text>
-	</g>
-	<g class="st18">
-		<circle class="st28" cx="935.8" cy="837.3" r="16.7"/>
-		<rect x="923.8" y="832.5" class="st0" width="23.8" height="10.5"/>
-		<text transform="matrix(1 0 0 1 924.9655 841.0071)" class="st29 st19 st30">EXIT</text>
-	</g>
-	<g class="st18">
-		<circle class="st28" cx="935.8" cy="837.3" r="16.7"/>
-		<rect x="923.8" y="832.5" class="st0" width="23.8" height="10.5"/>
-		<text transform="matrix(1 0 0 1 924.9655 841.0071)" class="st29 st19 st30">EXIT</text>
-	</g>
-</g>
-<g id="toilet" class="st16">
-	<g id="symbol_-_toilet" class="st18">
-		<circle class="st31" cx="1142.7" cy="490.5" r="14.2"/>
-		<path class="st29" d="M1146.3,486.7l0,4.6c0,0.5,0.4,0.9,0.9,0.9l1.9,0c0.5,0,0.9-0.4,0.9-0.9l0-4.6c0-0.5-0.4-0.9-0.9-0.9l-1.9,0
-			C1146.7,485.8,1146.3,486.2,1146.3,486.7z"/>
-		<path class="st29" d="M1151.6,486l0,4.9c0,0.3-0.2,0.6-0.6,0.6l-0.4,0c-0.3,0-0.6-0.2-0.6-0.6l0-4.9c0-0.3,0.2-0.6,0.6-0.6l0.4,0
-			C1151.4,485.4,1151.6,485.7,1151.6,486z"/>
-		<path class="st29" d="M1146.1,486l0,5c0,0.3-0.2,0.6-0.6,0.6l-0.4,0c-0.3,0-0.6-0.2-0.6-0.6l0-5c0-0.3,0.2-0.6,0.6-0.6l0.4,0
-			C1145.9,485.4,1146.1,485.7,1146.1,486z"/>
-		<circle class="st29" cx="1148.1" cy="483.4" r="1.6"/>
-		<path class="st29" d="M1144.7,485.9l0,0.7c0,0.3,0.3,0.6,0.6,0.6l5.7,0c0.3,0,0.6-0.3,0.6-0.6l0-0.7c0-0.3-0.3-0.6-0.6-0.6l-5.7,0
-			C1144.9,485.3,1144.7,485.6,1144.7,485.9z"/>
-		<path class="st29" d="M1148,490.7l0,7.4c0,0.3-0.2,0.6-0.6,0.6l-0.6,0c-0.3,0-0.6-0.2-0.6-0.6l0-7.4c0-0.3,0.2-0.6,0.6-0.6l0.6,0
-			C1147.8,490.2,1148,490.4,1148,490.7z"/>
-		<path class="st29" d="M1150,490.6l0,7.4c0,0.3-0.2,0.6-0.6,0.6l-0.6,0c-0.3,0-0.6-0.2-0.6-0.6l0-7.4c0-0.3,0.2-0.6,0.6-0.6l0.6,0
-			C1149.7,490.1,1150,490.3,1150,490.6z"/>
-		<rect x="1142.4" y="481.1" class="st29" width="0.7" height="18.3"/>
-		<path class="st29" d="M1135.3,486.1l-1,4.9c-0.1,0.3-0.4,0.5-0.7,0.4l-0.4-0.1c-0.3-0.1-0.5-0.4-0.4-0.7l1-4.9
-			c0.1-0.3,0.4-0.5,0.7-0.4l0.4,0.1C1135.2,485.5,1135.4,485.8,1135.3,486.1z"/>
-		<circle class="st29" cx="1137.3" cy="483.4" r="1.6"/>
-		<path class="st29" d="M1133.8,485.9l0,0.7c0,0.3,0.3,0.6,0.6,0.6l5.7,0c0.3,0,0.6-0.3,0.6-0.6l0-0.7c0-0.3-0.3-0.6-0.6-0.6l-5.7,0
-			C1134.1,485.3,1133.8,485.6,1133.8,485.9z"/>
-		<path class="st29" d="M1137.2,490.7l0,7.4c0,0.3-0.2,0.5-0.5,0.5l-0.4,0c-0.3,0-0.5-0.2-0.5-0.5l0-7.4c0-0.3,0.2-0.5,0.5-0.5
-			l0.4,0C1136.9,490.2,1137.2,490.4,1137.2,490.7z"/>
-		<path class="st29" d="M1140.7,485.8l1,4.9c0.1,0.3-0.1,0.6-0.4,0.7l-0.4,0.1c-0.3,0.1-0.6-0.1-0.7-0.4l-1-4.9
-			c-0.1-0.3,0.1-0.6,0.4-0.7l0.4-0.1C1140.3,485.3,1140.6,485.5,1140.7,485.8z"/>
-		<polygon class="st29" points="1134.1,493.6 1135.3,487.3 1139.2,487.3 1140.4,493.6 		"/>
-		<path class="st29" d="M1139.1,490.7l0,7.4c0,0.3-0.2,0.5-0.5,0.5l-0.4,0c-0.3,0-0.5-0.2-0.5-0.5l0-7.4c0-0.3,0.2-0.5,0.5-0.5
-			l0.4,0C1138.8,490.2,1139.1,490.4,1139.1,490.7z"/>
-	</g>
-</g>
-<g id="service" class="st16">
-	<g id="symbol_-_service" class="st18">
-		<circle class="st32" cx="988.1" cy="582.6" r="12.3"/>
-		<path class="st29" d="M992.5,586.8h-8.9c-2,0-3.6-1.6-3.6-3.6v-4.4c0-2,1.6-3.6,3.6-3.6h8.9c2,0,3.6,1.6,3.6,3.6v4.4
-			C996.1,585.2,994.5,586.8,992.5,586.8z"/>
-		<rect x="983.8" y="576.7" class="st0" width="8.7" height="9.4"/>
-		<text transform="matrix(1 0 0 1 986.2229 585.076)" class="st33 st34 st35">i</text>
-		<polygon class="st29" points="983.8,586.8 982.5,591.3 987.5,586.8 		"/>
-	</g>
-</g>
-<g id="stairs_x2F_ele" class="st16">
-	<g id="symbol_-_stairs" class="st18">
-		<circle class="st36" cx="1069.6" cy="427.2" r="12.3"/>
-		<polygon points="1061.7,433.3 1061.7,429.8 1065.2,429.8 1065.2,426.3 1068.7,426.3 1068.7,422.9 1072.2,422.9 1072.2,419.4 
-			1075.7,419.4 1075.7,433.3 		"/>
-	</g>
-	<g id="symbol_-_ele" class="st18">
-		<circle class="st36" cx="1000.4" cy="439.5" r="12.3"/>
-		<rect x="994.2" y="434" width="5.8" height="11.6"/>
-		<rect x="1000.9" y="434" width="5.8" height="11.6"/>
-		<rect x="999.1" y="431.7" width="2.7" height="1.6"/>
-		<polygon points="998,431.7 1000.4,430.1 1002.8,431.7 		"/>
-	</g>
-</g>
-<g id="phone" class="st16">
-	<g id="phone_1_" class="st18">
-		<circle class="st31" cx="1040.9" cy="575" r="13.7"/>
-		<path class="st29" d="M1035.8,578.4l-1.4,2.8c-0.3,0.6-0.1,1.4,0.6,1.7l2.2,1.1c0.6,0.3,1.4,0.1,1.7-0.6l1.4-2.8
-			c0.3-0.6,0.1-1.4-0.6-1.7l-2.2-1.1C1036.9,577.5,1036.1,577.7,1035.8,578.4z"/>
-		<path class="st29" d="M1044.7,569l-6.3,12.3c-0.3,0.6-0.1,1.4,0.6,1.7l0.3,0.1c0.6,0.3,1.4,0.1,1.7-0.6l6.3-12.3
-			c0.3-0.6,0.1-1.4-0.6-1.7l-0.3-0.1C1045.8,568.1,1045.1,568.4,1044.7,569z"/>
-		<path class="st29" d="M1041.9,566l-1.4,2.8c-0.3,0.6-0.1,1.4,0.6,1.7l2.4,1.2c0.6,0.3,1.4,0.1,1.7-0.6l1.4-2.8
-			c0.3-0.6,0.1-1.4-0.6-1.7l-2.4-1.2C1043,565.2,1042.3,565.4,1041.9,566z"/>
-		
-			<ellipse transform="matrix(0.9472 -0.3206 0.3206 0.9472 -131.9509 363.7715)" class="st29" cx="1038.9" cy="582.7" rx="2.4" ry="1.3"/>
-		
-			<ellipse transform="matrix(0.9392 -0.3434 0.3434 0.9392 -131.6926 393.7154)" class="st29" cx="1046" cy="568.7" rx="1.3" ry="2.3"/>
-	</g>
-</g>
-<g id="comp" class="st16">
-	<g id="printer" class="st18">
+		<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
 		<g>
-			<circle cx="951.1" cy="591.3" r="13.7"/>
-			
-				<rect x="947.5" y="582.5" transform="matrix(6.123234e-17 -1 1 6.123234e-17 359.5812 1542.1504)" class="st29" width="6.7" height="17.7"/>
-			
-				<rect x="947.4" y="590" transform="matrix(6.123234e-17 -1 1 6.123234e-17 355.1529 1546.6414)" class="st37" width="7.1" height="11.5"/>
-			
-				<rect x="948.1" y="579.8" transform="matrix(6.123234e-17 -1 1 6.123234e-17 365.2928 1536.4387)" class="st37" width="5.5" height="11.5"/>
-			<line class="st37" x1="947.8" y1="597.3" x2="952.4" y2="597.3"/>
-			<circle cx="958.1" cy="589.8" r="0.8"/>
+			<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+			<g>
+				<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+				<g>
+					<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+					<g>
+						<line class="st1" x1="78.2" y1="-144" x2="78.2" y2="-216.5"/>
+						<line class="st1" x1="102.2" y1="-144" x2="102.2" y2="-216.5"/>
+						<line class="st1" x1="126.2" y1="-144" x2="126.2" y2="-216.5"/>
+						<line class="st1" x1="90.2" y1="-144" x2="90.2" y2="-216.5"/>
+						<line class="st1" x1="114.2" y1="-144" x2="114.2" y2="-216.5"/>
+						<line class="st1" x1="138.2" y1="-144" x2="138.2" y2="-216.5"/>
+					</g>
+					<g>
+						<line class="st1" x1="144" y1="-138.3" x2="216.5" y2="-138.3"/>
+						<line class="st1" x1="144" y1="-114.3" x2="216.5" y2="-114.3"/>
+						<line class="st1" x1="144" y1="-90.3" x2="216.5" y2="-90.3"/>
+						<line class="st1" x1="144" y1="-126.3" x2="216.5" y2="-126.3"/>
+						<line class="st1" x1="144" y1="-102.3" x2="216.5" y2="-102.3"/>
+						<line class="st1" x1="144" y1="-78.3" x2="216.5" y2="-78.3"/>
+					</g>
+					<g>
+						<line class="st1" x1="78.2" y1="-72" x2="78.2" y2="-144.5"/>
+						<line class="st1" x1="102.2" y1="-72" x2="102.2" y2="-144.5"/>
+						<line class="st1" x1="126.2" y1="-72" x2="126.2" y2="-144.5"/>
+						<line class="st1" x1="72" y1="-138.3" x2="144.5" y2="-138.3"/>
+						<line class="st1" x1="72" y1="-114.3" x2="144.5" y2="-114.3"/>
+						<line class="st1" x1="72" y1="-90.3" x2="144.5" y2="-90.3"/>
+						<line class="st1" x1="72" y1="-126.3" x2="144.5" y2="-126.3"/>
+						<line class="st1" x1="72" y1="-102.3" x2="144.5" y2="-102.3"/>
+						<line class="st1" x1="72" y1="-78.3" x2="144.5" y2="-78.3"/>
+						<line class="st1" x1="90.2" y1="-72" x2="90.2" y2="-144.5"/>
+						<line class="st1" x1="114.2" y1="-72" x2="114.2" y2="-144.5"/>
+						<line class="st1" x1="138.2" y1="-72" x2="138.2" y2="-144.5"/>
+					</g>
+					<g>
+						<line class="st1" x1="0" y1="-138.3" x2="72.5" y2="-138.3"/>
+						<line class="st1" x1="0" y1="-114.3" x2="72.5" y2="-114.3"/>
+						<line class="st1" x1="0" y1="-90.3" x2="72.5" y2="-90.3"/>
+						<line class="st1" x1="0" y1="-126.3" x2="72.5" y2="-126.3"/>
+						<line class="st1" x1="0" y1="-102.3" x2="72.5" y2="-102.3"/>
+						<line class="st1" x1="0" y1="-78.3" x2="72.5" y2="-78.3"/>
+					</g>
+					<g>
+						<line class="st1" x1="78.2" y1="0" x2="78.2" y2="-72.5"/>
+						<line class="st1" x1="102.2" y1="0" x2="102.2" y2="-72.5"/>
+						<line class="st1" x1="126.2" y1="0" x2="126.2" y2="-72.5"/>
+						<line class="st1" x1="90.2" y1="0" x2="90.2" y2="-72.5"/>
+						<line class="st1" x1="114.2" y1="0" x2="114.2" y2="-72.5"/>
+						<line class="st1" x1="138.2" y1="0" x2="138.2" y2="-72.5"/>
+					</g>
+				</g>
+			</g>
 		</g>
-		<line class="st37" x1="947.7" y1="595.2" x2="954" y2="595.2"/>
 	</g>
-	<g id="comp_1_" class="st18">
-		<circle cx="975.8" cy="620.9" r="13.7"/>
+</pattern>
+<pattern  y="937" width="72" height="72" patternUnits="userSpaceOnUse" id="SVGID_0000016666393491017064752" viewBox="72.2 -144.3 72 72" style="overflow:visible;">
+	<g>
+		<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+		<g>
+			<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+			<g>
+				<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+				<g>
+					<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+					<g>
+						<line class="st1" x1="78.2" y1="-144" x2="78.2" y2="-216.5"/>
+						<line class="st1" x1="102.2" y1="-144" x2="102.2" y2="-216.5"/>
+						<line class="st1" x1="126.2" y1="-144" x2="126.2" y2="-216.5"/>
+						<line class="st1" x1="90.2" y1="-144" x2="90.2" y2="-216.5"/>
+						<line class="st1" x1="114.2" y1="-144" x2="114.2" y2="-216.5"/>
+						<line class="st1" x1="138.2" y1="-144" x2="138.2" y2="-216.5"/>
+					</g>
+					<g>
+						<line class="st1" x1="144" y1="-138.3" x2="216.5" y2="-138.3"/>
+						<line class="st1" x1="144" y1="-114.3" x2="216.5" y2="-114.3"/>
+						<line class="st1" x1="144" y1="-90.3" x2="216.5" y2="-90.3"/>
+						<line class="st1" x1="144" y1="-126.3" x2="216.5" y2="-126.3"/>
+						<line class="st1" x1="144" y1="-102.3" x2="216.5" y2="-102.3"/>
+						<line class="st1" x1="144" y1="-78.3" x2="216.5" y2="-78.3"/>
+					</g>
+					<g>
+						<line class="st1" x1="78.2" y1="-72" x2="78.2" y2="-144.5"/>
+						<line class="st1" x1="102.2" y1="-72" x2="102.2" y2="-144.5"/>
+						<line class="st1" x1="126.2" y1="-72" x2="126.2" y2="-144.5"/>
+						<line class="st1" x1="72" y1="-138.3" x2="144.5" y2="-138.3"/>
+						<line class="st1" x1="72" y1="-114.3" x2="144.5" y2="-114.3"/>
+						<line class="st1" x1="72" y1="-90.3" x2="144.5" y2="-90.3"/>
+						<line class="st1" x1="72" y1="-126.3" x2="144.5" y2="-126.3"/>
+						<line class="st1" x1="72" y1="-102.3" x2="144.5" y2="-102.3"/>
+						<line class="st1" x1="72" y1="-78.3" x2="144.5" y2="-78.3"/>
+						<line class="st1" x1="90.2" y1="-72" x2="90.2" y2="-144.5"/>
+						<line class="st1" x1="114.2" y1="-72" x2="114.2" y2="-144.5"/>
+						<line class="st1" x1="138.2" y1="-72" x2="138.2" y2="-144.5"/>
+					</g>
+					<g>
+						<line class="st1" x1="0" y1="-138.3" x2="72.5" y2="-138.3"/>
+						<line class="st1" x1="0" y1="-114.3" x2="72.5" y2="-114.3"/>
+						<line class="st1" x1="0" y1="-90.3" x2="72.5" y2="-90.3"/>
+						<line class="st1" x1="0" y1="-126.3" x2="72.5" y2="-126.3"/>
+						<line class="st1" x1="0" y1="-102.3" x2="72.5" y2="-102.3"/>
+						<line class="st1" x1="0" y1="-78.3" x2="72.5" y2="-78.3"/>
+					</g>
+					<g>
+						<line class="st1" x1="78.2" y1="0" x2="78.2" y2="-72.5"/>
+						<line class="st1" x1="102.2" y1="0" x2="102.2" y2="-72.5"/>
+						<line class="st1" x1="126.2" y1="0" x2="126.2" y2="-72.5"/>
+						<line class="st1" x1="90.2" y1="0" x2="90.2" y2="-72.5"/>
+						<line class="st1" x1="114.2" y1="0" x2="114.2" y2="-72.5"/>
+						<line class="st1" x1="138.2" y1="0" x2="138.2" y2="-72.5"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</pattern>
+<pattern  y="937" width="72" height="72" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="72.2 -144.3 72 72" style="overflow:visible;">
+	<g>
+		<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+		<g>
+			<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+			<g>
+				<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+				<g>
+					<rect x="72.2" y="-144.3" class="st0" width="72" height="72"/>
+					<g>
+						<line class="st1" x1="78.2" y1="-144" x2="78.2" y2="-216.5"/>
+						<line class="st1" x1="102.2" y1="-144" x2="102.2" y2="-216.5"/>
+						<line class="st1" x1="126.2" y1="-144" x2="126.2" y2="-216.5"/>
+						<line class="st1" x1="90.2" y1="-144" x2="90.2" y2="-216.5"/>
+						<line class="st1" x1="114.2" y1="-144" x2="114.2" y2="-216.5"/>
+						<line class="st1" x1="138.2" y1="-144" x2="138.2" y2="-216.5"/>
+					</g>
+					<g>
+						<line class="st1" x1="144" y1="-138.3" x2="216.5" y2="-138.3"/>
+						<line class="st1" x1="144" y1="-114.3" x2="216.5" y2="-114.3"/>
+						<line class="st1" x1="144" y1="-90.3" x2="216.5" y2="-90.3"/>
+						<line class="st1" x1="144" y1="-126.3" x2="216.5" y2="-126.3"/>
+						<line class="st1" x1="144" y1="-102.3" x2="216.5" y2="-102.3"/>
+						<line class="st1" x1="144" y1="-78.3" x2="216.5" y2="-78.3"/>
+					</g>
+					<g>
+						<line class="st1" x1="78.2" y1="-72" x2="78.2" y2="-144.5"/>
+						<line class="st1" x1="102.2" y1="-72" x2="102.2" y2="-144.5"/>
+						<line class="st1" x1="126.2" y1="-72" x2="126.2" y2="-144.5"/>
+						<line class="st1" x1="72" y1="-138.3" x2="144.5" y2="-138.3"/>
+						<line class="st1" x1="72" y1="-114.3" x2="144.5" y2="-114.3"/>
+						<line class="st1" x1="72" y1="-90.3" x2="144.5" y2="-90.3"/>
+						<line class="st1" x1="72" y1="-126.3" x2="144.5" y2="-126.3"/>
+						<line class="st1" x1="72" y1="-102.3" x2="144.5" y2="-102.3"/>
+						<line class="st1" x1="72" y1="-78.3" x2="144.5" y2="-78.3"/>
+						<line class="st1" x1="90.2" y1="-72" x2="90.2" y2="-144.5"/>
+						<line class="st1" x1="114.2" y1="-72" x2="114.2" y2="-144.5"/>
+						<line class="st1" x1="138.2" y1="-72" x2="138.2" y2="-144.5"/>
+					</g>
+					<g>
+						<line class="st1" x1="0" y1="-138.3" x2="72.5" y2="-138.3"/>
+						<line class="st1" x1="0" y1="-114.3" x2="72.5" y2="-114.3"/>
+						<line class="st1" x1="0" y1="-90.3" x2="72.5" y2="-90.3"/>
+						<line class="st1" x1="0" y1="-126.3" x2="72.5" y2="-126.3"/>
+						<line class="st1" x1="0" y1="-102.3" x2="72.5" y2="-102.3"/>
+						<line class="st1" x1="0" y1="-78.3" x2="72.5" y2="-78.3"/>
+					</g>
+					<g>
+						<line class="st1" x1="78.2" y1="0" x2="78.2" y2="-72.5"/>
+						<line class="st1" x1="102.2" y1="0" x2="102.2" y2="-72.5"/>
+						<line class="st1" x1="126.2" y1="0" x2="126.2" y2="-72.5"/>
+						<line class="st1" x1="90.2" y1="0" x2="90.2" y2="-72.5"/>
+						<line class="st1" x1="114.2" y1="0" x2="114.2" y2="-72.5"/>
+						<line class="st1" x1="138.2" y1="0" x2="138.2" y2="-72.5"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</pattern>
+<g id="streets">
+	<g id="San_fernando">
+		<line class="st2" x1="284.9" y1="142.9" x2="471.4" y2="24.9"/>
+		<line class="st2" x1="297.3" y1="162.7" x2="505.7" y2="30.9"/>
+		<polygon class="st0" points="460.8,56.5 317.2,147.6 310.3,136.9 453.9,45.8 		"/>
+		<text transform="matrix(0.8481 -0.5299 0.5299 0.8481 337.2666 130.4945)" class="st3 st4 st5">San Fernando Street</text>
+	</g>
+	<g>
+		<polygon class="st3" points="511.4,87.5 504.1,120.2 544.1,94.9 		"/>
 		
-			<rect x="970.3" y="611.8" transform="matrix(6.123234e-17 -1 1 6.123234e-17 357.3049 1594.6086)" class="st12" width="11.2" height="13.7"/>
+			<rect x="487" y="62.1" transform="matrix(0.8238 -0.5669 0.5669 0.8238 45.123 295.9732)" class="st0" width="23.3" height="26.6"/>
+		<text transform="matrix(0.829 -0.5592 0.5592 0.829 496.3652 89.7178)" class="st3 st6 st7">N</text>
+	</g>
+	<g id="_x34_th_Street">
+		<line class="st2" x1="311.8" y1="745.4" x2="144.5" y2="421.7"/>
+		<line class="st2" x1="333.2" y1="735.8" x2="165.4" y2="411.1"/>
 		
-			<rect x="973.9" y="617.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 348.9859 1603.0608)" class="st12" width="4.3" height="18.3"/>
+			<rect x="229.9" y="499.3" transform="matrix(0.8786 -0.4776 0.4776 0.8786 -245.3589 183.0908)" class="st0" width="15" height="149.6"/>
+		<text transform="matrix(-0.4695 -0.8829 0.8829 -0.4695 249.3047 592.6307)" class="st3 st4 st8">Fourth Street</text>
+	</g>
+	<g id="SJSU_CAMPUS">
+		<polygon class="st3" points="1179.3,734.5 1154.1,715.1 1159.9,759.7 		"/>
 		
-			<rect x="972.1" y="613.4" transform="matrix(6.123234e-17 -1 1 6.123234e-17 357.4191 1594.6401)" class="st12" width="7.9" height="10.5"/>
+			<rect x="1127.1" y="671.8" transform="matrix(0.9858 -0.1678 0.1678 0.9858 -106.921 201.6419)" class="st0" width="25.2" height="123.4"/>
+		<text transform="matrix(0.1586 0.9873 -0.9873 0.1586 1137.0145 699.5504)" class="st3 st9 st10">SJSU Campus</text>
+	</g>
+	<g id="Elev_x2F_esc_x2F_stairs">
+		<polyline id="elevator" class="st11" points="794.9,445.3 875.9,500 907.7,521.4 895.2,539.6 783.2,463.8 794.9,445.3 		"/>
+		
+			<rect x="877.4" y="464" transform="matrix(0.566 -0.8244 0.8244 0.566 -5.0944 959.1147)" class="st12" width="62" height="40.8"/>
+		<g id="elevator_00000155118643947176890710000006878021629677294758_">
+			<g id="LINE_4731_">
+				<line class="st13" x1="812.6" y1="460.9" x2="798.4" y2="451.2"/>
+			</g>
+			<g id="LINE_4735_">
+				<line class="st13" x1="803.8" y1="473.7" x2="800.5" y2="471.4"/>
+			</g>
+			<g id="LINE_4738_">
+				<line class="st13" x1="793" y1="466.3" x2="789.6" y2="463.9"/>
+			</g>
+			<g id="LINE_4741_">
+				<line class="st13" x1="812.6" y1="460.9" x2="803.8" y2="473.7"/>
+			</g>
+			<g id="LINE_4744_">
+				<line class="st13" x1="813.2" y1="460.8" x2="798.3" y2="450.6"/>
+			</g>
+			<g id="LINE_4745_">
+				<line class="st13" x1="812.7" y1="460.7" x2="798.5" y2="451"/>
+			</g>
+			<g id="LINE_4746_">
+				<line class="st13" x1="798.4" y1="451.2" x2="789.6" y2="463.9"/>
+			</g>
+			<g id="LINE_4747_">
+				<line class="st13" x1="798.8" y1="450.9" x2="798.6" y2="451.3"/>
+			</g>
+			<g id="LINE_4748_">
+				<line class="st13" x1="812.7" y1="460.4" x2="812.4" y2="460.8"/>
+			</g>
+			<g id="LINE_00000023963411821320410900000009994663940296984221_">
+				<line class="st13" x1="832.3" y1="474.4" x2="818.1" y2="464.7"/>
+			</g>
+			<g id="LINE_00000036243211870807232230000004294824485503304094_">
+				<line class="st13" x1="823.5" y1="487.2" x2="820.1" y2="484.9"/>
+			</g>
+			<g id="LINE_00000021083911021367709180000006361326137356006789_">
+				<line class="st13" x1="812.7" y1="479.7" x2="809.3" y2="477.4"/>
+			</g>
+			<g id="LINE_00000157305032477417135590000014763398251095956890_">
+				<line class="st13" x1="832.3" y1="474.4" x2="823.5" y2="487.2"/>
+			</g>
+			<g id="LINE_00000061429359115443803660000001421681803928210091_">
+				<line class="st13" x1="832.8" y1="474.3" x2="817.9" y2="464.1"/>
+			</g>
+			<g id="LINE_00000137096246246306441270000002996625498926383788_">
+				<line class="st13" x1="832.4" y1="474.2" x2="818.2" y2="464.5"/>
+			</g>
+			<g id="LINE_00000172415491339264399940000003389993333652483473_">
+				<line class="st13" x1="818.1" y1="464.7" x2="809.3" y2="477.4"/>
+			</g>
+			<g id="LINE_00000182499327570779227240000011350039420364845744_">
+				<line class="st13" x1="851.9" y1="487.9" x2="837.7" y2="478.1"/>
+			</g>
+			<g id="LINE_00000137827711904242877120000013475160053294783399_">
+				<line class="st13" x1="843.1" y1="500.7" x2="839.8" y2="498.4"/>
+			</g>
+			<g id="LINE_00000110430310769929994080000003016575270157341115_">
+				<line class="st13" x1="832.3" y1="493.2" x2="828.9" y2="490.9"/>
+			</g>
+			<g id="LINE_00000001632994639779474680000017729122945952289951_">
+				<line class="st13" x1="851.9" y1="487.9" x2="843.1" y2="500.7"/>
+			</g>
+			<g id="LINE_00000101093348003495924100000015220336780324354982_">
+				<line class="st13" x1="852.5" y1="487.8" x2="837.6" y2="477.6"/>
+			</g>
+			<g id="LINE_00000123417822785358762020000005155066374409787060_">
+				<line class="st13" x1="852" y1="487.7" x2="837.8" y2="478"/>
+			</g>
+			<g id="LINE_00000001631246263749752440000010237371117853874571_">
+				<line class="st13" x1="837.7" y1="478.1" x2="828.9" y2="490.9"/>
+			</g>
+			<g id="LINE_00000086666489933795298720000013289038007283657891_">
+				<line class="st13" x1="871.6" y1="501.4" x2="857.4" y2="491.6"/>
+			</g>
+			<g id="LINE_00000010286446039431400240000004179056468150093201_">
+				<line class="st13" x1="862.8" y1="514.2" x2="859.4" y2="511.8"/>
+			</g>
+			<g id="LINE_00000078723507910867709110000003996737817167854731_">
+				<line class="st13" x1="852" y1="506.7" x2="848.6" y2="504.4"/>
+			</g>
+			<g id="LINE_00000084494013187931397180000013021804154882057626_">
+				<line class="st13" x1="871.6" y1="501.4" x2="862.8" y2="514.2"/>
+			</g>
+			<g id="LINE_00000103244059294916214250000010451246233931379622_">
+				<line class="st13" x1="872.2" y1="501.3" x2="857.3" y2="491.1"/>
+			</g>
+			<g id="LINE_00000102513105850367397460000008568563727976591525_">
+				<line class="st13" x1="871.7" y1="501.2" x2="857.5" y2="491.5"/>
+			</g>
+			<g id="LINE_00000077294377489538548660000017451036063543871892_">
+				<line class="st13" x1="857.4" y1="491.6" x2="848.6" y2="504.4"/>
+			</g>
+			<g id="LINE_00000084502092826103097570000007421885943408696208_">
+				<line class="st13" x1="891.2" y1="514.9" x2="877" y2="505.1"/>
+			</g>
+			<g id="LINE_00000054242181457467428560000001838774522505732244_">
+				<line class="st13" x1="882.4" y1="527.7" x2="879.1" y2="525.3"/>
+			</g>
+			<g id="LINE_00000038399793835736963570000006870936880396350634_">
+				<line class="st13" x1="871.6" y1="520.2" x2="868.2" y2="517.9"/>
+			</g>
+			<g id="LINE_00000085233646092173888780000001954179608992735126_">
+				<line class="st13" x1="891.2" y1="514.9" x2="882.4" y2="527.7"/>
+			</g>
+			<g id="LINE_00000140724683986225496660000005009668492149025922_">
+				<line class="st13" x1="891.8" y1="514.8" x2="876.9" y2="504.5"/>
+			</g>
+			<g id="LINE_00000009576526774020755230000003960706048185272964_">
+				<line class="st13" x1="891.3" y1="514.7" x2="877.1" y2="505"/>
+			</g>
+			<g id="LINE_00000142166729456088507190000006205798940652332981_">
+				<line class="st13" x1="877" y1="505.1" x2="868.2" y2="517.9"/>
+			</g>
+		</g>
+	</g>
+	<g id="stairs">
+		<g>
+			<polygon class="st14" points="894.8,478 894.8,478 894.8,478 888.2,487.4 881.5,496.9 903.6,512.3 910.2,502.9 897.6,494.1 
+				904.3,484.6 916.9,493.4 923.5,484 901.4,468.5 			"/>
+			<line class="st14" x1="907.1" y1="500.7" x2="900.5" y2="510.1"/>
+			<line class="st14" x1="903.9" y1="498.5" x2="897.3" y2="507.9"/>
+			<line class="st14" x1="900.8" y1="496.3" x2="894.2" y2="505.7"/>
+			<line class="st14" x1="913.7" y1="491.2" x2="920.3" y2="481.8"/>
+			<line class="st14" x1="910.6" y1="489" x2="917.2" y2="479.6"/>
+			<line class="st14" x1="907.4" y1="486.8" x2="914" y2="477.4"/>
+			<line class="st14" x1="904.3" y1="484.6" x2="894.8" y2="478"/>
+			<line class="st14" x1="902.1" y1="487.8" x2="892.6" y2="481.1"/>
+			<line class="st14" x1="899.8" y1="490.9" x2="890.4" y2="484.3"/>
+			<line class="st14" x1="897.6" y1="494.1" x2="888.2" y2="487.4"/>
+			<line class="st14" x1="910.9" y1="475.2" x2="904.3" y2="484.6"/>
+			<line class="st14" x1="910.9" y1="475.2" x2="891" y2="503.5"/>
+			<polyline class="st14" points="906.9,507.6 889.3,495.3 902.5,476.4 917.8,487 			"/>
+			<polygon class="st15" points="920.1,488.7 918.2,486.4 917.8,487 917.3,487.7 			"/>
+			<path class="st15" d="M906.6,508.2c0.3,0.2,0.7,0.1,0.9-0.2c0.2-0.3,0.1-0.7-0.2-0.9c-0.3-0.2-0.7-0.1-0.9,0.2
+				C906.2,507.6,906.3,508,906.6,508.2z"/>
+		</g>
+	</g>
+</g>
+<g id="Fifth">
+	
+		<rect x="713.4" y="578.3" transform="matrix(1 -9.283308e-03 9.283308e-03 1 -5.4017 6.923)" class="st0" width="59.2" height="14"/>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 722.8087 588.4797)" class="st16 st17">Atrium</text>
+	
+		<pattern  id="SVGID_00000097459116385821193160000003726470955401050529_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 -80.8 -35563.3516)">
+	</pattern>
+	
+		<polygon style="fill:url(#SVGID_00000097459116385821193160000003726470955401050529_);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+		613,648.2 593.1,634.9 730.9,428 752.5,442.4 753.5,340.7 752.9,342 484.2,159.4 484.2,158.8 467.9,344.7 467.3,344 424.4,317.8 
+		424.4,317.1 424.7,417 424,416.3 336,544.3 467.3,634.3 335,544.7 533,680 531.9,681.1 	"/>
+	
+		<pattern  id="SVGID_00000127035362536121624720000001971135146677865356_" xlink:href="#SVGID_0000002544449893649513000" patternTransform="matrix(1 0 0 -1 -80.8 -35563.3516)">
+	</pattern>
+	
+		<polygon style="fill:url(#SVGID_00000127035362536121624720000001971135146677865356_);stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+		996.9,711.1 956.3,770.3 823.1,678.8 863.7,619.6 	"/>
+	<polyline class="st20" points="780.3,303.3 754.8,343.2 754.4,341.9 693.7,300.2 693.7,301.4 646.4,370.2 646.2,370.4 783.5,464.4 
+		784.3,462.9 832.3,393.6 831.2,392.4 779.8,305.6 	"/>
+	
+		<rect x="596.2" y="416.2" transform="matrix(0.5592 -0.829 0.829 0.5592 -93.9105 745.3239)" class="st21" width="115.5" height="89.5"/>
+	
+		<rect x="546.2" y="518.8" transform="matrix(0.5592 -0.829 0.829 0.5592 -207.7413 734.7497)" class="st21" width="81.8" height="87.9"/>
+	<polyline class="st20" points="605.3,640.1 574.1,685.4 573.8,685.4 613,712.9 613.9,712.9 578.8,764.5 579.2,764.8 532.7,683.2 
+		532.5,683.1 466.2,637 467.5,635.9 510.4,574 510.3,574.3 603.8,638.5 	"/>
+	<polyline class="st20" points="603.1,732.4 686.1,789.4 687.6,788.6 730.3,726.3 730.7,727.2 606.8,642 605.1,641.8 575.6,684.6 
+		576.5,686.1 614.9,712.5 602.7,730.3 	"/>
+	<polyline class="st22" points="977,888.9 921.3,922.5 921.6,922 871.8,886 903.6,837.1 904.2,837 975.8,888.9 	"/>
+	
+		<pattern  id="SVGID_00000032620226192962323590000004414960500034517688_" xlink:href="#SVGID_0000012268352770982641359" patternTransform="matrix(1 0 0 -1 -80.8 -35563.3516)">
+	</pattern>
+	
+		<polygon style="fill:url(#SVGID_00000032620226192962323590000004414960500034517688_);stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+		837.8,800.2 794.8,862.7 687.7,789.1 730.6,726.6 	"/>
+	
+		<rect x="714.5" y="372.5" transform="matrix(1 -9.283308e-03 9.283308e-03 1 -3.577 7.0143)" class="st0" width="78.5" height="32.6"/>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 725.9124 382.736)" class="st16 st17">California </text>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 736.5679 399.4387)" class="st16 st17">Room</text>
+	
+		<rect x="496.9" y="625" transform="matrix(1 -9.283308e-03 9.283308e-03 1 -5.9305 5.0051)" class="st0" width="78.5" height="32.6"/>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 504.4999 635.2652)" class="st16 st17">Beethoven </text>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 516.6553 651.9539)" class="st16 st17">Center</text>
+	
+		<rect x="706.5" y="541.4" transform="matrix(0.5662 -0.8243 0.8243 0.5662 -155.2127 866.0484)" class="st24" width="77.4" height="78.2"/>
+	
+		<rect x="718.5" y="580.5" transform="matrix(1 -9.283308e-03 9.283308e-03 1 -5.425 6.9227)" class="st0" width="48.9" height="14.6"/>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 722.7625 584.6577)" class="st16 st17">Atrium</text>
+	
+		<rect x="92" y="76.3" transform="matrix(1 -9.283308e-03 9.283308e-03 1 -1.7784 1.6808)" class="st0" width="176.3" height="232.2"/>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 92.943 291.9334)" class="st25 st26 st27 st28">5</text>
+	
+		<rect x="0.3" y="52.9" transform="matrix(1 -9.283308e-03 9.283308e-03 1 -0.7381 1.4007)" class="st0" width="300.4" height="54.6"/>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 0.3824 88.7533)" class="st26 st29">Fifth Floor</text>
+	<rect x="939" y="498.6" transform="matrix(0.5518 -0.834 0.834 0.5518 -8.6637 1052.1136)" class="st30" width="71" height="71"/>
+	
+		<rect x="613.2" y="441.1" transform="matrix(1 -9.283308e-03 9.283308e-03 1 -4.2856 6.0772)" class="st0" width="78.5" height="47.1"/>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 616.1328 451.4129)" class="st16 st17">SJSU Special </text>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 614.4899 468.2296)" class="st16 st17">Collections &amp; </text>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 627.8455 484.9062)" class="st16 st17">Archives</text>
+	
+		<rect x="616.5" y="710" transform="matrix(1 -9.283308e-03 9.283308e-03 1 -6.7145 6.1191)" class="st0" width="78.5" height="32.6"/>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 626.9719 720.2877)" class="st16 st17">Steinbeck </text>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 636.228 737.0034)" class="st16 st17">Center</text>
+	
+		<rect x="546.9" y="531.5" transform="matrix(1 -9.283308e-03 9.283308e-03 1 -5.196 5.4431)" class="st0" width="73.6" height="61.8"/>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 562.6965 541.6665)" class="st16 st17">Special </text>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 551.2523 558.5742)" class="st16 st17">Collections </text>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 558.5074 575.3083)" class="st16 st17">Program </text>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 566.664 592.0342)" class="st16 st17">Room</text>
+	
+		<rect x="880.8" y="867.3" transform="matrix(1 -9.283308e-03 9.283308e-03 1 -8.2991 8.5574)" class="st0" width="73.6" height="61.8"/>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 891.6136 877.5723)" class="st16 st17">AAACNA </text>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 892.2342 890.5681)" class="st16 st17">Program </text>
+	<text transform="matrix(1 -9.278800e-03 9.278800e-03 1 900.3545 903.4933)" class="st16 st17">Room</text>
+	
+		<pattern  id="SVGID_00000026133175493319475720000003212086498681786527_" xlink:href="#SVGID_0000016666393491017064752" patternTransform="matrix(1 0 0 -1 -80.8 -35563.3516)">
+	</pattern>
+	
+		<polyline style="fill:url(#SVGID_00000026133175493319475720000003212086498681786527_);stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+		795.2,861.6 900.5,934.6 900.6,934.3 921.5,922 921,921.7 809.8,843.3 808.8,843.3 796.1,861.3 	"/>
+	<line class="st32" x1="621.9" y1="651.5" x2="756" y2="446.9"/>
+	<line class="st32" x1="680.3" y1="565.8" x2="707.3" y2="524.6"/>
+	<g id="bldg_outline">
+		<polyline class="st33" points="424.4,414.3 334.9,544.9 335,544.9 530.8,679.2 579.8,763.3 581.6,764.2 603.6,732.1 604.5,729.9 
+			901.6,933.4 1060.3,839.6 959,768.5 1000.8,707.5 1002.1,706 1153,613.1 908.9,447.1 874.5,497.3 798.4,445.2 833.1,394.7 
+			779.8,304.8 779.7,304 754.6,340.5 752.8,340 485.5,156.8 470.2,343.5 467.8,344 426.2,315.5 425.2,315.7 425.5,411.8 		"/>
+	</g>
+</g>
+<g id="exits_x2C__restrooms">
+	<g>
+		<g id="Layer_1_00000042007272843511667690000008406306761235619238_">
+			<g id="Layer_2_00000022556735553191659450000005795340208093633970_">
+				<g id="Image_29_00000173841480334063734140000011531086694327245201_">
+					<g id="Ellipse_1_copy_2_00000107550855543152140580000014742607775612015036_">
+						<circle class="st34" cx="932" cy="465.9" r="14.4"/>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st35" d="M940.2,457.1l-5-1.7c-0.3-0.1-0.6,0.1-0.6,0.4v1.3h-4.9c-0.2,0-0.4,0.2-0.4,0.4v1.5c0.3,0,0.5,0.1,0.8,0.2
+					v-1.3h4.4v15.3h-3v0.2c0,0.2,0.1,0.4,0,0.6h2.9v1.3c0,0.3,0.3,0.6,0.6,0.5l5-1.7c0.2-0.1,0.3-0.2,0.3-0.4v-16.1
+					C940.5,457.3,940.4,457.1,940.2,457.1z"/>
+				<g>
+					<g>
+						<path class="st35" d="M921.9,472.5h3.2c0.4,0,0.8-0.3,0.9-0.7l0.3-1.3l-1.6-1.3l0,0l-0.4,1.4h-2.5c-0.5,0-1,0.4-1,1
+							C921,472.1,921.4,472.5,921.9,472.5z"/>
+						<path class="st35" d="M929.3,463.3c0.9-0.2,1.5-1.1,1.2-2c-0.2-0.9-1.1-1.5-2-1.2c-0.9,0.2-1.5,1.1-1.2,2
+							C927.5,463,928.4,463.5,929.3,463.3z"/>
+						<path class="st35" d="M923.2,467.3c0.4,0.2,0.9,0,1-0.4l0.6-1.4l0.9-0.3L925,468c-0.1,0.4,0,0.7,0.3,1l2.7,2.2l0.7,2.9
+							c0.1,0.4,0.5,0.7,0.9,0.7c0.1,0,0.2,0,0.2,0c0.5-0.1,0.8-0.6,0.7-1.2l-0.8-3.2c0-0.2-0.2-0.4-0.3-0.5l-1.7-1.4l0.9-2.4
+							l0.9,1.1c0.2,0.2,0.4,0.3,0.6,0.3c0.1,0,0.3,0,0.4-0.1l1.6-1c0.4-0.2,0.5-0.7,0.3-1.1s-0.7-0.5-1.1-0.3l-1,0.6l-0.9-1
+							c-0.2-0.3-0.5-0.5-0.9-0.6l-1.4-0.5c-0.4-0.2-0.9-0.2-1.3,0l-1.9,0.6c-0.2,0.1-0.4,0.2-0.5,0.4l-0.8,1.8
+							C922.6,466.7,922.8,467.2,923.2,467.3z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g id="Layer_2_00000090287708573909370120000015528676360269084048_">
+			<g id="Image_64_00000056429901070639207310000000004013371461789362_">
+				<g id="Ellipse_1_copy_9_00000126283228105064793040000007157497871469456054_">
+					<circle class="st36" cx="973.5" cy="533.4" r="14.4"/>
+				</g>
+			</g>
+		</g>
+		<g id="Layer_1_00000035518951821911710160000001908990774452682385_">
+			<g>
+				<g>
+					<g>
+						<path class="st35" d="M966.9,527.8c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.4-1.5-1.4s-1.5,0.6-1.5,1.4
+							C965.4,527.1,966.1,527.8,966.9,527.8z"/>
+						<path class="st35" d="M968.8,528.1h-3.7c-0.9,0-1.6,0.7-1.6,1.6v4.6c0,0.3,0.3,0.6,0.6,0.6s0.6-0.3,0.6-0.6v-4h0.3v4.6v6.2
+							c0,0.5,0.4,0.8,0.8,0.8c0.5,0,0.8-0.4,0.8-0.8v-6.2h0.4v6.2c0,0.5,0.4,0.8,0.8,0.8c0.5,0,0.8-0.4,0.8-0.8v-6.2v-4.6h0.3v4
+							c0,0.3,0.3,0.6,0.6,0.6s0.6-0.3,0.6-0.6v-4.6C970.4,528.8,969.7,528.1,968.8,528.1z"/>
+					</g>
+					<g>
+						<path class="st35" d="M979.5,527.8c0.8,0,1.5-0.7,1.5-1.5s-0.7-1.5-1.5-1.5c-0.8,0.1-1.5,0.7-1.5,1.5S978.7,527.8,979.5,527.8
+							z"/>
+						<path class="st35" d="M983.5,533.5l-1.2-4.3c-0.3-0.8-0.9-1.1-1.8-1.1l0,0h-2l0,0c-0.9,0-1.5,0.3-1.8,1.1l-1.2,4.3
+							c-0.1,0.3,0.1,0.6,0.4,0.7c0.3,0.1,0.6-0.1,0.7-0.3l1.1-3.8h0.3l-1.9,6.5h1.8v4.7c0,0.4,0.3,0.7,0.7,0.7s0.7-0.3,0.7-0.7v-4.7
+							h0.3v4.7c0,0.4,0.3,0.7,0.7,0.7s0.7-0.3,0.7-0.7v-4.7h1.8L981,530h0.3l1.1,3.8c0.1,0.3,0.4,0.4,0.7,0.3
+							C983.4,534,983.6,533.7,983.5,533.5z"/>
+					</g>
+				</g>
+				<rect x="972.7" y="524.9" class="st35" width="1.6" height="17"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<circle class="st34" cx="811.7" cy="853.2" r="14.4"/>
+		<g>
+			<g>
+				<path class="st35" d="M819.9,844.4l-5-1.7c-0.3-0.1-0.6,0.1-0.6,0.4v1.3h-4.9c-0.2,0-0.4,0.2-0.4,0.4v1.5c0.3,0,0.5,0.1,0.8,0.2
+					v-1.3h4.4v15.3h-3v0.2c0,0.2,0.1,0.4,0,0.6h2.9v1.3c0,0.3,0.3,0.6,0.6,0.5l5-1.7c0.2-0.1,0.3-0.2,0.3-0.4v-16.1
+					C820.2,844.7,820.1,844.5,819.9,844.4z"/>
+				<g>
+					<g>
+						<path class="st35" d="M801.7,859.9h3.2c0.4,0,0.8-0.3,0.9-0.7l0.3-1.3l-1.6-1.3l0,0l-0.4,1.4h-2.5c-0.5,0-1,0.4-1,1
+							C800.8,859.4,801.2,859.9,801.7,859.9z"/>
+						<path class="st35" d="M809.1,850.6c0.9-0.2,1.5-1.1,1.2-2c-0.2-0.9-1.1-1.5-2-1.2c-0.9,0.2-1.5,1.1-1.2,2
+							C807.3,850.3,808.2,850.8,809.1,850.6z"/>
+						<path class="st35" d="M803,854.7c0.4,0.2,0.9,0,1-0.4l0.6-1.4l0.9-0.3l-0.7,2.8c-0.1,0.4,0,0.7,0.3,1l2.7,2.2l0.7,2.9
+							c0.1,0.4,0.5,0.7,0.9,0.7c0.1,0,0.2,0,0.2,0c0.5-0.1,0.8-0.6,0.7-1.2l-0.8-3.2c0-0.2-0.2-0.4-0.3-0.5l-1.7-1.4l0.9-2.4
+							l0.9,1.1c0.2,0.2,0.4,0.3,0.6,0.3c0.1,0,0.3,0,0.4-0.1l1.6-1c0.4-0.2,0.5-0.7,0.3-1.1c-0.2-0.4-0.7-0.5-1.1-0.3l-1,0.6l-0.9-1
+							c-0.2-0.3-0.5-0.5-0.9-0.6l-1.4-0.5c-0.4-0.2-0.9-0.2-1.3,0l-1.9,0.6c-0.2,0.1-0.4,0.2-0.5,0.4l-0.8,1.8
+							C802.4,854,802.6,854.5,803,854.7z"/>
+					</g>
+				</g>
+			</g>
+		</g>
 	</g>
 </g>
 </svg>

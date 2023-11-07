@@ -1,7 +1,7 @@
 //add global variables
 //list floors as SVG files. Floors will appear in the order listed, with the filename as the label
 var floorNames = ['Lower Level', 'Level 1', 'Level 2', 'Level 3', 'Level 4', 'Level 5', 'Level 6', 'Level 7', 'Level 8'];
-var latLngBounds = L.latLngBounds([[0,0], [1000,1000]]);
+var latLngBounds = L.latLngBounds([[0,0], [1200,1200]]);
 var map;
 var layerControl;
 var baseMaps = {};
@@ -19,9 +19,9 @@ getQueries()
 //start process by loading json file that contains marker data
 $(document).ready(function() {
 
-  $.getJSON( "https://sheets.googleapis.com/v4/spreadsheets/1aYZJ-eXUYM3Ak5txxG5dExsKc0RSSOFpWz6vCj2oJ9M/values/A:E?alt=json&key=AIzaSyCmqnBijhOsTPfft3WE6rYAfQ1tERXPoAg", function(data) {
+  $.getJSON( "https://sheets.googleapis.com/v4/spreadsheets/1aYZJ-eXUYM3Ak5txxG5dExsKc0RSSOFpWz6vCj2oJ9M/values/A:E?alt=json&key=AIzaSyDl5APEDZ7vrF6sG37qbC7eTz0we45-g5I", function(data) {
     markers = data.values;
-
+    //write response to expected JSON format
     var batchRowValues = data.values;
     var rows = [];
     for (var i=1; i<batchRowValues.length; i++) {
@@ -31,7 +31,6 @@ $(document).ready(function() {
     }
     rows.push(rowObject);
   }
-  console.log(rows);
 
     markers = rows;
     buildMap(markers);
