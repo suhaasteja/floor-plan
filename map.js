@@ -27,7 +27,7 @@ $(document).ready(function() {
     for (var i=1; i<batchRowValues.length; i++) {
       var rowObject = {};
       for (var j=0; j<batchRowValues[i].length; j++) {
-      rowObject[batchRowValues[0][j]] = batchRowValues[i][j];
+          rowObject[batchRowValues[0][j]] = batchRowValues[i][j];
     }
     rows.push(rowObject);
   }
@@ -160,7 +160,14 @@ function onBaseChange(e) {
       if (element.group == currentGroup) {
         //create the marker layer
         var location = element.coordinates.split(',');
-        var thisMarker = L.marker(location).bindPopup('<h4>'+element.popupHead+'</h4>'+element.popupBody);
+        var popupBodyText
+        if (element.popupBody == undefined) {
+          popupBodyText = "";
+        }
+        else {
+          popupBodyText = element.popupBody;
+        }
+        var thisMarker = L.marker(location).bindPopup('<h4>'+element.popupHead+'</h4>'+popupBodyText);
         //add the marker to a list of markers that belong to the current group
         currentGroupArray.push(thisMarker);
       }
