@@ -1,7 +1,8 @@
 //add global variables
 //list floors as SVG files. Floors will appear in the order listed, with the filename as the label
-var floorNames = ['Lower Level', 'Level 1', 'Level 2', 'Level 3', 'Level 4', 'Level 5', 'Level 6', 'Level 7', 'Level 8'];
+var floorNames = ['Lower Level', 'Level 1', 'Level 1 Mezzanine', 'Level 2', 'Level 3', 'Level 4', 'Level 5', 'Level 6', 'Level 7', 'Level 8'];
 var latLngBounds = L.latLngBounds([[0,0], [1500,1500]]);
+var latLngBoundsOversize = L.latLngBounds([[-150,0], [1500,1500]]);
 var map;
 var layerControl;
 var baseMaps = {};
@@ -46,16 +47,17 @@ function buildMap (markers) {
       attributionControl: false,
   });
   //use jquery when to make sure all svg files load before beginning to build the map - otherwise layers seem to appear out of order on the control
-  $.when( $.ajax("0.svg"),  $.ajax("1.svg"),  $.ajax("2.svg"),  $.ajax("3.svg"),  $.ajax("4.svg"),  $.ajax("5.svg"),  $.ajax("6.svg"), $.ajax("7.svg"), $.ajax("8.svg")).done(function (svg0, svg1, svg2, svg3, svg4, svg5, svg6, svg7, svg8) {
+  $.when( $.ajax("0.svg"),  $.ajax("1.svg"), $.ajax("1M.svg"), $.ajax("2.svg"),  $.ajax("3.svg"),  $.ajax("4.svg"),  $.ajax("5.svg"),  $.ajax("6.svg"), $.ajax("7.svg"), $.ajax("8.svg")).done(function (svg0, svg1, svg1M, svg2, svg3, svg4, svg5, svg6, svg7, svg8) {
      XMLprocess(svg0[0],0);
      XMLprocess(svg1[0],1);
-     XMLprocess(svg2[0],2);
-     XMLprocess(svg3[0],3);
-     XMLprocess(svg4[0],4);
-     XMLprocess(svg5[0],5);
-     XMLprocess(svg6[0],6);
-     XMLprocess(svg7[0],7);
-     XMLprocess(svg8[0],8);
+     XMLprocess(svg1M[0],2);
+     XMLprocess(svg2[0],3);
+     XMLprocess(svg3[0],4);
+     XMLprocess(svg4[0],5);
+     XMLprocess(svg5[0],6);
+     XMLprocess(svg6[0],7);
+     XMLprocess(svg7[0],8);
+     XMLprocess(svg8[0],9);
      //create the layer control for the first time
      layerControl = L.control.layers(baseMaps, overlayMaps, {
        collapsed: false,
@@ -108,10 +110,18 @@ function XMLprocess(xml, number, name) {
   //console.log(floorNames);
   //console.log(floorNames[levelNumber]);
 
+  if (levelNumber == 0) {
+    currentLevel = L.svgOverlay(svgElement, latLngBoundsOversize, {
+        interactive: true,
+        id: levelName
+    });
+  }
+  else {
   currentLevel = L.svgOverlay(svgElement, latLngBounds, {
       interactive: true,
       id: levelName
   });
+}
   //console.log(floorNames[i]);
    //start on the floor set in the variables above
   if (levelName == currentBaseLayer) {
