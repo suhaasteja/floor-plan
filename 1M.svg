@@ -3,117 +3,98 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1207.8px" height="937px" viewBox="0 0 1207.8 937" style="enable-background:new 0 0 1207.8 937;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#A2C9EA;stroke-miterlimit:10;}
-	.st1{fill:none;}
-	.st2{fill:#A2C9EA;}
-	.st3{font-family:'Arial-ItalicMT';}
-	.st4{font-size:14.0015px;}
-	.st5{font-family:'ArialNarrow-Bold';}
-	.st6{font-size:33.4957px;}
-	.st7{font-size:14px;}
-	.st8{font-family:'ArialNarrow-Italic';}
-	.st9{font-size:14.64px;}
-	.st10{fill:#FCECA4;stroke:#000000;stroke-miterlimit:10;}
-	.st11{fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st12{fill:#E4F2F9;}
-	.st13{font-family:'Arial-BoldMT';}
-	.st14{font-size:300px;}
-	.st15{letter-spacing:6;}
-	.st16{font-size:48px;}
-	.st17{fill:#FF0000;}
-	.st18{fill:#FFFFFF;}
-	.st19{font-family:'MyriadPro-Regular';}
-	.st20{font-size:18px;}
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:none;stroke:#A2C9EA;stroke-miterlimit:10;}
+	.st3{fill:none;}
+	.st4{fill:#A2C9EA;}
+	.st5{font-family:'Arial-ItalicMT';}
+	.st6{font-size:14.0025px;}
+	.st7{font-family:'ArialNarrow-Bold';}
+	.st8{font-size:33.4957px;}
+	.st9{font-size:14px;}
+	.st10{font-family:'ArialNarrow-Italic';}
+	.st11{font-size:14.6388px;}
+	.st12{fill:#FCECA4;stroke:#000000;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{fill:#E4F2F9;}
+	.st15{font-family:'Arial-BoldMT';}
+	.st16{font-size:300px;}
+	.st17{letter-spacing:6;}
+	.st18{font-size:48px;}
+	.st19{fill:#FF0000;}
+	.st20{fill:#FFFFFF;}
+	.st21{font-family:'MyriadPro-Regular';}
+	.st22{font-size:18px;}
 </style>
-<g id="Layer_1_00000020382760180596522300000011154304701188421516_">
-	<g id="streets">
+<g id="Layer_1_00000020382760180596522300000011154304701188421516_" class="st0">
+	<g id="streets" class="st1">
 		<g id="San_fernando">
-			<line class="st0" x1="284.9" y1="142.9" x2="471.4" y2="24.9"/>
-			<line class="st0" x1="297.3" y1="162.7" x2="505.7" y2="30.9"/>
-			<polygon class="st1" points="460.8,56.5 317.2,147.6 310.3,136.9 453.9,45.8 			"/>
-			<text transform="matrix(0.8481 -0.5299 0.5299 0.8481 337.2666 130.4945)" class="st2 st3 st4">San Fernando Street</text>
+			<line class="st2" x1="284.9" y1="142.9" x2="471.4" y2="24.9"/>
+			<line class="st2" x1="297.3" y1="162.7" x2="505.7" y2="30.9"/>
+			<polygon class="st3" points="460.8,56.5 317.2,147.6 310.3,136.9 453.9,45.8 			"/>
+			<text transform="matrix(0.8481 -0.5299 0.5299 0.8481 337.2668 130.4967)" class="st4 st5 st6">San Fernando Street</text>
 		</g>
 		<g>
-			<polygon class="st2" points="511.4,87.5 504.1,120.2 544.1,94.9 			"/>
+			<polygon class="st4" points="511.4,87.5 504.1,120.2 544.1,94.9 			"/>
 			
-				<rect x="487" y="62.1" transform="matrix(0.8238 -0.5669 0.5669 0.8238 45.123 295.9732)" class="st1" width="23.3" height="26.6"/>
-			<text transform="matrix(0.829 -0.5592 0.5592 0.829 496.3652 89.7178)" class="st2 st5 st6">N</text>
+				<rect x="487" y="62.1" transform="matrix(0.8238 -0.5669 0.5669 0.8238 45.123 295.9703)" class="st3" width="23.3" height="26.6"/>
+			<text transform="matrix(0.829 -0.5592 0.5592 0.829 496.3652 89.7178)" class="st4 st7 st8">N</text>
 		</g>
 		<g id="_x34_th_Street">
-			<line class="st0" x1="311.8" y1="745.4" x2="144.5" y2="421.7"/>
-			<line class="st0" x1="333.2" y1="735.8" x2="165.4" y2="411.1"/>
+			<line class="st2" x1="311.8" y1="745.4" x2="144.5" y2="421.7"/>
+			<line class="st2" x1="333.2" y1="735.8" x2="165.4" y2="411.1"/>
 			
-				<rect x="229.9" y="499.3" transform="matrix(0.8786 -0.4776 0.4776 0.8786 -245.3589 183.0908)" class="st1" width="15" height="149.6"/>
-			<text transform="matrix(-0.4695 -0.8829 0.8829 -0.4695 249.3047 592.6307)" class="st2 st3 st7">Fourth Street</text>
+				<rect x="229.9" y="499.3" transform="matrix(0.8786 -0.4776 0.4776 0.8786 -245.3666 183.0898)" class="st3" width="15" height="149.6"/>
+			<text transform="matrix(-0.4695 -0.8829 0.8829 -0.4695 249.3047 592.6307)" class="st4 st5 st9">Fourth Street</text>
 		</g>
 		<g id="SJSU_CAMPUS">
-			<polygon class="st2" points="1179.3,734.5 1154.1,715.1 1159.9,759.7 			"/>
+			<polygon class="st4" points="1179.3,734.5 1154.1,715.1 1159.9,759.7 			"/>
 			
-				<rect x="1127.1" y="671.8" transform="matrix(0.9858 -0.1678 0.1678 0.9858 -106.921 201.6419)" class="st1" width="25.2" height="123.4"/>
-			<text transform="matrix(0.1586 0.9873 -0.9873 0.1586 1137.0145 699.5504)" class="st2 st8 st9">SJSU Campus</text>
+				<rect x="1127.1" y="671.8" transform="matrix(0.9858 -0.1678 0.1678 0.9858 -106.9212 201.6421)" class="st3" width="25.2" height="123.4"/>
+			<text transform="matrix(0.1586 0.9873 -0.9873 0.1586 1137.0145 699.5504)" class="st4 st10 st11">SJSU Campus</text>
 		</g>
 	</g>
 </g>
 <g id="Mezzanine">
-	<path class="st10" d="M780.1,308.3C754.3,263.9,650.7,85.5,650.7,85.4c-2.2,1.2-8.8,5.6-11.3,7c-1.1,0.8-1.7,0.4-2.2,0.8
-		c-3.7,4.6-44.6,52.6-58.8,68.9c-3,6.1-82.4,142.4-107.3,186.2c-0.5,0.9-0.9,1.5-1,1.7c0,0,0.2-0.5,0.3-0.5
-		c3,2,152.1,100.2,178.2,117.5c2,1.3,2.9,1.9,3.9,2.6c0,0,0,0,0-0.1c1.9-6.2,36.9-101.7,45.5-127.3c3.7,0.8,37.7,6.3,43.7,7.9
-		c1.3-3.1,7.9-18.7,10-24.6c2.3-1.5,26.6-17.2,28.6-18.6"/>
-	<g id="bldg_outline_00000124853320555714364620000005367128391134930108_">
-		<line class="st11" x1="333.5" y1="545.2" x2="394.3" y2="458.2"/>
-		<line class="st11" x1="399.2" y1="456.1" x2="393.4" y2="458.1"/>
-		<line class="st11" x1="384.8" y1="434.1" x2="399.2" y2="456.1"/>
-		<line class="st11" x1="410.6" y1="418.9" x2="384.8" y2="434.1"/>
-		<line class="st11" x1="356.9" y1="328" x2="410.6" y2="418.9"/>
-		<line class="st11" x1="382.3" y1="313" x2="356.9" y2="328"/>
-		<line class="st11" x1="367.4" y1="287.5" x2="382.3" y2="313"/>
-		<line class="st11" x1="472.9" y1="225.2" x2="367.4" y2="287.5"/>
-		<line class="st11" x1="475.4" y1="201.1" x2="472.9" y2="225.2"/>
-		<line class="st11" x1="481.5" y1="196.7" x2="475.4" y2="201.1"/>
-		<line class="st11" x1="484.6" y1="156.4" x2="481.5" y2="196.7"/>
-		<line class="st11" x1="553.6" y1="203.7" x2="484.6" y2="156.4"/>
-		<line class="st11" x1="577.9" y1="162.2" x2="553.6" y2="203.7"/>
-		<line class="st11" x1="637.8" y1="93.3" x2="577.9" y2="162.2"/>
-		<line class="st11" x1="650.5" y1="85.9" x2="637.8" y2="93.3"/>
-		<line class="st11" x1="832.8" y1="395" x2="650.5" y2="85.9"/>
-		<line class="st11" x1="798.1" y1="445.6" x2="832.8" y2="395"/>
-		<line class="st11" x1="874.3" y1="497.9" x2="798.1" y2="445.6"/>
-		<line class="st11" x1="908.8" y1="447.6" x2="874.3" y2="497.9"/>
-		<line class="st11" x1="1046.2" y1="541.9" x2="908.8" y2="447.6"/>
-		<line class="st11" x1="1004.8" y1="709.2" x2="1046.2" y2="541.9"/>
-		<line class="st11" x1="1016.9" y1="774" x2="1004.8" y2="709.2"/>
-		<line class="st11" x1="1060.2" y1="841.1" x2="999.5" y2="799.4"/>
-		<line class="st11" x1="901.1" y1="935" x2="1060.2" y2="841.1"/>
-		<line class="st11" x1="765" y1="841.5" x2="901.1" y2="935"/>
-		<line class="st11" x1="661.1" y1="902.7" x2="765" y2="841.5"/>
-		<line class="st11" x1="529.7" y1="680" x2="661.1" y2="902.7"/>
-		<line class="st11" x1="333.5" y1="545.2" x2="529.7" y2="680"/>
-		<line class="st11" x1="999.5" y1="799.4" x2="1016.9" y2="774"/>
+	<g>
+		<path class="st12" d="M649.5,86.1l0.4,1.1l-0.2-0.5l-53.3,73.5h0.5l-18.5,2.2c-4.2,8.1-82.5,142.6-107.2,186
+			c-0.3,0.5-0.5,0.9-0.7,1.2l0,0c3,2,152.1,100.2,178.2,117.5c2,1.3,2.9,1.9,3.9,2.6c0,0,0,0,0-0.1c1.9-6.2,36.9-101.7,45.5-127.3
+			c3.7,0.8,37.7,6.3,43.7,7.9c1.3-3.1,7.9-18.7,10-24.6c2.1-1.4,23.3-15.1,27.9-18.1C753,261.6,650.8,85.6,650.8,85.5
+			C650.4,85.6,650,85.8,649.5,86.1z"/>
+		<path class="st12" d="M470.1,350c0-0.1,0.2-0.3,0.3-0.5C470.3,349.5,470.1,350,470.1,350z"/>
+		<path class="st12" d="M780.3,306.9c-0.1,0.1-0.4,0.3-0.7,0.5c0.2,0.3,0.4,0.6,0.5,0.9L780.3,306.9z"/>
 	</g>
-	<text transform="matrix(1 0 0 1 52.7602 273.6857)" class="st12 st13 st14 st15">M</text>
-	<text transform="matrix(1 0 0 1 7.458496e-02 85.9061)" class="st13 st16">Mezzanine</text>
+	<g id="bldg_outline_00000124853320555714364620000005367128391134930108_">
+		<polyline class="st13" points="578.5,161.4 596.6,160.3 596.6,160.3 650.1,86 650.5,85.9 832.8,395 798.1,445.6 874.3,497.9 
+			908.8,447.6 1046.2,541.9 1004.8,709.2 1016.9,774 999.5,799.4 1060.2,841.1 901.1,935 765,841.5 661.1,902.7 529.7,680 
+			333.5,545.2 394.3,458.2 393.4,458.1 399.2,456.1 384.8,434.1 410.6,418.9 356.9,328 382.3,313 367.4,287.5 472.9,225.2 
+			475.4,201.1 481.5,196.7 484.6,156.4 553.6,203.7 577.9,162.2 		"/>
+	</g>
+	<text transform="matrix(1 0 0 1 52.7602 273.6857)" class="st14 st15 st16 st17">M</text>
+	<text transform="matrix(1 0 0 1 7.458496e-02 85.9061)" class="st15 st18">Mezzanine</text>
 	<g>
 		<g id="Layer_1_00000180337690079339058680000002815139442650711977_">
 			<g id="Layer_2_00000039832252083408272780000016269060822969449644_">
 				<g id="Image_29_00000069392641806709744210000006744993020916500412_">
 					<g id="Ellipse_1_copy_2_00000020395073286204377550000004635230385856944558_">
-						<circle class="st17" cx="702" cy="205" r="14.4"/>
+						<circle class="st19" cx="702" cy="205" r="14.4"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g>
 			<g>
-				<path class="st18" d="M710.2,196.3l-5-1.7c-0.3-0.1-0.6,0.1-0.6,0.4v1.3h-4.9c-0.2,0-0.4,0.2-0.4,0.4v1.5c0.3,0,0.5,0.1,0.8,0.2
+				<path class="st20" d="M710.2,196.3l-5-1.7c-0.3-0.1-0.6,0.1-0.6,0.4v1.3h-4.9c-0.2,0-0.4,0.2-0.4,0.4v1.5c0.3,0,0.5,0.1,0.8,0.2
 					v-1.3h4.4v15.3h-3v0.2c0,0.2,0.1,0.4,0,0.6h2.9v1.3c0,0.3,0.3,0.6,0.6,0.5l5-1.7c0.2-0.1,0.3-0.2,0.3-0.4v-16.1
 					C710.5,196.5,710.4,196.3,710.2,196.3z"/>
 				<g>
 					<g>
-						<path class="st18" d="M692,211.7h3.2c0.4,0,0.8-0.3,0.9-0.7l0.3-1.3l-1.6-1.3l0,0l-0.4,1.4H692c-0.5,0-1,0.4-1,1
+						<path class="st20" d="M692,211.7h3.2c0.4,0,0.8-0.3,0.9-0.7l0.3-1.3l-1.6-1.3l0,0l-0.4,1.4H692c-0.5,0-1,0.4-1,1
 							C691.1,211.3,691.5,211.7,692,211.7z"/>
-						<path class="st18" d="M699.4,202.5c0.9-0.2,1.5-1.1,1.2-2c-0.2-0.9-1.1-1.5-2-1.2c-0.9,0.2-1.5,1.1-1.2,2
+						<path class="st20" d="M699.4,202.5c0.9-0.2,1.5-1.1,1.2-2c-0.2-0.9-1.1-1.5-2-1.2c-0.9,0.2-1.5,1.1-1.2,2
 							C697.6,202.1,698.5,202.7,699.4,202.5z"/>
-						<path class="st18" d="M693.3,206.5c0.4,0.2,0.9,0,1-0.4l0.6-1.4l0.9-0.3l-0.7,2.8c-0.1,0.4,0,0.7,0.3,1l2.7,2.2l0.7,2.9
+						<path class="st20" d="M693.3,206.5c0.4,0.2,0.9,0,1-0.4l0.6-1.4l0.9-0.3l-0.7,2.8c-0.1,0.4,0,0.7,0.3,1l2.7,2.2l0.7,2.9
 							c0.1,0.4,0.5,0.7,0.9,0.7c0.1,0,0.2,0,0.2,0c0.5-0.1,0.8-0.6,0.7-1.2l-0.8-3.2c0-0.2-0.2-0.4-0.3-0.5l-1.7-1.4l0.9-2.4
 							l0.9,1.1c0.2,0.2,0.4,0.3,0.6,0.3c0.1,0,0.3,0,0.4-0.1l1.6-1c0.4-0.2,0.5-0.7,0.3-1.1c-0.2-0.4-0.7-0.5-1.1-0.3l-1,0.6l-0.9-1
 							c-0.2-0.3-0.5-0.5-0.9-0.6l-1.4-0.5c-0.4-0.2-0.9-0.2-1.3,0l-1.9,0.6c-0.2,0.1-0.4,0.2-0.5,0.4l-0.8,1.8
@@ -123,6 +104,6 @@
 			</g>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 600.7191 315.3741)" class="st19 st20">Teen HQ</text>
+	<text transform="matrix(1 0 0 1 600.7191 315.3741)" class="st21 st22">Teen HQ</text>
 </g>
 </svg>

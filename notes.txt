@@ -1,0 +1,41 @@
+https://docs.google.com/spreadsheets/d/1aYZJ-eXUYM3Ak5txxG5dExsKc0RSSOFpWz6vCj2oJ9M/gviz/tq?tqx=out:json&gid
+
+Try this for google sheet without API:
+from https://libguides.sjsu.edu/c.php?g=1388&p=10058132
+//get data from googlesheet
+function getGoogleSheetData(sheetID, sheetName,overlayGroups) {
+	var publishedUrl = "https://docs.google.com/spreadsheets/d/" + sheetID + "/gviz/tq?tqx=out:json&gid=" + sheetName;
+	var myRowsObject;
+	console.log(overlayGroups);
+	$.ajax({
+		url: publishedUrl,
+	   'async': false,
+		type: "GET",
+		dataType: "text",
+		success: function(googleData) {
+			var jsonString = googleData.match(/(?<="table":).*(?=}\);)/g)[0];
+
+			try {
+				var formattedData = JSON.parse(jsonString);
+				var rowsObject = formattedData.rows;
+				var totalRows = rowsObject ? rowsObject.length : 0;
+
+				if (rowsObject && rowsObject.length > 0) {
+					rowsObject.shift(); // Remove the first row
+				}
+				myRowsObject = rowsObject;
+			} catch (error) {
+				console.error("Error parsing JSON: ", error);
+			}
+		},
+		error: function(error) {
+			console.log("Error fetching data: ", error);
+		}
+	});
+  var data = myRowsObject.map(row => row.c.map(cell => cell.v)); // Extract values from rowsObject
+  //var updatedData = myGroupMarkers(data);
+  var updatedData = myGroupMarkers(data, overlayGroups); // Pass overlayGroups as an argument to myGroupMarkers
+
+  console.log(updatedData);
+  return updatedData;
+}
