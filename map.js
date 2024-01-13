@@ -20,22 +20,42 @@ getQueries()
 //start process by loading json file that contains marker data
 $(document).ready(function() {
 
-  $.getJSON( "https://sheets.googleapis.com/v4/spreadsheets/1aYZJ-eXUYM3Ak5txxG5dExsKc0RSSOFpWz6vCj2oJ9M/values/A:E?alt=json&key=AIzaSyCmqnBijhOsTPfft3WE6rYAfQ1tERXPoAg", function(data) {
-    markers = data.values;
-    //write response to expected JSON format
-    var batchRowValues = data.values;
-    var rows = [];
-    for (var i=1; i<batchRowValues.length; i++) {
-      var rowObject = {};
-      for (var j=0; j<batchRowValues[i].length; j++) {
-          rowObject[batchRowValues[0][j]] = batchRowValues[i][j];
-    }
-    rows.push(rowObject);
-  }
-
-    markers = rows;
-    buildMap(markers);
+  google.charts.load('current', {
+    packages: ['corechart']
+      }).then(function () {
+        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1aYZJ-eXUYM3Ak5txxG5dExsKc0RSSOFpWz6vCj2oJ9M/gviz/tq?gid=0&headers=1');
+    query.send(function (response) {
+      if (response.isError()) {
+        console.log('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+        return;
+      };
+      var dt = response.getDataTable();
+      var markerJsonData = dt.toJSON();
+      markerJsonData = JSON.parse(markerJsonData);
+      console.log(markerJsonData);
+      markersData = markerJsonData.rows;
+      markersFields = markerJsonData.cols;
+      var rows = [];
+      markersData.forEach((marker, i) =>
+      {
+        var rowObject = {};
+        for (var j=0; j<marker.c.length; j++) {
+            if (marker.c[j]) {
+              rowObject[markersFields[j].label] = marker.c[j].v;
+            }
+            else {
+              rowObject[markersFields[j].label] = "";
+            }
+        };
+        rows.push(rowObject);
+      });
+      console.log(rows);
+      markers = rows;
+      buildMap(markers);
+    });
   });
+
+
 
 });
 
