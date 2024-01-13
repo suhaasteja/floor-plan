@@ -1,18 +1,63 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
 #map { height: 600px;
-  width: 100%;
   background-color: #ffffff;
-  border:1px solid #cccccc;
+  margin: 40px auto;
  }
-.leaflet-control-layers-base::before {
-  content: "Levels";
-  font-weight: bold;
+
+#map-header {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  z-index: 800;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
 }
 
-.leaflet-control-layers-overlays::before {
-  content: "On this level";
-  font-weight: bold;
+.leaflet-control-layers-list {
+  height:auto !important;
+  margin-bottom: 0;
+  text-align: left;
 }
 
-.leaflet-bottom.leaflet-left {
-  height:80%;
+#layers-accordion {
+  margin:0;
+  z-index: 900;
+}
+
+.leaflet-control-layers-separator {
+  display:none;
+}
+
+#overlays-accordion {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  z-index: 850;
+}
+
+.leaflet-control-layers-overlays {
+  text-align: left;
+  max-width: 500px;
+  margin:auto;
+}
+#overlays-accordion summary {
+  max-width: 500px;
+  margin:auto;
+}
+
+
+[role=button] {
+  padding:0;
+  background-color:transparent;
+  border:0px;
 }

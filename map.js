@@ -1,7 +1,7 @@
 //add global variables
 //list floors as SVG files. Floors will appear in the order listed, with the filename as the label
 var floorNames = ['Lower Level', 'Level 1', 'Level 1 Mezzanine', 'Level 2', 'Level 3', 'Level 4', 'Level 5', 'Level 6', 'Level 7', 'Level 8'];
-var latLngBounds = L.latLngBounds([[0,0], [1500,1500]]);
+var latLngBounds = L.latLngBounds([[0,0], [1200,1200]]);
 var latLngBoundsOversize = L.latLngBounds([[-150,0], [1500,1500]]);
 var map;
 var layerControl;
@@ -83,6 +83,7 @@ function buildMap (markers) {
        collapsed: false,
        position: 'bottomleft'
        }).addTo(map);
+
      onBaseChange();
   });
   map.fitBounds(latLngBounds);
@@ -115,6 +116,18 @@ function buildMap (markers) {
   $('#get-coordinates').on('click', function(e) {
       map.on('click', onMapClick);
   });
+
+  //move controls to custom locations
+  //zoom
+
+    var newParent = document.getElementById('zoom');
+    var oldParent = document.getElementsByClassName("leaflet-top leaflet-left");
+
+
+    while (oldParent[0].childNodes.length > 0) {
+            newParent.appendChild(oldParent[0].childNodes[0]);
+       }
+
 
 }
 
@@ -157,8 +170,8 @@ function onBaseChange(e) {
   console.log('onBaseChange ran');
   stopHistory = true;
   lastEventType = event.type;
-  //change the header;
-  $('#map-header').find('h3').text('King Library -  ' + currentBaseLayer);
+  //change the header - not currently used
+  //$('#map-header').find('h3').text('King Library -  ' + currentBaseLayer);
   //populates an array of active layers called activeLayers. Active layers stay active even when switching levels, and even if the group isn't present on every floor
   if (lastEventType !="popstate") {
     getActiveMarkers();
@@ -211,6 +224,25 @@ function onBaseChange(e) {
     }
   });
     stopHistory = false;
+
+    //move layers control
+
+    var newParentLayers = document.getElementById('layers');
+    var oldParentLayers = document.getElementsByClassName("leaflet-bottom leaflet-left");
+    console.log(oldParentLayers);
+    console.log(newParentLayers);
+
+    while (oldParentLayers[0].childNodes.length > 0) {
+            newParentLayers.appendChild(oldParentLayers[0].childNodes[0]);
+     }
+
+     $(".leaflet-control-layers-base").wrap("<details id='layers-accordion'></details>")
+     $("#layers-accordion").append("<summary>"+currentBaseLayer+"</summary>");
+
+     $(".leaflet-control-layers-overlays").wrap("<details id='overlays-accordion'></details>")
+     $("#overlays-accordion").append("<summary>On this Floor</summary>");
+
+
 }
 
 //keep this function as a way to get coordinates for items on the map - turned on with button on dev version
