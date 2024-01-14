@@ -1,7 +1,7 @@
 //add global variables
 //list floors as SVG files. Floors will appear in the order listed, with the filename as the label
 var floorNames = ['Lower Level', 'Level 1', 'Level 1 Mezzanine', 'Level 2', 'Level 3', 'Level 4', 'Level 5', 'Level 6', 'Level 7', 'Level 8'];
-var latLngBounds = L.latLngBounds([[0,0], [1200,1200]]);
+var latLngBounds = L.latLngBounds([[0,0], [2000,2000]]);
 var latLngBoundsOversize = L.latLngBounds([[-150,0], [1500,1500]]);
 var map;
 var layerControl;
@@ -11,7 +11,7 @@ var markers;
 //use this variable to set the level the page loads on;
 var currentBaseLayer = "Level 1";
 //use this variable to set marker groups that display on load
-var activeLayers = ['Restrooms'];
+var activeLayers = ['Restrooms', 'Cafe', 'Services', 'Collections', 'Spaces'];
 var lastEventType;
 var stopHistory = false;
 
@@ -23,7 +23,7 @@ $(document).ready(function() {
   google.charts.load('current', {
     packages: ['corechart']
       }).then(function () {
-        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1aYZJ-eXUYM3Ak5txxG5dExsKc0RSSOFpWz6vCj2oJ9M/gviz/tq?gid=0&headers=1');
+        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1cay7xWt7BiOA6I4WqNTuHcc5UXX4I1w_rrgb3HsJ7g0/gviz/tq?gid=0&headers=1');
     query.send(function (response) {
       if (response.isError()) {
         console.log('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
@@ -63,7 +63,7 @@ $(document).ready(function() {
 function buildMap (markers) {
   map = L.map('map', {
       crs: L.CRS.Simple,
-      minZoom: -1,
+      minZoom: -2,
       attributionControl: false,
   });
   //use jquery when to make sure all svg files load before beginning to build the map - otherwise layers seem to appear out of order on the control
@@ -86,7 +86,9 @@ function buildMap (markers) {
 
      onBaseChange();
   });
-  map.fitBounds(latLngBounds);
+  map.fitBounds(latLngBounds).panBy([0, 40], {animate:false});
+
+
   //set the function that runs when the level is changed
   map.on('baselayerchange', function(e) {
     currentBaseLayer=e.name;
@@ -127,7 +129,29 @@ function buildMap (markers) {
     while (oldParent[0].childNodes.length > 0) {
             newParent.appendChild(oldParent[0].childNodes[0]);
        }
+    //close tooltip when popup is open
+      map.on('popupclose', function (e) {
 
+          // make the tooltip for this feature visible again
+          // but check first, not all features will have tooltips!
+          var tooltip = e.popup._source.getTooltip();
+          if (tooltip) tooltip.setOpacity(0.9);
+
+      });
+
+      map.on('popupopen', function (e) {
+
+          var tooltip = e.popup._source.getTooltip();
+          // not all features will have tooltips!
+          if (tooltip)
+          {
+              // close the open tooltip, if you have configured animations on the tooltip this looks snazzy
+              e.target.closeTooltip();
+              // use opacity to make the tooltip for this feature invisible while the popup is active.
+              e.popup._source.getTooltip().setOpacity(0);
+          }
+
+      });
 
 }
 
@@ -210,7 +234,8 @@ function onBaseChange(e) {
         else {
           popupBodyText = element.popupBody;
         }
-        var thisMarker = L.marker(location).bindPopup('<h4>'+element.popupHead+'</h4>'+popupBodyText);
+        var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: element.markerColor, fillOpacity: .7, iconSize: [18,32], weight: 1, circleFillOpacity: .8, circleRatio:.6 } }).bindPopup('<h4>'+element.popupHead+'</h4>'+popupBodyText).bindTooltip(element.popupHead);
+
         //add the marker to a list of markers that belong to the current group
         currentGroupArray.push(thisMarker);
       }
@@ -224,6 +249,10 @@ function onBaseChange(e) {
     }
   });
     stopHistory = false;
+    //add classes to layer selectors for styling
+    $(".leaflet-control-layers-overlays label").each(function() {
+        $(this).addClass($(this).text());
+    });
 
     //move layers control
 
@@ -241,13 +270,15 @@ function onBaseChange(e) {
 
      $(".leaflet-control-layers-overlays").wrap("<details id='overlays-accordion'></details>")
      $("#overlays-accordion").append("<summary>On this Floor</summary>");
+     $("#overlays-accordion").wrap("<div id='overlays-outer'></div>");
 
 
 }
 
 //keep this function as a way to get coordinates for items on the map - turned on with button on dev version
 function onMapClick(e) {
-    alert("You clicked the map at " + e.latlng);
+    alert("You clicked the map at " + e.latlng.lat + ', ' + e.latlng.lng);
+
 }
 
 //function to delete all markers when changing layers
