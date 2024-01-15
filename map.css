@@ -16,7 +16,6 @@ html, body, #map {
 
 #map {
   background-color: #ffffff;
-  top:40px;
  }
 
 #map-header {
@@ -99,6 +98,32 @@ html, body, #map {
   border:0px;
 }
 
-.leaflet-popup-content {
-  z-index: 9999;
+.leaflet-popup-pane {
+
+}
+
+.leaflet-popup {
+
+}
+
+.leaflet-fixed-pane {
+  z-index:700;
+  position: fixed;
+}
+
+.popup-fixed {
+  position: fixed;
+  top: 40px;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  transform: none !important;
+  margin: 0;
+  border-radius: 0;
+  min-height:200px;
+  min-width:300px;
+}
+
+.leaflet-popup-tip-container {
+  display: none;
 }

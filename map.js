@@ -3,6 +3,7 @@
 var floorNames = ['Lower Level', 'Level 1', 'Level 1 Mezzanine', 'Level 2', 'Level 3', 'Level 4', 'Level 5', 'Level 6', 'Level 7', 'Level 8'];
 var latLngBounds = L.latLngBounds([[0,0], [2000,2000]]);
 var latLngBoundsOversize = L.latLngBounds([[-150,0], [1500,1500]]);
+var mapBounds = L.latLngBounds([[0,0], [2000,2000]]);
 var map;
 var layerControl;
 var baseMaps = {};
@@ -65,6 +66,10 @@ function buildMap (markers) {
       crs: L.CRS.Simple,
       minZoom: -2,
       attributionControl: false,
+      center: latLngBounds.getCenter(),
+      maxBounds: mapBounds,
+      maxBoundsViscosity: 1.0
+
   });
   //use jquery when to make sure all svg files load before beginning to build the map - otherwise layers seem to appear out of order on the control
   $.when( $.ajax("0.svg"),  $.ajax("1.svg"), $.ajax("1M.svg"), $.ajax("2.svg"),  $.ajax("3.svg"),  $.ajax("4.svg"),  $.ajax("5.svg"),  $.ajax("6.svg"), $.ajax("7.svg"), $.ajax("8.svg")).done(function (svg0, svg1, svg1M, svg2, svg3, svg4, svg5, svg6, svg7, svg8) {
@@ -86,7 +91,7 @@ function buildMap (markers) {
 
      onBaseChange();
   });
-  map.fitBounds(latLngBounds).panBy([0, 40], {animate:false});
+  map.fitBounds(latLngBounds).panBy([0, 500], {animate:false});
 
 
   //set the function that runs when the level is changed
@@ -129,29 +134,9 @@ function buildMap (markers) {
     while (oldParent[0].childNodes.length > 0) {
             newParent.appendChild(oldParent[0].childNodes[0]);
        }
-    //close tooltip when popup is open
-      map.on('popupclose', function (e) {
 
-          // make the tooltip for this feature visible again
-          // but check first, not all features will have tooltips!
-          var tooltip = e.popup._source.getTooltip();
-          if (tooltip) tooltip.setOpacity(0.9);
-
-      });
-
-      map.on('popupopen', function (e) {
-
-          var tooltip = e.popup._source.getTooltip();
-          // not all features will have tooltips!
-          if (tooltip)
-          {
-              // close the open tooltip, if you have configured animations on the tooltip this looks snazzy
-              e.target.closeTooltip();
-              // use opacity to make the tooltip for this feature invisible while the popup is active.
-              e.popup._source.getTooltip().setOpacity(0);
-          }
-
-      });
+      //fixed pane for popups
+      var pane = map.createPane('fixed', document.getElementById('mapid'));
 
 }
 
@@ -234,7 +219,13 @@ function onBaseChange(e) {
         else {
           popupBodyText = element.popupBody;
         }
-        var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: element.markerColor, fillOpacity: .7, iconSize: [18,32], weight: 1, circleFillOpacity: .8, circleRatio:.6 } }).bindPopup('<h4>'+element.popupHead+'</h4>'+popupBodyText).bindTooltip(element.popupHead);
+        var popup = L.popup({
+            pane: 'fixed', // created above
+            className: 'popup-fixed',
+            autoPan: false,
+        })//add options here
+          .setContent('<h4>'+element.popupHead+'</h4>'+popupBodyText);
+        var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: element.markerColor, fillOpacity: .7, iconSize: [16,24], weight: 1, circleFillOpacity: .8, circleRatio:.6 } }).bindPopup(popup).bindTooltip(element.popupHead);
 
         //add the marker to a list of markers that belong to the current group
         currentGroupArray.push(thisMarker);
