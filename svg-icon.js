@@ -19,7 +19,7 @@ L.DivIcon.SVGIcon = L.DivIcon.extend({
         "circleWeight": null, //defaults to weight
         "color": "rgb(0,102,255)",
         "fillColor": null, // defaults to color
-        "fillOpacity": 0.4,
+        "fillOpacity": 1,
         "fontColor": "rgb(0, 0, 0)",
         "fontOpacity": "1",
         "fontSize": null, // defaults to iconSize.x/4
@@ -28,10 +28,10 @@ L.DivIcon.SVGIcon = L.DivIcon.extend({
         "iconSize": L.point(32,48),
         "opacity": 1,
         "popupAnchor": null,
-        "shadowAngle": 45,
-        "shadowBlur": 1,
+        "shadowAngle": 25,
+        "shadowBlur": 4,
         "shadowColor": "rgb(0,0,10)",
-        "shadowEnable": false,
+        "shadowEnable": true,
         "shadowLength": .75,
         "shadowOpacity": 0.5,
         "shadowTranslate": L.point(0,0),

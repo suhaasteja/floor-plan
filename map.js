@@ -2,7 +2,7 @@
 //list floors as SVG files. Floors will appear in the order listed, with the filename as the label
 var floorNames = ['Lower Level', 'Level 1', 'Level 1 Mezzanine', 'Level 2', 'Level 3', 'Level 4', 'Level 5', 'Level 6', 'Level 7', 'Level 8'];
 var latLngBounds = L.latLngBounds([[0,0], [2000,2000]]);
-var latLngBoundsOversize = L.latLngBounds([[-150,0], [1500,1500]]);
+var latLngBoundsOversize = L.latLngBounds([[0,-300], [2260,2030]]);
 var mapBounds = L.latLngBounds([[0,0], [2000,2000]]);
 var map;
 var layerControl;
@@ -24,7 +24,7 @@ $(document).ready(function() {
   google.charts.load('current', {
     packages: ['corechart']
       }).then(function () {
-        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1cay7xWt7BiOA6I4WqNTuHcc5UXX4I1w_rrgb3HsJ7g0/gviz/tq?gid=0&headers=1');
+        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1nkYWE6fAV1PGb-YexmtkBOa8NHV4UijWh4e5lM051Q4/gviz/tq?gid=0&headers=1');
     query.send(function (response) {
       if (response.isError()) {
         console.log('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
@@ -225,7 +225,7 @@ function onBaseChange(e) {
             autoPan: false,
         })//add options here
           .setContent('<h4>'+element.popupHead+'</h4>'+popupBodyText);
-        var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: element.markerColor, fillOpacity: .7, iconSize: [16,24], weight: 1, circleFillOpacity: .8, circleRatio:.6 } }).bindPopup(popup).bindTooltip(element.popupHead);
+        var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: element.markerColor, iconSize: [20,30], weight: 1, circleRatio:.5 } }).bindPopup(popup).bindTooltip(element.popupHead);
 
         //add the marker to a list of markers that belong to the current group
         currentGroupArray.push(thisMarker);
