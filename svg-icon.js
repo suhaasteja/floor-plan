@@ -35,7 +35,8 @@ L.DivIcon.SVGIcon = L.DivIcon.extend({
         "shadowLength": .75,
         "shadowOpacity": 0.2,
         "shadowTranslate": L.point(0,0),
-        "weight": 2
+        "weight": 2,
+        "textHeight": .5
     },
     initialize: function(options) {
         options = L.Util.setOptions(this, options)
@@ -206,7 +207,7 @@ L.DivIcon.SVGIcon = L.DivIcon.extend({
         var lineHeight = Number(this.options.fontSize)
 
         var x = this.options.circleAnchor.x
-        var y = this.options.circleAnchor.y + (lineHeight * 0.5) //35% was found experimentally
+        var y = this.options.circleAnchor.y + (lineHeight * this.options.textHeight) //35% was found experimentally
         var circleText = this.options.circleText
         var textColor = this.options.fontColor.replace("rgb(", "rgba(").replace(")", "," + this.options.fontOpacity + ")")
 

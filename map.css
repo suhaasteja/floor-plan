@@ -128,7 +128,7 @@ html, body, #map {
   display: none;
 }
 
-.svg-icon text {
+.icon-svg text {
   font-family: 'Material Symbols Outlined';
   font-weight: normal;
   font-style: normal;
@@ -139,4 +139,9 @@ html, body, #map {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+}
+
+.number-svg text {
+  font-family: 'Barlow Condensed';
+  font-weight: 500 !important;
 }
