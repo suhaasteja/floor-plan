@@ -5,21 +5,22 @@
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{fill:#231F20;}
-	.st2{opacity:0.45;fill:url(#SVGID_1_);stroke:#BCBEC0;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
-	.st3{fill:#A1BB7E;}
-	.st4{fill:#A1BB7E;stroke:#010101;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	
+		.st2{opacity:0.45;fill:url(#SVGID_00000028312053118655991540000016273492445811152529_);stroke:#BCBEC0;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
+	.st3{opacity:0.5;fill:#A1BB7E;}
+	.st4{opacity:0.5;fill:#A1BB7E;stroke:#010101;stroke-linecap:round;stroke-linejoin:round;}
 	.st5{fill:#E4F0F9;}
-	.st6{fill:#D65C52;}
+	.st6{opacity:0.5;fill:#1B4464;}
 	.st7{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
 	.st8{fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;}
-	.st9{fill:#D67F4C;}
+	.st9{fill:#0073A0;}
 	.st10{fill:#FFFFFF;}
-	.st11{font-family:'MyriadPro-Bold';}
+	.st11{font-family:'ArialMT';}
 	.st12{font-size:18px;}
 	.st13{fill:none;stroke:#221F1F;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;}
 	.st14{fill:none;stroke:#231F20;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;}
 </style>
-<pattern  y="949.3" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_0000016447176875026607593" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
+<pattern  y="949.3" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
 	<g>
 		<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
 		<g>
@@ -31,27 +32,34 @@
 					<g>
 						<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
 						<g>
-							<path class="st1" d="M30.2,0c0.8,0,1.4-0.6,1.4-1.4S31-2.8,30.2-2.8s-1.4,0.6-1.4,1.4C28.8-0.6,29.4,0,30.2,0z"/>
-							<path class="st1" d="M15.8,0c0.8,0,1.4-0.6,1.4-1.4s-0.6-1.4-1.4-1.4c-0.8,0-1.4,0.6-1.4,1.4C14.4-0.6,15,0,15.8,0z"/>
-							<path class="st1" d="M30.2-14.4c0.8,0,1.4-0.6,1.4-1.4s-0.6-1.4-1.4-1.4s-1.4,0.6-1.4,1.4C28.8-15,29.4-14.4,30.2-14.4z"/>
-							<path class="st1" d="M15.8-14.4c0.8,0,1.4-0.6,1.4-1.4s-0.6-1.4-1.4-1.4c-0.8,0-1.4,0.6-1.4,1.4C14.4-15,15-14.4,15.8-14.4z"
-								/>
-							<path class="st1" d="M8.6-7.2c0.8,0,1.4-0.6,1.4-1.4S9.4-10,8.6-10c-0.8,0-1.4,0.6-1.4,1.4C7.2-7.8,7.8-7.2,8.6-7.2z"/>
-							<path class="st1" d="M23-7.2c0.8,0,1.4-0.6,1.4-1.4S23.8-10,23-10s-1.4,0.6-1.4,1.4S22.2-7.2,23-7.2z"/>
-							<path class="st1" d="M8.6-21.6c0.8,0,1.4-0.6,1.4-1.4s-0.6-1.4-1.4-1.4c-0.8,0-1.4,0.6-1.4,1.4C7.2-22.2,7.8-21.6,8.6-21.6z"
-								/>
-							<path class="st1" d="M23-21.6c0.8,0,1.4-0.6,1.4-1.4s-0.6-1.4-1.4-1.4s-1.4,0.6-1.4,1.4C21.6-22.2,22.2-21.6,23-21.6z"/>
-						</g>
-						<g>
-							<path class="st1" d="M1.4,0c0.8,0,1.4-0.6,1.4-1.4S2.2-2.8,1.4-2.8C0.6-2.9,0-2.2,0-1.4C0-0.6,0.6,0,1.4,0z"/>
-							<path class="st1" d="M1.4-14.4c0.8,0,1.4-0.6,1.4-1.4s-0.6-1.4-1.4-1.4S0-16.6,0-15.8S0.6-14.4,1.4-14.4z"/>
-						</g>
-						<g>
-							<path class="st1" d="M30.2-28.8c0.8,0,1.4-0.6,1.4-1.4s-0.6-1.4-1.4-1.4s-1.4,0.6-1.4,1.4C28.8-29.4,29.4-28.8,30.2-28.8z"/>
-							<path class="st1" d="M15.8-28.8c0.8,0,1.4-0.6,1.4-1.4s-0.6-1.4-1.4-1.4s-1.4,0.6-1.4,1.4C14.4-29.4,15-28.8,15.8-28.8z"/>
-						</g>
-						<g>
-							<path class="st1" d="M1.4-28.8c0.8,0,1.4-0.6,1.4-1.4s-0.6-1.4-1.4-1.4C0.6-31.7,0-31,0-30.2C0-29.4,0.6-28.8,1.4-28.8z"/>
+							<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+							<g>
+								<path class="st1" d="M30.2-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-31,29.4-31.6,30.2-31.6
+									z"/>
+								<path class="st1" d="M15.8-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4
+									C14.4-31,15-31.6,15.8-31.6z"/>
+								<path class="st1" d="M30.2-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-16.6,29.4-17.2,30.2-17.2z"
+									/>
+								<path class="st1" d="M15.8-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4
+									C14.4-16.6,15-17.2,15.8-17.2z"/>
+								<path class="st1" d="M8.6-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4
+									C7.2-23.8,7.8-24.4,8.6-24.4z"/>
+								<path class="st1" d="M23-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4S22.2-24.4,23-24.4z"/>
+								<path class="st1" d="M8.6-10C9.4-10,10-9.4,10-8.6S9.4-7.2,8.6-7.2c-0.8,0-1.4-0.6-1.4-1.4C7.2-9.4,7.8-10,8.6-10z"/>
+								<path class="st1" d="M23-10c0.8,0,1.4,0.6,1.4,1.4S23.8-7.2,23-7.2s-1.4-0.6-1.4-1.4S22.2-10,23-10z"/>
+							</g>
+							<g>
+								<path class="st1" d="M1.4-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4C0.6-28.7,0-29.4,0-30.2C0-31,0.6-31.6,1.4-31.6
+									z"/>
+								<path class="st1" d="M1.4-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4S0-15,0-15.8S0.6-17.2,1.4-17.2z"/>
+							</g>
+							<g>
+								<path class="st1" d="M30.2-2.8c0.8,0,1.4,0.6,1.4,1.4S31,0,30.2,0s-1.4-0.6-1.4-1.4C28.8-2.2,29.4-2.8,30.2-2.8z"/>
+								<path class="st1" d="M15.8-2.8c0.8,0,1.4,0.6,1.4,1.4S16.6,0,15.8,0s-1.4-0.6-1.4-1.4C14.4-2.2,15-2.8,15.8-2.8z"/>
+							</g>
+							<g>
+								<path class="st1" d="M1.4-2.8c0.8,0,1.4,0.6,1.4,1.4S2.2,0,1.4,0C0.6,0.1,0-0.6,0-1.4C0-2.2,0.6-2.8,1.4-2.8z"/>
+							</g>
 						</g>
 					</g>
 				</g>
@@ -60,11 +68,14 @@
 	</g>
 </pattern>
 <g id="employee_areas">
-	<pattern  id="SVGID_1_" xlink:href="#SVGID_0000016447176875026607593" patternTransform="matrix(1 0 0 -1 -100.28 -51371.0078)">
+	
+		<pattern  id="SVGID_00000063595435541581717200000017734349357579414431_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 1 -89.48 51477.9062)">
 	</pattern>
-	<polyline class="st2" points="463.7,504.1 525.1,504.3 680.6,181.1 677.2,179.3 525.8,105.9 524.5,83.2 504.5,94.9 312.5,3.3 
-		308.5,10.9 225.8,177.5 119.5,176.2 119.5,176.3 120.4,403.4 4,644.1 117.5,701.7 118.7,865 218.1,913.4 218.1,908.7 217.8,817.1 
-		217.8,813.1 217,376.2 218.5,377.3 436.1,376 462.3,375.8 462.3,502 	"/>
+	
+		<polyline style="opacity:0.45;fill:url(#SVGID_00000063595435541581717200000017734349357579414431_);stroke:#BCBEC0;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;" points="
+		463.7,504.1 525.1,504.3 680.6,181.1 677.2,179.3 525.8,105.9 524.5,83.2 504.5,94.9 312.5,3.3 308.5,10.9 225.8,177.5 
+		119.5,176.2 119.5,176.3 120.4,403.4 4,644.1 117.5,701.7 118.7,865 218.1,913.4 218.1,908.7 217.8,817.1 217.8,813.1 217,376.2 
+		218.5,377.3 436.1,376 462.3,375.8 462.3,502 	"/>
 </g>
 <rect id="SCS" x="285.8" y="656.4" class="st3" width="77.5" height="80.2"/>
 <polyline id="Jon_Oakes_KLEVR_Lab" class="st4" points="218.6,818.8 218.5,910.8 218.8,910.9 285.8,943.9 285.1,818.8 285.1,819 
@@ -93,15 +104,15 @@
 </g>
 <g id="elevator_00000129923789646981679440000009271267698581510323_">
 	
-		<rect x="441.6" y="509.8" transform="matrix(1.787268e-03 -1 1 1.787268e-03 -68.3544 967.9449)" class="st6" width="18.1" height="16.9"/>
+		<rect x="441.7" y="509.8" transform="matrix(1.787265e-03 -1 1 1.787265e-03 -68.3248 967.9952)" class="st6" width="18.1" height="16.9"/>
 	
-		<rect x="441.6" y="534.4" transform="matrix(1.787268e-03 -1 1 1.787268e-03 -93.0535 992.4988)" class="st6" width="18.1" height="16.9"/>
+		<rect x="441.6" y="534.4" transform="matrix(1.787265e-03 -1 1 1.787265e-03 -93.0215 992.4501)" class="st6" width="18.1" height="16.9"/>
 	
-		<rect x="441.7" y="559.2" transform="matrix(1.787268e-03 -1 1 1.787268e-03 -117.7518 1017.3806)" class="st6" width="18.1" height="16.9"/>
+		<rect x="441.7" y="559.2" transform="matrix(1.787265e-03 -1 1 1.787265e-03 -117.7459 1017.3337)" class="st6" width="18.1" height="16.9"/>
 	
-		<rect x="441.4" y="583.9" transform="matrix(1.787268e-03 -1 1 1.787268e-03 -142.7498 1041.7655)" class="st6" width="18.1" height="16.9"/>
+		<rect x="441.4" y="583.9" transform="matrix(1.787265e-03 -1 1 1.787265e-03 -142.7729 1041.7201)" class="st6" width="18.1" height="16.9"/>
 	
-		<rect x="441.5" y="608.8" transform="matrix(1.787268e-03 -1 1 1.787268e-03 -167.4467 1066.717)" class="st6" width="18.1" height="16.9"/>
+		<rect x="441.6" y="608.8" transform="matrix(1.787265e-03 -1 1 1.787265e-03 -167.466 1066.7748)" class="st6" width="18.1" height="16.9"/>
 	<line class="st8" x1="463.6" y1="506.5" x2="463.6" y2="634.8"/>
 	<g>
 		<path class="st7" d="M452.4,552.7h-15.1c-4.1,0-7.4,3.3-7.4,7.4v15.1c0,4.1,3.3,7.4,7.4,7.4h15.1c4.1,0,7.4-3.3,7.4-7.4v-15.1
@@ -173,7 +184,10 @@
 </g>
 <g id="Text">
 	<text transform="matrix(1 0 0 1 325.1045 675.6207)" class="st11 st12">SCS</text>
-	<text transform="matrix(1 0 0 1 225.1744 840.1912)"><tspan x="0" y="0" class="st11 st12">Jon</tspan><tspan x="0" y="21.6" class="st11 st12">Oakes</tspan><tspan x="0" y="43.2" class="st11 st12">KLEVR</tspan><tspan x="0" y="64.8" class="st11 st12">Lab</tspan></text>
+	<text transform="matrix(1 0 0 1 225.1744 840.1912)" class="st11 st12">Jon</text>
+	<text transform="matrix(1 0 0 1 225.1744 861.7913)" class="st11 st12">Oakes</text>
+	<text transform="matrix(1 0 0 1 225.1744 883.3912)" class="st11 st12">KLEVR</text>
+	<text transform="matrix(1 0 0 1 225.1744 904.9912)" class="st11 st12">Lab</text>
 	<text transform="matrix(1 0 0 1 291.861 731.1072)" class="st11 st12">STTC</text>
 </g>
 <g id="floor_outline">

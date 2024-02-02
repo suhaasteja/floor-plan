@@ -7,74 +7,203 @@
 	.st1{fill:#231F20;}
 	.st2{opacity:0.45;}
 	.st3{fill:url(#SVGID_1_);stroke:#ABADB0;stroke-miterlimit:10;}
-	.st4{fill:url(#SVGID_00000075161142874938593030000015399828905657508505_);stroke:#ABADB0;stroke-miterlimit:10;}
-	.st5{fill:url(#SVGID_00000079445323478533744550000002362478222661558168_);stroke:#ABADB0;stroke-miterlimit:10;}
-	.st6{fill:url(#SVGID_00000031180577420414386170000000110303448469181346_);stroke:#ABADB0;stroke-miterlimit:10;}
+	.st4{fill:url(#SVGID_00000139996215637219151230000000971272597807733657_);stroke:#ABADB0;stroke-miterlimit:10;}
+	.st5{fill:url(#SVGID_00000010270281166462763390000004347830615561788065_);stroke:#ABADB0;stroke-miterlimit:10;}
+	.st6{fill:url(#SVGID_00000120542786567286515720000003561391191431402118_);stroke:#ABADB0;stroke-miterlimit:10;}
 	.st7{fill:none;stroke:#231F20;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
 	.st8{fill:none;stroke:#231F20;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.9999;}
 	.st9{fill:#E4F0F9;}
 	.st10{fill:#EBCA74;}
-	.st11{fill:#D67F4C;}
+	.st11{fill:#0073A0;}
 	.st12{fill:#FFFFFF;}
-	.st13{fill:#688D8C;stroke:#D65C52;stroke-width:0.25;stroke-miterlimit:10;}
-	.st14{fill:#D65C52;}
+	.st13{fill:#688D8C;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
+	.st14{opacity:0.5;fill:#1B4464;}
 	.st15{fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;}
 	.st16{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
 	.st17{fill:none;stroke:#231F20;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;}
-	.st18{font-family:'MyriadPro-Bold';}
+	.st18{font-family:'ArialMT';}
 	.st19{font-size:15px;}
 </style>
-<pattern  y="869.6" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="_x31_0_dpi_20_x25_" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
+<pattern  y="869.6" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_0000003408292394980093137" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
 	<g>
 		<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
 		<g>
 			<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
 			<g>
-				<path class="st1" d="M30.2-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-31,29.4-31.6,30.2-31.6z"/>
-				<path class="st1" d="M15.8-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4C14.4-31,15-31.6,15.8-31.6
-					z"/>
-				<path class="st1" d="M30.2-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-16.6,29.4-17.2,30.2-17.2z"/>
-				<path class="st1" d="M15.8-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4C14.4-16.6,15-17.2,15.8-17.2z"
-					/>
-				<path class="st1" d="M8.6-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4C7.2-23.8,7.8-24.4,8.6-24.4
-					z"/>
-				<path class="st1" d="M23-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4S22.2-24.4,23-24.4z"/>
-				<path class="st1" d="M8.6-10C9.4-10,10-9.4,10-8.6S9.4-7.2,8.6-7.2c-0.8,0-1.4-0.6-1.4-1.4C7.2-9.4,7.8-10,8.6-10z"/>
-				<path class="st1" d="M23-10c0.8,0,1.4,0.6,1.4,1.4S23.8-7.2,23-7.2s-1.4-0.6-1.4-1.4S22.2-10,23-10z"/>
+				<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+				<g>
+					<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+					<g>
+						<path class="st1" d="M30.2-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-31,29.4-31.6,30.2-31.6z"
+							/>
+						<path class="st1" d="M15.8-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4
+							C14.4-31,15-31.6,15.8-31.6z"/>
+						<path class="st1" d="M30.2-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-16.6,29.4-17.2,30.2-17.2z"/>
+						<path class="st1" d="M15.8-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4C14.4-16.6,15-17.2,15.8-17.2z
+							"/>
+						<path class="st1" d="M8.6-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4
+							C7.2-23.8,7.8-24.4,8.6-24.4z"/>
+						<path class="st1" d="M23-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4S22.2-24.4,23-24.4z"/>
+						<path class="st1" d="M8.6-10C9.4-10,10-9.4,10-8.6S9.4-7.2,8.6-7.2c-0.8,0-1.4-0.6-1.4-1.4C7.2-9.4,7.8-10,8.6-10z"/>
+						<path class="st1" d="M23-10c0.8,0,1.4,0.6,1.4,1.4S23.8-7.2,23-7.2s-1.4-0.6-1.4-1.4S22.2-10,23-10z"/>
+					</g>
+					<g>
+						<path class="st1" d="M1.4-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4C0.6-28.7,0-29.4,0-30.2C0-31,0.6-31.6,1.4-31.6z"
+							/>
+						<path class="st1" d="M1.4-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4S0-15,0-15.8S0.6-17.2,1.4-17.2z"/>
+					</g>
+					<g>
+						<path class="st1" d="M30.2-2.8c0.8,0,1.4,0.6,1.4,1.4S31,0,30.2,0s-1.4-0.6-1.4-1.4C28.8-2.2,29.4-2.8,30.2-2.8z"/>
+						<path class="st1" d="M15.8-2.8c0.8,0,1.4,0.6,1.4,1.4S16.6,0,15.8,0s-1.4-0.6-1.4-1.4C14.4-2.2,15-2.8,15.8-2.8z"/>
+					</g>
+					<g>
+						<path class="st1" d="M1.4-2.8c0.8,0,1.4,0.6,1.4,1.4S2.2,0,1.4,0C0.6,0.1,0-0.6,0-1.4C0-2.2,0.6-2.8,1.4-2.8z"/>
+					</g>
+				</g>
 			</g>
+		</g>
+	</g>
+</pattern>
+<pattern  y="869.6" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_0000006290134519680724335" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
+	<g>
+		<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+		<g>
+			<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
 			<g>
-				<path class="st1" d="M1.4-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4C0.6-28.7,0-29.4,0-30.2C0-31,0.6-31.6,1.4-31.6z"/>
-				<path class="st1" d="M1.4-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4S0-15,0-15.8S0.6-17.2,1.4-17.2z"/>
+				<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+				<g>
+					<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+					<g>
+						<path class="st1" d="M30.2-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-31,29.4-31.6,30.2-31.6z"
+							/>
+						<path class="st1" d="M15.8-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4
+							C14.4-31,15-31.6,15.8-31.6z"/>
+						<path class="st1" d="M30.2-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-16.6,29.4-17.2,30.2-17.2z"/>
+						<path class="st1" d="M15.8-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4C14.4-16.6,15-17.2,15.8-17.2z
+							"/>
+						<path class="st1" d="M8.6-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4
+							C7.2-23.8,7.8-24.4,8.6-24.4z"/>
+						<path class="st1" d="M23-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4S22.2-24.4,23-24.4z"/>
+						<path class="st1" d="M8.6-10C9.4-10,10-9.4,10-8.6S9.4-7.2,8.6-7.2c-0.8,0-1.4-0.6-1.4-1.4C7.2-9.4,7.8-10,8.6-10z"/>
+						<path class="st1" d="M23-10c0.8,0,1.4,0.6,1.4,1.4S23.8-7.2,23-7.2s-1.4-0.6-1.4-1.4S22.2-10,23-10z"/>
+					</g>
+					<g>
+						<path class="st1" d="M1.4-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4C0.6-28.7,0-29.4,0-30.2C0-31,0.6-31.6,1.4-31.6z"
+							/>
+						<path class="st1" d="M1.4-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4S0-15,0-15.8S0.6-17.2,1.4-17.2z"/>
+					</g>
+					<g>
+						<path class="st1" d="M30.2-2.8c0.8,0,1.4,0.6,1.4,1.4S31,0,30.2,0s-1.4-0.6-1.4-1.4C28.8-2.2,29.4-2.8,30.2-2.8z"/>
+						<path class="st1" d="M15.8-2.8c0.8,0,1.4,0.6,1.4,1.4S16.6,0,15.8,0s-1.4-0.6-1.4-1.4C14.4-2.2,15-2.8,15.8-2.8z"/>
+					</g>
+					<g>
+						<path class="st1" d="M1.4-2.8c0.8,0,1.4,0.6,1.4,1.4S2.2,0,1.4,0C0.6,0.1,0-0.6,0-1.4C0-2.2,0.6-2.8,1.4-2.8z"/>
+					</g>
+				</g>
 			</g>
+		</g>
+	</g>
+</pattern>
+<pattern  y="869.6" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_0000007944669043385604280" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
+	<g>
+		<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+		<g>
+			<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
 			<g>
-				<path class="st1" d="M30.2-2.8c0.8,0,1.4,0.6,1.4,1.4S31,0,30.2,0s-1.4-0.6-1.4-1.4C28.8-2.2,29.4-2.8,30.2-2.8z"/>
-				<path class="st1" d="M15.8-2.8c0.8,0,1.4,0.6,1.4,1.4S16.6,0,15.8,0c-0.8,0-1.4-0.6-1.4-1.4C14.4-2.2,15-2.8,15.8-2.8z"/>
+				<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+				<g>
+					<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+					<g>
+						<path class="st1" d="M30.2-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-31,29.4-31.6,30.2-31.6z"
+							/>
+						<path class="st1" d="M15.8-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4
+							C14.4-31,15-31.6,15.8-31.6z"/>
+						<path class="st1" d="M30.2-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-16.6,29.4-17.2,30.2-17.2z"/>
+						<path class="st1" d="M15.8-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4C14.4-16.6,15-17.2,15.8-17.2z
+							"/>
+						<path class="st1" d="M8.6-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4
+							C7.2-23.8,7.8-24.4,8.6-24.4z"/>
+						<path class="st1" d="M23-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4S22.2-24.4,23-24.4z"/>
+						<path class="st1" d="M8.6-10C9.4-10,10-9.4,10-8.6S9.4-7.2,8.6-7.2c-0.8,0-1.4-0.6-1.4-1.4C7.2-9.4,7.8-10,8.6-10z"/>
+						<path class="st1" d="M23-10c0.8,0,1.4,0.6,1.4,1.4S23.8-7.2,23-7.2s-1.4-0.6-1.4-1.4S22.2-10,23-10z"/>
+					</g>
+					<g>
+						<path class="st1" d="M1.4-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4C0.6-28.7,0-29.4,0-30.2C0-31,0.6-31.6,1.4-31.6z"
+							/>
+						<path class="st1" d="M1.4-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4S0-15,0-15.8S0.6-17.2,1.4-17.2z"/>
+					</g>
+					<g>
+						<path class="st1" d="M30.2-2.8c0.8,0,1.4,0.6,1.4,1.4S31,0,30.2,0s-1.4-0.6-1.4-1.4C28.8-2.2,29.4-2.8,30.2-2.8z"/>
+						<path class="st1" d="M15.8-2.8c0.8,0,1.4,0.6,1.4,1.4S16.6,0,15.8,0s-1.4-0.6-1.4-1.4C14.4-2.2,15-2.8,15.8-2.8z"/>
+					</g>
+					<g>
+						<path class="st1" d="M1.4-2.8c0.8,0,1.4,0.6,1.4,1.4S2.2,0,1.4,0C0.6,0.1,0-0.6,0-1.4C0-2.2,0.6-2.8,1.4-2.8z"/>
+					</g>
+				</g>
 			</g>
+		</g>
+	</g>
+</pattern>
+<pattern  y="869.6" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_0000017528666420165144277" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
+	<g>
+		<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+		<g>
+			<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
 			<g>
-				<path class="st1" d="M1.4-2.8c0.8,0,1.4,0.6,1.4,1.4S2.2,0,1.4,0C0.6,0.1,0-0.6,0-1.4C0-2.2,0.6-2.8,1.4-2.8z"/>
+				<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+				<g>
+					<rect x="1.4" y="-30.2" class="st0" width="28.8" height="28.8"/>
+					<g>
+						<path class="st1" d="M30.2-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-31,29.4-31.6,30.2-31.6z"
+							/>
+						<path class="st1" d="M15.8-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4
+							C14.4-31,15-31.6,15.8-31.6z"/>
+						<path class="st1" d="M30.2-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4C28.8-16.6,29.4-17.2,30.2-17.2z"/>
+						<path class="st1" d="M15.8-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4C14.4-16.6,15-17.2,15.8-17.2z
+							"/>
+						<path class="st1" d="M8.6-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4c-0.8,0-1.4-0.6-1.4-1.4
+							C7.2-23.8,7.8-24.4,8.6-24.4z"/>
+						<path class="st1" d="M23-24.4c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4S22.2-24.4,23-24.4z"/>
+						<path class="st1" d="M8.6-10C9.4-10,10-9.4,10-8.6S9.4-7.2,8.6-7.2c-0.8,0-1.4-0.6-1.4-1.4C7.2-9.4,7.8-10,8.6-10z"/>
+						<path class="st1" d="M23-10c0.8,0,1.4,0.6,1.4,1.4S23.8-7.2,23-7.2s-1.4-0.6-1.4-1.4S22.2-10,23-10z"/>
+					</g>
+					<g>
+						<path class="st1" d="M1.4-31.6c0.8,0,1.4,0.6,1.4,1.4c0,0.8-0.6,1.4-1.4,1.4C0.6-28.7,0-29.4,0-30.2C0-31,0.6-31.6,1.4-31.6z"
+							/>
+						<path class="st1" d="M1.4-17.2c0.8,0,1.4,0.6,1.4,1.4s-0.6,1.4-1.4,1.4S0-15,0-15.8S0.6-17.2,1.4-17.2z"/>
+					</g>
+					<g>
+						<path class="st1" d="M30.2-2.8c0.8,0,1.4,0.6,1.4,1.4S31,0,30.2,0s-1.4-0.6-1.4-1.4C28.8-2.2,29.4-2.8,30.2-2.8z"/>
+						<path class="st1" d="M15.8-2.8c0.8,0,1.4,0.6,1.4,1.4S16.6,0,15.8,0s-1.4-0.6-1.4-1.4C14.4-2.2,15-2.8,15.8-2.8z"/>
+					</g>
+					<g>
+						<path class="st1" d="M1.4-2.8c0.8,0,1.4,0.6,1.4,1.4S2.2,0,1.4,0C0.6,0.1,0-0.6,0-1.4C0-2.2,0.6-2.8,1.4-2.8z"/>
+					</g>
+				</g>
 			</g>
 		</g>
 	</g>
 </pattern>
 <g id="employee_areas" class="st2">
-	<pattern  id="SVGID_1_" xlink:href="#_x31_0_dpi_20_x25_" patternTransform="matrix(1 0 0 -1 13.8 -17384.75)"  class="st2">
+	
+		<pattern  id="SVGID_1_" xlink:href="#SVGID_0000007944669043385604280" patternTransform="matrix(1 0 0 -1 41 -34427.6602)"  class="st2">
 	</pattern>
 	<polygon class="st3" points="140.3,644.2 54.6,644.3 54.7,552.2 140.2,552.2 	"/>
 	
-		<pattern  id="SVGID_00000172407374652215222610000010097096013994764206_" xlink:href="#_x31_0_dpi_20_x25_" patternTransform="matrix(1 0 0 -1 13.8 -17384.75)"  class="st2">
+		<pattern  id="SVGID_00000006668833627301074710000006524472643126391178_" xlink:href="#SVGID_0000017528666420165144277" patternTransform="matrix(1 0 0 -1 41 -34427.6602)"  class="st2">
 	</pattern>
 	
-		<rect x="413.8" y="160.2" style="fill:url(#SVGID_00000172407374652215222610000010097096013994764206_);stroke:#ABADB0;stroke-miterlimit:10;" width="41.9" height="85.8"/>
+		<rect x="413.8" y="160.2" style="fill:url(#SVGID_00000006668833627301074710000006524472643126391178_);stroke:#ABADB0;stroke-miterlimit:10;" width="41.9" height="85.8"/>
 	
-		<pattern  id="SVGID_00000150782979147422212870000013332426632376107908_" xlink:href="#_x31_0_dpi_20_x25_" patternTransform="matrix(1 0 0 -1 13.8 -17384.75)"  class="st2">
+		<pattern  id="SVGID_00000064348360152512193680000015391407710792492956_" xlink:href="#SVGID_0000003408292394980093137" patternTransform="matrix(1 0 0 -1 41 -34427.6602)"  class="st2">
 	</pattern>
 	
-		<rect x="55.3" y="177.7" style="fill:url(#SVGID_00000150782979147422212870000013332426632376107908_);stroke:#ABADB0;stroke-miterlimit:10;" width="48" height="85.8"/>
+		<rect x="55.3" y="177.7" style="fill:url(#SVGID_00000064348360152512193680000015391407710792492956_);stroke:#ABADB0;stroke-miterlimit:10;" width="48" height="85.8"/>
 	
-		<pattern  id="SVGID_00000143583248787664393860000011195657728465095318_" xlink:href="#_x31_0_dpi_20_x25_" patternTransform="matrix(1 0 0 -1 13.8 -17384.75)"  class="st2">
+		<pattern  id="SVGID_00000025443054272596935450000004343047833778542779_" xlink:href="#SVGID_0000006290134519680724335" patternTransform="matrix(1 0 0 -1 41 -34427.6602)"  class="st2">
 	</pattern>
 	
-		<polyline style="fill:url(#SVGID_00000143583248787664393860000011195657728465095318_);stroke:#ABADB0;stroke-miterlimit:10;" points="
+		<polyline style="fill:url(#SVGID_00000025443054272596935450000004343047833778542779_);stroke:#ABADB0;stroke-miterlimit:10;" points="
 		52.5,787.1 54.9,787 136.3,824 138.8,825.2 138.7,663.5 53.2,664.5 	"/>
 </g>
 <g id="seats">
@@ -83,11 +212,11 @@
 	</g>
 	<g id="ec">
 		
-			<rect x="222.4" y="276.5" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.1392 0.9078)" class="st8" width="0.6" height="8.3"/>
+			<rect x="222.4" y="276.5" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.1392 0.9077)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ed">
 		
-			<rect x="236.1" y="272.9" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.1245 0.9634)" class="st8" width="0.6" height="8.3"/>
+			<rect x="236.1" y="272.9" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.1244 0.9634)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ee">
 		<polyline class="st7" points="236.7,281.2 236.7,283.6 222.9,283.5 		"/>
@@ -319,11 +448,11 @@
 	</g>
 	<g id="hc">
 		
-			<rect x="281.2" y="276.3" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.1379 1.1468)" class="st8" width="0.6" height="8.3"/>
+			<rect x="281.2" y="276.3" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.1379 1.1468)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="hd">
 		
-			<rect x="294.9" y="272.7" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.1232 1.2025)" class="st8" width="0.6" height="8.3"/>
+			<rect x="294.9" y="272.7" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.1231 1.2025)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="he">
 		<polyline class="st7" points="295.4,280.8 295.4,283.3 281.7,283.3 		"/>
@@ -555,11 +684,11 @@
 	</g>
 	<g id="kc">
 		
-			<rect x="222.4" y="300.2" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.2356 0.908)" class="st8" width="0.6" height="8.3"/>
+			<rect x="222.4" y="300.2" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.2355 0.9079)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="kd">
 		
-			<rect x="236" y="296.5" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.2204 0.9632)" class="st8" width="0.6" height="8.3"/>
+			<rect x="236" y="296.5" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.2204 0.9632)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ke">
 		<polyline class="st7" points="236.8,304.9 236.8,307.4 223,307.3 		"/>
@@ -790,11 +919,11 @@
 		<polyline class="st7" points="281.3,300.1 281.3,297.7 295,297.6 		"/>
 	</g>
 	<g id="nc">
-		<rect x="281" y="300" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.2343 1.1462)" class="st8" width="0.6" height="8.3"/>
+		<rect x="281" y="300" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.2342 1.1462)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="nd">
 		
-			<rect x="294.8" y="296.3" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.2191 1.2023)" class="st8" width="0.6" height="8.3"/>
+			<rect x="294.8" y="296.3" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.2191 1.2023)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ne">
 		<polyline class="st7" points="295.6,304.6 295.5,307 281.9,307.2 		"/>
@@ -1026,11 +1155,11 @@
 	</g>
 	<g id="qc">
 		
-			<rect x="222.4" y="324" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.3323 0.9081)" class="st8" width="0.6" height="8.3"/>
+			<rect x="222.4" y="324" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.3323 0.9081)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="qd">
 		
-			<rect x="236.1" y="320.4" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.3176 0.9638)" class="st8" width="0.6" height="8.3"/>
+			<rect x="236.1" y="320.4" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.3176 0.9638)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="qe">
 		<polyline class="st7" points="236.9,328.6 236.9,331 223.1,331 		"/>
@@ -1262,11 +1391,11 @@
 	</g>
 	<g id="tc">
 		
-			<rect x="281.2" y="323.7" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.3306 1.1472)" class="st8" width="0.6" height="8.3"/>
+			<rect x="281.2" y="323.7" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.3306 1.1472)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="td">
 		
-			<rect x="295.1" y="320.2" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.3163 1.2037)" class="st8" width="0.6" height="8.3"/>
+			<rect x="295.1" y="320.2" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.3163 1.2037)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="te">
 		<polyline class="st7" points="295.7,328.3 295.6,330.7 282,330.9 		"/>
@@ -1498,11 +1627,11 @@
 	</g>
 	<g id="wc">
 		
-			<rect x="221.8" y="200.5" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.8302 0.9047)" class="st8" width="0.6" height="8.3"/>
+			<rect x="221.8" y="200.5" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.8302 0.9047)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="wd">
 		
-			<rect x="235.6" y="197" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.8159 0.9608)" class="st8" width="0.6" height="8.3"/>
+			<rect x="235.6" y="197" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.8159 0.9607)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="we">
 		<polyline class="st7" points="236.3,205.3 236.4,207.5 222.7,207.7 		"/>
@@ -1734,11 +1863,11 @@
 	</g>
 	<g id="zc">
 		
-			<rect x="280.7" y="200.3" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.8289 1.1442)" class="st8" width="0.6" height="8.3"/>
+			<rect x="280.7" y="200.3" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.8289 1.1441)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="zd">
 		
-			<rect x="294.5" y="196.8" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.8146 1.2002)" class="st8" width="0.6" height="8.3"/>
+			<rect x="294.5" y="196.8" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.8146 1.2002)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ze">
 		<polyline class="st7" points="295.1,205.1 295.1,207.4 281.4,207.4 		"/>
@@ -1970,11 +2099,11 @@
 	</g>
 	<g id="acc">
 		
-			<rect x="222" y="224.3" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.927 0.9057)" class="st8" width="0.6" height="8.3"/>
+			<rect x="222" y="224.3" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.927 0.9057)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="acd">
 		
-			<rect x="235.8" y="220.4" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.911 0.9618)" class="st8" width="0.6" height="8.3"/>
+			<rect x="235.8" y="220.4" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.911 0.9618)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ace">
 		<polyline class="st7" points="236.5,229 236.5,231.4 222.7,231.4 		"/>
@@ -2206,11 +2335,11 @@
 	</g>
 	<g id="afc">
 		
-			<rect x="280.9" y="224.1" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.9257 1.1452)" class="st8" width="0.6" height="8.3"/>
+			<rect x="280.9" y="224.1" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.9257 1.1451)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="afd">
 		
-			<rect x="294.6" y="220.4" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.9105 1.2008)" class="st8" width="0.6" height="8.3"/>
+			<rect x="294.6" y="220.4" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.9105 1.2008)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="afe">
 		<polyline class="st7" points="295.3,228.7 295.2,231.1 281.5,231.1 		"/>
@@ -2442,11 +2571,11 @@
 	</g>
 	<g id="aic">
 		
-			<rect x="222.3" y="248.1" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.0237 0.9071)" class="st8" width="0.6" height="8.3"/>
+			<rect x="222.3" y="248.1" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.0237 0.9071)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="aid">
 		
-			<rect x="236" y="244.5" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.009 0.9628)" class="st8" width="0.6" height="8.3"/>
+			<rect x="236" y="244.5" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.009 0.9628)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="aie">
 		<polyline class="st7" points="236.6,252.7 236.6,255.1 222.8,255.1 		"/>
@@ -2678,11 +2807,11 @@
 	</g>
 	<g id="alc">
 		
-			<rect x="281" y="247.7" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.0216 1.1458)" class="st8" width="0.6" height="8.3"/>
+			<rect x="281" y="247.7" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.0216 1.1457)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ald">
 		
-			<rect x="294.6" y="244.2" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.0073 1.201)" class="st8" width="0.6" height="8.3"/>
+			<rect x="294.6" y="244.2" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.0073 1.201)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ale">
 		<polyline class="st7" points="295.3,252.4 295.3,254.8 281.6,254.9 		"/>
@@ -2914,11 +3043,11 @@
 	</g>
 	<g id="aoc">
 		
-			<rect x="222.3" y="136" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.568 0.9062)" class="st8" width="0.6" height="8.3"/>
+			<rect x="222.3" y="136" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.568 0.9062)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="aod">
 		
-			<rect x="235.7" y="132.3" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.5528 0.9606)" class="st8" width="0.6" height="8.3"/>
+			<rect x="235.7" y="132.3" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.5528 0.9606)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="aoe">
 		<polyline class="st7" points="236.5,140.7 236.6,143.1 222.9,143.2 		"/>
@@ -3150,11 +3279,11 @@
 	</g>
 	<g id="arc">
 		
-			<rect x="281.1" y="135.7" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.5663 1.1452)" class="st8" width="0.6" height="8.3"/>
+			<rect x="281.1" y="135.7" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.5663 1.1452)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ard">
 		
-			<rect x="294.8" y="132.1" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.5515 1.2009)" class="st8" width="0.6" height="8.3"/>
+			<rect x="294.8" y="132.1" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.5515 1.2009)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="are">
 		<polyline class="st7" points="295.3,140.5 295.4,142.9 281.5,142.9 		"/>
@@ -3386,11 +3515,11 @@
 	</g>
 	<g id="auc">
 		
-			<rect x="222.3" y="159.7" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.6643 0.9064)" class="st8" width="0.6" height="8.3"/>
+			<rect x="222.3" y="159.7" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.6643 0.9064)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="aud">
 		
-			<rect x="235.9" y="156.1" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.6496 0.9616)" class="st8" width="0.6" height="8.3"/>
+			<rect x="235.9" y="156.1" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.6496 0.9616)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="aue">
 		<polyline class="st7" points="236.7,164.4 236.7,166.8 223,166.8 		"/>
@@ -3622,11 +3751,11 @@
 	</g>
 	<g id="axc">
 		
-			<rect x="280.9" y="159.4" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.6626 1.1446)" class="st8" width="0.6" height="8.3"/>
+			<rect x="280.9" y="159.4" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.6626 1.1446)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="axd">
 		
-			<rect x="294.7" y="155.9" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.6483 1.2007)" class="st8" width="0.6" height="8.3"/>
+			<rect x="294.7" y="155.9" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.6483 1.2007)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="axe">
 		<polyline class="st7" points="295.4,164.2 295.5,166.6 281.7,166.6 		"/>
@@ -3858,11 +3987,11 @@
 	</g>
 	<g id="bac">
 		
-			<rect x="222.8" y="352.3" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.4474 0.91)" class="st8" width="0.6" height="8.3"/>
+			<rect x="222.8" y="352.3" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.4474 0.91)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bad">
 		
-			<rect x="236.3" y="348.8" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.433 0.9649)" class="st8" width="0.6" height="8.3"/>
+			<rect x="236.3" y="348.8" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.433 0.9649)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bae">
 		<polyline class="st7" points="236.9,357.1 237,359.5 223.4,359.5 		"/>
@@ -4094,11 +4223,11 @@
 	</g>
 	<g id="bdc">
 		
-			<rect x="281.5" y="352.1" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.4461 1.1487)" class="st8" width="0.6" height="8.3"/>
+			<rect x="281.5" y="352.1" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.4461 1.1486)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bdd">
 		
-			<rect x="295.1" y="348.6" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.4317 1.2039)" class="st8" width="0.6" height="8.3"/>
+			<rect x="295.1" y="348.6" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.4317 1.2039)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bde">
 		<polyline class="st7" points="295.8,356.9 295.7,359.2 282.2,359.3 		"/>
@@ -4330,11 +4459,11 @@
 	</g>
 	<g id="bgc">
 		
-			<rect x="244.2" y="135.9" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.5674 0.9952)" class="st8" width="0.6" height="8.3"/>
+			<rect x="244.2" y="135.9" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.5674 0.9952)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bgd">
 		
-			<rect x="258" y="132.3" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.5526 1.0513)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258" y="132.3" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.5526 1.0513)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bge">
 		<polyline class="st7" points="258.7,140.7 258.6,142.9 245,143.1 		"/>
@@ -4566,11 +4695,11 @@
 	</g>
 	<g id="bjc">
 		
-			<rect x="271.5" y="135.6" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.5659 1.1062)" class="st8" width="0.6" height="8.3"/>
+			<rect x="271.5" y="135.6" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.5659 1.1062)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bjd">
 		
-			<rect x="258" y="132.3" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.5526 1.0513)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258" y="132.3" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.5526 1.0513)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bje">
 		<polyline class="st7" points="258.1,140.6 258.1,143 271.6,142.9 		"/>
@@ -4802,11 +4931,11 @@
 	</g>
 	<g id="bmc">
 		
-			<rect x="244.4" y="159.6" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.6637 0.9962)" class="st8" width="0.6" height="8.3"/>
+			<rect x="244.4" y="159.6" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.6637 0.9962)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bmd">
 		
-			<rect x="258.1" y="155.9" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.6486 1.0519)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258.1" y="155.9" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.6486 1.0519)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bme">
 		<polyline class="st7" points="258.7,164.2 258.7,166.7 245,166.8 		"/>
@@ -5038,11 +5167,11 @@
 	</g>
 	<g id="bpc">
 		
-			<rect x="271.8" y="159.6" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.6635 1.1076)" class="st8" width="0.6" height="8.3"/>
+			<rect x="271.8" y="159.6" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.6635 1.1076)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bpd">
 		
-			<rect x="258.1" y="155.9" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.6486 1.0519)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258.1" y="155.9" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.6486 1.0519)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bpe">
 		<polyline class="st7" points="258.2,164.3 258.1,166.7 271.8,166.5 		"/>
@@ -5274,11 +5403,11 @@
 	</g>
 	<g id="bsc">
 		
-			<rect x="244.2" y="200.5" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.83 0.9958)" class="st8" width="0.6" height="8.3"/>
+			<rect x="244.2" y="200.5" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.83 0.9957)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bsd">
 		
-			<rect x="257.7" y="196.8" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.8149 1.0506)" class="st8" width="0.6" height="8.3"/>
+			<rect x="257.7" y="196.8" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.8149 1.0506)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bse">
 		<polyline class="st7" points="258.5,205.2 258.5,207.4 244.8,207.6 		"/>
@@ -5510,11 +5639,11 @@
 	</g>
 	<g id="bvc">
 		
-			<rect x="271.3" y="200.4" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.8294 1.1059)" class="st8" width="0.6" height="8.3"/>
+			<rect x="271.3" y="200.4" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.8294 1.1059)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bvd">
 		
-			<rect x="257.7" y="196.8" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.8149 1.0506)" class="st8" width="0.6" height="8.3"/>
+			<rect x="257.7" y="196.8" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.8149 1.0506)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bve">
 		<polyline class="st7" points="257.9,205.3 257.9,207.6 271.5,207.5 		"/>
@@ -5746,11 +5875,11 @@
 	</g>
 	<g id="byc">
 		
-			<rect x="244.2" y="224.2" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.9264 0.996)" class="st8" width="0.6" height="8.3"/>
+			<rect x="244.2" y="224.2" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.9264 0.9959)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="byd">
 		
-			<rect x="257.8" y="220.5" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.9112 1.0512)" class="st8" width="0.6" height="8.3"/>
+			<rect x="257.8" y="220.5" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.9112 1.0512)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="bye">
 		<polyline class="st7" points="258.5,228.8 258.5,231.2 244.9,231.3 		"/>
@@ -5982,11 +6111,11 @@
 	</g>
 	<g id="cbc">
 		
-			<rect x="271.5" y="224.2" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.9262 1.1069)" class="st8" width="0.6" height="8.3"/>
+			<rect x="271.5" y="224.2" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.9261 1.1069)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cbd">
 		
-			<rect x="257.8" y="220.5" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -0.9112 1.0512)" class="st8" width="0.6" height="8.3"/>
+			<rect x="257.8" y="220.5" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -0.9112 1.0512)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cbe">
 		<polyline class="st7" points="258,228.9 258,231.4 271.6,231.2 		"/>
@@ -6218,11 +6347,11 @@
 	</g>
 	<g id="cec">
 		
-			<rect x="244.4" y="247.8" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.0223 0.997)" class="st8" width="0.6" height="8.3"/>
+			<rect x="244.4" y="247.8" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.0223 0.9969)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ced">
 		
-			<rect x="258" y="244.4" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.0084 1.0522)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258" y="244.4" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.0084 1.0522)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cee">
 		<polyline class="st7" points="258.7,252.6 258.6,255 245,255 		"/>
@@ -6454,11 +6583,11 @@
 	</g>
 	<g id="chc">
 		
-			<rect x="271.6" y="247.8" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.0221 1.1076)" class="st8" width="0.6" height="8.3"/>
+			<rect x="271.6" y="247.8" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.0221 1.1075)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="chd">
 		
-			<rect x="258" y="244.4" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.0084 1.0522)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258" y="244.4" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.0084 1.0522)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="che">
 		<polyline class="st7" points="258,252.6 258.1,255 271.6,254.9 		"/>
@@ -6690,11 +6819,11 @@
 	</g>
 	<g id="ckc">
 		
-			<rect x="244.3" y="276.3" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.1382 0.9968)" class="st8" width="0.6" height="8.3"/>
+			<rect x="244.3" y="276.3" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.1382 0.9968)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ckd">
 		
-			<rect x="258.1" y="272.9" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.1243 1.0529)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258.1" y="272.9" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.1243 1.0529)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cke">
 		<polyline class="st7" points="258.8,281.1 258.7,283.3 245.1,283.5 		"/>
@@ -6926,11 +7055,11 @@
 	</g>
 	<g id="cnc">
 		
-			<rect x="271.7" y="276.3" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.138 1.1082)" class="st8" width="0.6" height="8.3"/>
+			<rect x="271.7" y="276.3" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.138 1.1082)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cnd">
 		
-			<rect x="258.1" y="272.9" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.1243 1.0529)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258.1" y="272.9" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.1243 1.0529)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cne">
 		<polyline class="st7" points="258.2,281.1 258.2,283.5 271.8,283.3 		"/>
@@ -7162,11 +7291,11 @@
 	</g>
 	<g id="cqc">
 		
-			<rect x="244.5" y="300.2" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.2354 0.9978)" class="st8" width="0.6" height="8.3"/>
+			<rect x="244.5" y="300.2" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.2354 0.9978)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cqd">
 		
-			<rect x="258" y="296.4" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.2198 1.0527)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258" y="296.4" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.2198 1.0526)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cqe">
 		<polyline class="st7" points="258.9,304.9 258.9,307.3 245.3,307.2 		"/>
@@ -7398,11 +7527,11 @@
 	</g>
 	<g id="ctc">
 		
-			<rect x="271.9" y="300.1" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.2347 1.1092)" class="st8" width="0.6" height="8.3"/>
+			<rect x="271.9" y="300.1" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.2347 1.1092)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="ctd">
 		
-			<rect x="258" y="296.4" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.2198 1.0527)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258" y="296.4" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.2198 1.0526)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cte">
 		<polyline class="st7" points="258.3,304.8 258.2,307.2 271.9,307.1 		"/>
@@ -7634,11 +7763,11 @@
 	</g>
 	<g id="cwc">
 		
-			<rect x="244.7" y="323.8" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.3313 0.9988)" class="st8" width="0.6" height="8.3"/>
+			<rect x="244.7" y="323.8" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.3313 0.9988)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cwd">
 		
-			<rect x="258.2" y="320.2" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.3166 1.0537)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258.2" y="320.2" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.3166 1.0537)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cwe">
 		<polyline class="st7" points="259,328.5 259,331 245.4,331 		"/>
@@ -7870,11 +7999,11 @@
 	</g>
 	<g id="czc">
 		
-			<rect x="271.8" y="323.7" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.3307 1.109)" class="st8" width="0.6" height="8.3"/>
+			<rect x="271.8" y="323.7" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.3307 1.109)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="czd">
 		
-			<rect x="258.2" y="320.2" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.3166 1.0537)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258.2" y="320.2" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.3166 1.0537)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="cze">
 		<polyline class="st7" points="258.3,328.5 258.4,330.9 272.1,330.9 		"/>
@@ -8106,11 +8235,11 @@
 	</g>
 	<g id="dcc">
 		
-			<rect x="244.7" y="352.3" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.4472 0.999)" class="st8" width="0.6" height="8.3"/>
+			<rect x="244.7" y="352.3" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.4472 0.999)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="dcd">
 		
-			<rect x="258.3" y="348.7" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.4325 1.0543)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258.3" y="348.7" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.4324 1.0543)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="dce">
 		<polyline class="st7" points="259,357.1 259.1,359.4 245.4,359.4 		"/>
@@ -8341,11 +8470,11 @@
 		<polyline class="st7" points="272.8,352.3 272.8,349.9 259,349.9 		"/>
 	</g>
 	<g id="dfc">
-		<rect x="272" y="352.2" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.4466 1.11)" class="st8" width="0.6" height="8.3"/>
+		<rect x="272" y="352.2" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.4465 1.11)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="dfd">
 		
-			<rect x="258.3" y="348.7" transform="matrix(1 -4.065685e-03 4.065685e-03 1 -1.4325 1.0543)" class="st8" width="0.6" height="8.3"/>
+			<rect x="258.3" y="348.7" transform="matrix(1 -4.065617e-03 4.065617e-03 1 -1.4324 1.0543)" class="st8" width="0.6" height="8.3"/>
 	</g>
 	<g id="dfe">
 		<polyline class="st7" points="258.6,357.1 258.5,359.3 272.2,359.3 		"/>
@@ -8633,15 +8762,15 @@
 </g>
 <g id="elevator">
 	
-		<rect x="373.7" y="432.5" transform="matrix(1.787277e-03 -1 1 1.787277e-03 -58.8623 822.937)" class="st14" width="18.1" height="16.9"/>
+		<rect x="373.7" y="432.5" transform="matrix(1.787271e-03 -1 1 1.787271e-03 -58.9322 822.9548)" class="st14" width="18.1" height="16.9"/>
 	
-		<rect x="373.7" y="457.3" transform="matrix(1.787277e-03 -1 1 1.787277e-03 -83.5886 847.6682)" class="st14" width="18.1" height="16.9"/>
+		<rect x="373.8" y="457.3" transform="matrix(1.787271e-03 -1 1 1.787271e-03 -83.5835 847.7581)" class="st14" width="18.1" height="16.9"/>
 	
-		<rect x="373.7" y="482" transform="matrix(1.787277e-03 -1 1 1.787277e-03 -108.3821 872.2667)" class="st14" width="18.1" height="16.9"/>
+		<rect x="373.7" y="481.9" transform="matrix(1.787271e-03 -1 1 1.787271e-03 -108.3683 872.2269)" class="st14" width="18.1" height="16.9"/>
 	
-		<rect x="373.5" y="506.8" transform="matrix(1.787277e-03 -1 1 1.787277e-03 -133.375 896.8647)" class="st14" width="18.1" height="16.9"/>
+		<rect x="373.5" y="506.8" transform="matrix(1.787271e-03 -1 1 1.787271e-03 -133.3527 896.8961)" class="st14" width="18.1" height="16.9"/>
 	
-		<rect x="373.6" y="531.5" transform="matrix(1.787277e-03 -1 1 1.787277e-03 -158.0019 921.6959)" class="st14" width="18.1" height="16.9"/>
+		<rect x="373.6" y="531.5" transform="matrix(1.787271e-03 -1 1 1.787271e-03 -158.0036 921.6985)" class="st14" width="18.1" height="16.9"/>
 	<line class="st15" x1="395.7" y1="429.3" x2="395.7" y2="557.6"/>
 	<g>
 		<path class="st16" d="M384.5,475.5h-15.1c-4.1,0-7.4,3.3-7.4,7.4V498c0,4.1,3.3,7.4,7.4,7.4h15.1c4.1,0,7.4-3.3,7.4-7.4v-15
@@ -8722,7 +8851,7 @@
 	<text transform="matrix(1 0 0 1 105.0376 243.9232)" class="st12 st18 st19">634</text>
 	<text transform="matrix(1 0 0 1 60.2847 283.4109)" class="st12 st18 st19">662</text>
 	<text transform="matrix(1 0 0 1 60.2847 310.9886)" class="st12 st18 st19">664</text>
-	<text transform="matrix(1 0 0 1 425.5362 317.7909)" class="st12 st18 st19">602</text>
+	<text transform="matrix(1 0 0 1 425.5361 317.7909)" class="st12 st18 st19">602</text>
 	<text transform="matrix(1 0 0 1 425.5363 292.0283)" class="st12 st18 st19">604</text>
 	<text transform="matrix(1 0 0 1 425.5366 266.9097)" class="st12 st18 st19">606</text>
 	<text transform="matrix(1 0 0 1 382.384 180.2826)" class="st12 st18 st19">626</text>
