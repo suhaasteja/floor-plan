@@ -206,7 +206,7 @@ L.DivIcon.SVGIcon = L.DivIcon.extend({
         var lineHeight = Number(this.options.fontSize)
 
         var x = this.options.circleAnchor.x
-        var y = this.options.circleAnchor.y + (lineHeight * 0.35) //35% was found experimentally
+        var y = this.options.circleAnchor.y + (lineHeight * 0.5) //35% was found experimentally
         var circleText = this.options.circleText
         var textColor = this.options.fontColor.replace("rgb(", "rgba(").replace(")", "," + this.options.fontOpacity + ")")
 
