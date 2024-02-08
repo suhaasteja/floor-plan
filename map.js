@@ -210,6 +210,7 @@ function onBaseChange(e) {
     myMarkers.forEach((element, index, array) => {
       //test if the marker is part of the current group
       if (element.group == currentGroup) {
+        console.log(element);
         //create the marker layer
         var location = element.coordinates.split(',');
         var popupBodyText
@@ -230,12 +231,13 @@ function onBaseChange(e) {
             markerTextHeight = 0.35;
           };
         };
+         
         var popup = L.popup({
             pane: 'fixed', // created above
             className: 'popup-fixed',
             autoPan: false,
         })//add options here
-          console.log(element);
+         
           .setContent('<h4>'+element.popupHead+'</h4>'+popupBodyText);
         var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: element.markerColor, iconSize: size, weight: 1, circleRatio:element.circleRatio, fontSize:element.markerFontSize, circleText:element.markerText, fontColor: element.markerColor, className: markerClassName, textHeight: markerTextHeight } }).bindPopup(popup).bindTooltip(element.popupHead);
 
