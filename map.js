@@ -235,6 +235,7 @@ function onBaseChange(e) {
             className: 'popup-fixed',
             autoPan: false,
         })//add options here
+          console.log(element);
           .setContent('<h4>'+element.popupHead+'</h4>'+popupBodyText);
         var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: element.markerColor, iconSize: size, weight: 1, circleRatio:element.circleRatio, fontSize:element.markerFontSize, circleText:element.markerText, fontColor: element.markerColor, className: markerClassName, textHeight: markerTextHeight } }).bindPopup(popup).bindTooltip(element.popupHead);
 
