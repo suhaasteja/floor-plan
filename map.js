@@ -40,6 +40,7 @@ $(document).ready(function() {
       markersData.forEach((marker, i) =>
       {
         var rowObject = {};
+        console.log(marker.c);
         for (var j=0; j<marker.c.length; j++) {
             if (marker.c[j]) {
               rowObject[markersFields[j].label] = marker.c[j].v;
@@ -225,21 +226,23 @@ function onBaseChange(e) {
         size.push(element.markerW,element.markerH);
         var markerClassName = "icon";
         var markerTextHeight = 0.5;
+        var markerContent = element.markerText;
         if (element.markerClass) {
           markerClassName=element.markerClass
           if (markerClassName="number") {
             markerTextHeight = 0.35;
+            markerContent = element.roomNumber;
           };
         };
-         
+
         var popup = L.popup({
             pane: 'fixed', // created above
             className: 'popup-fixed',
             autoPan: false,
         })//add options here
-         
+
           .setContent('<h4>'+element.popupHead+'</h4>'+popupBodyText);
-        var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: element.markerColor, iconSize: size, weight: 1, circleRatio:element.circleRatio, fontSize:element.markerFontSize, circleText:element.markerText, fontColor: element.markerColor, className: markerClassName, textHeight: markerTextHeight } }).bindPopup(popup).bindTooltip(element.popupHead);
+        var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: element.markerColor, iconSize: size, weight: 1, circleRatio:element.circleRatio, fontSize:element.markerFontSize, circleText:markerContent, fontColor: element.markerColor, className: markerClassName, textHeight: markerTextHeight } }).bindPopup(popup).bindTooltip(element.popupHead);
 
         //add the marker to a list of markers that belong to the current group
         currentGroupArray.push(thisMarker);
