@@ -9,9 +9,9 @@
 	.st3{fill:#406CA7;}
 	.st4{fill:#FFFFFF;}
 	
-		.st5{opacity:0.45;fill:url(#SVGID_00000055685076635148219610000008803296822316519079_);stroke:#DD4126;stroke-miterlimit:10;enable-background:new    ;}
+		.st5{opacity:0.45;fill:url(#SVGID_00000012448591148023860330000010903108382922149543_);stroke:#DD4126;stroke-miterlimit:10;enable-background:new    ;}
 	
-		.st6{opacity:0.45;fill:url(#SVGID_00000052791061066822300850000003524533501671237026_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;}
+		.st6{opacity:0.45;fill:url(#SVGID_00000106852737424997527500000006627044384718519483_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;}
 	.st7{font-family:'ArialMT';}
 	.st8{font-size:18px;}
 	.st9{font-size:18.0027px;}
@@ -155,29 +155,29 @@
 </g>
 <g id="employee_areas">
 	
-		<pattern  id="SVGID_00000024709837555213608490000009849387655433907588_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 1 -15.2 69890.1094)">
+		<pattern  id="SVGID_00000016766184550814913830000001831937449167714968_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 1 -15.2 69890.1094)">
 	</pattern>
 	
-		<path style="opacity:0.45;fill:url(#SVGID_00000024709837555213608490000009849387655433907588_);stroke:#DD4126;stroke-miterlimit:10;enable-background:new    ;" d="
+		<path style="opacity:0.45;fill:url(#SVGID_00000016766184550814913830000001831937449167714968_);stroke:#DD4126;stroke-miterlimit:10;enable-background:new    ;" d="
 		M259.1,906.7l2.8,38.3l-0.1,0.6l157.7,76.1l9.4,4.2l239.5,0.2v-4.9L667,733.5"/>
 	
-		<pattern  id="SVGID_00000178170295563315355130000005610126641627377840_" xlink:href="#SVGID_0000004128490476498757424" patternTransform="matrix(1 0 0 1 -15.2 69890.1094)">
+		<pattern  id="SVGID_00000176748440686719241700000014827968349192185784_" xlink:href="#SVGID_0000004128490476498757424" patternTransform="matrix(1 0 0 1 -15.2 69890.1094)">
 	</pattern>
 	
-		<polyline style="opacity:0.45;fill:url(#SVGID_00000178170295563315355130000005610126641627377840_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;" points="
+		<polyline style="opacity:0.45;fill:url(#SVGID_00000176748440686719241700000014827968349192185784_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;" points="
 		667.2,736.9 659,736.9 484.1,737.5 484.2,734.4 484.2,649.4 484.2,649.4 500,649.2 500,649 499.8,617.4 499.9,617.9 529.2,617.8 
 		529.3,617.4 529,577.2 529,577.7 210.4,577.6 210.4,577.6 247.7,500.1 248.4,500.1 337.3,500.1 337.3,499.8 336.5,413.7 
 		336.5,413.4 182.6,412.8 179.2,417 3.5,785.1 2.6,782.6 258.8,906.9 	"/>
 </g>
 <g id="Text">
-	<text transform="matrix(1 0 0 1 486.998 667.9744)" class="st7 st8">Grad</text>
-	<text transform="matrix(1 0 0 1 486.998 689.5745)" class="st7 st8">Lab</text>
-	<text transform="matrix(1 0 0 1 261.9289 519.8701)" class="st7 st8">Materials</text>
-	<text transform="matrix(1 0 0 1 278.507 541.4702)" class="st7 st8">Library</text>
-	<text transform="matrix(0.7451 -0.6669 0.6669 0.7451 384.1337 431.5439)" class="st7 st9">Prototyping</text>
-	<text transform="matrix(0.7451 -0.6669 0.6669 0.7451 423.8753 424.9638)" class="st7 st9">Lab</text>
-	<text transform="matrix(1 0 0 1 612.0806 489.8201)" class="st7 st8">Incubator</text>
-	<text transform="matrix(1 0 0 1 612.0813 511.4201)" class="st7 st8">Space</text>
+	<text transform="matrix(1 0 0 1 486.998 716.9744)" class="st7 st8">Grad</text>
+	<text transform="matrix(1 0 0 1 486.998 734.5745)" class="st7 st8">Lab</text>
+	<text transform="matrix(1 0 0 1 261.9289 548.8701)" class="st7 st8">Materials</text>
+	<text transform="matrix(1 0 0 1 278.507 570.4702)" class="st7 st8">Library</text>
+	<text transform="matrix(0.7451 -0.6669 0.6669 0.7451 384.1337 440.5439)" class="st7 st9">Prototyping</text>
+	<text transform="matrix(0.7451 -0.6669 0.6669 0.7451 423.8753 433.9638)" class="st7 st9">Lab</text>
+	<text transform="matrix(1 0 0 1 609.0806 539.8201)" class="st7 st8">Incubator</text>
+	<text transform="matrix(1 0 0 1 609.0813 561.4201)" class="st7 st8">Space</text>
 </g>
 <g id="elevator">
 	
