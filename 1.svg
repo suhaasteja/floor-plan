@@ -7,9 +7,9 @@
 	.st1{fill:#231F20;}
 	.st2{opacity:0.4;}
 	
-		.st3{opacity:0.45;fill:url(#SVGID_00000000207285777679231070000002835989799110940577_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;}
+		.st3{opacity:0.45;fill:url(#SVGID_00000096028480434335848520000009951050209595258289_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;}
 	
-		.st4{opacity:0.45;fill:url(#SVGID_00000071554965199589222890000013770534692022282380_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;}
+		.st4{opacity:0.45;fill:url(#SVGID_00000023274767890191780320000016870034661233133222_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;}
 	.st5{opacity:0.89;fill:none;stroke:#010101;stroke-width:3;stroke-miterlimit:10;enable-background:new    ;}
 	.st6{fill:#71A58E;stroke:#231F20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
 	.st7{fill:#3F417F;stroke:#010101;stroke-width:3;stroke-miterlimit:10;}
@@ -53,7 +53,6 @@
 	.st45{font-size:14px;}
 	.st46{fill:#010101;}
 	.st47{display:none;fill-rule:evenodd;clip-rule:evenodd;fill:#141515;}
-	.st48{fill-rule:evenodd;clip-rule:evenodd;fill:#141515;}
 </style>
 <pattern  y="906.7" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_0000010467249311285030916" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
 	<g>
@@ -205,17 +204,17 @@
 	<g id="Spaces" class="st2">
 		<g id="employee_areas">
 			
-				<pattern  id="SVGID_00000008850025589715797370000015360829445355096972_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 -336.6 -156014.2656)">
+				<pattern  id="SVGID_00000019658019349541424780000015934701182707786405_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 -336.6 -156014.2656)">
 			</pattern>
 			
-				<polyline style="opacity:0.45;fill:url(#SVGID_00000008850025589715797370000015360829445355096972_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;" points="
+				<polyline style="opacity:0.45;fill:url(#SVGID_00000019658019349541424780000015934701182707786405_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;" points="
 				35.7,536.1 3.1,604 118.2,658.5 119.1,823.1 194.1,859.4 195.8,733.7 286,733.4 285.3,618 278.8,618.2 221.6,617.7 221.8,443.5 
 				167.9,443.7 167.6,538.1 35.7,536.1 			"/>
 			
-				<pattern  id="SVGID_00000081615297322965904790000002940114495377958299_" xlink:href="#SVGID_0000010467249311285030916" patternTransform="matrix(1 0 0 -1 -51.4 -121554.8359)">
+				<pattern  id="SVGID_00000003810770295370824280000012352536784903554978_" xlink:href="#SVGID_0000010467249311285030916" patternTransform="matrix(1 0 0 -1 -51.4 -121554.8359)">
 			</pattern>
 			
-				<polyline style="opacity:0.45;fill:url(#SVGID_00000081615297322965904790000002940114495377958299_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;" points="
+				<polyline style="opacity:0.45;fill:url(#SVGID_00000003810770295370824280000012352536784903554978_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;" points="
 				409.3,663.5 442.7,663.6 442.9,690.3 523.2,690.2 523.4,616.7 408.4,617 			"/>
 		</g>
 		<line class="st5" x1="263.4" y1="203.9" x2="263.4" y2="283"/>
@@ -668,7 +667,7 @@
 		h-12.8v2.1c0,0.7-0.6,1.4-1.4,1.4l-0.2,7.5c0,0.4-0.5,0.8-0.9,0.8h-2.5c-0.4,0-0.9-0.4-0.9-0.8l-0.2-7.5c-0.7,0-1.4-0.6-1.4-1.4
 		v-2.1h-2.5v11.8h-1.1v-11.8c0-0.6,0.5-1.1,1.1-1.1h2.5v-1.5c0-1.3,1.1-2.4,2.4-2.4h2.7c1.3,0,2.4,1.1,2.4,2.4v1.5h2.9v-1.5
 		c0-1.3,1.1-2.4,2.4-2.4H257.2z"/>
-	<path class="st48" d="M248.9,516c1.3,0,2.4-1.1,2.4-2.4s-1.1-2.4-2.4-2.4c-1.3,0-2.4,1.1-2.4,2.4S247.5,516,248.9,516L248.9,516z
+	<path class="st47" d="M248.9,516c1.3,0,2.4-1.1,2.4-2.4s-1.1-2.4-2.4-2.4c-1.3,0-2.4,1.1-2.4,2.4S247.5,516,248.9,516L248.9,516z
 		 M259.2,516c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4S260.5,516,259.2,516L259.2,516z M260.6,516.9
 		c1.3,0,2.4,1.1,2.4,2.4v1.5h2.5c0.6,0,1.1,0.5,1.1,1.1v11.8h-1.1v-11.8h-12.8v2.1c0,0.7-0.6,1.4-1.4,1.4l-0.2,7.5
 		c0,0.4-0.5,0.8-0.9,0.8h-2.5c-0.4,0-0.9-0.4-0.9-0.8l-0.2-7.5c-0.7,0-1.4-0.6-1.4-1.4v-2.1h-2.5v11.8h-1.1v-11.8
