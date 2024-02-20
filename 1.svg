@@ -8,7 +8,7 @@
 	.st2{opacity:0.4;}
 	.st3{opacity:0.45;fill:url(#SVGID_1_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;}
 	
-		.st4{opacity:0.45;fill:url(#SVGID_00000137090300554891306690000007320301504968904625_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;}
+		.st4{opacity:0.45;fill:url(#SVGID_00000102521577600200598600000017895954875024935330_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;}
 	.st5{opacity:0.89;fill:none;stroke:#010101;stroke-width:3;stroke-miterlimit:10;enable-background:new    ;}
 	.st6{fill:#71A58E;stroke:#231F20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
 	.st7{fill:#3F417F;stroke:#010101;stroke-width:3;stroke-miterlimit:10;}
@@ -41,6 +41,7 @@
 	.st34{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
 	.st35{font-size:20.3125px;}
 	.st36{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10.0002;}
+	.st37{fill:none;stroke:#000000;stroke-miterlimit:10;enable-background:new    ;}
 </style>
 <pattern  y="906.7" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_0000005496598103079130607" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
 	<g>
@@ -218,10 +219,10 @@
 			<polyline class="st3" points="35.7,536.1 3.1,604 118.2,658.5 119.1,823.1 194.1,859.4 195.8,733.7 286,733.4 285.3,618 
 				278.8,618.2 221.6,617.7 221.8,443.5 167.9,443.7 167.6,538.1 35.7,536.1 			"/>
 			
-				<pattern  id="SVGID_00000004547094929608336590000016124385822900619655_" xlink:href="#SVGID_0000006720352551146289230" patternTransform="matrix(1 0 0 1 -101.2 138809.6562)">
+				<pattern  id="SVGID_00000120554166121173881280000001413433209943046075_" xlink:href="#SVGID_0000006720352551146289230" patternTransform="matrix(1 0 0 1 -101.2 138809.6562)">
 			</pattern>
 			
-				<polyline style="opacity:0.45;fill:url(#SVGID_00000004547094929608336590000016124385822900619655_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;" points="
+				<polyline style="opacity:0.45;fill:url(#SVGID_00000120554166121173881280000001413433209943046075_);stroke:#424343;stroke-miterlimit:10;enable-background:new    ;" points="
 				409.3,663.5 442.7,663.6 442.9,690.3 523.2,690.2 523.4,616.7 408.4,617 			"/>
 		</g>
 		<line class="st5" x1="287.4" y1="203.9" x2="287.4" y2="283"/>
@@ -372,8 +373,8 @@
 		<polygon points="153.8,163.3 153.8,163.4 153.8,163.4 		"/>
 	</g>
 	<g id="Text">
-		<text transform="matrix(1 0 0 1 431.6846 275.222)" class="st16 st17">Children’s</text>
-		<text transform="matrix(1 0 0 1 451.2846 301.622)" class="st16 st17">Room</text>
+		<text transform="matrix(1 0 0 1 416.013 311.4999)" class="st16 st17">Children’s</text>
+		<text transform="matrix(1 0 0 1 435.613 337.9)" class="st16 st17">Room</text>
 		<text transform="matrix(1 0 0 1 181.319 169.9156)" class="st16 st18">Nirvana</text>
 		<text transform="matrix(1 0 0 1 181.319 188.9156)" class="st16 st18">Soul</text>
 		<text transform="matrix(1 0 0 1 84.3584 503.8898)" class="st16 st18">Partners</text>
@@ -534,5 +535,35 @@
 	<g class="st30">
 		<path d="M643.2,41.7l4.1-11.9l-8.3,5.8l-0.9-1.3l10.4-7.3l0.9,1.3l-3.9,11.7l8.1-5.7l0.9,1.3L644.1,43L643.2,41.7z"/>
 	</g>
+</g>
+<g>
+	<g>
+		<path class="st1" d="M507.8,219.9c-0.2-0.2-0.4-0.3-0.6-0.3s-0.5,0.1-0.6,0.3c-0.5,0.5-1.4,1.4-2.7,2.7c-0.4,0.4-0.4,1,0,1.3
+			c0.3,0.3,0.9,0.3,1.2,0l1.1-1.1v3.5c0,0.5,0.4,0.9,0.9,0.9h0.1c0.5,0,0.9-0.4,0.9-0.9v-3.5l1.1,1.1c0.3,0.3,0.9,0.3,1.2,0l0,0
+			c0.3-0.3,0.3-0.9,0-1.2C509.1,221.2,508.4,220.5,507.8,219.9z"/>
+		<path class="st1" d="M515.6,226.9c0.2,0.2,0.4,0.3,0.6,0.3s0.5-0.1,0.6-0.3c0.5-0.5,1.4-1.4,2.7-2.7c0.4-0.4,0.4-1,0-1.3
+			c-0.3-0.3-0.9-0.3-1.2,0l-1.1,1.1v-3.5c0-0.5-0.4-0.9-0.9-0.9h-0.1c-0.5,0-0.9,0.4-0.9,0.9v3.5l-1.1-1.1c-0.3-0.3-0.9-0.3-1.2,0
+			l0,0c-0.3,0.3-0.3,0.9,0,1.2C514.3,225.6,515,226.3,515.6,226.9z"/>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M515,233.9c0.5,0,1-0.4,1-1c0-0.5-0.4-1-1-1c-0.5,0-1,0.4-1,1C514.1,233.4,514.5,233.9,515,233.9z"/>
+			<path class="st1" d="M516.3,234h-2.4c-0.6,0-1,0.5-1,1v3c0,0.2,0.2,0.4,0.4,0.4s0.4-0.2,0.4-0.4v-2.6h0.2v3v4.1
+				c0,0.3,0.2,0.6,0.6,0.6c0.3,0,0.6-0.2,0.6-0.6v-4.1h0.2v4.1c0,0.3,0.2,0.6,0.6,0.6c0.3,0,0.6-0.2,0.6-0.6v-4.1v-3h0.2v2.6
+				c0,0.2,0.2,0.4,0.4,0.4s0.4-0.2,0.4-0.4v-3C517.3,234.5,516.8,234,516.3,234z"/>
+		</g>
+		<path class="st1" d="M508.8,233.9c0.5,0,1-0.4,1-1c0-0.5-0.4-1-1-1c-0.5,0-1,0.4-1,1C507.8,233.4,508.2,233.9,508.8,233.9z"/>
+		<path class="st1" d="M511.4,237.6l-0.8-2.8c-0.2-0.5-0.6-0.7-1.2-0.7l0,0h-1.3l0,0c-0.6,0-1,0.2-1.2,0.7l-0.8,2.8
+			c-0.1,0.2,0.1,0.4,0.3,0.4c0.2,0.1,0.4,0,0.5-0.2l0.7-2.5h0.2l-1.2,4.3h1.2v3c0,0.3,0.2,0.5,0.5,0.5s0.5-0.2,0.5-0.5v-3h0.2v3
+			c0,0.3,0.2,0.5,0.5,0.5s0.5-0.2,0.5-0.5v-3h1.2l-1.2-4.3h0.2l0.7,2.5c0.1,0.2,0.3,0.3,0.5,0.2
+			C511.3,237.9,511.4,237.7,511.4,237.6z"/>
+	</g>
+	<g>
+		<path class="st1" d="M517.9,246.5h-12.4c-2.5,0-4.6-2.6-4.6-5.7v-6.5c0-3.2,2.1-5.7,4.6-5.7h12.3c2.5,0,4.6,2.6,4.6,5.7v6.5
+			C522.4,243.9,520.4,246.5,517.9,246.5z M505.5,230.6c-1.6,0-2.9,1.6-2.9,3.6v6.5c0,2,1.3,3.6,2.9,3.6h12.3c1.6,0,2.9-1.6,2.9-3.6
+			v-6.5c0-2-1.3-3.6-2.9-3.6H505.5z"/>
+	</g>
+	
+		<rect x="495.6" y="217" transform="matrix(1.913665e-03 -1 1 1.913665e-03 277.6154 744.1646)" class="st37" width="31.9" height="31.9"/>
 </g>
 </svg>
