@@ -10,9 +10,9 @@
 	.st4{fill:#FFFFFF;}
 	.st5{opacity:0.45;fill:url(#SVGID_1_);stroke:#DD4126;stroke-miterlimit:10;enable-background:new    ;}
 	
-		.st6{opacity:0.45;fill:url(#SVGID_00000005249520980557398220000014186876960715634599_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;}
+		.st6{opacity:0.45;fill:url(#SVGID_00000023962064269622580820000010666615659678820258_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;}
 	
-		.st7{opacity:0.45;fill:url(#SVGID_00000174567524560180061860000013399230851422322101_);stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;enable-background:new    ;}
+		.st7{opacity:0.45;fill:url(#SVGID_00000096758156110135704590000008623661220299023539_);stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;enable-background:new    ;}
 	.st8{opacity:0.68;fill:#EDCA74;enable-background:new    ;}
 	.st9{font-family:'ArialMT';}
 	.st10{font-size:15px;}
@@ -314,18 +314,18 @@
 	</pattern>
 	<path class="st5" d="M259.1,906.7l2.8,38.3l-0.1,0.6l157.7,76.1l9.4,4.2l239.5,0.2v-4.9L667,733.5"/>
 	
-		<pattern  id="SVGID_00000047039608420959606170000014175530828356112514_" xlink:href="#SVGID_0000001892680229531719552" patternTransform="matrix(1 0 0 -1 -285.2 -157477.2188)">
+		<pattern  id="SVGID_00000078763131650406589850000011097485434714985126_" xlink:href="#SVGID_0000001892680229531719552" patternTransform="matrix(1 0 0 -1 -285.2 -157477.2188)">
 	</pattern>
 	
-		<polyline style="opacity:0.45;fill:url(#SVGID_00000047039608420959606170000014175530828356112514_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;" points="
+		<polyline style="opacity:0.45;fill:url(#SVGID_00000078763131650406589850000011097485434714985126_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;" points="
 		667.2,736.9 659,736.9 484.1,737.5 484.2,734.4 484.2,649.4 484.2,649.4 500,649.2 500,649 499.8,617.4 499.9,617.9 529.2,617.8 
 		529.3,617.4 529,577.2 529,577.7 210.4,577.6 210.4,577.6 247.7,500.1 248.4,500.1 337.3,500.1 337.3,499.8 336.5,413.7 
 		336.5,413.4 182.6,412.8 179.2,417 3.5,785.1 2.6,782.6 258.8,906.9 	"/>
 	
-		<pattern  id="SVGID_00000057842286810854918570000013006081331456610444_" xlink:href="#SVGID_0000012412650321542811031" patternTransform="matrix(1 0 0 1 -120 34945.2422)">
+		<pattern  id="SVGID_00000160876090545062203920000017339917464325747885_" xlink:href="#SVGID_0000012412650321542811031" patternTransform="matrix(1 0 0 1 -120 34945.2422)">
 	</pattern>
 	
-		<rect x="580.7" y="334.9" style="opacity:0.45;fill:url(#SVGID_00000057842286810854918570000013006081331456610444_);stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;enable-background:new    ;" width="87.2" height="87.2"/>
+		<rect x="580.7" y="334.9" style="opacity:0.45;fill:url(#SVGID_00000160876090545062203920000017339917464325747885_);stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;enable-background:new    ;" width="87.2" height="87.2"/>
 </g>
 <g id="stacks">
 	<rect x="358" y="92.5" class="st8" width="66.7" height="229.1"/>
@@ -353,9 +353,9 @@
 	<text transform="matrix(1 0 0 1 669.065 204.1097)" class="st9 st13">Historical</text>
 	<text transform="matrix(1 0 0 1 668.465 217.1097)" class="st9 st13">California</text>
 	<text transform="matrix(1 0 0 1 666.565 230.1097)" class="st9 st13">Textbooks</text>
-	<text transform="matrix(1 0 0 1 667.0488 266.9001)" class="st9 st13">Children’s</text>
-	<text transform="matrix(1 0 0 1 665.9489 282.9001)" class="st9 st13">&amp; Juvenile</text>
-	<text transform="matrix(1 0 0 1 677.8488 298.9001)" class="st9 st13">Books</text>
+	<text transform="matrix(1 0 0 1 667.0488 259.9001)" class="st9 st13">Children’s</text>
+	<text transform="matrix(1 0 0 1 665.9489 271.9001)" class="st9 st13">&amp; Juvenile</text>
+	<text transform="matrix(1 0 0 1 677.8488 283.9001)" class="st9 st13">Books</text>
 	<text transform="matrix(1 0 0 1 598.8291 176.8898)" class="st9 st13">Gov’t</text>
 	<text transform="matrix(1 0 0 1 593.0291 190.8898)" class="st9 st13">Pubs &amp;</text>
 	<text transform="matrix(1 0 0 1 591.9291 204.8898)" class="st9 st13">Federal</text>
