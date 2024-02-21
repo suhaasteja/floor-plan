@@ -5,15 +5,15 @@
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{fill:#231F20;}
-	.st2{opacity:0.45;fill:url(#SVGID_00000063627152460973577260000016646823365400257171_);enable-background:new    ;}
+	.st2{opacity:0.45;fill:url(#SVGID_00000171001353822176468490000001936239531172926087_);enable-background:new    ;}
 	
-		.st3{opacity:0.45;fill:url(#SVGID_00000060019713162914481670000004220570897224652941_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
+		.st3{opacity:0.45;fill:url(#SVGID_00000098187125354484238500000015109682642391728536_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
 	
-		.st4{opacity:0.45;fill:url(#SVGID_00000034069953114843199480000000206682643196940167_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
+		.st4{opacity:0.45;fill:url(#SVGID_00000058578524242529121500000018326389659878017161_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
 	.st5{fill:none;stroke:#010101;stroke-width:3;stroke-miterlimit:10;}
 	.st6{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
 	.st7{opacity:0.4;}
-	.st8{opacity:0.68;fill:#C0362C;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st8{opacity:0.68;fill:#33CCCC;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st9{fill:#3F417F;}
 	.st10{fill:#3F417F;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st11{opacity:0.4;fill:#1A4363;enable-background:new    ;}
@@ -279,31 +279,31 @@
 </pattern>
 <g id="employee_areas">
 	
-		<pattern  id="SVGID_00000070797482272818816050000017370347577775654316_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 205.4 -139116.8438)">
+		<pattern  id="SVGID_00000050631541878236392260000017138552730604559010_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 205.4 -139116.8438)">
 	</pattern>
 	
-		<polygon style="opacity:0.45;fill:url(#SVGID_00000070797482272818816050000017370347577775654316_);enable-background:new    ;" points="
+		<polygon style="opacity:0.45;fill:url(#SVGID_00000050631541878236392260000017138552730604559010_);enable-background:new    ;" points="
 		294.5,91.8 294.8,90.9 292.5,41.4 211.4,96.7 211.6,95.7 58.1,95.1 57,252.1 57.3,94.5 56.4,259.9 126.2,259.9 126.2,355 
 		126.6,355 126.6,267.3 224.2,267.3 224.2,354 244.3,353.7 244.3,267.7 372.7,267.7 372.7,356.5 371.7,356.5 371.9,378 373.1,377.2 
 		373.1,256.2 454.5,256.2 455.3,2.1 455.7,1.8 	"/>
 	
-		<pattern  id="SVGID_00000028311836066445964920000002028787104042839695_" xlink:href="#SVGID_0000018176889978885967791" patternTransform="matrix(1 0 0 1 -56.68 139080.3906)">
+		<pattern  id="SVGID_00000083802863123053697380000005321429256932260002_" xlink:href="#SVGID_0000018176889978885967791" patternTransform="matrix(1 0 0 1 -56.68 139080.3906)">
 	</pattern>
 	
-		<polygon style="opacity:0.45;fill:url(#SVGID_00000028311836066445964920000002028787104042839695_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;" points="
+		<polygon style="opacity:0.45;fill:url(#SVGID_00000083802863123053697380000005321429256932260002_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;" points="
 		290.8,739 217.4,739.2 216.8,583.3 290.1,583 	"/>
 	
-		<pattern  id="SVGID_00000042701729820162423180000011633484278661931692_" xlink:href="#SVGID_0000007011813984286005534" patternTransform="matrix(1 0 0 1 -56.68 139080.3906)">
+		<pattern  id="SVGID_00000087400781766648235160000014423766051152667547_" xlink:href="#SVGID_0000007011813984286005534" patternTransform="matrix(1 0 0 1 -56.68 139080.3906)">
 	</pattern>
 	
-		<polygon style="opacity:0.45;fill:url(#SVGID_00000042701729820162423180000011633484278661931692_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;" points="
+		<polygon style="opacity:0.45;fill:url(#SVGID_00000087400781766648235160000014423766051152667547_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;" points="
 		124.8,640.8 49.6,640.3 50.4,524.7 125.7,524.7 	"/>
 	<line class="st5" x1="125.7" y1="393.6" x2="373.6" y2="393.6"/>
 	<line class="st6" x1="235.4" y1="393.6" x2="273.3" y2="393.6"/>
 </g>
 <g id="spaces_00000062181286822467633500000013881384494522861241_" class="st7">
-	<polygon class="st8" points="53.6,259.9 53.6,320.9 53.8,321 53.6,321.5 53.6,323.7 52.5,323.7 5,419 5,424.1 71.2,424.1 
-		71.2,375.1 125.7,375.1 125.7,424.1 126.2,424.1 126.2,259.9 	"/>
+	<polygon id="beethoven" class="st8" points="53.6,259.9 53.6,320.9 53.8,321 53.6,321.5 53.6,323.7 52.5,323.7 5,419 5,424.1 
+		71.2,424.1 71.2,375.1 125.7,375.1 125.7,424.1 126.2,424.1 126.2,259.9 	"/>
 	<polygon id="steinbeck_00000165930104148485494230000006051237649693782402_" class="st8" points="71.2,375.1 71.2,423.9 
 		53.5,423.9 53.5,526.4 126.2,526.4 126.2,375.1 	"/>
 	
