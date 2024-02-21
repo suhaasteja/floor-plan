@@ -9,11 +9,11 @@
 	.st3{fill:#406CA7;}
 	.st4{fill:#FFFFFF;}
 	
-		.st5{opacity:0.45;fill:url(#SVGID_00000124157657312340688380000007676172435108916864_);stroke:#DD4126;stroke-miterlimit:10;enable-background:new    ;}
+		.st5{opacity:0.45;fill:url(#SVGID_00000060723694140608672520000004144887748363400623_);stroke:#DD4126;stroke-miterlimit:10;enable-background:new    ;}
 	
-		.st6{opacity:0.45;fill:url(#SVGID_00000163763927960485863140000001057713072415979653_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;}
+		.st6{opacity:0.45;fill:url(#SVGID_00000081615454810580063020000004720385822864063367_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;}
 	
-		.st7{opacity:0.45;fill:url(#SVGID_00000014591859294608181030000016908599364370369178_);stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;enable-background:new    ;}
+		.st7{opacity:0.45;fill:url(#SVGID_00000038393168218242195790000009495067369371776648_);stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;enable-background:new    ;}
 	.st8{opacity:0.68;fill:#EDCA74;enable-background:new    ;}
 	.st9{font-family:'ArialMT';}
 	.st10{font-size:15px;}
@@ -301,7 +301,7 @@
 	</g>
 </pattern>
 <g id="Spaces">
-	<rect id="prototype_lab" x="430.6" y="335.5" class="st2" width="64.9" height="140.7"/>
+	<rect id="prototype_lab" x="431.5" y="335.5" class="st2" width="63" height="140.7"/>
 	<polygon id="materials_lib" class="st2" points="247.4,499.6 210,576.9 337.8,576.9 337.8,499.6 	"/>
 	<polygon id="grad_lab" class="st2" points="530.2,676.4 530.2,649.6 484.5,649.6 484.5,736.9 548.4,736.9 548.4,676.4 	"/>
 	<polygon id="incubator" class="st2" points="703.4,503 629.2,503 629.2,585 666.5,585 	"/>
@@ -320,32 +320,32 @@
 </g>
 <g id="employee_areas">
 	
-		<pattern  id="SVGID_00000021116885882231061640000014483982806189383605_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 1 -315.2 157253.3125)">
+		<pattern  id="SVGID_00000116928166357157067030000009067467984559355055_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 1 -315.2 157253.3125)">
 	</pattern>
 	
-		<path style="opacity:0.45;fill:url(#SVGID_00000021116885882231061640000014483982806189383605_);stroke:#DD4126;stroke-miterlimit:10;enable-background:new    ;" d="
+		<path style="opacity:0.45;fill:url(#SVGID_00000116928166357157067030000009067467984559355055_);stroke:#DD4126;stroke-miterlimit:10;enable-background:new    ;" d="
 		M259.1,906.7l2.8,38.3l-0.1,0.6l157.7,76.1l9.4,4.2l239.5,0.2v-4.9L667,733.5"/>
 	
-		<pattern  id="SVGID_00000092426818411491446710000015706574927041767583_" xlink:href="#SVGID_0000007876313165040658985" patternTransform="matrix(1 0 0 1 -315.2 157253.3125)">
+		<pattern  id="SVGID_00000078017353477294079280000011962414908505984669_" xlink:href="#SVGID_0000007876313165040658985" patternTransform="matrix(1 0 0 1 -315.2 157253.3125)">
 	</pattern>
 	
-		<polyline style="opacity:0.45;fill:url(#SVGID_00000092426818411491446710000015706574927041767583_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;" points="
+		<polyline style="opacity:0.45;fill:url(#SVGID_00000078017353477294079280000011962414908505984669_);stroke:#8F9194;stroke-miterlimit:10;enable-background:new    ;" points="
 		667.2,736.9 659,736.9 484.1,737.5 484.2,734.4 484.2,649.4 484.2,649.4 500,649.2 500,649 499.8,617.4 499.9,617.9 529.2,617.8 
 		529.3,617.4 529,577.2 529,577.7 210.4,577.6 210.4,577.6 247.7,500.1 248.4,500.1 337.3,500.1 337.3,499.8 336.5,413.7 
 		336.5,413.4 182.6,412.8 179.2,417 3.5,785.1 2.6,782.6 258.8,906.9 	"/>
 	
-		<pattern  id="SVGID_00000075144083635646557410000009826741764320813205_" xlink:href="#SVGID_0000016087609054506220392" patternTransform="matrix(1 0 0 -1 -150 -52641.7734)">
+		<pattern  id="SVGID_00000033340977396448819530000006323476709156160396_" xlink:href="#SVGID_0000016087609054506220392" patternTransform="matrix(1 0 0 -1 -150 -52641.7734)">
 	</pattern>
 	
-		<rect x="580.7" y="334.9" style="opacity:0.45;fill:url(#SVGID_00000075144083635646557410000009826741764320813205_);stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;enable-background:new    ;" width="87.2" height="87.2"/>
+		<rect x="580.7" y="334.9" style="opacity:0.45;fill:url(#SVGID_00000033340977396448819530000006323476709156160396_);stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;enable-background:new    ;" width="87.2" height="87.2"/>
 </g>
 <g id="stacks">
-	<rect x="358" y="92.5" class="st8" width="66.7" height="229.1"/>
-	<rect x="500.6" y="53.5" class="st8" width="66.7" height="268.1"/>
+	<rect x="358.9" y="92.5" class="st8" width="64.8" height="229.1"/>
+	<rect x="502.3" y="53.5" class="st8" width="65" height="268.1"/>
 	<rect x="581" y="91.6" class="st8" width="66.7" height="229.1"/>
 	<rect x="662.6" y="132.6" class="st8" width="66.7" height="188.1"/>
-	<rect x="357.8" y="334" class="st8" width="66.7" height="167.1"/>
-	<rect x="500.6" y="334.3" class="st8" width="66.2" height="167.1"/>
+	<rect x="358.9" y="334" class="st8" width="64.8" height="167.1"/>
+	<rect x="502.6" y="334.3" class="st8" width="64.5" height="167.1"/>
 	<rect x="280" y="254.2" class="st8" width="64.8" height="68.2"/>
 	<rect x="290.8" y="214.7" class="st8" width="54" height="39.5"/>
 	<rect x="305.9" y="173.8" class="st8" width="38.9" height="40.9"/>
@@ -359,7 +359,7 @@
 	<text transform="matrix(1 0 0 1 502.68 719.6744)" class="st9 st10">Lab</text>
 	<text transform="matrix(1 0 0 1 255.7499 538.2496)" class="st9 st10">Materials</text>
 	<text transform="matrix(1 0 0 1 263.2498 554.8497)" class="st9 st10">Library</text>
-	<text transform="matrix(0.7451 -0.6669 0.6669 0.7451 438.1879 431.29)" class="st9 st11">Prototyping</text>
+	<text transform="matrix(0.7451 -0.6669 0.6669 0.7451 438.9504 430.5274)" class="st9 st11">Prototyping</text>
 	<text transform="matrix(0.7451 -0.6669 0.6669 0.7451 465.8487 429.7246)" class="st9 st11">Lab</text>
 	<text transform="matrix(1 0 0 1 631.2217 523.0773)" class="st9 st10">Incubator</text>
 	<text transform="matrix(1 0 0 1 631.2224 539.6772)" class="st9 st10">Space</text>
