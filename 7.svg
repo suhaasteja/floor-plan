@@ -8,9 +8,9 @@
 	.st2{fill:#0073A0;}
 	.st3{fill:#FFFFFF;}
 	.st4{opacity:0.45;}
-	.st5{fill:url(#SVGID_00000060027455034052556940000014344651289300936891_);stroke:#ABADB0;stroke-miterlimit:10;}
-	.st6{fill:url(#SVGID_00000138535580136028707710000009426222815420634009_);stroke:#ABADB0;stroke-miterlimit:10;}
-	.st7{fill:url(#SVGID_00000103948701909121154670000015774472920405289649_);stroke:#ABADB0;stroke-miterlimit:10;}
+	.st5{fill:url(#SVGID_00000094596263819904413180000017576236880298407603_);stroke:#ABADB0;stroke-miterlimit:10;}
+	.st6{fill:url(#SVGID_00000013878935954882617630000014539144741079282328_);stroke:#ABADB0;stroke-miterlimit:10;}
+	.st7{fill:url(#SVGID_00000168816202529201556340000010323836876784855434_);stroke:#ABADB0;stroke-miterlimit:10;}
 	.st8{opacity:0.4;fill:#1A4363;enable-background:new    ;}
 	.st9{fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;}
 	.st10{fill:none;stroke:#231F20;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
@@ -30,7 +30,7 @@
 	.st24{fill:#C40000;}
 	.st25{fill:#5197BC;}
 	.st26{font-family:'Arial-BoldMT';}
-	.st27{font-size:33.4935px;}
+	.st27{font-size:20.9042px;}
 </style>
 <pattern  y="869.6" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_0000007440648826530772123" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
 	<g>
@@ -287,21 +287,21 @@
 </g>
 <g id="employee_areas_00000146461861150860601310000018069818351775870641_" class="st4">
 	
-		<pattern  id="SVGID_00000183930794716826993040000006105466640976881828_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st4">
+		<pattern  id="SVGID_00000096773756083155028620000005202115824701801613_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st4">
 	</pattern>
 	
-		<polygon style="fill:url(#SVGID_00000183930794716826993040000006105466640976881828_);stroke:#ABADB0;stroke-miterlimit:10;" points="
+		<polygon style="fill:url(#SVGID_00000096773756083155028620000005202115824701801613_);stroke:#ABADB0;stroke-miterlimit:10;" points="
 		131.5,643.9 54.1,644 54.2,551.9 131.4,551.9 	"/>
 	
-		<pattern  id="SVGID_00000022547028896256685260000010689978008594490026_" xlink:href="#SVGID_0000007440648826530772123" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st4">
+		<pattern  id="SVGID_00000175308025656518511990000003087871622680540300_" xlink:href="#SVGID_0000007440648826530772123" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st4">
 	</pattern>
 	
-		<rect x="413.3" y="166.9" style="fill:url(#SVGID_00000022547028896256685260000010689978008594490026_);stroke:#ABADB0;stroke-miterlimit:10;" width="41.9" height="85.8"/>
+		<rect x="413.3" y="166.9" style="fill:url(#SVGID_00000175308025656518511990000003087871622680540300_);stroke:#ABADB0;stroke-miterlimit:10;" width="41.9" height="85.8"/>
 	
-		<pattern  id="SVGID_00000078737009485654241900000000111489449695039896_" xlink:href="#SVGID_0000009317164425277029132" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st4">
+		<pattern  id="SVGID_00000145763303289768050190000006293992738945106332_" xlink:href="#SVGID_0000009317164425277029132" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st4">
 	</pattern>
 	
-		<rect x="54.8" y="178.4" style="fill:url(#SVGID_00000078737009485654241900000000111489449695039896_);stroke:#ABADB0;stroke-miterlimit:10;" width="48" height="85.8"/>
+		<rect x="54.8" y="178.4" style="fill:url(#SVGID_00000145763303289768050190000006293992738945106332_);stroke:#ABADB0;stroke-miterlimit:10;" width="48" height="85.8"/>
 </g>
 <g id="elevator_00000106841101568074357420000015717376532045197485_">
 	
@@ -9040,7 +9040,7 @@
 	</g>
 </g>
 <g id="North">
-	<polygon class="st25" points="33,29.5 0,23.8 27.3,62.5 	"/>
-	<text transform="matrix(0.6 0.8 -0.8 0.6 29.7942 17.2401)" class="st25 st26 st27">N</text>
+	<polygon class="st25" points="484.4,18.4 463.8,14.9 480.8,39 	"/>
+	<text transform="matrix(0.6 0.8 -0.8 0.6 482.3944 10.7604)" class="st25 st26 st27">N</text>
 </g>
 </svg>

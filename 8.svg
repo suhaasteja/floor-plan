@@ -14,9 +14,9 @@
 	.st8{fill:#FFFFFF;}
 	.st9{fill:#486665;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
 	.st10{opacity:0.45;}
-	.st11{fill:url(#SVGID_00000011024683395299468900000006870017502501964219_);stroke:#ABADB0;stroke-miterlimit:10;}
-	.st12{fill:url(#SVGID_00000090268977198824472200000007483475799290613935_);stroke:#ABADB0;stroke-miterlimit:10;}
-	.st13{fill:url(#SVGID_00000138542465541125623680000011340383721963566214_);stroke:#ABADB0;stroke-miterlimit:10;}
+	.st11{fill:url(#SVGID_00000055675486748322648960000014620714887514152613_);stroke:#ABADB0;stroke-miterlimit:10;}
+	.st12{fill:url(#SVGID_00000123434979726689843410000018028674973068677271_);stroke:#ABADB0;stroke-miterlimit:10;}
+	.st13{fill:url(#SVGID_00000096757201455834948950000003995937952009708710_);stroke:#ABADB0;stroke-miterlimit:10;}
 	.st14{opacity:0.4;fill:#1A4363;enable-background:new    ;}
 	.st15{fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;}
 	.st16{fill:none;stroke:#231F20;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;}
@@ -30,7 +30,7 @@
 	.st24{fill:#121212;}
 	.st25{fill:#5197BC;}
 	.st26{font-family:'Arial-BoldMT';}
-	.st27{font-size:33.494px;}
+	.st27{font-size:20.9047px;}
 </style>
 <pattern  y="869.6" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_0000004273435708250421732" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
 	<g>
@@ -8815,21 +8815,21 @@
 </g>
 <g id="employee_areas_00000146461861150860601310000018069818351775870641_" class="st10">
 	
-		<pattern  id="SVGID_00000004547081123791883380000007971713202447450504_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st10">
+		<pattern  id="SVGID_00000115515677132686114350000012802763960293765262_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st10">
 	</pattern>
 	
-		<polygon style="fill:url(#SVGID_00000004547081123791883380000007971713202447450504_);stroke:#ABADB0;stroke-miterlimit:10;" points="
+		<polygon style="fill:url(#SVGID_00000115515677132686114350000012802763960293765262_);stroke:#ABADB0;stroke-miterlimit:10;" points="
 		131.5,643.9 54.1,644 54.2,551.9 131.4,551.9 	"/>
 	
-		<pattern  id="SVGID_00000052810981118254106130000001720137482267104392_" xlink:href="#SVGID_0000004273435708250421732" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st10">
+		<pattern  id="SVGID_00000073685594745162834740000017624424575016170930_" xlink:href="#SVGID_0000004273435708250421732" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st10">
 	</pattern>
 	
-		<rect x="413.3" y="166.9" style="fill:url(#SVGID_00000052810981118254106130000001720137482267104392_);stroke:#ABADB0;stroke-miterlimit:10;" width="41.9" height="85.8"/>
+		<rect x="413.3" y="166.9" style="fill:url(#SVGID_00000073685594745162834740000017624424575016170930_);stroke:#ABADB0;stroke-miterlimit:10;" width="41.9" height="85.8"/>
 	
-		<pattern  id="SVGID_00000054982933205516101100000017848992685078039998_" xlink:href="#SVGID_0000006435166240969678746" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st10">
+		<pattern  id="SVGID_00000155825212864785317530000000159364160750480533_" xlink:href="#SVGID_0000006435166240969678746" patternTransform="matrix(1 0 0 1 192 120384.1016)"  class="st10">
 	</pattern>
 	
-		<rect x="54.8" y="178.4" style="fill:url(#SVGID_00000054982933205516101100000017848992685078039998_);stroke:#ABADB0;stroke-miterlimit:10;" width="48" height="85.8"/>
+		<rect x="54.8" y="178.4" style="fill:url(#SVGID_00000155825212864785317530000000159364160750480533_);stroke:#ABADB0;stroke-miterlimit:10;" width="48" height="85.8"/>
 </g>
 <g id="elevator_00000106841101568074357420000015717376532045197485_">
 	
@@ -9046,7 +9046,7 @@
 	</g>
 </g>
 <g id="North">
-	<polygon class="st25" points="33,29.5 0,23.8 27.3,62.5 	"/>
-	<text transform="matrix(0.6 0.8 -0.8 0.6 29.7932 17.2403)" class="st25 st26 st27">N</text>
+	<polygon class="st25" points="484.4,18.4 463.8,14.9 480.8,39 	"/>
+	<text transform="matrix(0.6 0.8 -0.8 0.6 482.3945 10.7608)" class="st25 st26 st27">N</text>
 </g>
 </svg>

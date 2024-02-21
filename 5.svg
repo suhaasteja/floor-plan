@@ -5,11 +5,11 @@
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{fill:#231F20;}
-	.st2{opacity:0.45;fill:url(#SVGID_00000171001353822176468490000001936239531172926087_);enable-background:new    ;}
+	.st2{opacity:0.45;fill:url(#SVGID_00000149356886036544585230000003732628401432055224_);enable-background:new    ;}
 	
-		.st3{opacity:0.45;fill:url(#SVGID_00000098187125354484238500000015109682642391728536_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
+		.st3{opacity:0.45;fill:url(#SVGID_00000066493085933177482060000001374117401936872612_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
 	
-		.st4{opacity:0.45;fill:url(#SVGID_00000058578524242529121500000018326389659878017161_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
+		.st4{opacity:0.45;fill:url(#SVGID_00000020386189514799541380000012599800067929341859_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
 	.st5{fill:none;stroke:#010101;stroke-width:3;stroke-miterlimit:10;}
 	.st6{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
 	.st7{opacity:0.4;}
@@ -32,7 +32,7 @@
 	.st24{fill:#232323;}
 	.st25{fill:#5197BC;}
 	.st26{font-family:'Arial-BoldMT';}
-	.st27{font-size:33.4935px;}
+	.st27{font-size:20.9035px;}
 </style>
 <pattern  y="869.6" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_0000007011813984286005534" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
 	<g>
@@ -279,24 +279,24 @@
 </pattern>
 <g id="employee_areas">
 	
-		<pattern  id="SVGID_00000050631541878236392260000017138552730604559010_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 205.4 -139116.8438)">
+		<pattern  id="SVGID_00000044879907707255430460000012463563748815924659_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 205.4 -139116.8438)">
 	</pattern>
 	
-		<polygon style="opacity:0.45;fill:url(#SVGID_00000050631541878236392260000017138552730604559010_);enable-background:new    ;" points="
+		<polygon style="opacity:0.45;fill:url(#SVGID_00000044879907707255430460000012463563748815924659_);enable-background:new    ;" points="
 		294.5,91.8 294.8,90.9 292.5,41.4 211.4,96.7 211.6,95.7 58.1,95.1 57,252.1 57.3,94.5 56.4,259.9 126.2,259.9 126.2,355 
 		126.6,355 126.6,267.3 224.2,267.3 224.2,354 244.3,353.7 244.3,267.7 372.7,267.7 372.7,356.5 371.7,356.5 371.9,378 373.1,377.2 
 		373.1,256.2 454.5,256.2 455.3,2.1 455.7,1.8 	"/>
 	
-		<pattern  id="SVGID_00000083802863123053697380000005321429256932260002_" xlink:href="#SVGID_0000018176889978885967791" patternTransform="matrix(1 0 0 1 -56.68 139080.3906)">
+		<pattern  id="SVGID_00000170279611164138942800000011287068799827182523_" xlink:href="#SVGID_0000018176889978885967791" patternTransform="matrix(1 0 0 1 -56.68 139080.3906)">
 	</pattern>
 	
-		<polygon style="opacity:0.45;fill:url(#SVGID_00000083802863123053697380000005321429256932260002_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;" points="
+		<polygon style="opacity:0.45;fill:url(#SVGID_00000170279611164138942800000011287068799827182523_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;" points="
 		290.8,739 217.4,739.2 216.8,583.3 290.1,583 	"/>
 	
-		<pattern  id="SVGID_00000087400781766648235160000014423766051152667547_" xlink:href="#SVGID_0000007011813984286005534" patternTransform="matrix(1 0 0 1 -56.68 139080.3906)">
+		<pattern  id="SVGID_00000085212166649532325640000007175048720307819931_" xlink:href="#SVGID_0000007011813984286005534" patternTransform="matrix(1 0 0 1 -56.68 139080.3906)">
 	</pattern>
 	
-		<polygon style="opacity:0.45;fill:url(#SVGID_00000087400781766648235160000014423766051152667547_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;" points="
+		<polygon style="opacity:0.45;fill:url(#SVGID_00000085212166649532325640000007175048720307819931_);stroke:#CBCCCE;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;" points="
 		124.8,640.8 49.6,640.3 50.4,524.7 125.7,524.7 	"/>
 	<line class="st5" x1="125.7" y1="393.6" x2="373.6" y2="393.6"/>
 	<line class="st6" x1="235.4" y1="393.6" x2="273.3" y2="393.6"/>
@@ -429,8 +429,8 @@
 <g id="Text">
 	<text transform="matrix(1 0 0 1 49.941 354.1148)" class="st20 st21">Beethoven</text>
 	<text transform="matrix(1 0 0 1 76.4357 368.1148)" class="st20 st21">Center</text>
-	<text transform="matrix(1 0 0 1 55.7931 504.9762)" class="st20 st21">Steinbeck</text>
-	<text transform="matrix(1 0 0 1 76.4355 518.9762)" class="st20 st21">Center</text>
+	<text transform="matrix(1 0 0 1 55.7931 456.9762)" class="st20 st21">Steinbeck</text>
+	<text transform="matrix(1 0 0 1 76.4355 470.9762)" class="st20 st21">Center</text>
 	<text transform="matrix(1 0 0 1 174.9376 334.3898)" class="st20 st21">Schiro</text>
 	<text transform="matrix(1 0 0 1 176.4376 350.3898)" class="st20 st21">Room</text>
 	<text transform="matrix(1 0 0 1 250.8554 316.3896)" class="st20 st21">Special</text>
@@ -496,7 +496,7 @@
 <path class="st24" d="M401.8,720.2l5.6-11c0.4-0.8-0.5-1.6-1.3-1l-2.3,1.7v-16.8c0-0.4-0.3-0.9-0.9-0.9h-4c-0.4,0-0.9,0.3-0.9,0.9
 	v16.8l-2.3-1.7c-0.7-0.5-1.6,0.3-1.3,1l5.6,11C400.5,720.8,401.4,720.8,401.8,720.2z"/>
 <g id="North">
-	<polygon class="st25" points="33,29.5 0,23.8 27.3,62.5 	"/>
-	<text transform="matrix(0.6 0.8 -0.8 0.6 29.7942 17.2403)" class="st25 st26 st27">N</text>
+	<polygon class="st25" points="484.4,18.4 463.8,14.9 480.8,39 	"/>
+	<text transform="matrix(0.6 0.8 -0.8 0.6 482.3958 10.7599)" class="st25 st26 st27">N</text>
 </g>
 </svg>

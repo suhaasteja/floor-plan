@@ -7,11 +7,11 @@
 	.st1{fill:#231F20;}
 	.st2{opacity:0.45;fill:url(#SVGID_1_);stroke:#ABABAB;stroke-miterlimit:10;enable-background:new    ;}
 	
-		.st3{opacity:0.45;fill:url(#SVGID_00000008147561711121702160000001871107521178789550_);stroke:#ABABAB;stroke-miterlimit:10;enable-background:new    ;}
+		.st3{opacity:0.45;fill:url(#SVGID_00000132799684697887116710000009170609191402273462_);stroke:#ABABAB;stroke-miterlimit:10;enable-background:new    ;}
 	
-		.st4{opacity:0.45;fill:url(#SVGID_00000124851059688274549240000012987361887732449679_);stroke:#ABABAB;stroke-miterlimit:10;enable-background:new    ;}
+		.st4{opacity:0.45;fill:url(#SVGID_00000031920490865292595500000008654461753918572429_);stroke:#ABABAB;stroke-miterlimit:10;enable-background:new    ;}
 	
-		.st5{opacity:0.45;fill:url(#SVGID_00000183206574986554427370000015580465254385604247_);stroke:#ABADB0;stroke-miterlimit:10;enable-background:new    ;}
+		.st5{opacity:0.45;fill:url(#SVGID_00000044178329119011008980000011472479621056477603_);stroke:#ABADB0;stroke-miterlimit:10;enable-background:new    ;}
 	.st6{opacity:0.4;fill:#1A4363;enable-background:new    ;}
 	.st7{fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;}
 	.st8{fill:#0073A0;}
@@ -32,7 +32,7 @@
 	.st23{fill:#C40000;}
 	.st24{fill:#5197BC;}
 	.st25{font-family:'Arial-BoldMT';}
-	.st26{font-size:33.4935px;}
+	.st26{font-size:20.9045px;}
 </style>
 <pattern  y="869.6" width="28.8" height="28.8" patternUnits="userSpaceOnUse" id="SVGID_0000007729830973567598836" viewBox="1.4 -30.2 28.8 28.8" style="overflow:visible;">
 	<g>
@@ -332,21 +332,21 @@
 	</pattern>
 	<rect x="413.3" y="166.9" class="st2" width="41.9" height="85.8"/>
 	
-		<pattern  id="SVGID_00000144298689672729827810000011276967816140167305_" xlink:href="#SVGID_0000008954740362386065700" patternTransform="matrix(1 0 0 -1 178.2 -120455.0078)">
+		<pattern  id="SVGID_00000151538340422001853520000016085556281053282995_" xlink:href="#SVGID_0000008954740362386065700" patternTransform="matrix(1 0 0 -1 178.2 -120455.0078)">
 	</pattern>
 	
-		<rect x="54.8" y="178.4" style="opacity:0.45;fill:url(#SVGID_00000144298689672729827810000011276967816140167305_);stroke:#ABABAB;stroke-miterlimit:10;enable-background:new    ;" width="48" height="85.8"/>
+		<rect x="54.8" y="178.4" style="opacity:0.45;fill:url(#SVGID_00000151538340422001853520000016085556281053282995_);stroke:#ABABAB;stroke-miterlimit:10;enable-background:new    ;" width="48" height="85.8"/>
 	
-		<pattern  id="SVGID_00000049933285652583256760000000464481392477001644_" xlink:href="#SVGID_0000014000553263928947704" patternTransform="matrix(1 0 0 -1 69 -52012.4297)">
+		<pattern  id="SVGID_00000026855848700176212310000010261217992562243758_" xlink:href="#SVGID_0000014000553263928947704" patternTransform="matrix(1 0 0 -1 69 -52012.4297)">
 	</pattern>
 	
-		<polygon style="opacity:0.45;fill:url(#SVGID_00000049933285652583256760000000464481392477001644_);stroke:#ABABAB;stroke-miterlimit:10;enable-background:new    ;" points="
+		<polygon style="opacity:0.45;fill:url(#SVGID_00000026855848700176212310000010261217992562243758_);stroke:#ABABAB;stroke-miterlimit:10;enable-background:new    ;" points="
 		131.1,822.2 131.1,666.2 52.9,666.2 52.9,785 	"/>
 	
-		<pattern  id="SVGID_00000182504701110736050310000014465421549856599965_" xlink:href="#SVGID_0000007729830973567598836" patternTransform="matrix(1 0 0 1 192 120384.1016)">
+		<pattern  id="SVGID_00000116925374591535617580000009203326453608406661_" xlink:href="#SVGID_0000007729830973567598836" patternTransform="matrix(1 0 0 1 192 120384.1016)">
 	</pattern>
 	
-		<polygon style="opacity:0.45;fill:url(#SVGID_00000182504701110736050310000014465421549856599965_);stroke:#ABADB0;stroke-miterlimit:10;enable-background:new    ;" points="
+		<polygon style="opacity:0.45;fill:url(#SVGID_00000116925374591535617580000009203326453608406661_);stroke:#ABADB0;stroke-miterlimit:10;enable-background:new    ;" points="
 		131.4,643.9 54,644 54.1,551.9 131.3,551.9 	"/>
 </g>
 <g id="elevator_00000106841101568074357420000015717376532045197485_">
@@ -9101,7 +9101,7 @@
 	</g>
 </g>
 <g id="North">
-	<polygon class="st24" points="33,29.5 0,23.8 27.3,62.5 	"/>
-	<text transform="matrix(0.6 0.8 -0.8 0.6 29.7942 17.2401)" class="st24 st25 st26">N</text>
+	<polygon class="st24" points="484.4,18.4 463.8,14.9 480.8,39 	"/>
+	<text transform="matrix(0.6 0.8 -0.8 0.6 482.3944 10.761)" class="st24 st25 st26">N</text>
 </g>
 </svg>
