@@ -213,14 +213,17 @@ function onBaseChange(e) {
       if (element.group == currentGroup) {
         console.log(element);
         //create the marker layer
-        var location = element.coordinates.split(',');
+        var location = [0,0]
+        if (element.coordinates) {
+          location = element.coordinates.split(',');
+        };
         var popupBodyText
         if (element.popupBody == undefined) {
           popupBodyText = "";
         }
         else {
           popupBodyText = element.popupBody;
-        }
+        };
         //handle marker formatting from spreadsheet
         var size =[];
         size.push(element.markerW,element.markerH);
@@ -234,6 +237,10 @@ function onBaseChange(e) {
             markerContent = element.roomNumber;
           };
         };
+        var markerColor = "#000";
+        if (element.markerColor) {
+          markerColor = element.markerColor;
+        }
 
         var popup = L.popup({
             pane: 'fixed', // created above
@@ -242,7 +249,7 @@ function onBaseChange(e) {
         })//add options here
 
           .setContent('<h4>'+element.popupHead+'</h4>'+popupBodyText);
-        var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: element.markerColor, iconSize: size, weight: 1, circleRatio:element.circleRatio, fontSize:element.markerFontSize, circleText:markerContent, fontColor: element.markerColor, className: markerClassName, textHeight: markerTextHeight } }).bindPopup(popup).bindTooltip(element.popupHead);
+        var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: markerColor, iconSize: size, weight: 1, circleRatio:element.circleRatio, fontSize:element.markerFontSize, circleText:markerContent, fontColor: markerColor, className: markerClassName, textHeight: markerTextHeight } }).bindPopup(popup).bindTooltip(element.popupHead);
 
         //add the marker to a list of markers that belong to the current group
         currentGroupArray.push(thisMarker);
