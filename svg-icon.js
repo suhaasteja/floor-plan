@@ -206,12 +206,12 @@ L.DivIcon.SVGIcon = L.DivIcon.extend({
         var fontWeight = this.options.fontWeight
         var lineHeight = Number(this.options.fontSize)
 
-        var x = this.options.circleAnchor.x
+        var x = this.options.circleAnchor.x - (this.options.fontSize/2)
         var y = this.options.circleAnchor.y + (lineHeight * this.options.textHeight) //35% was found experimentally
         var circleText = this.options.circleText
         var textColor = this.options.fontColor.replace("rgb(", "rgba(").replace(")", "," + this.options.fontOpacity + ")")
 
-        var text = '<text text-anchor="middle" x="' + x + '" y="' + y + '" style="font-size: ' + fontSize + '; font-weight: ' + fontWeight +'" fill="' + textColor + '">' + circleText + '</text>'
+        var text = '<text text-anchor="start" x="' + x + '" y="' + y + '" style="font-size: ' + fontSize + '; font-weight: ' + fontWeight +'" fill="' + textColor + '">' + circleText + '</text>'
 
         return text
     }
