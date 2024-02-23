@@ -10,6 +10,12 @@ html, body, #map {
 
 }
 
+#control-spacer {
+  height:90px;
+  display: block;
+  background: transparent;
+}
+
 #map-wrapper {
   margin: auto;
 }
@@ -20,14 +26,19 @@ html, body, #map {
 
 #map-header {
   position: fixed;
-  background-color: #fff;
+  background: transparent;
   top: 0;
   left: 0;
   z-index: 800;
   width: 100%;
-  height: 40px;
+  height: 90px;
   display: flex;
   justify-content: center;
+}
+
+#map text {
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: normal;
 }
 
 .leaflet-control-layers-list {
@@ -37,21 +48,24 @@ html, body, #map {
 }
 
 #layers-accordion {
-  margin:0;
+  margin:0 0 2px;
   padding:0;
   min-width: 300px;
   z-index: 900;
+  border: 1px solid #333;
+  padding: 10px;
+
 }
 
 .leaflet-control-layers-separator {
   display:none;
 }
 #overlays-outer {
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
-  left: 0;
+  left: 0; */
   width: 100%;
-  text-align: center;
+
   z-index: 850;
 
 }
@@ -66,24 +80,20 @@ html, body, #map {
   padding:10px;
 }
 
-.leaflet-control-layers-overlays {
+.leaflet-control-layers-overlays, .leaflet-control-layers-base {
   text-align: left;
-  display: flex;
+  /*display: flex; for now, let's not flex and let them show in one column */
   flex-wrap: wrap;
 }
 
-.leaflet-control-layers-overlays label {
+.leaflet-control-layers-overlays label, .leaflet-control-layers-base label {
   flex-basis:239px;
 }
 
-#overlays-accordion summary {
-  max-width: 500px;
-  margin:auto;
-
-}
 
 #zoom {
-  margin-left:20px;
+  margin: auto 20px;
+  padding:10px;
 }
 
 #map-footer {
@@ -107,22 +117,50 @@ html, body, #map {
 }
 
 .leaflet-fixed-pane {
-  z-index:700;
-  position: fixed;
+  z-index:99999;
+  /*position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+
+    display: flex;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    min-width: 100%;
+    height: inherit;
+    min-height: 100%;
+    border: 0;
+    -webkit-backdrop-filter: rgba(213, 220, 226, 0.7);
+    backdrop-filter: rgba(213, 220, 226, 0.7);
+    background-color: rgba(213, 220, 226, 0.7);
+
 }
 
 .popup-fixed {
-  position: fixed;
-  top: 40px;
+
+
+  top: 90px;
   bottom: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
+  left: 500px !important;
+  right: 500px !important;
   transform: none !important;
   margin: 0;
   border-radius: 0;
   min-height:200px;
   min-width:300px;
+  position: fixed;
 }
+dialog {
+  position: absolute;
+}
+
 
 .leaflet-popup-tip-container {
   display: none;

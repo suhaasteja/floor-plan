@@ -284,7 +284,7 @@ function onBaseChange(e) {
      $("#layers-accordion").append("<summary>"+currentBaseLayer+"</summary>");
 
      $(".leaflet-control-layers-overlays").wrap("<details id='overlays-accordion'></details>")
-     $("#overlays-accordion").append("<summary>On this Floor</summary>");
+     $("#overlays-accordion").append("<summary>On This Floor</summary>");
      $("#overlays-accordion").wrap("<div id='overlays-outer'></div>");
 
 
