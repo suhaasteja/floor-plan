@@ -34,8 +34,8 @@ html, body, #map {
   z-index: 800;
   height: 90px;
   display: flex;
-  justify-content: center;
-  width: 100%
+  width: 100%;
+  padding:0 10px;
 }
 
 #map text {
@@ -52,7 +52,7 @@ html, body, #map {
 #layers-accordion {
   margin:0 0 2px;
   padding:0;
-  min-width: 300px;
+  min-width: 280px;
   z-index: 900;
   border: 1px solid #333;
   padding: 10px;
