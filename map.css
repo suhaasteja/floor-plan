@@ -30,10 +30,10 @@ html, body, #map {
   top: 0;
   left: 0;
   z-index: 800;
-  width: 100%;
   height: 90px;
   display: flex;
   justify-content: center;
+  width: 100%
 }
 
 #map text {
@@ -92,7 +92,7 @@ html, body, #map {
 
 
 #zoom {
-  margin: auto 20px;
+  margin: auto 10px;
   padding:10px;
 }
 
@@ -121,7 +121,7 @@ html, body, #map {
   /*position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);*/
+  transform: translate(-50%, -50%);
 
     display: flex;
     z-index: 999;
@@ -139,7 +139,7 @@ html, body, #map {
     border: 0;
     -webkit-backdrop-filter: rgba(213, 220, 226, 0.7);
     backdrop-filter: rgba(213, 220, 226, 0.7);
-    background-color: rgba(213, 220, 226, 0.7);
+    background-color: rgba(213, 220, 226, 0.7);*/
 
 }
 
@@ -148,8 +148,8 @@ html, body, #map {
 
   top: 90px;
   bottom: 0 !important;
-  left: 500px !important;
-  right: 500px !important;
+  left: 0 !important;
+  right: 0 !important;
   transform: none !important;
   margin: 0;
   border-radius: 0;

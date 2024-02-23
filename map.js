@@ -137,7 +137,7 @@ function buildMap (markers) {
        }
 
       //fixed pane for popups
-      var pane = map.createPane('fixed', document.getElementById('mapid'));
+      var pane = map.createPane('fixed', document.getElementById('map'));
 
 }
 
