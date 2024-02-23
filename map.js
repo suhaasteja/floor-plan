@@ -248,7 +248,7 @@ function onBaseChange(e) {
             autoPan: false,
         })//add options here
 
-          .setContent('<h4>'+element.popupHead+'</h4>'+popupBodyText);
+          .setContent('<div class = "modal-content"><h4>'+element.popupHead+'</h4>'+popupBodyText+'</div>');
         var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: markerColor, iconSize: size, weight: 1, circleRatio:element.circleRatio, fontSize:element.markerFontSize, circleText:markerContent, fontColor: markerColor, className: markerClassName, textHeight: markerTextHeight } }).bindPopup(popup).bindTooltip(element.popupHead);
 
         //add the marker to a list of markers that belong to the current group

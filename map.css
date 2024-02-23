@@ -146,21 +146,29 @@ html, body, #map {
 .popup-fixed {
 
 
-  top: 90px;
+  top: 0;
   bottom: 0 !important;
   left: 0 !important;
   right: 0 !important;
   transform: none !important;
   margin: 0;
   border-radius: 0;
-  min-height:200px;
-  min-width:300px;
   position: fixed;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
-dialog {
-  position: absolute;
+.modal-content {
+  max-width: 500px;
+  width: 80%;
+  margin:auto;
 }
 
+.leaflet-container a.leaflet-popup-close-button  {
+  position: relative;
+  left:-30px;
+  top:-40px;
+}
 
 .leaflet-popup-tip-container {
   display: none;
