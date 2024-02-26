@@ -194,3 +194,9 @@ html, body, #map {
   font-family: 'Barlow Condensed';
   font-weight: 500 !important;
 }
+
+@media screen and (min-width: 1000px) {
+  #control-spacer {
+    height:0px;
+  }
+}
