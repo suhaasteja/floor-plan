@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 28.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 684.2 906.7" style="enable-background:new 0 0 684.2 906.7;" xml:space="preserve">
 <style type="text/css">
@@ -13,7 +13,11 @@
 	.st7{fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;}
 	.st8{fill:#5197BC;}
 	.st9{font-family:'Arial-BoldMT';}
-	.st10{font-size:33.4935px;}
+	.st10{font-size:28.7148px;}
+	.st11{fill:#2E368F;}
+	.st12{font-family:'Arial-ItalicMT';}
+	.st13{font-size:14px;}
+	.st14{fill:none;stroke:#2E368F;stroke-miterlimit:10;}
 </style>
 <g id="teen_hq">
 	<path class="st0" d="M361.1,135.9c0,3.6,1.8,182.1,2,213.4c0,2.4,0,3.5,0,4.7c0,0,0,0,0.1-0.1c6-1.4,105-26.2,131-33.3
@@ -102,11 +106,7 @@
 			V236c0-2-1.3-3.6-2.9-3.6H504.8z"/>
 	</g>
 	
-		<rect x="495" y="218.9" transform="matrix(1.913658e-03 -1 1 1.913658e-03 275.103 745.338)" class="st7" width="31.9" height="31.9"/>
-</g>
-<g id="North">
-	<polygon class="st8" points="649.9,29.5 616.9,23.8 644.2,62.5 	"/>
-	<text transform="matrix(0.6 0.8 -0.8 0.6 646.6995 17.2403)" class="st8 st9 st10">N</text>
+		<rect x="495" y="218.9" transform="matrix(1.913655e-03 -1 1 1.913655e-03 275.116 745.3179)" class="st7" width="31.9" height="31.9"/>
 </g>
 <g id="stairs_00000032626799022009418030000006004862700355200132_">
 	<g>
@@ -122,5 +122,15 @@
 			v4.6h-4.7c-0.2,0-0.3,0.2-0.4,0.4v4.4c0,0.2,0.2,0.3,0.4,0.4h20.5c0.2,0,0.3-0.2,0.4-0.4l-0.1-19.8
 			C388.2,324.5,388.1,324.4,387.9,324.3z"/>
 	</g>
+</g>
+<g id="North_00000164482264290555914440000013737384098679011727_">
+	<polygon class="st8" points="654.8,25.3 626.5,20.4 649.9,53.6 	"/>
+	<text transform="matrix(0.6 0.8 -0.8 0.6 652.0139 14.7867)" class="st8 st9 st10">N</text>
+	<text transform="matrix(0.4394 -0.8983 0.8983 0.4394 30.6707 147.1654)" class="st11 st12 st13">Fourth Street</text>
+	<line class="st14" x1="23.2" y1="169.3" x2="80.7" y2="51.8"/>
+	<line class="st14" x1="10" y1="162.8" x2="67.5" y2="45.3"/>
+	<text transform="matrix(0.8983 0.4394 -0.4394 0.8983 544.4561 22.8134)" class="st11 st12 st13">San Fernando Street</text>
+	<line class="st14" x1="533.1" y1="20.9" x2="671.5" y2="88.6"/>
+	<line class="st14" x1="539.5" y1="6.6" x2="677.9" y2="74.3"/>
 </g>
 </svg>
