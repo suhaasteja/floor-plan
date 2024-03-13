@@ -2,8 +2,8 @@
 //list floors as SVG files. Floors will appear in the order listed, with the filename as the label
 var floorNames = ['Lower Level', 'Level 1', 'Level 1 Mezzanine', 'Level 2', 'Level 3', 'Level 4', 'Level 5', 'Level 6', 'Level 7', 'Level 8'];
 var latLngBounds = L.latLngBounds([[0,0], [2000,2000]]);
-var latLngBoundsOversize = L.latLngBounds([[0,-300], [2260,2030]]);
-var mapBounds = L.latLngBounds([[0,0], [2000,2000]]);
+var latLngBoundsOversize = L.latLngBounds([[-260,-300], [2000,2030]]);
+var mapBounds = L.latLngBounds([[-100,-100], [2100,2100]]);
 var map;
 var layerControl;
 var baseMaps = {};
@@ -93,7 +93,7 @@ function buildMap (markers) {
 
      onBaseChange();
   });
-  map.fitBounds(latLngBounds).panBy([0, 500], {animate:false});
+  map.fitBounds(latLngBounds)//.panBy([0, 500], {animate:false});
 
 
   //set the function that runs when the level is changed
