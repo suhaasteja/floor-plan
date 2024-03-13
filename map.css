@@ -174,7 +174,9 @@ html, body, #map {
   background-color:#fff;
   opacity: 0.5;
   z-index: 998;
-
+}
+.leaflet-container a.leaflet-popup-close-button:hover {
+  color:#fff;
 }
 
 .leaflet-popup-tip-container {
