@@ -1,3 +1,10 @@
+/* Orange color for light color scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme=light],
+:root:not([data-theme=dark]) {
+  --primary: #0055a2;
+  --primary-hover: #002c54;
+}
 
 
 body {
@@ -68,7 +75,7 @@ html, body, #map {
   width: 100%;
 
   z-index: 850;
-
+  display:none;
 }
 
 #overlays-accordion {
@@ -93,8 +100,8 @@ html, body, #map {
 
 
 #zoom {
-  margin: auto 10px;
-  padding:10px;
+  margin: 0 10px;
+  padding: 3px 10px;
 }
 
 #map-footer {
@@ -115,6 +122,82 @@ html, body, #map {
 
 .leaflet-popup {
 
+}
+
+.leaflet-tooltip {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  text-align:center;
+  color:#fff;
+  background:transparent;
+  border:0px solid;
+  box-shadow:none;
+  font-size:0px;
+  text-wrap:wrap;
+  padding: 0;
+}
+.tooltip-black-text {
+  color: #000;
+}
+
+.square-tooltip {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.leaflet-tooltip .squareText {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:.4em;
+}
+.leaflet-tooltip .squareIcon {
+
+}
+
+.tooltip-icon-left  {
+  flex-direction: row-reverse;
+}
+.tooltip-icon-left .squareText {
+  text-align: left;
+  padding:.2em;
+}
+.tooltip-icon-left .squareIcon {
+}
+
+.tooltip-icon-right {
+  flex-direction: row;
+}
+.tooltip-icon-right .squareText {
+  text-align: right;
+  padding:.2em;
+}
+.tooltip-icon-right .squareIcon {
+
+}
+.tooltip-big-font .squareText {
+  font-size:0.8em;
+}
+.tooltip-big-font .squareIcon {
+  font-size:2em;
+}
+.tooltip-med-font .squareText {
+  font-size:0.6em;
+}
+.tooltip-med-font .squareIcon {
+  font-size:1.5em;
+}
+.tooltip-big-circle .circleIcon {
+  font-size:1.5em;
+}
+.leaflet-tooltip-left:before {
+  border: 0px solid;
 }
 
 .leaflet-fixed-pane {
@@ -162,6 +245,19 @@ html, body, #map {
   width: 80%;
   margin:auto;
 }
+.modal-content h4 {
+  margin-bottom:0;
+}
+.modal-content p {
+  margin-top:20px;
+}
+.modal-content img {
+}
+
+.modal-content button {
+  margin-top:20px;
+}
+
 .leaflet-popup-content-wrapper {
   z-index: 999;
 }

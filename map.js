@@ -12,7 +12,7 @@ var markers;
 //use this variable to set the level the page loads on;
 var currentBaseLayer = "Level 1";
 //use this variable to set marker groups that display on load
-var activeLayers = ['Restrooms', 'Cafe', 'Services', 'Collections', 'Spaces'];
+var activeLayers = [];//list marker groups shown by default - currently disabled
 var lastEventType;
 var stopHistory = false;
 
@@ -33,14 +33,12 @@ $(document).ready(function() {
       var dt = response.getDataTable();
       var markerJsonData = dt.toJSON();
       markerJsonData = JSON.parse(markerJsonData);
-      console.log(markerJsonData);
       markersData = markerJsonData.rows;
       markersFields = markerJsonData.cols;
       var rows = [];
       markersData.forEach((marker, i) =>
       {
         var rowObject = {};
-        console.log(marker.c);
         for (var j=0; j<marker.c.length; j++) {
             if (marker.c[j]) {
               rowObject[markersFields[j].label] = marker.c[j].v;
@@ -51,9 +49,9 @@ $(document).ready(function() {
         };
         rows.push(rowObject);
       });
-      console.log(rows);
       markers = rows;
       buildMap(markers);
+      //resizeToolTips();
     });
   });
 
@@ -93,7 +91,7 @@ function buildMap (markers) {
 
      onBaseChange();
   });
-  map.fitBounds(latLngBounds)//.panBy([0, 500], {animate:false});
+  map.fitBounds(latLngBounds);//.panBy([0, 500], {animate:false});
 
 
   //set the function that runs when the level is changed
@@ -115,6 +113,14 @@ function buildMap (markers) {
       writeState();
   }
   });
+  map.on('zoomstart', function(e) {
+    prepareToResizeToolTips();
+  });
+
+  map.on('zoomend',  function(e) {
+    resizeToolTips(500);
+  });
+
   //reload the page when the back button is used - forces page to rebuild from URL parameters
   window.addEventListener('popstate', function(event) {
     location.reload();
@@ -139,7 +145,8 @@ function buildMap (markers) {
 
       //fixed pane for popups
       var pane = map.createPane('fixed', document.getElementById('map'));
-
+      //resize toolTips for current Zoom
+      //resizeToolTips();
 }
 
 //process an XML document - runs as part of the initialization. Extracts the SVG data from its XML file and creates a Leaflet layer. Writes the layer to the layer control and adds it to the baseMaps array.
@@ -212,22 +219,35 @@ function onBaseChange(e) {
     myMarkers.forEach((element, index, array) => {
       //test if the marker is part of the current group
       if (element.group == currentGroup) {
-        console.log(element);
         //create the marker layer
         var location = [0,0]
         if (element.coordinates) {
           location = element.coordinates.split(',');
         };
-        var popupBodyText
-        if (element.popupBody == undefined) {
-          popupBodyText = "";
+        //popup HTML
+        var popupBodyText =""
+        if (element.popupBody) {
+          popupBodyText = '<p>'+element.popupBody+'</p>';
         }
         else {
           popupBodyText = element.popupBody;
         };
+        var popupBodyImage = ""
+        if (element.imageURL) {
+          popupBodyImage = '<img src="'+element.imageURL+'">';
+        }
+
+        var popupButton = ""
+        if (element.buttonURL) {
+          popupButton = '<a href="'+element.buttonURL+'"><button>More</button></a>';
+        }
+
+
+
         //handle marker formatting from spreadsheet
         var size =[];
-        size.push(element.markerW,element.markerH);
+        size.push(element.markerW,element.markerW);
+        var size = element.markerW;
         var markerClassName = "icon";
         var markerTextHeight = 0.5;
         var markerContent = element.markerText;
@@ -242,6 +262,34 @@ function onBaseChange(e) {
         if (element.markerColor) {
           markerColor = element.markerColor;
         }
+        var markerTextColor = "tooltip-white-text";
+        if (element.textColor == "black") {
+          markerTextColor = "tooltip-black-text"
+        }
+        var markerIconPosition = "tooltip-icon-bottom"
+        if (element.iconPosition == "left") {
+          markerIconPosition = "tooltip-icon-left"
+        }
+        else if (element.iconPosition == "right") {
+          markerIconPosition = "tooltip-icon-right"
+        }
+
+        var markerBackgroundOpacity = 1;
+        if (element.opacity < 1) {
+          markerBackgroundOpacity = element.opacity;
+        }
+        var bigFont = ""
+        if (element.fontSize == "big") {
+          bigFont = "tooltip-big-font"
+        }
+        else if (element.fontSize == "medium") {
+          bigFont = "tooltip-med-font"
+        }
+        var bigIcon = ""
+        if (size > 59) {
+          bigIcon = "tooltip-big-circle"
+        }
+
 
         var popup = L.popup({
             pane: 'fixed', // created above
@@ -249,9 +297,18 @@ function onBaseChange(e) {
             autoPan: false,
         })//add options here
 
-          .setContent('<div class = "modal-content"><h4>'+element.popupHead+'</h4>'+popupBodyText+'</div>');
-        var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, iconOptions: { color: markerColor, iconSize: size, weight: 1, circleRatio:element.circleRatio, fontSize:element.markerFontSize, circleText:markerContent, fontColor: markerColor, className: markerClassName, textHeight: markerTextHeight } }).bindPopup(popup).bindTooltip(element.popupHead);
+          .setContent('<div class = "modal-content"><h4>'+element.popupHead+'</h4><div class = "popUpText">'+popupBodyText+'</div><div class="popUpImage">'+popupBodyImage+'</div><div class="popUpButton">'+popupButton+'</div></div>');
+        var circleContent = '<span class="circleIcon">'+markerContent+'</span>'
+        var thisMarker = L.circle(location, {alt:element.popupHead, radius:size, color:markerColor, fillOpacity:markerBackgroundOpacity, opacity:markerBackgroundOpacity}).bindPopup(popup).bindTooltip(circleContent, {permanent:true, direction:"center", className:"circle-tooltip " + markerTextColor+ " " + bigIcon});
+        if (element.markerShape == "square") {
+          var bounds = [location, [Number(location[0])+element.rectangleH, Number(location[1])+size]];
+          var squareContent = '<span class="squareText">'+element.popupHead+'</span><span class="squareIcon">'+markerContent+'</span>'
+          thisMarker = L.rectangle(bounds, {alt:element.popupHead, color:markerColor, fillOpacity:markerBackgroundOpacity, opacity:markerBackgroundOpacity}).bindPopup(popup).bindTooltip(squareContent, {permanent:true, direction:"center", className:"square-tooltip " + markerTextColor + " " +  markerIconPosition + " " + bigFont});
+        }
 
+
+        //var thisMarker = L.marker.svgMarker(location, {alt:element.popupHead, pane:"overlayPane", iconOptions: { color: markerColor, circleFillColor: markerColor, iconSize: size, weight: 0, circleRatio:1, circleWeight:0, circleFillOpacity: 1, opacity: 0, fillOpacity: 0, fontSize:element.markerFontSize, circleText:markerContent, fontColor: markerTextColor, className: markerClassName, textHeight: markerTextHeight } }).bindPopup(popup).bindTooltip(element.popupHead);
+        //try pane:overlay-pane, after other changes
         //add the marker to a list of markers that belong to the current group
         currentGroupArray.push(thisMarker);
       }
@@ -259,10 +316,11 @@ function onBaseChange(e) {
     //add the array of all markers in the group to the layer control
     var currentLayerGroup = L.layerGroup(currentGroupArray);
     layerControl.addOverlay(currentLayerGroup, currentGroup);
+    currentLayerGroup.addTo(map);
     //if the group was active the last time it appeared, or is set to be active by default on load, add it to the map on the new level - active groups should carry over when you change floors.
-    if (activeLayers.includes(currentGroup)) {
-      currentLayerGroup.addTo(map);
-    }
+    //if (activeLayers.includes(currentGroup)) {
+      //currentLayerGroup.addTo(map);
+    //}
   });
     stopHistory = false;
     //add classes to layer selectors for styling
@@ -274,13 +332,11 @@ function onBaseChange(e) {
 
     var newParentLayers = document.getElementById('layers');
     var oldParentLayers = document.getElementsByClassName("leaflet-bottom leaflet-left");
-    console.log(oldParentLayers);
-    console.log(newParentLayers);
 
     while (oldParentLayers[0].childNodes.length > 0) {
             newParentLayers.appendChild(oldParentLayers[0].childNodes[0]);
      }
-
+     //overlay layer control - currently hidden using CSS
      $(".leaflet-control-layers-base").wrap("<details id='layers-accordion'></details>")
      $("#layers-accordion").append("<summary>"+currentBaseLayer+"</summary>");
 
@@ -288,8 +344,12 @@ function onBaseChange(e) {
      $("#overlays-accordion").append("<summary>On This Floor</summary>");
      $("#overlays-accordion").wrap("<div id='overlays-outer'></div>");
 
-
+     //adjust tooltip size and position based on zoom level
+     $(".leaflet-tooltip").css("opacity", 0);
+     resizeToolTips(1000);
 }
+//end onBaseChange
+
 
 //keep this function as a way to get coordinates for items on the map - turned on with button on dev version
 function onMapClick(e) {
@@ -302,6 +362,12 @@ function deleteMarkers() {
   var features = [];
   map.eachLayer( function(layer) {
     if(layer instanceof L.Marker) {
+        map.removeLayer(layer);
+    }
+    if(layer instanceof L.Circle) {
+        map.removeLayer(layer);
+    }
+    if(layer instanceof L.Rectangle) {
         map.removeLayer(layer);
     }
   });
@@ -345,6 +411,56 @@ function getQueries() {
 //writes map state to the URL so page can be reloaded
 function writeState() {
   window.history.pushState(null, null, '?level='+currentBaseLayer+'&markers='+activeLayers);
+}
+
+function prepareToResizeToolTips() {
+  $(".leaflet-tooltip").css("font-size", "0px");
+  $(".leaflet-tooltip").css("opacity", 0);
+}
+
+function resizeToolTips(time) {
+  console.log('resize!');
+  var currentZoom = map.getZoom();
+  var myZoom =currentZoom+3;
+  var shift =  -2-myZoom*13;
+  //formula to scale fonts for different zoom levels
+  var fontShift =40-31*(myZoom)+14*(myZoom*myZoom)
+  console.log(currentZoom);
+  console.log(fontShift);
+  //rescale tooltips - needed during zoom
+  //font size for all - variation is achieved by CSS on spans
+  $(".leaflet-tooltip").css("font-size", fontShift+"px");
+  //position icon within circle marker
+  $(".circle-tooltip").css("left", -fontShift/2+"px");
+  $(".circle-tooltip").css("top", -fontShift/2+"px");
+  //position icon with big circle marker, circle of 60px or greater
+  $(".tooltip-big-circle").css("left", -fontShift/1.33+"px");
+  $(".tooltip-big-circle").css("top", -fontShift/1.33+"px");
+  //squares and rectangles - standard iconSize
+  $(".tooltip-icon-bottom").css("left", -fontShift+"px");
+  $(".tooltip-icon-bottom").css("top", -fontShift+"px");
+  $(".tooltip-icon-left").css("left", -fontShift*1.25+"px");
+  $(".tooltip-icon-right").css("left", -fontShift*1.25+"px");
+  $(".tooltip-icon-left, .tooltip-icon-right").css("top", -fontShift/2+"px");
+  //big size
+  $(".tooltip-big-font.tooltip-icon-bottom").css("left", -fontShift*2+"px");
+  $(".tooltip-big-font.tooltip-icon-bottom").css("top", -fontShift*2+"px");
+  $(".tooltip-big-font.tooltip-icon-left").css("left", -fontShift*3+"px");
+  $(".tooltip-big-font.tooltip-icon-right").css("left", -fontShift*3+"px");
+  $(".tooltip-big-font.tooltip-icon-left, .tooltip-big-font.tooltip-icon-right").css("top", -fontShift+"px");
+  //medium size
+  $(".tooltip-med-font.tooltip-icon-bottom").css("left", -fontShift*1+"px");
+  $(".tooltip-med-font.tooltip-icon-bottom").css("top", -fontShift*1.5+"px");
+  $(".tooltip-med-font.tooltip-icon-left").css("left", -fontShift*2+"px");
+  $(".tooltip-med-font.tooltip-icon-right").css("left", -fontShift*2+"px");
+  $(".tooltip-med-font.tooltip-icon-left, .tooltip-med-font.tooltip-icon-right").css("top", -fontShift*.75+"px");
+  //animate restoring opacity - makes resizing less abrupt
+  $(".leaflet-tooltip").animate({
+    opacity: 1,
+  }, time, function() {
+    // Animation complete.
+  });
+
 }
 
 //end of function definitions

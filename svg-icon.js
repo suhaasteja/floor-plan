@@ -31,7 +31,7 @@ L.DivIcon.SVGIcon = L.DivIcon.extend({
         "shadowAngle": 25,
         "shadowBlur": 4,
         "shadowColor": "rgb(0,0,10)",
-        "shadowEnable": true,
+        "shadowEnable": false,
         "shadowLength": .75,
         "shadowOpacity": 0.2,
         "shadowTranslate": L.point(0,0),
