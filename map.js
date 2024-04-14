@@ -415,6 +415,7 @@ function writeState() {
 
 function prepareToResizeToolTips() {
   $(".leaflet-tooltip").css("font-size", "0px");
+  $(".leaflet-tooltip").css("width", "0px");
   $(".leaflet-tooltip").css("opacity", 0);
 }
 
@@ -430,6 +431,7 @@ function resizeToolTips(time) {
   //rescale tooltips - needed during zoom
   //font size for all - variation is achieved by CSS on spans
   $(".leaflet-tooltip").css("font-size", fontShift+"px");
+  $(".leaflet-tooltip").css("width", "auto");
   //position icon within circle marker
   $(".circle-tooltip").css("left", -fontShift/2+"px");
   $(".circle-tooltip").css("top", -fontShift/2+"px");

@@ -143,6 +143,7 @@ html, body, #map {
   font-size:0px;
   text-wrap:wrap;
   padding: 0;
+  width:0;
 }
 .tooltip-black-text {
   color: #000;
@@ -152,6 +153,7 @@ html, body, #map {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  white-space: break-spaces;
 }
 .leaflet-tooltip .squareText {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
