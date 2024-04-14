@@ -156,6 +156,7 @@ html, body, #map {
 .leaflet-tooltip .squareText {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size:.4em;
+  text-wrap: wrap;
 }
 .leaflet-tooltip .squareIcon {
 
