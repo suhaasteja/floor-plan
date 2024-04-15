@@ -10,11 +10,11 @@
         font-size: 15px;
       }
 
-      .cls-1, .cls-3, .cls-4, .cls-6, .cls-9, .cls-10, .cls-12, .cls-13 {
+      .cls-1, .cls-3, .cls-4, .cls-6, .cls-8, .cls-10, .cls-11, .cls-13 {
         font-family: ArialMT, Arial;
       }
 
-      .cls-1, .cls-4, .cls-6, .cls-10, .cls-12, .cls-13 {
+      .cls-1, .cls-4, .cls-6, .cls-8, .cls-11, .cls-13 {
         fill: #000;
       }
 
@@ -22,7 +22,7 @@
         stroke-width: 0px;
       }
 
-      .cls-19, .cls-8, .cls-14 {
+      .cls-19, .cls-9, .cls-14 {
         fill: #5197bc;
       }
 
@@ -58,7 +58,7 @@
         stroke: #010101;
       }
 
-      .cls-30, .cls-2, .cls-31, .cls-5, .cls-7, .cls-33, .cls-11 {
+      .cls-30, .cls-2, .cls-31, .cls-5, .cls-7, .cls-33, .cls-12 {
         stroke-miterlimit: 10;
       }
 
@@ -113,7 +113,7 @@
         stroke: #dd4126;
       }
 
-      .cls-7, .cls-11 {
+      .cls-7, .cls-12 {
         opacity: .9;
       }
 
@@ -123,33 +123,33 @@
       }
 
       .cls-8 {
+        font-size: 15.8px;
+      }
+
+      .cls-9 {
         font-size: 72px;
       }
 
-      .cls-8, .cls-14 {
+      .cls-9, .cls-14 {
         font-family: Arial-BoldMT, Arial;
         font-weight: 700;
       }
 
-      .cls-23, .cls-9 {
+      .cls-23, .cls-10 {
         fill: #232323;
       }
 
-      .cls-9, .cls-10, .cls-18 {
+      .cls-10, .cls-11, .cls-18 {
         font-size: 14px;
       }
 
-      .cls-11 {
+      .cls-12 {
         fill: url(#SVGID_0000017529725727258518938);
         stroke: #8f9194;
       }
 
-      .cls-12 {
-        font-size: 13px;
-      }
-
       .cls-13 {
-        font-size: 18.2px;
+        font-size: 13px;
       }
 
       .cls-14 {
@@ -625,7 +625,7 @@
     </g>
     <g id="employee_areas" data-name="employee areas">
       <path class="cls-7" d="M258.1,906.7l2.8,38.3v.6c-.1,0,157.6,76.1,157.6,76.1l9.4,4.2,239.5.2v-4.9l-1.4-287.7"/>
-      <polyline class="cls-11" points="666.2 736.9 658 736.9 483.1 737.5 483.2 734.4 483.2 649.4 483.2 649.4 499 649.2 499 649 498.8 617.4 498.9 617.9 528.2 617.8 528.3 617.4 528 577.2 528 577.7 209.4 577.6 209.4 577.6 246.7 500.1 247.4 500.1 336.3 500.1 336.3 499.8 335.5 413.7 335.5 413.4 181.6 412.8 178.2 417 2.5 785.1 1.6 782.6 257.8 906.9"/>
+      <polyline class="cls-12" points="666.2 736.9 658 736.9 483.1 737.5 483.2 734.4 483.2 649.4 483.2 649.4 499 649.2 499 649 498.8 617.4 498.9 617.9 528.2 617.8 528.3 617.4 528 577.2 528 577.7 209.4 577.6 209.4 577.6 246.7 500.1 247.4 500.1 336.3 500.1 336.3 499.8 335.5 413.7 335.5 413.4 181.6 412.8 178.2 417 2.5 785.1 1.6 782.6 257.8 906.9"/>
       <rect class="cls-5" x="579.7" y="334.9" width="87.2" height="87.2"/>
     </g>
     <g id="stacks" class="cls-34">
@@ -646,15 +646,15 @@
     <g id="Text">
       <text class="cls-1" transform="translate(490.5 668.1)"><tspan x="0" y="0">Grad</tspan></text>
       <text class="cls-1" transform="translate(494.7 685.7)"><tspan x="0" y="0">Lab</tspan></text>
-      <text class="cls-13" transform="translate(254.8 552) scale(.8 1)"><tspan x="0" y="0">Materials</tspan></text>
-      <text class="cls-1" transform="translate(262.2 565.8)"><tspan x="0" y="0">Library</tspan></text>
+      <text class="cls-8" transform="translate(258.6 550.3) scale(1 1)"><tspan x="0" y="0">Materials</tspan></text>
+      <text class="cls-1" transform="translate(273.6 565.8)"><tspan x="0" y="0">Library</tspan></text>
       <text class="cls-6" transform="translate(438 433.5) rotate(-41.8)"><tspan x="0" y="0">Prototyping</tspan></text>
       <text class="cls-6" transform="translate(464.8 432.7) rotate(-41.8)"><tspan x="0" y="0">Lab</tspan></text>
       <text class="cls-1" transform="translate(630.2 523.1)"><tspan x="0" y="0">Incubator</tspan></text>
       <text class="cls-1" transform="translate(630.2 539.7)"><tspan x="0" y="0">Space</tspan></text>
-      <text class="cls-10" transform="translate(466.4 252.8) rotate(-90)"><tspan x="0" y="0">Microfilm &amp; Microfiche</tspan></text>
-      <text class="cls-12" transform="translate(606.8 498.1) rotate(-90)"><tspan x="0" y="0">Reference</tspan></text>
-      <text class="cls-10" transform="translate(653.1 491.8) rotate(-90)"><tspan x="0" y="0">Census</tspan></text>
+      <text class="cls-11" transform="translate(466.4 252.8) rotate(-90)"><tspan x="0" y="0">Microfilm &amp; Microfiche</tspan></text>
+      <text class="cls-13" transform="translate(606.8 498.1) rotate(-90)"><tspan x="0" y="0">Reference</tspan></text>
+      <text class="cls-11" transform="translate(653.1 491.8) rotate(-90)"><tspan x="0" y="0">Census</tspan></text>
     </g>
     <g id="elevator">
       <rect class="cls-16" x="585.6" y="590.1" width="18.1" height="16.9" transform="translate(-4.9 1192.2) rotate(-89.9)"/>
@@ -739,14 +739,14 @@
       </g>
     </g>
     <g id="call_numbers" data-name="call numbers">
-      <text class="cls-9" transform="translate(523 90.4)"><tspan x="0" y="0">RA</tspan></text>
-      <text class="cls-9" transform="translate(528.4 487.1)"><tspan x="0" y="0">Z</tspan></text>
-      <text class="cls-9" transform="translate(309.6 303.8)"><tspan x="0" y="0">HE</tspan></text>
-      <text class="cls-9" transform="translate(317 201.2)"><tspan x="0" y="0">ML</tspan></text>
-      <text class="cls-9" transform="translate(382.4 303.8)"><tspan x="0" y="0">ML</tspan></text>
-      <text class="cls-9" transform="translate(387.2 487.1)"><tspan x="0" y="0">A</tspan></text>
-      <text class="cls-9" transform="translate(382.1 357.1)"><tspan x="0" y="0">HE</tspan></text>
-      <text class="cls-9" transform="translate(396.3 48)"><tspan x="0" y="0">R</tspan></text>
+      <text class="cls-10" transform="translate(523 90.4)"><tspan x="0" y="0">RA</tspan></text>
+      <text class="cls-10" transform="translate(528.4 487.1)"><tspan x="0" y="0">Z</tspan></text>
+      <text class="cls-10" transform="translate(309.6 303.8)"><tspan x="0" y="0">HE</tspan></text>
+      <text class="cls-10" transform="translate(317 201.2)"><tspan x="0" y="0">ML</tspan></text>
+      <text class="cls-10" transform="translate(382.4 303.8)"><tspan x="0" y="0">ML</tspan></text>
+      <text class="cls-10" transform="translate(387.2 487.1)"><tspan x="0" y="0">A</tspan></text>
+      <text class="cls-10" transform="translate(382.1 357.1)"><tspan x="0" y="0">HE</tspan></text>
+      <text class="cls-10" transform="translate(396.3 48)"><tspan x="0" y="0">R</tspan></text>
       <g id="arrows">
         <path class="cls-23" d="M533.3,402.9l3.4-6.7c.2-.5-.3-1-.8-.6l-1.4,1v-10.2c0-.2-.2-.5-.5-.5h-2.4c-.2,0-.5.2-.5.5v10.2l-1.4-1c-.4-.3-1,.2-.8.6l3.4,6.7c.2.3.7.3,1,0Z"/>
         <path class="cls-23" d="M533.4,213.5l3.4-6.7c.2-.5-.3-1-.8-.6l-1.4,1v-10.2c0-.2-.2-.5-.5-.5h-2.4c-.2,0-.5.2-.5.5v10.2l-1.4-1c-.4-.3-1,.2-.8.6l3.4,6.7c.2.4.8.4,1,0Z"/>
@@ -755,9 +755,9 @@
         <path class="cls-24" d="M319.2,240.3l-3.5,6.7c-.2.5.3,1,.8.6l1.4-1v10.2c0,.2.2.5.5.5h2.4c.2,0,.5-.2.5-.5v-10.2l1.4,1c.4.3,1-.2.8-.6l-3.4-6.7c-.2-.3-.7-.3-.9,0Z"/>
       </g>
     </g>
-    <text class="cls-10" transform="translate(617.1 303.8) rotate(-90)"><tspan x="0" y="0">Government Publications</tspan></text>
-    <text class="cls-10" transform="translate(690.5 307.5) rotate(-90)"><tspan x="0" y="0">Historical Calif. Textbooks</tspan></text>
-    <text class="cls-10" transform="translate(707.3 279.1) rotate(-90)"><tspan x="0" y="0">Children’s Books</tspan></text>
+    <text class="cls-11" transform="translate(617.1 303.8) rotate(-90)"><tspan x="0" y="0">Government Publications</tspan></text>
+    <text class="cls-11" transform="translate(690.5 307.5) rotate(-90)"><tspan x="0" y="0">Historical Calif. Textbooks</tspan></text>
+    <text class="cls-11" transform="translate(707.3 279.1) rotate(-90)"><tspan x="0" y="0">Children’s Books</tspan></text>
     <g id="North">
       <polygon class="cls-19" points="796.2 25.3 768 20.4 791.4 53.6 796.2 25.3"/>
       <text class="cls-14" transform="translate(793.5 14.8) rotate(53.1)"><tspan x="0" y="0">N</tspan></text>
@@ -799,7 +799,7 @@
       </g>
     </g>
     <g id="floor_number" data-name="floor number">
-      <text class="cls-8" transform="translate(88 61.8)"><tspan x="0" y="0">LL</tspan></text>
+      <text class="cls-9" transform="translate(88 61.8)"><tspan x="0" y="0">LL</tspan></text>
       <g class="cls-15">
         <text class="cls-4" transform="translate(184.6 19.7)"><tspan x="0" y="0">Periodicals</tspan></text>
         <text class="cls-4" transform="translate(184.6 32.9)"><tspan x="0" y="0">Microfilm &amp; Microfiche</tspan></text>
