@@ -814,7 +814,7 @@
       </g>
     </g>
   </g>
-  <g id="self_check_out" data-name="self check out">
+  <g id="self_check_out" data-name="self check out" class="cls-49">
     <rect class="cls-17" x="189.6" y="350.2" width="38" height="35.6"/>
     <g id="checkout" class="cls-49">
       <rect class="cls-8" x="204.3" y="363.5" width=".6" height="9"/>
@@ -830,7 +830,7 @@
       <polygon class="cls-8" points="199.5 370.9 198.6 370.9 198.6 375.2 203 375.2 203 374.3 199.5 374.3 199.5 370.9"/>
     </g>
   </g>
-  <g id="hold_shelf" data-name="hold shelf">
+  <g id="hold_shelf" data-name="hold shelf" class="cls-49">
     <rect class="cls-17" x="130.7" y="350.2" width="38" height="35.6"/>
     <g class="cls-42">
       <g class="cls-43">
