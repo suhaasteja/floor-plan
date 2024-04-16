@@ -756,8 +756,8 @@
       </g>
     </g>
     <text class="cls-11" transform="translate(617.1 303.8) rotate(-90)"><tspan x="0" y="0">Government Publications</tspan></text>
-    <text class="cls-11" transform="translate(690.5 307.5) rotate(-90)"><tspan x="0" y="0">Historical Calif. Textbooks</tspan></text>
-    <text class="cls-11" transform="translate(707.3 279.1) rotate(-90)"><tspan x="0" y="0">Children’s Books</tspan></text>
+    <text class="cls-11" transform="translate(690.5 307.5) rotate(-90)"><tspan x="0" y="0">Historical Textbooks</tspan></text>
+    <text class="cls-11" transform="translate(707.3 307.5) rotate(-90)"><tspan x="0" y="0">Children’s Books</tspan></text>
     <g id="North">
       <polygon class="cls-19" points="796.2 25.3 768 20.4 791.4 53.6 796.2 25.3"/>
       <text class="cls-14" transform="translate(793.5 14.8) rotate(53.1)"><tspan x="0" y="0">N</tspan></text>
