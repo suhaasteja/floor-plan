@@ -196,6 +196,10 @@ html, body, #map {
 .tooltip-med-font .squareIcon {
   font-size:1.5em;
 }
+.circleIcon {
+  font-size: .8em;
+}
+
 .tooltip-big-circle .circleIcon {
   font-size:1.5em;
 }

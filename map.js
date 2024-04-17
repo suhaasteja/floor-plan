@@ -433,8 +433,8 @@ function resizeToolTips(time) {
   $(".leaflet-tooltip").css("font-size", fontShift+"px");
   $(".leaflet-tooltip").css("width", "auto");
   //position icon within circle marker
-  $(".circle-tooltip").css("left", -fontShift/2+"px");
-  $(".circle-tooltip").css("top", -fontShift/2+"px");
+  $(".circle-tooltip").css("left", -fontShift*.4+"px");
+  $(".circle-tooltip").css("top", -fontShift*.4+"px");
   //position icon with big circle marker, circle of 60px or greater
   $(".tooltip-big-circle").css("left", -fontShift/1.33+"px");
   $(".tooltip-big-circle").css("top", -fontShift/1.33+"px");
