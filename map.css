@@ -264,10 +264,6 @@ html, body, #map {
 .modal-content button {
   margin-top:20px;
 }
-h4 {
-    --font-size: 1.1rem;
-    --typography-spacing-vertical: 1.874rem;
-}
 .leaflet-popup-content-wrapper {
   z-index: 999;
 }
