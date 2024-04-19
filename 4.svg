@@ -18,35 +18,39 @@
         fill: #fff;
       }
 
+      .cls-14 {
+        font-size: 20px;
+      }
+
+      .cls-14, .cls-15, .cls-3, .cls-16, .cls-17, .cls-18, .cls-19, .cls-8, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-10 {
+        isolation: isolate;
+      }
+
+      .cls-14, .cls-15, .cls-16, .cls-17, .cls-25, .cls-20, .cls-26, .cls-22 {
+        fill: #000;
+      }
+
+      .cls-14, .cls-15, .cls-16, .cls-17, .cls-20, .cls-22 {
+        font-family: ArialMT, Arial;
+      }
+
       .cls-2 {
         fill: #e4f0f9;
       }
 
-      .cls-2, .cls-14, .cls-11, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-12, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28 {
+      .cls-2, .cls-27, .cls-11, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-12, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41 {
         stroke: #231f20;
       }
 
-      .cls-29 {
+      .cls-15 {
         font-size: 16px;
       }
 
-      .cls-29, .cls-3, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-8, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-10 {
-        isolation: isolate;
-      }
-
-      .cls-29, .cls-30, .cls-31, .cls-40, .cls-34, .cls-35, .cls-41, .cls-37 {
-        fill: #000;
-      }
-
-      .cls-29, .cls-30, .cls-31, .cls-34, .cls-35, .cls-37 {
-        font-family: ArialMT, Arial;
-      }
-
-      .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-40, .cls-41, .cls-47, .cls-48, .cls-49, .cls-39, .cls-13, .cls-50 {
+      .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-25, .cls-26, .cls-47, .cls-48, .cls-49, .cls-24, .cls-13, .cls-50 {
         stroke-width: 0px;
       }
 
-      .cls-42, .cls-32, .cls-33 {
+      .cls-42, .cls-18, .cls-19 {
         fill: #5197bc;
       }
 
@@ -64,27 +68,27 @@
         stroke: #221f1f;
       }
 
-      .cls-51, .cls-43, .cls-14, .cls-4, .cls-5, .cls-11, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-7, .cls-20, .cls-12, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-9 {
+      .cls-51, .cls-43, .cls-27, .cls-4, .cls-5, .cls-11, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-7, .cls-33, .cls-12, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-9 {
         fill: none;
       }
 
-      .cls-51, .cls-14, .cls-11, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-12, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-38 {
+      .cls-51, .cls-27, .cls-11, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-12, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-23 {
         stroke-linejoin: round;
       }
 
-      .cls-51, .cls-5, .cls-28 {
+      .cls-51, .cls-5, .cls-41 {
         stroke-width: 4px;
       }
 
-      .cls-51, .cls-11, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-12, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-38 {
+      .cls-51, .cls-11, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-12, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-23 {
         stroke-linecap: round;
       }
 
-      .cls-14 {
+      .cls-27 {
         stroke-width: .3px;
       }
 
-      .cls-30 {
+      .cls-16 {
         font-size: 10px;
       }
 
@@ -100,23 +104,23 @@
         stroke-dasharray: 0 0 0 0 0 0 0 0 0 0 0 0;
       }
 
-      .cls-15 {
+      .cls-28 {
         stroke-width: .3px;
       }
 
-      .cls-16 {
+      .cls-29 {
         stroke-width: .3px;
       }
 
-      .cls-17 {
+      .cls-30 {
         stroke-width: .3px;
       }
 
-      .cls-18 {
+      .cls-31 {
         stroke-width: .3px;
       }
 
-      .cls-19 {
+      .cls-32 {
         stroke-width: .3px;
       }
 
@@ -132,7 +136,7 @@
         fill: #c40000;
       }
 
-      .cls-31 {
+      .cls-17 {
         font-size: 11px;
       }
 
@@ -140,64 +144,60 @@
         fill: #c22026;
       }
 
-      .cls-32 {
+      .cls-18 {
         font-size: 72px;
       }
 
-      .cls-32, .cls-33 {
+      .cls-18, .cls-19 {
         font-family: Arial-BoldMT, Arial;
         font-weight: 700;
       }
 
-      .cls-20 {
-        stroke-width: .2px;
-      }
-
-      .cls-21 {
-        stroke-width: .2px;
-      }
-
-      .cls-22 {
-        stroke-width: .2px;
-      }
-
-      .cls-23 {
-        stroke-width: .2px;
-      }
-
-      .cls-24 {
-        stroke-width: .2px;
-      }
-
-      .cls-25 {
-        stroke-width: .2px;
-      }
-
-      .cls-26 {
-        stroke-width: .2px;
-      }
-
-      .cls-27 {
-        stroke-width: .2px;
-      }
-
       .cls-33 {
-        font-size: 33.5px;
+        stroke-width: .2px;
       }
 
       .cls-34 {
-        font-size: 18px;
+        stroke-width: .2px;
       }
 
       .cls-35 {
+        stroke-width: .2px;
+      }
+
+      .cls-36 {
+        stroke-width: .2px;
+      }
+
+      .cls-37 {
+        stroke-width: .2px;
+      }
+
+      .cls-38 {
+        stroke-width: .2px;
+      }
+
+      .cls-39 {
+        stroke-width: .2px;
+      }
+
+      .cls-40 {
+        stroke-width: .2px;
+      }
+
+      .cls-19 {
+        font-size: 33.5px;
+      }
+
+      .cls-20 {
         font-size: 14px;
       }
 
-      .cls-41, .cls-48 {
+      .cls-26, .cls-48 {
         fill-rule: evenodd;
       }
 
-      .cls-41, .cls-52 {
+      .cls-26, .cls-52 {
         display: none;
       }
 
@@ -225,21 +225,21 @@
         fill: #0073a0;
       }
 
-      .cls-37 {
+      .cls-22 {
         font-size: 8px;
       }
 
-      .cls-38 {
+      .cls-23 {
         fill: url(#employee_area_00000034793887793);
         stroke: #bcbec0;
       }
 
-      .cls-39 {
+      .cls-24 {
         fill: #1a4363;
         opacity: .4;
       }
     </style>
-    <pattern id="employee_area_00000034793887793" data-name="employee area 00000034793887793" x="0" y="0" width="72" height="72" patternTransform="translate(-201.5 19141)" patternUnits="userSpaceOnUse" viewBox="0 0 72 72">
+    <pattern id="employee_area_00000034793887793" data-name="employee area 00000034793887793" x="0" y="0" width="72" height="72" patternTransform="translate(-29.5 -31.6) scale(1 -1)" patternUnits="userSpaceOnUse" viewBox="0 0 72 72">
       <g>
         <rect class="cls-43" width="72" height="72"/>
         <g>
@@ -263,128 +263,131 @@
                           <g>
                             <rect class="cls-43" width="72" height="72"/>
                             <g>
-                              <line class="cls-14" x1="64.5" y1="82.5" x2="82.5" y2="64.5"/>
-                              <line class="cls-14" x1="64.5" y1="88.5" x2="88.5" y2="64.5"/>
-                              <line class="cls-14" x1="64.5" y1="94.5" x2="94.5" y2="64.5"/>
-                              <line class="cls-14" x1="64.5" y1="100.5" x2="100.5" y2="64.5"/>
-                              <line class="cls-14" x1="64.5" y1="106.5" x2="106.5" y2="64.5"/>
-                              <line class="cls-14" x1="64.5" y1="112.5" x2="112.5" y2="64.5"/>
-                              <line class="cls-14" x1="64.5" y1="118.5" x2="118.5" y2="64.5"/>
-                              <line class="cls-14" x1="64.5" y1="124.5" x2="124.5" y2="64.5"/>
-                              <line class="cls-14" x1="64.5" y1="130.5" x2="130.5" y2="64.5"/>
-                              <line class="cls-14" x1="64.5" y1="136.5" x2="136.5" y2="64.5"/>
-                              <line class="cls-14" x1="64.5" y1="142.5" x2="142.5" y2="64.5"/>
-                              <line class="cls-14" x1="64.5" y1="148.5" x2="148.5" y2="64.5"/>
-                              <line class="cls-14" x1="70.5" y1="148.5" x2="148.5" y2="70.5"/>
-                            </g>
-                            <g>
-                              <line class="cls-14" x1="-7.5" y1="82.5" x2="10.5" y2="64.5"/>
-                              <line class="cls-14" x1="-7.5" y1="88.5" x2="16.5" y2="64.5"/>
-                              <line class="cls-14" x1="-7.5" y1="94.5" x2="22.5" y2="64.5"/>
-                              <line class="cls-14" x1="-7.5" y1="100.5" x2="28.5" y2="64.5"/>
-                              <line class="cls-14" x1="-7.5" y1="106.5" x2="34.5" y2="64.5"/>
-                              <line class="cls-14" x1="-7.5" y1="112.5" x2="40.5" y2="64.5"/>
-                              <line class="cls-14" x1="-7.5" y1="118.5" x2="46.5" y2="64.5"/>
-                              <line class="cls-14" x1="-7.5" y1="124.5" x2="52.5" y2="64.5"/>
-                              <line class="cls-14" x1="-7.5" y1="130.5" x2="58.5" y2="64.5"/>
-                              <line class="cls-14" x1="-7.5" y1="136.5" x2="64.5" y2="64.5"/>
-                              <line class="cls-14" x1="-7.5" y1="142.5" x2="70.5" y2="64.5"/>
-                              <line class="cls-14" x1="-7.5" y1="148.5" x2="76.5" y2="64.5"/>
-                              <line class="cls-14" x1="-1.5" y1="148.5" x2="76.5" y2="70.5"/>
-                            </g>
-                            <g>
-                              <line class="cls-14" x1="-79.5" y1="148.5" x2="4.5" y2="64.5"/>
-                              <line class="cls-14" x1="-73.5" y1="148.5" x2="4.5" y2="70.5"/>
-                            </g>
-                            <g>
-                              <line class="cls-14" x1="64.5" y1="10.5" x2="82.5" y2="-7.5"/>
-                              <line class="cls-14" x1="64.5" y1="16.5" x2="88.5" y2="-7.5"/>
-                              <line class="cls-14" x1="64.5" y1="22.5" x2="94.5" y2="-7.5"/>
-                              <line class="cls-14" x1="64.5" y1="28.5" x2="100.5" y2="-7.5"/>
-                              <line class="cls-14" x1="64.5" y1="34.5" x2="106.5" y2="-7.5"/>
-                              <line class="cls-14" x1="64.5" y1="40.5" x2="112.5" y2="-7.5"/>
-                              <line class="cls-14" x1="64.5" y1="46.5" x2="118.5" y2="-7.5"/>
-                              <line class="cls-14" x1="64.5" y1="52.5" x2="124.5" y2="-7.5"/>
-                              <line class="cls-14" x1="64.5" y1="58.5" x2="130.5" y2="-7.5"/>
-                              <line class="cls-14" x1="64.5" y1="64.5" x2="136.5" y2="-7.5"/>
-                              <line class="cls-14" x1="64.5" y1="70.5" x2="142.5" y2="-7.5"/>
-                              <line class="cls-14" x1="64.5" y1="76.5" x2="148.5" y2="-7.5"/>
-                              <line class="cls-14" x1="70.5" y1="76.5" x2="148.5" y2="-1.5"/>
-                            </g>
-                            <g>
-                              <line class="cls-14" x1="-7.5" y1="10.5" x2="10.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-7.5" y1="16.5" x2="16.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-7.5" y1="22.5" x2="22.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-7.5" y1="28.5" x2="28.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-7.5" y1="34.5" x2="34.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-7.5" y1="40.5" x2="40.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-7.5" y1="46.5" x2="46.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-7.5" y1="52.5" x2="52.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-7.5" y1="58.5" x2="58.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-7.5" y1="64.5" x2="64.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-7.5" y1="70.5" x2="70.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-7.5" y1="76.5" x2="76.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-1.5" y1="76.5" x2="76.5" y2="-1.5"/>
-                              <line class="cls-14" x1="4.5" y1="76.5" x2="76.5" y2="4.5"/>
-                              <line class="cls-14" x1="10.5" y1="76.5" x2="76.5" y2="10.5"/>
-                              <line class="cls-14" x1="16.5" y1="76.5" x2="76.5" y2="16.5"/>
-                              <line class="cls-14" x1="22.5" y1="76.5" x2="76.5" y2="22.5"/>
-                              <line class="cls-14" x1="28.5" y1="76.5" x2="76.5" y2="28.5"/>
-                              <line class="cls-14" x1="34.5" y1="76.5" x2="76.5" y2="34.5"/>
-                              <line class="cls-14" x1="40.5" y1="76.5" x2="76.5" y2="40.5"/>
-                              <line class="cls-14" x1="46.5" y1="76.5" x2="76.5" y2="46.5"/>
-                              <line class="cls-14" x1="52.5" y1="76.5" x2="76.5" y2="52.5"/>
-                              <line class="cls-14" x1="58.5" y1="76.5" x2="76.5" y2="58.5"/>
-                              <line class="cls-14" x1="64.5" y1="76.5" x2="76.5" y2="64.5"/>
-                            </g>
-                            <g>
-                              <line class="cls-14" x1="-79.5" y1="76.5" x2="4.5" y2="-7.5"/>
-                              <line class="cls-14" x1="-73.5" y1="76.5" x2="4.5" y2="-1.5"/>
-                              <line class="cls-14" x1="-67.5" y1="76.5" x2="4.5" y2="4.5"/>
-                              <line class="cls-14" x1="-61.5" y1="76.5" x2="4.5" y2="10.5"/>
-                              <line class="cls-14" x1="-55.5" y1="76.5" x2="4.5" y2="16.5"/>
-                              <line class="cls-14" x1="-49.5" y1="76.5" x2="4.5" y2="22.5"/>
-                              <line class="cls-14" x1="-43.5" y1="76.5" x2="4.5" y2="28.5"/>
-                              <line class="cls-14" x1="-37.5" y1="76.5" x2="4.5" y2="34.5"/>
-                              <line class="cls-14" x1="-31.5" y1="76.5" x2="4.5" y2="40.5"/>
-                              <line class="cls-14" x1="-25.5" y1="76.5" x2="4.5" y2="46.5"/>
-                              <line class="cls-14" x1="-19.5" y1="76.5" x2="4.5" y2="52.5"/>
-                              <line class="cls-14" x1="-13.5" y1="76.5" x2="4.5" y2="58.5"/>
-                              <line class="cls-14" x1="-7.5" y1="76.5" x2="4.5" y2="64.5"/>
-                            </g>
-                            <g>
-                              <line class="cls-14" x1="64.5" y1="4.5" x2="148.5" y2="-79.5"/>
-                              <line class="cls-14" x1="70.5" y1="4.5" x2="148.5" y2="-73.5"/>
-                            </g>
-                            <g>
-                              <line class="cls-14" x1="-7.5" y1="4.5" x2="76.5" y2="-79.5"/>
-                              <line class="cls-14" x1="-1.5" y1="4.5" x2="76.5" y2="-73.5"/>
-                              <line class="cls-14" x1="4.5" y1="4.5" x2="76.5" y2="-67.5"/>
-                              <line class="cls-14" x1="10.5" y1="4.5" x2="76.5" y2="-61.5"/>
-                              <line class="cls-14" x1="16.5" y1="4.5" x2="76.5" y2="-55.5"/>
-                              <line class="cls-14" x1="22.5" y1="4.5" x2="76.5" y2="-49.5"/>
-                              <line class="cls-14" x1="28.5" y1="4.5" x2="76.5" y2="-43.5"/>
-                              <line class="cls-14" x1="34.5" y1="4.5" x2="76.5" y2="-37.5"/>
-                              <line class="cls-14" x1="40.5" y1="4.5" x2="76.5" y2="-31.5"/>
-                              <line class="cls-14" x1="46.5" y1="4.5" x2="76.5" y2="-25.5"/>
-                              <line class="cls-14" x1="52.5" y1="4.5" x2="76.5" y2="-19.5"/>
-                              <line class="cls-14" x1="58.5" y1="4.5" x2="76.5" y2="-13.5"/>
-                              <line class="cls-14" x1="64.5" y1="4.5" x2="76.5" y2="-7.5"/>
-                            </g>
-                            <g>
-                              <line class="cls-14" x1="-79.5" y1="4.5" x2="4.5" y2="-79.5"/>
-                              <line class="cls-14" x1="-73.5" y1="4.5" x2="4.5" y2="-73.5"/>
-                              <line class="cls-14" x1="-67.5" y1="4.5" x2="4.5" y2="-67.5"/>
-                              <line class="cls-14" x1="-61.5" y1="4.5" x2="4.5" y2="-61.5"/>
-                              <line class="cls-14" x1="-55.5" y1="4.5" x2="4.5" y2="-55.5"/>
-                              <line class="cls-14" x1="-49.5" y1="4.5" x2="4.5" y2="-49.5"/>
-                              <line class="cls-14" x1="-43.5" y1="4.5" x2="4.5" y2="-43.5"/>
-                              <line class="cls-14" x1="-37.5" y1="4.5" x2="4.5" y2="-37.5"/>
-                              <line class="cls-14" x1="-31.5" y1="4.5" x2="4.5" y2="-31.5"/>
-                              <line class="cls-14" x1="-25.5" y1="4.5" x2="4.5" y2="-25.5"/>
-                              <line class="cls-14" x1="-19.5" y1="4.5" x2="4.5" y2="-19.5"/>
-                              <line class="cls-14" x1="-13.5" y1="4.5" x2="4.5" y2="-13.5"/>
-                              <line class="cls-14" x1="-7.5" y1="4.5" x2="4.5" y2="-7.5"/>
+                              <rect class="cls-43" width="72" height="72"/>
+                              <g>
+                                <line class="cls-27" x1="64.5" y1="-10.5" x2="82.5" y2="7.5"/>
+                                <line class="cls-27" x1="64.5" y1="-16.5" x2="88.5" y2="7.5"/>
+                                <line class="cls-27" x1="64.5" y1="-22.5" x2="94.5" y2="7.5"/>
+                                <line class="cls-27" x1="64.5" y1="-28.5" x2="100.5" y2="7.5"/>
+                                <line class="cls-27" x1="64.5" y1="-34.5" x2="106.5" y2="7.5"/>
+                                <line class="cls-27" x1="64.5" y1="-40.5" x2="112.5" y2="7.5"/>
+                                <line class="cls-27" x1="64.5" y1="-46.5" x2="118.5" y2="7.5"/>
+                                <line class="cls-27" x1="64.5" y1="-52.5" x2="124.5" y2="7.5"/>
+                                <line class="cls-27" x1="64.5" y1="-58.5" x2="130.5" y2="7.5"/>
+                                <line class="cls-27" x1="64.5" y1="-64.5" x2="136.5" y2="7.5"/>
+                                <line class="cls-27" x1="64.5" y1="-70.5" x2="142.5" y2="7.5"/>
+                                <line class="cls-27" x1="64.5" y1="-76.5" x2="148.5" y2="7.5"/>
+                                <line class="cls-27" x1="70.5" y1="-76.5" x2="148.5" y2="1.5"/>
+                              </g>
+                              <g>
+                                <line class="cls-27" x1="-7.5" y1="-10.5" x2="10.5" y2="7.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-16.5" x2="16.5" y2="7.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-22.5" x2="22.5" y2="7.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-28.5" x2="28.5" y2="7.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-34.5" x2="34.5" y2="7.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-40.5" x2="40.5" y2="7.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-46.5" x2="46.5" y2="7.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-52.5" x2="52.5" y2="7.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-58.5" x2="58.5" y2="7.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-64.5" x2="64.5" y2="7.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-70.5" x2="70.5" y2="7.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-76.5" x2="76.5" y2="7.5"/>
+                                <line class="cls-27" x1="-1.5" y1="-76.5" x2="76.5" y2="1.5"/>
+                              </g>
+                              <g>
+                                <line class="cls-27" x1="-79.5" y1="-76.5" x2="4.5" y2="7.5"/>
+                                <line class="cls-27" x1="-73.5" y1="-76.5" x2="4.5" y2="1.5"/>
+                              </g>
+                              <g>
+                                <line class="cls-27" x1="64.5" y1="61.5" x2="82.5" y2="79.5"/>
+                                <line class="cls-27" x1="64.5" y1="55.5" x2="88.5" y2="79.5"/>
+                                <line class="cls-27" x1="64.5" y1="49.5" x2="94.5" y2="79.5"/>
+                                <line class="cls-27" x1="64.5" y1="43.5" x2="100.5" y2="79.5"/>
+                                <line class="cls-27" x1="64.5" y1="37.5" x2="106.5" y2="79.5"/>
+                                <line class="cls-27" x1="64.5" y1="31.5" x2="112.5" y2="79.5"/>
+                                <line class="cls-27" x1="64.5" y1="25.5" x2="118.5" y2="79.5"/>
+                                <line class="cls-27" x1="64.5" y1="19.5" x2="124.5" y2="79.5"/>
+                                <line class="cls-27" x1="64.5" y1="13.5" x2="130.5" y2="79.5"/>
+                                <line class="cls-27" x1="64.5" y1="7.5" x2="136.5" y2="79.5"/>
+                                <line class="cls-27" x1="64.5" y1="1.5" x2="142.5" y2="79.5"/>
+                                <line class="cls-27" x1="64.5" y1="-4.5" x2="148.5" y2="79.5"/>
+                                <line class="cls-27" x1="70.5" y1="-4.5" x2="148.5" y2="73.5"/>
+                              </g>
+                              <g>
+                                <line class="cls-27" x1="-7.5" y1="61.5" x2="10.5" y2="79.5"/>
+                                <line class="cls-27" x1="-7.5" y1="55.5" x2="16.5" y2="79.5"/>
+                                <line class="cls-27" x1="-7.5" y1="49.5" x2="22.5" y2="79.5"/>
+                                <line class="cls-27" x1="-7.5" y1="43.5" x2="28.5" y2="79.5"/>
+                                <line class="cls-27" x1="-7.5" y1="37.5" x2="34.5" y2="79.5"/>
+                                <line class="cls-27" x1="-7.5" y1="31.5" x2="40.5" y2="79.5"/>
+                                <line class="cls-27" x1="-7.5" y1="25.5" x2="46.5" y2="79.5"/>
+                                <line class="cls-27" x1="-7.5" y1="19.5" x2="52.5" y2="79.5"/>
+                                <line class="cls-27" x1="-7.5" y1="13.5" x2="58.5" y2="79.5"/>
+                                <line class="cls-27" x1="-7.5" y1="7.5" x2="64.5" y2="79.5"/>
+                                <line class="cls-27" x1="-7.5" y1="1.5" x2="70.5" y2="79.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-4.5" x2="76.5" y2="79.5"/>
+                                <line class="cls-27" x1="-1.5" y1="-4.5" x2="76.5" y2="73.5"/>
+                                <line class="cls-27" x1="4.5" y1="-4.5" x2="76.5" y2="67.5"/>
+                                <line class="cls-27" x1="10.5" y1="-4.5" x2="76.5" y2="61.5"/>
+                                <line class="cls-27" x1="16.5" y1="-4.5" x2="76.5" y2="55.5"/>
+                                <line class="cls-27" x1="22.5" y1="-4.5" x2="76.5" y2="49.5"/>
+                                <line class="cls-27" x1="28.5" y1="-4.5" x2="76.5" y2="43.5"/>
+                                <line class="cls-27" x1="34.5" y1="-4.5" x2="76.5" y2="37.5"/>
+                                <line class="cls-27" x1="40.5" y1="-4.5" x2="76.5" y2="31.5"/>
+                                <line class="cls-27" x1="46.5" y1="-4.5" x2="76.5" y2="25.5"/>
+                                <line class="cls-27" x1="52.5" y1="-4.5" x2="76.5" y2="19.5"/>
+                                <line class="cls-27" x1="58.5" y1="-4.5" x2="76.5" y2="13.5"/>
+                                <line class="cls-27" x1="64.5" y1="-4.5" x2="76.5" y2="7.5"/>
+                              </g>
+                              <g>
+                                <line class="cls-27" x1="-79.5" y1="-4.5" x2="4.5" y2="79.5"/>
+                                <line class="cls-27" x1="-73.5" y1="-4.5" x2="4.5" y2="73.5"/>
+                                <line class="cls-27" x1="-67.5" y1="-4.5" x2="4.5" y2="67.5"/>
+                                <line class="cls-27" x1="-61.5" y1="-4.5" x2="4.5" y2="61.5"/>
+                                <line class="cls-27" x1="-55.5" y1="-4.5" x2="4.5" y2="55.5"/>
+                                <line class="cls-27" x1="-49.5" y1="-4.5" x2="4.5" y2="49.5"/>
+                                <line class="cls-27" x1="-43.5" y1="-4.5" x2="4.5" y2="43.5"/>
+                                <line class="cls-27" x1="-37.5" y1="-4.5" x2="4.5" y2="37.5"/>
+                                <line class="cls-27" x1="-31.5" y1="-4.5" x2="4.5" y2="31.5"/>
+                                <line class="cls-27" x1="-25.5" y1="-4.5" x2="4.5" y2="25.5"/>
+                                <line class="cls-27" x1="-19.5" y1="-4.5" x2="4.5" y2="19.5"/>
+                                <line class="cls-27" x1="-13.5" y1="-4.5" x2="4.5" y2="13.5"/>
+                                <line class="cls-27" x1="-7.5" y1="-4.5" x2="4.5" y2="7.5"/>
+                              </g>
+                              <g>
+                                <line class="cls-27" x1="64.5" y1="67.5" x2="148.5" y2="151.5"/>
+                                <line class="cls-27" x1="70.5" y1="67.5" x2="148.5" y2="145.5"/>
+                              </g>
+                              <g>
+                                <line class="cls-27" x1="-7.5" y1="67.5" x2="76.5" y2="151.5"/>
+                                <line class="cls-27" x1="-1.5" y1="67.5" x2="76.5" y2="145.5"/>
+                                <line class="cls-27" x1="4.5" y1="67.5" x2="76.5" y2="139.5"/>
+                                <line class="cls-27" x1="10.5" y1="67.5" x2="76.5" y2="133.5"/>
+                                <line class="cls-27" x1="16.5" y1="67.5" x2="76.5" y2="127.5"/>
+                                <line class="cls-27" x1="22.5" y1="67.5" x2="76.5" y2="121.5"/>
+                                <line class="cls-27" x1="28.5" y1="67.5" x2="76.5" y2="115.5"/>
+                                <line class="cls-27" x1="34.5" y1="67.5" x2="76.5" y2="109.5"/>
+                                <line class="cls-27" x1="40.5" y1="67.5" x2="76.5" y2="103.5"/>
+                                <line class="cls-27" x1="46.5" y1="67.5" x2="76.5" y2="97.5"/>
+                                <line class="cls-27" x1="52.5" y1="67.5" x2="76.5" y2="91.5"/>
+                                <line class="cls-27" x1="58.5" y1="67.5" x2="76.5" y2="85.5"/>
+                                <line class="cls-27" x1="64.5" y1="67.5" x2="76.5" y2="79.5"/>
+                              </g>
+                              <g>
+                                <line class="cls-27" x1="-79.5" y1="67.5" x2="4.5" y2="151.5"/>
+                                <line class="cls-27" x1="-73.5" y1="67.5" x2="4.5" y2="145.5"/>
+                                <line class="cls-27" x1="-67.5" y1="67.5" x2="4.5" y2="139.5"/>
+                                <line class="cls-27" x1="-61.5" y1="67.5" x2="4.5" y2="133.5"/>
+                                <line class="cls-27" x1="-55.5" y1="67.5" x2="4.5" y2="127.5"/>
+                                <line class="cls-27" x1="-49.5" y1="67.5" x2="4.5" y2="121.5"/>
+                                <line class="cls-27" x1="-43.5" y1="67.5" x2="4.5" y2="115.5"/>
+                                <line class="cls-27" x1="-37.5" y1="67.5" x2="4.5" y2="109.5"/>
+                                <line class="cls-27" x1="-31.5" y1="67.5" x2="4.5" y2="103.5"/>
+                                <line class="cls-27" x1="-25.5" y1="67.5" x2="4.5" y2="97.5"/>
+                                <line class="cls-27" x1="-19.5" y1="67.5" x2="4.5" y2="91.5"/>
+                                <line class="cls-27" x1="-13.5" y1="67.5" x2="4.5" y2="85.5"/>
+                                <line class="cls-27" x1="-7.5" y1="67.5" x2="4.5" y2="79.5"/>
+                              </g>
                             </g>
                           </g>
                         </g>
@@ -399,20 +402,20 @@
       </g>
     </pattern>
   </defs>
-  <polygon id="employee_area" data-name="employee area" class="cls-38" points="677.2 179.3 525.8 105.9 524.5 83.2 504.5 94.9 312.5 3.3 308.5 10.9 225.8 177.5 119.5 176.2 119.5 176.3 120.4 403.4 4 644.1 117.5 701.7 118.7 865 285.5 946.3 285.5 876.3 217.7 876.3 217.8 813.1 217 376.2 218.5 377.3 297.4 376.8 297.4 351.3 356.8 351.3 356.8 376.5 436.1 376 462.3 375.8 462.3 502 463.7 504.1 525.1 504.3 680.6 181.1 677.2 179.3"/>
+  <polygon id="employee_area" data-name="employee area" class="cls-23" points="677.2 179.3 525.8 105.9 524.5 83.2 504.5 94.9 312.5 3.3 308.5 10.9 225.8 177.5 119.5 176.2 119.5 176.3 120.4 403.4 4 644.1 117.5 701.7 118.7 865 285.5 946.3 285.5 876.3 217.7 876.3 217.8 813.1 217 376.2 218.5 377.3 297.4 376.8 297.4 351.3 356.8 351.3 356.8 376.5 436.1 376 462.3 375.8 462.3 502 463.7 504.1 525.1 504.3 680.6 181.1 677.2 179.3"/>
   <rect id="SCS" class="cls-3" x="282" y="657.2" width="81.9" height="81.8"/>
   <rect id="Jon_Oakes_KLEVR_Lab" data-name="Jon Oakes KLEVR Lab" class="cls-8" x="218.2" y="818.8" width="64.7" height="57.5"/>
   <rect class="cls-7" x="270.1" y="818.1" width="9.6" height=".7"/>
   <rect id="sound_studio" data-name="sound studio" class="cls-10" x="217.8" y="803" width="25.8" height="15.2"/>
   <g id="sound">
-    <path class="cls-40" d="M224,808.4c-.1,0-.2,0-.2.2v3.7s.1.2.2.2.2,0,.2-.2v-3.7s0-.2-.2-.2Z"/>
-    <path class="cls-40" d="M227.6,808.4c-.1,0-.2,0-.2.2v3.7s.1.2.2.2.2,0,.2-.2v-3.7s-.1-.2-.2-.2Z"/>
-    <path class="cls-40" d="M225.9,806.2c-.1,0-.2,0-.2.2v8.3s.1.2.2.2.2,0,.2-.2v-8.3s0-.2-.2-.2Z"/>
-    <path class="cls-40" d="M229.8,805.4c-.1,0-.2,0-.2.2v10s.1.2.2.2.2,0,.2-.2v-10s-.1-.2-.2-.2Z"/>
-    <path class="cls-40" d="M231.7,807.5c-.1,0-.2,0-.2.2v5.7s.1.2.2.2.2,0,.2-.2v-5.7s0-.2-.2-.2Z"/>
-    <path class="cls-40" d="M233.6,804.3c-.1,0-.2,0-.2.2v12.1s.1.2.2.2.2,0,.2-.2v-12.1s0-.2-.2-.2Z"/>
-    <path class="cls-40" d="M235.6,806.7c-.1,0-.2,0-.2.2v7.3s.1.2.2.2.2,0,.2-.2v-7.2c0-.2-.1-.3-.2-.3Z"/>
-    <path class="cls-40" d="M237.5,808.7c-.1,0-.2,0-.2.2v3.4s.1.2.2.2.2,0,.2-.2v-3.4s0-.2-.2-.2Z"/>
+    <path class="cls-25" d="M224,808.4c-.1,0-.2,0-.2.2v3.7s.1.2.2.2.2,0,.2-.2v-3.7s0-.2-.2-.2Z"/>
+    <path class="cls-25" d="M227.6,808.4c-.1,0-.2,0-.2.2v3.7s.1.2.2.2.2,0,.2-.2v-3.7s-.1-.2-.2-.2Z"/>
+    <path class="cls-25" d="M225.9,806.2c-.1,0-.2,0-.2.2v8.3s.1.2.2.2.2,0,.2-.2v-8.3s0-.2-.2-.2Z"/>
+    <path class="cls-25" d="M229.8,805.4c-.1,0-.2,0-.2.2v10s.1.2.2.2.2,0,.2-.2v-10s-.1-.2-.2-.2Z"/>
+    <path class="cls-25" d="M231.7,807.5c-.1,0-.2,0-.2.2v5.7s.1.2.2.2.2,0,.2-.2v-5.7s0-.2-.2-.2Z"/>
+    <path class="cls-25" d="M233.6,804.3c-.1,0-.2,0-.2.2v12.1s.1.2.2.2.2,0,.2-.2v-12.1s0-.2-.2-.2Z"/>
+    <path class="cls-25" d="M235.6,806.7c-.1,0-.2,0-.2.2v7.3s.1.2.2.2.2,0,.2-.2v-7.2c0-.2-.1-.3-.2-.3Z"/>
+    <path class="cls-25" d="M237.5,808.7c-.1,0-.2,0-.2.2v3.4s.1.2.2.2.2,0,.2-.2v-3.4s0-.2-.2-.2Z"/>
   </g>
   <polygon id="atrium" class="cls-2" points="285.1 425.4 361.6 424.8 361.2 578.6 284.6 579.2 285.1 425.4"/>
   <g id="restroom">
@@ -432,7 +435,7 @@
     </g>
   </g>
   <g id="escalator">
-    <rect class="cls-39" x="368" y="505.6" width="34" height="107.7"/>
+    <rect class="cls-24" x="368" y="505.6" width="34" height="107.7"/>
     <g>
       <g>
         <path class="cls-6" d="M382.6,545.4c1.4,0,2.5-1.3,2.5-2.5s-1.3-2.5-2.5-2.5-2.5,1.3-2.5,2.5,1.2,2.5,2.5,2.5Z"/>
@@ -443,10 +446,10 @@
     </g>
   </g>
   <g id="elevator">
-    <rect class="cls-39" x="442.4" y="510.1" width="18.1" height="16.9" transform="translate(-67.9 969.1) rotate(-89.9)"/>
-    <rect class="cls-39" x="442.5" y="534.9" width="18.1" height="16.9" transform="translate(-92.6 994) rotate(-89.9)"/>
-    <rect class="cls-39" x="442.3" y="584.6" width="18.1" height="16.9" transform="translate(-142.5 1043.4) rotate(-89.9)"/>
-    <rect class="cls-39" x="442.3" y="609.4" width="18.1" height="16.9" transform="translate(-167.3 1068.1) rotate(-89.9)"/>
+    <rect class="cls-24" x="442.4" y="510.1" width="18.1" height="16.9" transform="translate(-67.9 969.1) rotate(-89.9)"/>
+    <rect class="cls-24" x="442.5" y="534.9" width="18.1" height="16.9" transform="translate(-92.6 994) rotate(-89.9)"/>
+    <rect class="cls-24" x="442.3" y="584.6" width="18.1" height="16.9" transform="translate(-142.5 1043.4) rotate(-89.9)"/>
+    <rect class="cls-24" x="442.3" y="609.4" width="18.1" height="16.9" transform="translate(-167.3 1068.1) rotate(-89.9)"/>
     <line class="cls-5" x1="462.3" y1="507" x2="462.3" y2="635.3"/>
     <g>
       <g>
@@ -472,46 +475,58 @@
     </g>
   </g>
   <g id="Text">
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-34" transform="translate(318.1 681.2)"><tspan x="0" y="0">SCS</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-14" transform="translate(303.3 685.2)"><tspan x="0" y="0">SCS</tspan></text>
+          </g>
         </g>
       </g>
     </g>
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-37" transform="translate(221.3 828)"><tspan x="0" y="0">Jon Oakes</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-22" transform="translate(221.3 832)"><tspan x="0" y="0">Jon Oakes</tspan></text>
+          </g>
         </g>
       </g>
     </g>
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-35" transform="translate(221.3 843)"><tspan x="0" y="0">KLEVR</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-20" transform="translate(221.3 847)"><tspan x="0" y="0">KLEVR</tspan></text>
+          </g>
         </g>
       </g>
     </g>
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-35" transform="translate(221.3 857)"><tspan x="0" y="0">Lab</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-20" transform="translate(221.3 861)"><tspan x="0" y="0">Lab</tspan></text>
+          </g>
         </g>
       </g>
     </g>
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-34" transform="translate(293 728)"><tspan x="0" y="0">STTC</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-14" transform="translate(297.8 726)"><tspan x="0" y="0">STTC</tspan></text>
+          </g>
         </g>
       </g>
     </g>
     <rect class="cls-13" x="271.9" y="226.9" width="154.4" height="18.5"/>
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-29" transform="translate(271.9 239.8)"><tspan x="0" y="0">Library Administration</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-15" transform="translate(271.9 239.8)"><tspan x="0" y="0">Library Administration</tspan></text>
+          </g>
         </g>
       </g>
     </g>
@@ -572,52 +587,64 @@
   </g>
   <g id="North">
     <polygon class="cls-42" points="649.9 29.5 616.9 23.8 644.2 62.5 649.9 29.5"/>
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-33" transform="translate(646.7 17.2) rotate(53.1)"><tspan x="0" y="0">N</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-19" transform="translate(646.7 17.2) rotate(53.1)"><tspan x="0" y="0">N</tspan></text>
+          </g>
         </g>
       </g>
     </g>
   </g>
   <g id="floor_number" data-name="floor number">
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-32" transform="translate(0 61.8)"><tspan x="0" y="0">4</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-18" transform="translate(0 61.8)"><tspan x="0" y="0">4</tspan></text>
+          </g>
         </g>
       </g>
     </g>
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-31" transform="translate(46.4 20.4)"><tspan x="0" y="0">Student Computing Center</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-17" transform="translate(46.4 20.4)"><tspan x="0" y="0">Student Computing Center</tspan></text>
+          </g>
         </g>
       </g>
     </g>
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-31" transform="translate(46.4 33.6)"><tspan x="0" y="0">Technology Training Center</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-17" transform="translate(46.4 33.6)"><tspan x="0" y="0">Technology Training Center</tspan></text>
+          </g>
         </g>
       </g>
     </g>
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-31" transform="translate(46.4 46.8)"><tspan x="0" y="0">KLEVR Lab</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-17" transform="translate(46.4 46.8)"><tspan x="0" y="0">KLEVR Lab</tspan></text>
+          </g>
         </g>
       </g>
     </g>
-    <g class="cls-36">
-      <g class="cls-36">
-        <g class="cls-36">
-          <text class="cls-31" transform="translate(46.4 60)"><tspan x="0" y="0">Library Administration</tspan></text>
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <g class="cls-21">
+            <text class="cls-17" transform="translate(46.4 60)"><tspan x="0" y="0">Library Administration</tspan></text>
+          </g>
         </g>
       </g>
     </g>
   </g>
-  <path id="vrheadset" class="cls-41" d="M250.3,853.2c.5-.5,1-.7,1.8-.9l6.5-1.1c2.9-.6,5.2.8,7.8,2-.7.6-1.5.9-2.3,1.3-1.7-1-3.3-2.1-5.9-1.6l-6,1.2c-.7.2-1.3.5-1.7.8-.3-.4-.4-.9-.2-1.7h0ZM258.2,858.1c-2.7.6-2.9,8.8.8,7.9,3.9-.9,7.4-2.2,11.2-3.5,2.4-.8,3.2-7.6.6-7.1-4.2.8-8.5,1.7-12.6,2.7h0ZM258.9,858.8c-1,.3-1.7,1.7-1.7,3.1.3-1.2.9-2.2,1.7-2.4l12-2.7c.4,0,.6,0,.8.2-.2-.6-.6-.9-1.3-.7-3.6.8-7.8,1.6-11.5,2.5h0ZM270.5,854.9l-3.1-1.3h-.6c-3.2,2.5-8.4,2.4-12,2.2-3.2-.2-3.5,4.4-1.6,6.2l2.8,2.7c-1.2-2-.4-6.5,1.7-7,4.2-.9,8.2-1.7,12.4-2.7h.4ZM253.6,856.3c-.6.3-1,1.1-1.1,1.9l2.7,1.9c.1-1,.6-1.9,1.1-2.4l-2.7-1.4h0ZM252.2,856.5c-1.2-.6-2.8-1.3-2.3-2.9-.3.3-.4.6-.5,1.1,0,.4-.1,1.3-.1,1.7,0,1.1.6,1.6,2.3,3.4,0-1.2.1-2.4.6-3.3h0Z"/>
+  <path id="vrheadset" class="cls-26" d="M250.3,853.2c.5-.5,1-.7,1.8-.9l6.5-1.1c2.9-.6,5.2.8,7.8,2-.7.6-1.5.9-2.3,1.3-1.7-1-3.3-2.1-5.9-1.6l-6,1.2c-.7.2-1.3.5-1.7.8-.3-.4-.4-.9-.2-1.7h0ZM258.2,858.1c-2.7.6-2.9,8.8.8,7.9,3.9-.9,7.4-2.2,11.2-3.5,2.4-.8,3.2-7.6.6-7.1-4.2.8-8.5,1.7-12.6,2.7h0ZM258.9,858.8c-1,.3-1.7,1.7-1.7,3.1.3-1.2.9-2.2,1.7-2.4l12-2.7c.4,0,.6,0,.8.2-.2-.6-.6-.9-1.3-.7-3.6.8-7.8,1.6-11.5,2.5h0ZM270.5,854.9l-3.1-1.3h-.6c-3.2,2.5-8.4,2.4-12,2.2-3.2-.2-3.5,4.4-1.6,6.2l2.8,2.7c-1.2-2-.4-6.5,1.7-7,4.2-.9,8.2-1.7,12.4-2.7h.4ZM253.6,856.3c-.6.3-1,1.1-1.1,1.9l2.7,1.9c.1-1,.6-1.9,1.1-2.4l-2.7-1.4h0ZM252.2,856.5c-1.2-.6-2.8-1.3-2.3-2.9-.3.3-.4.6-.5,1.1,0,.4-.1,1.3-.1,1.7,0,1.1.6,1.6,2.3,3.4,0-1.2.1-2.4.6-3.3h0Z"/>
   <g id="floor_outline" data-name="floor outline">
     <line class="cls-51" x1="679.1" y1="180.7" x2="522.9" y2="505.4"/>
     <line class="cls-51" x1="1.1" y1="646.3" x2="117.9" y2="403.5"/>
@@ -634,17 +661,17 @@
     <line class="cls-51" x1="522.7" y1="897.5" x2="361.7" y2="820.1"/>
     <line class="cls-51" x1="523.6" y1="105.5" x2="679.2" y2="180.4"/>
     <line class="cls-51" x1="226.8" y1="176.7" x2="310.2" y2="3.8"/>
-    <path class="cls-28" d="M522.5,506.1"/>
-    <path class="cls-28" d="M462.2,505.4"/>
-    <path class="cls-28" d="M462.2,505.7"/>
-    <path class="cls-28" d="M461.4,598.4"/>
-    <path class="cls-28" d="M522.2,598.5"/>
-    <path class="cls-28" d="M461.4,598.4"/>
+    <path class="cls-41" d="M522.5,506.1"/>
+    <path class="cls-41" d="M462.2,505.4"/>
+    <path class="cls-41" d="M462.2,505.7"/>
+    <path class="cls-41" d="M461.4,598.4"/>
+    <path class="cls-41" d="M522.2,598.5"/>
+    <path class="cls-41" d="M461.4,598.4"/>
     <line class="cls-51" x1="310.6" y1="3" x2="501.4" y2="94.8"/>
     <g>
-      <line class="cls-28" x1="462.2" y1="505.5" x2="522.1" y2="505.5"/>
-      <line class="cls-28" x1="462.1" y1="597.9" x2="462.2" y2="505.8"/>
-      <line class="cls-28" x1="462.1" y1="598.6" x2="522.2" y2="598.6"/>
+      <line class="cls-41" x1="462.2" y1="505.5" x2="522.1" y2="505.5"/>
+      <line class="cls-41" x1="462.1" y1="597.9" x2="462.2" y2="505.8"/>
+      <line class="cls-41" x1="462.1" y1="598.6" x2="522.2" y2="598.6"/>
     </g>
   </g>
   <g id="seats">
@@ -17999,7 +18026,7 @@
         <path class="cls-12" d="M339.4,795.2c-1.4-.2-2.8-.2-4.2,0"/>
       </g>
       <g id="LWPOLYLINE-811">
-        <rect class="cls-21" x="335.5" y="794.5" width=".4" height="3" transform="translate(-164.3 91.5) rotate(-12.5)"/>
+        <rect class="cls-34" x="335.5" y="794.5" width=".4" height="3" transform="translate(-164.3 91.5) rotate(-12.5)"/>
       </g>
       <g id="ARC-3979">
         <path class="cls-12" d="M320.6,807.7c1,0,2,0,3-.2"/>
@@ -18017,7 +18044,7 @@
         <path class="cls-12" d="M320.2,810.7c1.4.2,2.8,0,4.2-.2"/>
       </g>
       <g id="LWPOLYLINE-812">
-        <rect class="cls-15" x="324.2" y="807.7" width=".4" height="3" transform="translate(-187.4 103.4) rotate(-14.1)"/>
+        <rect class="cls-28" x="324.2" y="807.7" width=".4" height="3" transform="translate(-187.4 103.4) rotate(-14.1)"/>
       </g>
       <g id="ARC-3982">
         <path class="cls-12" d="M343.9,801.4c-.6-.8-1.4-1.5-2.2-2"/>
@@ -18035,7 +18062,7 @@
         <path class="cls-12" d="M346.4,799.5c-.8-1.1-1.9-2.1-3.1-2.8"/>
       </g>
       <g id="LWPOLYLINE-813">
-        <rect class="cls-19" x="344.2" y="800.1" width="3" height=".4" transform="translate(-407.5 361.3) rotate(-36.4)"/>
+        <rect class="cls-32" x="344.2" y="800.1" width="3" height=".4" transform="translate(-407.5 361.3) rotate(-36.4)"/>
       </g>
       <g id="ARC-3985">
         <path class="cls-12" d="M315.4,804.8c.6.8,1.4,1.5,2.3,2"/>
@@ -18053,7 +18080,7 @@
         <path class="cls-12" d="M313,806.7c.9,1.1,2,2,3.2,2.7"/>
       </g>
       <g id="LWPOLYLINE-814">
-        <rect class="cls-25" x="312.3" y="805.4" width="3" height=".4" transform="translate(-434 371.8) rotate(-38.6)"/>
+        <rect class="cls-38" x="312.3" y="805.4" width="3" height=".4" transform="translate(-434 371.8) rotate(-38.6)"/>
       </g>
       <g id="ARC-4012">
         <path class="cls-12" d="M344.7,810.7c.4-.9,1-1.8,1.8-2.5"/>
@@ -18089,25 +18116,25 @@
         <line class="cls-12" x1="316.4" y1="796.1" x2="314" y2="798.5"/>
       </g>
       <g id="LWPOLYLINE-823">
-        <rect class="cls-20" x="314.4" y="795.3" width="3.3" height="4.5" transform="translate(-475.5 466.7) rotate(-45.7)"/>
+        <rect class="cls-33" x="314.4" y="795.3" width="3.3" height="4.5" transform="translate(-475.5 466.7) rotate(-45.7)"/>
       </g>
       <g id="LWPOLYLINE-824">
-        <rect class="cls-20" x="314.7" y="797.5" width=".4" height="3" transform="translate(-476.9 466.3) rotate(-45.7)"/>
+        <rect class="cls-33" x="314.7" y="797.5" width=".4" height="3" transform="translate(-476.9 466.3) rotate(-45.7)"/>
       </g>
       <g id="LWPOLYLINE-825">
-        <rect class="cls-20" x="317.3" y="794.9" width=".4" height="3" transform="translate(-474.2 467.4) rotate(-45.7)"/>
+        <rect class="cls-33" x="317.3" y="794.9" width=".4" height="3" transform="translate(-474.2 467.4) rotate(-45.7)"/>
       </g>
       <g id="LINE-6244">
         <line class="cls-12" x1="323.9" y1="795.6" x2="326.6" y2="797.6"/>
       </g>
       <g id="LWPOLYLINE-826">
-        <rect class="cls-23" x="322.1" y="796.2" width="4.5" height="3.3" transform="translate(-506.5 570.9) rotate(-52.6)"/>
+        <rect class="cls-36" x="322.1" y="796.2" width="4.5" height="3.3" transform="translate(-506.5 570.9) rotate(-52.6)"/>
       </g>
       <g id="LWPOLYLINE-827">
-        <rect class="cls-23" x="324.1" y="798.9" width="3" height=".4" transform="translate(-507 572.4) rotate(-52.6)"/>
+        <rect class="cls-36" x="324.1" y="798.9" width="3" height=".4" transform="translate(-507 572.4) rotate(-52.6)"/>
       </g>
       <g id="LWPOLYLINE-828">
-        <rect class="cls-23" x="321.1" y="796.8" width="3" height=".4" transform="translate(-506.5 569.2) rotate(-52.6)"/>
+        <rect class="cls-36" x="321.1" y="796.8" width="3" height=".4" transform="translate(-506.5 569.2) rotate(-52.6)"/>
       </g>
       <g id="ARC-4037">
         <path class="cls-12" d="M317.4,803c1.6,1.4,3.7,2,5.8,1.7"/>
@@ -18181,7 +18208,7 @@
         <path class="cls-12" d="M260.2,627.6c.2-1.4.2-2.8-.2-4.2"/>
       </g>
       <g id="LWPOLYLINE-811-2">
-        <rect class="cls-18" x="257" y="623.6" width="3" height=".4" transform="translate(-133.7 74.1) rotate(-13)"/>
+        <rect class="cls-31" x="257" y="623.6" width="3" height=".4" transform="translate(-133.7 74.1) rotate(-13)"/>
       </g>
       <g id="ARC-3979-2">
         <path class="cls-12" d="M247.5,608.9c-.1,1-.1,2,.2,3"/>
@@ -18199,7 +18226,7 @@
         <path class="cls-12" d="M244.4,608.6c-.2,1.4-.1,2.8.3,4.2"/>
       </g>
       <g id="LWPOLYLINE-812-2">
-        <rect class="cls-22" x="244.8" y="612.1" width="3" height=".4" transform="translate(-147.3 82.5) rotate(-14.7)"/>
+        <rect class="cls-35" x="244.8" y="612.1" width="3" height=".4" transform="translate(-147.3 82.5) rotate(-14.7)"/>
       </g>
       <g id="ARC-3982-2">
         <path class="cls-12" d="M254.1,632.2c.8-.6,1.5-1.4,2-2.2"/>
@@ -18217,7 +18244,7 @@
         <path class="cls-12" d="M255.9,634.7c1.1-.8,2.1-1.9,2.8-3.1"/>
       </g>
       <g id="LWPOLYLINE-813-2">
-        <rect class="cls-27" x="255" y="632.1" width=".4" height="3" transform="translate(-329.9 281.2) rotate(-37)"/>
+        <rect class="cls-40" x="255" y="632.1" width=".4" height="3" transform="translate(-329.9 281.2) rotate(-37)"/>
       </g>
       <g id="ARC-3985-2">
         <path class="cls-12" d="M250.4,603.8c-.8.6-1.5,1.4-2,2.3"/>
@@ -18235,7 +18262,7 @@
         <path class="cls-12" d="M248.4,601.4c-1.1.9-2,2-2.7,3.2"/>
       </g>
       <g id="LWPOLYLINE-814-2">
-        <rect class="cls-26" x="249.2" y="600.4" width=".4" height="3" transform="translate(-324.3 293.1) rotate(-39.2)"/>
+        <rect class="cls-39" x="249.2" y="600.4" width=".4" height="3" transform="translate(-324.3 293.1) rotate(-39.2)"/>
       </g>
       <g id="ARC-4012-2">
         <path class="cls-12" d="M244.7,633.1c.9.4,1.8,1,2.5,1.7"/>
@@ -18271,25 +18298,25 @@
         <line class="cls-12" x1="259" y1="604.6" x2="256.6" y2="602.3"/>
       </g>
       <g id="LWPOLYLINE-823-2">
-        <rect class="cls-17" x="255.1" y="601.9" width="4.5" height="3.3" transform="translate(-356.8 372.6) rotate(-46.3)"/>
+        <rect class="cls-30" x="255.1" y="601.9" width="4.5" height="3.3" transform="translate(-356.8 372.6) rotate(-46.3)"/>
       </g>
       <g id="LWPOLYLINE-824-2">
-        <rect class="cls-17" x="254.4" y="602.3" width="3" height=".4" transform="translate(-356.5 371.3) rotate(-46.3)"/>
+        <rect class="cls-30" x="254.4" y="602.3" width="3" height=".4" transform="translate(-356.5 371.3) rotate(-46.3)"/>
       </g>
       <g id="LWPOLYLINE-825-2">
-        <rect class="cls-17" x="257.1" y="604.9" width="3" height=".4" transform="translate(-357.5 374) rotate(-46.3)"/>
+        <rect class="cls-30" x="257.1" y="604.9" width="3" height=".4" transform="translate(-357.5 374) rotate(-46.3)"/>
       </g>
       <g id="LINE-6244-2">
         <line class="cls-12" x1="259.7" y1="612.2" x2="257.7" y2="614.8"/>
       </g>
       <g id="LWPOLYLINE-826-2">
-        <rect class="cls-16" x="256.1" y="611" width="3.3" height="4.5" transform="translate(-387.7 452.3) rotate(-53.2)"/>
+        <rect class="cls-29" x="256.1" y="611" width="3.3" height="4.5" transform="translate(-387.7 452.3) rotate(-53.2)"/>
       </g>
       <g id="LWPOLYLINE-827-2">
-        <rect class="cls-16" x="256.3" y="613.1" width=".4" height="3" transform="translate(-389.3 451.8) rotate(-53.2)"/>
+        <rect class="cls-29" x="256.3" y="613.1" width=".4" height="3" transform="translate(-389.3 451.8) rotate(-53.2)"/>
       </g>
       <g id="LWPOLYLINE-828-2">
-        <rect class="cls-16" x="258.5" y="610.1" width=".4" height="3" transform="translate(-386 452.4) rotate(-53.2)"/>
+        <rect class="cls-29" x="258.5" y="610.1" width=".4" height="3" transform="translate(-386 452.4) rotate(-53.2)"/>
       </g>
       <g id="ARC-4037-2">
         <path class="cls-12" d="M252.1,605.7c-1.3,1.6-1.9,3.7-1.6,5.8"/>
@@ -18363,7 +18390,7 @@
         <path class="cls-12" d="M331.4,586.3c-1.4-.2-2.8-.2-4.2,0"/>
       </g>
       <g id="LWPOLYLINE-811-3">
-        <rect class="cls-21" x="327.4" y="585.8" width=".4" height="3" transform="translate(-119.3 84.8) rotate(-12.5)"/>
+        <rect class="cls-34" x="327.4" y="585.8" width=".4" height="3" transform="translate(-119.3 84.8) rotate(-12.5)"/>
       </g>
       <g id="ARC-3979-3">
         <path class="cls-12" d="M312.6,598.8c1,0,2,0,3-.2"/>
@@ -18381,7 +18408,7 @@
         <path class="cls-12" d="M312.2,601.8c1.4.2,2.8,0,4.2-.2"/>
       </g>
       <g id="LWPOLYLINE-812-3">
-        <rect class="cls-15" x="316.3" y="598.9" width=".4" height="3" transform="translate(-136.7 95.2) rotate(-14.1)"/>
+        <rect class="cls-28" x="316.3" y="598.9" width=".4" height="3" transform="translate(-136.7 95.2) rotate(-14.1)"/>
       </g>
       <g id="ARC-3982-3">
         <path class="cls-12" d="M335.9,592.5c-.6-.8-1.4-1.5-2.2-2"/>
@@ -18399,7 +18426,7 @@
         <path class="cls-12" d="M338.4,590.6c-.8-1.1-1.9-2.1-3.1-2.8"/>
       </g>
       <g id="LWPOLYLINE-813-3">
-        <rect class="cls-19" x="336.2" y="591.2" width="3" height=".4" transform="translate(-285.1 315.8) rotate(-36.4)"/>
+        <rect class="cls-32" x="336.2" y="591.2" width="3" height=".4" transform="translate(-285.1 315.8) rotate(-36.4)"/>
       </g>
       <g id="ARC-3985-3">
         <path class="cls-12" d="M307.5,595.9c.6.8,1.4,1.5,2.3,2"/>
@@ -18417,7 +18444,7 @@
         <path class="cls-12" d="M305,597.8c.9,1.1,2,2,3.2,2.7"/>
       </g>
       <g id="LWPOLYLINE-814-3">
-        <rect class="cls-25" x="304.4" y="596.6" width="3" height=".4" transform="translate(-305.5 321.2) rotate(-38.6)"/>
+        <rect class="cls-38" x="304.4" y="596.6" width="3" height=".4" transform="translate(-305.5 321.2) rotate(-38.6)"/>
       </g>
       <g id="ARC-4012-3">
         <path class="cls-12" d="M336.8,601.8c.4-.9,1-1.8,1.8-2.5"/>
@@ -18453,25 +18480,25 @@
         <line class="cls-12" x1="308.4" y1="587.2" x2="306" y2="589.6"/>
       </g>
       <g id="LWPOLYLINE-823-3">
-        <rect class="cls-20" x="306.5" y="586.5" width="3.3" height="4.5" transform="translate(-328.4 398.1) rotate(-45.7)"/>
+        <rect class="cls-33" x="306.5" y="586.5" width="3.3" height="4.5" transform="translate(-328.4 398.1) rotate(-45.7)"/>
       </g>
       <g id="LWPOLYLINE-824-3">
-        <rect class="cls-20" x="306.7" y="588.7" width=".4" height="3" transform="translate(-329.9 397.6) rotate(-45.7)"/>
+        <rect class="cls-33" x="306.6" y="588.7" width=".4" height="3" transform="translate(-329.8 397.6) rotate(-45.7)"/>
       </g>
       <g id="LWPOLYLINE-825-3">
-        <rect class="cls-20" x="309.3" y="586" width=".4" height="3" transform="translate(-327.1 398.7) rotate(-45.7)"/>
+        <rect class="cls-33" x="309.3" y="586" width=".4" height="3" transform="translate(-327.1 398.7) rotate(-45.7)"/>
       </g>
       <g id="LINE-6244-3">
         <line class="cls-12" x1="316" y1="586.7" x2="318.6" y2="588.7"/>
       </g>
       <g id="LWPOLYLINE-826-3">
-        <rect class="cls-23" x="314.2" y="587.3" width="4.5" height="3.3" transform="translate(-343.6 482.6) rotate(-52.6)"/>
+        <rect class="cls-36" x="314.2" y="587.3" width="4.5" height="3.3" transform="translate(-343.6 482.6) rotate(-52.6)"/>
       </g>
       <g id="LWPOLYLINE-827-3">
-        <rect class="cls-23" x="316.4" y="589.9" width="3" height=".4" transform="translate(-344 484.3) rotate(-52.6)"/>
+        <rect class="cls-36" x="316.4" y="590" width="3" height=".4" transform="translate(-344 484.2) rotate(-52.6)"/>
       </g>
       <g id="LWPOLYLINE-828-3">
-        <rect class="cls-23" x="313.5" y="587.6" width="3" height=".4" transform="translate(-343.3 481) rotate(-52.6)"/>
+        <rect class="cls-36" x="313.5" y="587.6" width="3" height=".4" transform="translate(-343.3 481) rotate(-52.6)"/>
       </g>
       <g id="ARC-4037-3">
         <path class="cls-12" d="M309.4,594.1c1.6,1.4,3.7,2,5.8,1.7"/>
@@ -18499,22 +18526,22 @@
       </g>
     </g>
   </g>
-  <path id="vending_machine" data-name="vending machine" class="cls-48" d="M367.2,720h.7c.2,0,.5.2.5.5v.6h-1.7v-.6c0-.2.2-.5.5-.5h0ZM365.2,716.7c-.7,0-1.2.6-1.2,1.2v20.3c0,.7.6,1.2,1.2,1.2h15.6c.7,0,1.2-.6,1.2-1.2v-20.3c0-.7-.6-1.2-1.2-1.2h-15.6ZM378.3,719.4h2.4c.1,0,.2,0,.2.2v1.9s-.1.2-.2.2h-2.4c-.1,0-.2,0-.2-.2v-1.9s.1-.2.2-.2h0ZM378.4,720.7h1.9v.5h-1.9v-.5h0ZM378.3,729.2h2.3c.2,0,.4,0,.4.4v2.4c0,.2-.1.4-.4.4h-2.3c-.2,0-.4,0-.4-.4v-2.4c0-.2.1-.4.4-.4h0ZM378.5,730.2h1.7s.2,0,.2.2v1.2s0,.2-.2.2h-1.7s-.2,0-.2-.2v-1.2s0-.2.2-.2h0ZM377.7,727h.7v.7h-.7v-.7h0ZM379,727h.7v.7h-.7v-.7h0ZM380.3,727h.7v.7h-.7v-.7h0ZM377.7,725.7h.7v.7h-.7v-.7h0ZM379,725.7h.7v.7h-.7v-.7h0ZM380.3,725.7h.7v.7h-.7v-.7h0ZM377.7,724.4h.7v.7h-.7v-.7h0ZM379,724.4h.7v.7h-.7v-.7h0ZM380.3,724.4h.7v.7h-.7v-.7h0ZM377.7,723.1h.7v.7h-.7v-.7h0ZM379,723.1h.7v.7h-.7v-.7h0ZM380.3,723.1h.7v.7h-.7v-.7h0ZM367.2,734.8h7.8c.4,0,.6,0,.6.4v.8l-.5,1.7c0,.4-.4.7-.7.7h-6.4c-.5,0-.7-.4-.7-.7l-.5-1.7c0-.2-.1-.6,0-.8,0-.2.2-.4.6-.4h-.2ZM373.8,735.6c.8,0,1,0,.8.8l-.2.8c0,.4-.4.4-.7.4h-5c-.4,0-.6,0-.7-.4l-.2-.8c-.1-.7,0-.8.8-.8h5.3ZM365.7,717.9c-.2,0-.6.2-.6.6v14.9c0,.2.2.6.6.6h10.7c.2,0,.6-.2.6-.6v-14.9c0-.2-.2-.6-.6-.6h-10.7ZM375.3,721.5v.5c0,.6.4.8.6,1.4.2.4.4,1,.2,1.9-.1,1.6-.2,2-.2,2.8s0,.8.1,1.7c0,.4.1,1.1-.5,1.1h-1.7c0-1.1-.1-1.8-.1-2.6s0-1.9.1-3.2v-1.2c0-.4-.2-.6-.4-.7.2-.2.4-.5.4-1v-.5h1.4,0ZM374.2,720h.7c.2,0,.5.2.5.5v.6h-1.7v-.6c0-.2.2-.5.5-.5h0ZM370.5,719.8h1.2c.2,0,.5.2.5.5v.6h-2.3v-.6c0-.2.2-.5.5-.5h.1ZM372,721.3v.5c0,.5.4.7.6,1.2.2.4.5,1,.4,1.9-.1,1.3-.1,2.3-.1,3.2s0,1.6.1,2.6c0,.4.1,1.1-.6,1.1h-2.8c-.7,0-.6-.6-.6-1.1,0-1.1.1-1.8.2-2.6,0-1,0-1.9-.1-3.2,0-1,0-1.4.2-1.8.2-.5.7-.7.7-1.3v-.5h1.9,0ZM368.3,721.5v.5c0,.4.1.6.4,1-.1,0-.2.4-.4.7,0,.4-.1.7,0,1.3.1,1.3.1,2.3.1,3.2s0,1.6-.1,2.5h-1.7c-.6,0-.5-.6-.5-1.1,0-1,.1-1.4.1-1.9s-.1-1.1-.2-2.5c0-1,0-1.4.2-1.8.2-.6.6-.8.6-1.4v-.5h1.4,0Z"/>
+  <path id="vending_machine" data-name="vending machine" class="cls-48" d="M367.2,720h.7c.2,0,.5.2.5.5v.6h-1.7v-.6c0-.2.2-.5.5-.5h0ZM365.2,716.7c-.7,0-1.2.6-1.2,1.2v20.3c0,.7.6,1.2,1.2,1.2h15.6c.7,0,1.2-.6,1.2-1.2v-20.3c0-.7-.6-1.2-1.2-1.2h-15.6ZM378.3,719.4h2.4c.1,0,.2,0,.2.2v1.9s-.1.2-.2.2h-2.4c-.1,0-.2,0-.2-.2v-1.9s.1-.2.2-.2h0ZM378.4,720.7h1.9v.5h-1.9v-.5h0ZM378.3,729.2h2.3c.2,0,.4,0,.4.4v2.4c0,.2-.1.4-.4.4h-2.3c-.2,0-.4,0-.4-.4v-2.4c0-.2.1-.4.4-.4h0ZM378.5,730.2h1.7s.2,0,.2.2v1.2s0,.2-.2.2h-1.7s-.2,0-.2-.2v-1.2s0-.2.2-.2h0ZM377.7,727h.7v.7h-.7v-.7h0ZM379,727h.7v.7h-.7v-.7h0ZM380.3,727h.7v.7h-.7v-.7h0ZM377.7,725.7h.7v.7h-.7v-.7h0ZM379,725.7h.7v.7h-.7v-.7h0ZM380.3,725.7h.7v.7h-.7v-.7h0ZM377.7,724.4h.7v.7h-.7v-.7h0ZM379,724.4h.7v.7h-.7v-.7h0ZM380.3,724.4h.7v.7h-.7v-.7h0ZM377.7,723.1h.7v.7h-.7v-.7h0ZM379,723.1h.7v.7h-.7v-.7h0ZM380.3,723.1h.7v.7h-.7v-.7h0ZM367.2,734.8h7.8c.4,0,.6,0,.6.4v.8l-.5,1.7c0,.4-.4.7-.7.7h-6.4c-.5,0-.7-.4-.7-.7l-.5-1.7c0-.2-.1-.6,0-.8,0-.2.2-.4.6-.4h-.2,0ZM373.8,735.6c.8,0,1,0,.8.8l-.2.8c0,.4-.4.4-.7.4h-5c-.4,0-.6,0-.7-.4l-.2-.8c-.1-.7,0-.8.8-.8h5.3,0ZM365.7,717.9c-.2,0-.6.2-.6.6v14.9c0,.2.2.6.6.6h10.7c.2,0,.6-.2.6-.6v-14.9c0-.2-.2-.6-.6-.6h-10.7ZM375.3,721.5v.5c0,.6.4.8.6,1.4.2.4.4,1,.2,1.9-.1,1.6-.2,2-.2,2.8s0,.8.1,1.7c0,.4.1,1.1-.5,1.1h-1.7c0-1.1-.1-1.8-.1-2.6s0-1.9.1-3.2v-1.2c0-.4-.2-.6-.4-.7.2-.2.4-.5.4-1v-.5h1.4v-.2ZM374.2,720h.7c.2,0,.5.2.5.5v.6h-1.7v-.6c0-.2.2-.5.5-.5h0ZM370.5,719.8h1.2c.2,0,.5.2.5.5v.6h-2.3v-.6c0-.2.2-.5.5-.5h.1,0ZM372,721.3v.5c0,.5.4.7.6,1.2.2.4.5,1,.4,1.9-.1,1.3-.1,2.3-.1,3.2s0,1.6.1,2.6c0,.4.1,1.1-.6,1.1h-2.8c-.7,0-.6-.6-.6-1.1,0-1.1.1-1.8.2-2.6,0-1,0-1.9-.1-3.2,0-1,0-1.4.2-1.8.2-.5.7-.7.7-1.3v-.5h2ZM368.3,721.5v.5c0,.4.1.6.4,1-.1,0-.2.4-.4.7,0,.4-.1.7,0,1.3.1,1.3.1,2.3.1,3.2s0,1.6-.1,2.5h-1.7c-.6,0-.5-.6-.5-1.1,0-1,.1-1.4.1-1.9s-.1-1.1-.2-2.5c0-1,0-1.4.2-1.8.2-.6.6-.8.6-1.4v-.5h1.5Z"/>
   <g id="printers">
     <g>
-      <path class="cls-40" d="M370,699.8h5.3c.3,0,.5-.3.5-.5s-.3-.5-.5-.5h-5.2c-.3,0-.5.3-.5.5-.3.3-.1.5.4.5Z"/>
-      <path class="cls-40" d="M375.1,701.1h-5.2c-.3,0-.5.3-.5.5s.3.5.5.5h5.2c.3,0,.5-.3.5-.5s-.1-.5-.5-.5Z"/>
+      <path class="cls-25" d="M370,699.8h5.3c.3,0,.5-.3.5-.5s-.3-.5-.5-.5h-5.2c-.3,0-.5.3-.5.5-.3.3-.1.5.4.5h0Z"/>
+      <path class="cls-25" d="M375.1,701.1h-5.2c-.3,0-.5.3-.5.5s.3.5.5.5h5.2c.3,0,.5-.3.5-.5s-.1-.5-.5-.5Z"/>
     </g>
-    <path class="cls-40" d="M382,690h-1.2v-4.4c0-.3-.3-.7-.7-.7h-12.3c-.3,0-.7.3-.7.7v4.4h-1.2c-1.1,0-2,1.1-2,2v7c0,1.1,1.1,2,2,2h1.2v4.4c0,.3.3.7.7.7h12.3c.3,0,.7-.3.7-.7v-4.4h1.2c1.1,0,2-1.1,2-2v-7c.1-1.1-.9-2-2-2ZM366,692.9c-.4,0-.8-.3-.8-.8s.3-.8.8-.8.8.3.8.8-.4.8-.8.8ZM368.2,686.3h11.1v3.7h-11.1v-3.7ZM367.6,692.1c0-.4.3-.8.8-.8s.8.3.8.8-.3.8-.8.8-.8-.3-.8-.8ZM379.5,701v3.7h-11.1v-7.3h11.1v3.4h0Z"/>
+    <path class="cls-25" d="M382,690h-1.2v-4.4c0-.3-.3-.7-.7-.7h-12.3c-.3,0-.7.3-.7.7v4.4h-1.2c-1.1,0-2,1.1-2,2v7c0,1.1,1.1,2,2,2h1.2v4.4c0,.3.3.7.7.7h12.3c.3,0,.7-.3.7-.7v-4.4h1.2c1.1,0,2-1.1,2-2v-7c.1-1.1-.9-2-2-2ZM366,692.9c-.4,0-.8-.3-.8-.8s.3-.8.8-.8.8.3.8.8-.4.8-.8.8ZM368.2,686.3h11.1v3.7h-11.1v-3.7ZM367.6,692.1c0-.4.3-.8.8-.8s.8.3.8.8-.3.8-.8.8-.8-.3-.8-.8ZM379.5,701v3.7h-11.1v-7.3h11.1v3.4h0v.2Z"/>
   </g>
   <g id="AED">
     <path class="cls-46" d="M382.4,676.3h-16.9c-.8,0-1.5-.7-1.5-1.5v-16.9c0-.8.7-1.5,1.5-1.5h16.9c.8,0,1.5.7,1.5,1.5v16.9c0,.8-.7,1.5-1.5,1.5Z"/>
-    <path class="cls-13" d="M377.1,663.6s-2.3-.7-3.4,1.3c-1.2-1.9-3.4-1.3-3.4-1.3,0,0-2.9.7-2.5,3.4s6,7.7,6,7.7c0,0,5.7-4.8,6-7.7s-2.5-3.4-2.5-3.4Z"/>
+    <path class="cls-13" d="M377.1,663.6s-2.3-.7-3.4,1.3c-1.2-1.9-3.4-1.3-3.4-1.3,0,0-2.9.7-2.5,3.4s6,7.7,6,7.7c0,0,5.7-4.8,6-7.7s-2.5-3.4-2.5-3.4h-.2Z"/>
     <polygon class="cls-46" points="372.9 665.3 371.7 668.6 373.5 668.6 373 670.3 374.5 670.3 373.4 673.4 376.7 668.9 374.9 668.9 375.7 667.2 373.9 667.2 374.6 665.3 372.9 665.3"/>
     <g>
-      <path class="cls-1" d="M369.8,661.1l-.4,1.2h-.5l1.3-3.7h.5l1.3,3.7h-.5l-.4-1.2h-1.3ZM371,660.7l-.4-1.1c-.1-.3-.1-.4-.1-.7h0c0,.3-.1.4-.1.7l-.4,1.1h1.1Z"/>
-      <path class="cls-1" d="M374.9,660.5h-1.5v1.3h1.6v.4h-2.1v-3.7h2v.4h-1.5v1.2h1.5v.4Z"/>
-      <path class="cls-1" d="M376.1,658.6h1.1c.7,0,1.2,0,1.5.5.4.3.5.8.5,1.3s-.1,1.1-.5,1.5-.9.5-1.6.5h-.9v-3.7h0ZM376.5,661.9h.5c1.1,0,1.6-.5,1.6-1.6s-.5-1.5-1.5-1.5h-.5v3h-.1Z"/>
+      <path class="cls-1" d="M369.8,661.1l-.4,1.2h-.5l1.3-3.7h.5l1.3,3.7h-.5l-.4-1.2h-1.3ZM371,660.7l-.4-1.1c-.1-.3-.1-.4-.1-.7h0c0,.3-.1.4-.1.7l-.4,1.1h1.1-.1Z"/>
+      <path class="cls-1" d="M374.9,660.5h-1.5v1.3h1.6v.4h-2.1v-3.7h2v.4h-1.5v1.2h1.5v.4h0Z"/>
+      <path class="cls-1" d="M376.1,658.6h1.1c.7,0,1.2,0,1.5.5.4.3.5.8.5,1.3s-.1,1.1-.5,1.5-.9.5-1.6.5h-.9v-3.7h-.1ZM376.5,661.9h.5c1.1,0,1.6-.5,1.6-1.6s-.5-1.5-1.5-1.5h-.5v3h-.1Z"/>
     </g>
   </g>
   <g id="help" class="cls-52">
@@ -18527,7 +18554,7 @@
   <line class="cls-4" x1="456.9" y1="727.5" x2="456.9" y2="822.3"/>
   <g class="cls-53">
     <g id="LWPOLYLINE-665">
-      <rect class="cls-24" x="490.8" y="793.8" width="7.7" height="7.7" transform="translate(-419.1 583.4) rotate(-45)"/>
+      <rect class="cls-37" x="490.8" y="793.8" width="7.7" height="7.7" transform="translate(-419.1 583.4) rotate(-45)"/>
     </g>
     <g id="ARC-3512">
       <path class="cls-12" d="M491.1,792.3c-.3,0-.7,0-.9-.2"/>
@@ -18746,7 +18773,7 @@
       <path class="cls-12" d="M491,804h-.2"/>
     </g>
     <g id="LWPOLYLINE-666">
-      <rect class="cls-24" x="490.3" y="772.2" width="7.7" height="7.7" transform="translate(-404 576.7) rotate(-45)"/>
+      <rect class="cls-37" x="490.3" y="772.2" width="7.7" height="7.7" transform="translate(-404 576.7) rotate(-45)"/>
     </g>
     <g id="ARC-3564">
       <path class="cls-12" d="M490.5,770.7c-.3,0-.7,0-.9-.2"/>
@@ -18965,7 +18992,7 @@
       <path class="cls-12" d="M490.5,782.3h-.2"/>
     </g>
     <g id="LWPOLYLINE-667">
-      <rect class="cls-24" x="472.1" y="783.7" width="7.7" height="7.7" transform="translate(-417.5 567.2) rotate(-45)"/>
+      <rect class="cls-37" x="472.1" y="783.7" width="7.7" height="7.7" transform="translate(-417.5 567.2) rotate(-45)"/>
     </g>
     <g id="ARC-3616">
       <path class="cls-12" d="M472.3,782.1c-.3,0-.6,0-.9-.2"/>
@@ -19186,7 +19213,7 @@
   </g>
   <g class="cls-53">
     <g id="LWPOLYLINE-665-2">
-      <rect class="cls-24" x="471.7" y="810.5" width="7.7" height="7.7" transform="translate(-436.5 574.8) rotate(-45)"/>
+      <rect class="cls-37" x="471.7" y="810.5" width="7.7" height="7.7" transform="translate(-436.5 574.8) rotate(-45)"/>
     </g>
     <g id="ARC-3512-2">
       <path class="cls-12" d="M479.2,819.8c.3,0,.7,0,.9.2"/>
@@ -19405,7 +19432,7 @@
       <path class="cls-12" d="M479.3,808.1h.2"/>
     </g>
     <g id="LWPOLYLINE-666-2">
-      <rect class="cls-24" x="472.3" y="832.2" width="7.7" height="7.7" transform="translate(-451.7 581.6) rotate(-45)"/>
+      <rect class="cls-37" x="472.3" y="832.2" width="7.7" height="7.7" transform="translate(-451.7 581.6) rotate(-45)"/>
     </g>
     <g id="ARC-3564-2">
       <path class="cls-12" d="M479.8,841.4c.3,0,.7,0,.9.2"/>
@@ -19624,7 +19651,7 @@
       <path class="cls-12" d="M479.8,829.8h.2"/>
     </g>
     <g id="LWPOLYLINE-667-2">
-      <rect class="cls-24" x="490.5" y="820.6" width="7.7" height="7.7" transform="translate(-438.2 591) rotate(-45)"/>
+      <rect class="cls-37" x="490.5" y="820.6" width="7.7" height="7.7" transform="translate(-438.2 591) rotate(-45)"/>
     </g>
     <g id="ARC-3616-2">
       <path class="cls-12" d="M498,830c.3,0,.6,0,.9.2"/>
@@ -19845,7 +19872,7 @@
   </g>
   <g class="cls-53">
     <g id="LWPOLYLINE-665-3">
-      <rect class="cls-24" x="487" y="731.1" width="7.7" height="7.7" transform="translate(-375.9 562.3) rotate(-45)"/>
+      <rect class="cls-37" x="487" y="731.1" width="7.7" height="7.7" transform="translate(-375.9 562.3) rotate(-45)"/>
     </g>
     <g id="ARC-3512-3">
       <path class="cls-12" d="M485.4,738.6c.1.3,0,.7-.2.9"/>
@@ -20064,7 +20091,7 @@
       <path class="cls-12" d="M497.1,738.7c.1,0,.1.2.1.2"/>
     </g>
     <g id="LWPOLYLINE-666-3">
-      <rect class="cls-24" x="465.5" y="731.7" width="7.7" height="7.7" transform="translate(-382.6 547.3) rotate(-45)"/>
+      <rect class="cls-37" x="465.5" y="731.7" width="7.7" height="7.7" transform="translate(-382.6 547.3) rotate(-45)"/>
     </g>
     <g id="ARC-3564-3">
       <path class="cls-12" d="M463.9,739.2c.1.3,0,.7-.2.9"/>
@@ -20283,7 +20310,7 @@
       <path class="cls-12" d="M475.4,739.2s.1,0,.1.2h0"/>
     </g>
     <g id="LWPOLYLINE-667-3">
-      <rect class="cls-24" x="477" y="749.9" width="7.7" height="7.7" transform="translate(-392.1 560.8) rotate(-45)"/>
+      <rect class="cls-37" x="477" y="749.9" width="7.7" height="7.7" transform="translate(-392.1 560.8) rotate(-45)"/>
     </g>
     <g id="ARC-3616-3">
       <path class="cls-12" d="M475.2,757.4c.1.3,0,.6-.2.9"/>
@@ -20502,10 +20529,12 @@
       <path class="cls-12" d="M486.9,757.5s.1,0,.1.2h0"/>
     </g>
   </g>
-  <g class="cls-36">
-    <g class="cls-36">
-      <g class="cls-36">
-        <text class="cls-30" transform="translate(308.5 496.6)"><tspan x="0" y="0">Atrium</tspan></text>
+  <g class="cls-21">
+    <g class="cls-21">
+      <g class="cls-21">
+        <g class="cls-21">
+          <text class="cls-16" transform="translate(308.5 496.6)"><tspan x="0" y="0">Atrium</tspan></text>
+        </g>
       </g>
     </g>
   </g>
