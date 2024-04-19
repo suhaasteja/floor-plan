@@ -64,6 +64,7 @@ function buildMap (markers) {
   map = L.map('map', {
       crs: L.CRS.Simple,
       minZoom: -2,
+      maxZoom: 2,
       zoomSnap: 0.1,
       attributionControl: false,
       center: latLngBounds.getCenter(),
