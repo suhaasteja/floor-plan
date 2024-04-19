@@ -254,7 +254,6 @@ html, body, #map {
 }
 .modal-content h4 {
   margin-bottom:0;
-  font-size:1.1em;
 }
 .modal-content p {
   margin-top:20px;
@@ -265,7 +264,10 @@ html, body, #map {
 .modal-content button {
   margin-top:20px;
 }
-
+h4 {
+    --font-size: 1.1rem;
+    --typography-spacing-vertical: 1.874rem;
+}
 .leaflet-popup-content-wrapper {
   z-index: 999;
 }
