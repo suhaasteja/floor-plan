@@ -254,6 +254,7 @@ html, body, #map {
 }
 .modal-content h4 {
   margin-bottom:0;
+  font-size:1.1em;
 }
 .modal-content p {
   margin-top:20px;
