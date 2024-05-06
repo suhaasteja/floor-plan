@@ -73,7 +73,7 @@ function buildMap (markers) {
 
   });
   //use jquery when to make sure all svg files load before beginning to build the map - otherwise layers seem to appear out of order on the control
-  $.when( $.ajax("0.svg"),  $.ajax("1.svg"), $.ajax("1M.svg"), $.ajax("2.svg"),  $.ajax("3.svg"),  $.ajax("4.svg"),  $.ajax("5.svg"),  $.ajax("6.svg"), $.ajax("7.svg"), $.ajax("8.svg")).done(function (svg0, svg1, svg1M, svg2, svg3, svg4, svg5, svg6, svg7, svg8) {
+  $.when( $.ajax("https://sjsu-library.github.io/floor-plan/0.svg"),  $.ajax("https://sjsu-library.github.io/floor-plan/1.svg"), $.ajax("https://sjsu-library.github.io/floor-plan/1M.svg"), $.ajax("https://sjsu-library.github.io/floor-plan/2.svg"),  $.ajax("https://sjsu-library.github.io/floor-plan/3.svg"),  $.ajax("https://sjsu-library.github.io/floor-plan/4.svg"),  $.ajax("https://sjsu-library.github.io/floor-plan/5.svg"),  $.ajax("https://sjsu-library.github.io/floor-plan/6.svg"), $.ajax("https://sjsu-library.github.io/floor-plan/7.svg"), $.ajax("https://sjsu-library.github.io/floor-plan/8.svg")).done(function (svg0, svg1, svg1M, svg2, svg3, svg4, svg5, svg6, svg7, svg8) {
      XMLprocess(svg0[0],0);
      XMLprocess(svg1[0],1);
      XMLprocess(svg1M[0],2);
