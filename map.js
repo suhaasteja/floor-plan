@@ -13,8 +13,24 @@ var markers;
 var currentBaseLayer = "Level 1";
 //use this variable to set marker groups that display on load
 var activeLayers = [];//list marker groups shown by default - currently disabled
+var queryString;
+var urlParams;
+var legacyFloor;
 var lastEventType;
 var stopHistory = false;
+//map legacy floors from old map to new values - goal is to make old inbound links work
+const legacyFloors = new Map([
+  ["L", "Lower Level"],
+  ["M", "Level 1 Mezzanine"],
+  ["G", "Level 1"],
+  ["2", "Level 2"],
+  ["3", "Level 3"],
+  ["4", "Level 4"],
+  ["5", "Level 5"],
+  ["6", "Level 6"],
+  ["7", "Level 7"],
+  ["8", "Level 8"]
+]);
 
 getQueries()
 
@@ -401,17 +417,35 @@ function getActiveMarkers() {
 
 //get queries from URL
 function getQueries() {
-  var queryString = window.location.search;
+  queryString = window.location.search;
     if(queryString) {
-      var urlParams = new URLSearchParams(queryString);
-      currentBaseLayer = urlParams.get('level').replace('%20',' ');
-      activeLayers = urlParams.get('markers').split(',');
+      urlParams = new URLSearchParams(queryString);
+      if (urlParams.get('f')) {
+        legacyFloor = urlParams.get('f');
+        if (legacyFloors.get(legacyFloor)) {
+          currentBaseLayer = legacyFloors.get(legacyFloor);
+          urlParams.delete('f');
+        }
+    }
+      if ((urlParams).get('level')) {
+        currentBaseLayer = urlParams.get('level').replace('%20',' ');
+      }
+
+      //activeLayers = urlParams.get('markers').split(',');
     }
 }
 
 //writes map state to the URL so page can be reloaded
 function writeState() {
-  window.history.pushState(null, null, '?level='+currentBaseLayer+'&markers='+activeLayers);
+  //urlParams = new URLSearchParams(queryString);
+  if (urlParams) {
+    urlParams.set('level', currentBaseLayer)
+      window.history.pushState(null, null, '?'+urlParams);
+}
+else {
+    window.history.pushState(null, null, '?level='+currentBaseLayer);
+}
+
 }
 
 function prepareToResizeToolTips() {
