@@ -34,7 +34,7 @@ html, body, #map {
  }
 
 #map-header {
-  position: fixed;
+  position: absolute;
   background: transparent;
   top: 0;
   left: 0;
