@@ -1,4 +1,9 @@
 /*localized CSS borrowed from Pico CSS */
+:root {
+  font-size: 16px;
+}
+
+
 #map-wrapper {
   --primary: #0055a2;
   --primary-hover: #002c54;
@@ -948,6 +953,8 @@
 .modal-content h4 {
   margin-bottom:0;
   margin-top:0;
+  box-shadow: none;
+  border: none;
 }
 .modal-content p {
   margin-top:20px;
