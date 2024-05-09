@@ -949,6 +949,8 @@
   min-width: 150px;
   width: 80%;
   margin:auto;
+  box-shadow:none;
+  border:none;
 }
 
 #map-wrapper .modal-content h4 {
