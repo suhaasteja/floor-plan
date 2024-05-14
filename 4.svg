@@ -242,7 +242,7 @@
         opacity: .4;
       }
     </style>
-    <pattern id="employee_area_00000034793887793" data-name="employee area 00000034793887793" x="0" y="0" width="72" height="72" patternTransform="translate(-161.5 19102.6)" patternUnits="userSpaceOnUse" viewBox="0 0 72 72">
+    <pattern id="employee_area_00000034793887793" data-name="employee area 00000034793887793" x="0" y="0" width="72" height="72" patternTransform="translate(-61.5 -65.2) scale(1 -1)" patternUnits="userSpaceOnUse" viewBox="0 0 72 72">
       <g>
         <rect class="cls-44" width="72" height="72"/>
         <g>
@@ -274,128 +274,131 @@
                                   <g>
                                     <rect class="cls-44" width="72" height="72"/>
                                     <g>
-                                      <line class="cls-28" x1="64.5" y1="82.5" x2="82.5" y2="64.5"/>
-                                      <line class="cls-28" x1="64.5" y1="88.5" x2="88.5" y2="64.5"/>
-                                      <line class="cls-28" x1="64.5" y1="94.5" x2="94.5" y2="64.5"/>
-                                      <line class="cls-28" x1="64.5" y1="100.5" x2="100.5" y2="64.5"/>
-                                      <line class="cls-28" x1="64.5" y1="106.5" x2="106.5" y2="64.5"/>
-                                      <line class="cls-28" x1="64.5" y1="112.5" x2="112.5" y2="64.5"/>
-                                      <line class="cls-28" x1="64.5" y1="118.5" x2="118.5" y2="64.5"/>
-                                      <line class="cls-28" x1="64.5" y1="124.5" x2="124.5" y2="64.5"/>
-                                      <line class="cls-28" x1="64.5" y1="130.5" x2="130.5" y2="64.5"/>
-                                      <line class="cls-28" x1="64.5" y1="136.5" x2="136.5" y2="64.5"/>
-                                      <line class="cls-28" x1="64.5" y1="142.5" x2="142.5" y2="64.5"/>
-                                      <line class="cls-28" x1="64.5" y1="148.5" x2="148.5" y2="64.5"/>
-                                      <line class="cls-28" x1="70.5" y1="148.5" x2="148.5" y2="70.5"/>
-                                    </g>
-                                    <g>
-                                      <line class="cls-28" x1="-7.5" y1="82.5" x2="10.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="88.5" x2="16.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="94.5" x2="22.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="100.5" x2="28.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="106.5" x2="34.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="112.5" x2="40.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="118.5" x2="46.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="124.5" x2="52.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="130.5" x2="58.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="136.5" x2="64.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="142.5" x2="70.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="148.5" x2="76.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-1.5" y1="148.5" x2="76.5" y2="70.5"/>
-                                    </g>
-                                    <g>
-                                      <line class="cls-28" x1="-79.5" y1="148.5" x2="4.5" y2="64.5"/>
-                                      <line class="cls-28" x1="-73.5" y1="148.5" x2="4.5" y2="70.5"/>
-                                    </g>
-                                    <g>
-                                      <line class="cls-28" x1="64.5" y1="10.5" x2="82.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="64.5" y1="16.5" x2="88.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="64.5" y1="22.5" x2="94.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="64.5" y1="28.5" x2="100.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="64.5" y1="34.5" x2="106.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="64.5" y1="40.5" x2="112.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="64.5" y1="46.5" x2="118.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="64.5" y1="52.5" x2="124.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="64.5" y1="58.5" x2="130.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="64.5" y1="64.5" x2="136.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="64.5" y1="70.5" x2="142.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="64.5" y1="76.5" x2="148.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="70.5" y1="76.5" x2="148.5" y2="-1.5"/>
-                                    </g>
-                                    <g>
-                                      <line class="cls-28" x1="-7.5" y1="10.5" x2="10.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="16.5" x2="16.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="22.5" x2="22.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="28.5" x2="28.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="34.5" x2="34.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="40.5" x2="40.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="46.5" x2="46.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="52.5" x2="52.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="58.5" x2="58.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="64.5" x2="64.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="70.5" x2="70.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="76.5" x2="76.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-1.5" y1="76.5" x2="76.5" y2="-1.5"/>
-                                      <line class="cls-28" x1="4.5" y1="76.5" x2="76.5" y2="4.5"/>
-                                      <line class="cls-28" x1="10.5" y1="76.5" x2="76.5" y2="10.5"/>
-                                      <line class="cls-28" x1="16.5" y1="76.5" x2="76.5" y2="16.5"/>
-                                      <line class="cls-28" x1="22.5" y1="76.5" x2="76.5" y2="22.5"/>
-                                      <line class="cls-28" x1="28.5" y1="76.5" x2="76.5" y2="28.5"/>
-                                      <line class="cls-28" x1="34.5" y1="76.5" x2="76.5" y2="34.5"/>
-                                      <line class="cls-28" x1="40.5" y1="76.5" x2="76.5" y2="40.5"/>
-                                      <line class="cls-28" x1="46.5" y1="76.5" x2="76.5" y2="46.5"/>
-                                      <line class="cls-28" x1="52.5" y1="76.5" x2="76.5" y2="52.5"/>
-                                      <line class="cls-28" x1="58.5" y1="76.5" x2="76.5" y2="58.5"/>
-                                      <line class="cls-28" x1="64.5" y1="76.5" x2="76.5" y2="64.5"/>
-                                    </g>
-                                    <g>
-                                      <line class="cls-28" x1="-79.5" y1="76.5" x2="4.5" y2="-7.5"/>
-                                      <line class="cls-28" x1="-73.5" y1="76.5" x2="4.5" y2="-1.5"/>
-                                      <line class="cls-28" x1="-67.5" y1="76.5" x2="4.5" y2="4.5"/>
-                                      <line class="cls-28" x1="-61.5" y1="76.5" x2="4.5" y2="10.5"/>
-                                      <line class="cls-28" x1="-55.5" y1="76.5" x2="4.5" y2="16.5"/>
-                                      <line class="cls-28" x1="-49.5" y1="76.5" x2="4.5" y2="22.5"/>
-                                      <line class="cls-28" x1="-43.5" y1="76.5" x2="4.5" y2="28.5"/>
-                                      <line class="cls-28" x1="-37.5" y1="76.5" x2="4.5" y2="34.5"/>
-                                      <line class="cls-28" x1="-31.5" y1="76.5" x2="4.5" y2="40.5"/>
-                                      <line class="cls-28" x1="-25.5" y1="76.5" x2="4.5" y2="46.5"/>
-                                      <line class="cls-28" x1="-19.5" y1="76.5" x2="4.5" y2="52.5"/>
-                                      <line class="cls-28" x1="-13.5" y1="76.5" x2="4.5" y2="58.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="76.5" x2="4.5" y2="64.5"/>
-                                    </g>
-                                    <g>
-                                      <line class="cls-28" x1="64.5" y1="4.5" x2="148.5" y2="-79.5"/>
-                                      <line class="cls-28" x1="70.5" y1="4.5" x2="148.5" y2="-73.5"/>
-                                    </g>
-                                    <g>
-                                      <line class="cls-28" x1="-7.5" y1="4.5" x2="76.5" y2="-79.5"/>
-                                      <line class="cls-28" x1="-1.5" y1="4.5" x2="76.5" y2="-73.5"/>
-                                      <line class="cls-28" x1="4.5" y1="4.5" x2="76.5" y2="-67.5"/>
-                                      <line class="cls-28" x1="10.5" y1="4.5" x2="76.5" y2="-61.5"/>
-                                      <line class="cls-28" x1="16.5" y1="4.5" x2="76.5" y2="-55.5"/>
-                                      <line class="cls-28" x1="22.5" y1="4.5" x2="76.5" y2="-49.5"/>
-                                      <line class="cls-28" x1="28.5" y1="4.5" x2="76.5" y2="-43.5"/>
-                                      <line class="cls-28" x1="34.5" y1="4.5" x2="76.5" y2="-37.5"/>
-                                      <line class="cls-28" x1="40.5" y1="4.5" x2="76.5" y2="-31.5"/>
-                                      <line class="cls-28" x1="46.5" y1="4.5" x2="76.5" y2="-25.5"/>
-                                      <line class="cls-28" x1="52.5" y1="4.5" x2="76.5" y2="-19.5"/>
-                                      <line class="cls-28" x1="58.5" y1="4.5" x2="76.5" y2="-13.5"/>
-                                      <line class="cls-28" x1="64.5" y1="4.5" x2="76.5" y2="-7.5"/>
-                                    </g>
-                                    <g>
-                                      <line class="cls-28" x1="-79.5" y1="4.5" x2="4.5" y2="-79.5"/>
-                                      <line class="cls-28" x1="-73.5" y1="4.5" x2="4.5" y2="-73.5"/>
-                                      <line class="cls-28" x1="-67.5" y1="4.5" x2="4.5" y2="-67.5"/>
-                                      <line class="cls-28" x1="-61.5" y1="4.5" x2="4.5" y2="-61.5"/>
-                                      <line class="cls-28" x1="-55.5" y1="4.5" x2="4.5" y2="-55.5"/>
-                                      <line class="cls-28" x1="-49.5" y1="4.5" x2="4.5" y2="-49.5"/>
-                                      <line class="cls-28" x1="-43.5" y1="4.5" x2="4.5" y2="-43.5"/>
-                                      <line class="cls-28" x1="-37.5" y1="4.5" x2="4.5" y2="-37.5"/>
-                                      <line class="cls-28" x1="-31.5" y1="4.5" x2="4.5" y2="-31.5"/>
-                                      <line class="cls-28" x1="-25.5" y1="4.5" x2="4.5" y2="-25.5"/>
-                                      <line class="cls-28" x1="-19.5" y1="4.5" x2="4.5" y2="-19.5"/>
-                                      <line class="cls-28" x1="-13.5" y1="4.5" x2="4.5" y2="-13.5"/>
-                                      <line class="cls-28" x1="-7.5" y1="4.5" x2="4.5" y2="-7.5"/>
+                                      <rect class="cls-44" width="72" height="72"/>
+                                      <g>
+                                        <line class="cls-28" x1="64.5" y1="-10.5" x2="82.5" y2="7.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-16.5" x2="88.5" y2="7.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-22.5" x2="94.5" y2="7.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-28.5" x2="100.5" y2="7.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-34.5" x2="106.5" y2="7.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-40.5" x2="112.5" y2="7.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-46.5" x2="118.5" y2="7.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-52.5" x2="124.5" y2="7.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-58.5" x2="130.5" y2="7.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-64.5" x2="136.5" y2="7.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-70.5" x2="142.5" y2="7.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-76.5" x2="148.5" y2="7.5"/>
+                                        <line class="cls-28" x1="70.5" y1="-76.5" x2="148.5" y2="1.5"/>
+                                      </g>
+                                      <g>
+                                        <line class="cls-28" x1="-7.5" y1="-10.5" x2="10.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-16.5" x2="16.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-22.5" x2="22.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-28.5" x2="28.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-34.5" x2="34.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-40.5" x2="40.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-46.5" x2="46.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-52.5" x2="52.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-58.5" x2="58.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-64.5" x2="64.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-70.5" x2="70.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-76.5" x2="76.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-1.5" y1="-76.5" x2="76.5" y2="1.5"/>
+                                      </g>
+                                      <g>
+                                        <line class="cls-28" x1="-79.5" y1="-76.5" x2="4.5" y2="7.5"/>
+                                        <line class="cls-28" x1="-73.5" y1="-76.5" x2="4.5" y2="1.5"/>
+                                      </g>
+                                      <g>
+                                        <line class="cls-28" x1="64.5" y1="61.5" x2="82.5" y2="79.5"/>
+                                        <line class="cls-28" x1="64.5" y1="55.5" x2="88.5" y2="79.5"/>
+                                        <line class="cls-28" x1="64.5" y1="49.5" x2="94.5" y2="79.5"/>
+                                        <line class="cls-28" x1="64.5" y1="43.5" x2="100.5" y2="79.5"/>
+                                        <line class="cls-28" x1="64.5" y1="37.5" x2="106.5" y2="79.5"/>
+                                        <line class="cls-28" x1="64.5" y1="31.5" x2="112.5" y2="79.5"/>
+                                        <line class="cls-28" x1="64.5" y1="25.5" x2="118.5" y2="79.5"/>
+                                        <line class="cls-28" x1="64.5" y1="19.5" x2="124.5" y2="79.5"/>
+                                        <line class="cls-28" x1="64.5" y1="13.5" x2="130.5" y2="79.5"/>
+                                        <line class="cls-28" x1="64.5" y1="7.5" x2="136.5" y2="79.5"/>
+                                        <line class="cls-28" x1="64.5" y1="1.5" x2="142.5" y2="79.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-4.5" x2="148.5" y2="79.5"/>
+                                        <line class="cls-28" x1="70.5" y1="-4.5" x2="148.5" y2="73.5"/>
+                                      </g>
+                                      <g>
+                                        <line class="cls-28" x1="-7.5" y1="61.5" x2="10.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="55.5" x2="16.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="49.5" x2="22.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="43.5" x2="28.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="37.5" x2="34.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="31.5" x2="40.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="25.5" x2="46.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="19.5" x2="52.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="13.5" x2="58.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="7.5" x2="64.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="1.5" x2="70.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-4.5" x2="76.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-1.5" y1="-4.5" x2="76.5" y2="73.5"/>
+                                        <line class="cls-28" x1="4.5" y1="-4.5" x2="76.5" y2="67.5"/>
+                                        <line class="cls-28" x1="10.5" y1="-4.5" x2="76.5" y2="61.5"/>
+                                        <line class="cls-28" x1="16.5" y1="-4.5" x2="76.5" y2="55.5"/>
+                                        <line class="cls-28" x1="22.5" y1="-4.5" x2="76.5" y2="49.5"/>
+                                        <line class="cls-28" x1="28.5" y1="-4.5" x2="76.5" y2="43.5"/>
+                                        <line class="cls-28" x1="34.5" y1="-4.5" x2="76.5" y2="37.5"/>
+                                        <line class="cls-28" x1="40.5" y1="-4.5" x2="76.5" y2="31.5"/>
+                                        <line class="cls-28" x1="46.5" y1="-4.5" x2="76.5" y2="25.5"/>
+                                        <line class="cls-28" x1="52.5" y1="-4.5" x2="76.5" y2="19.5"/>
+                                        <line class="cls-28" x1="58.5" y1="-4.5" x2="76.5" y2="13.5"/>
+                                        <line class="cls-28" x1="64.5" y1="-4.5" x2="76.5" y2="7.5"/>
+                                      </g>
+                                      <g>
+                                        <line class="cls-28" x1="-79.5" y1="-4.5" x2="4.5" y2="79.5"/>
+                                        <line class="cls-28" x1="-73.5" y1="-4.5" x2="4.5" y2="73.5"/>
+                                        <line class="cls-28" x1="-67.5" y1="-4.5" x2="4.5" y2="67.5"/>
+                                        <line class="cls-28" x1="-61.5" y1="-4.5" x2="4.5" y2="61.5"/>
+                                        <line class="cls-28" x1="-55.5" y1="-4.5" x2="4.5" y2="55.5"/>
+                                        <line class="cls-28" x1="-49.5" y1="-4.5" x2="4.5" y2="49.5"/>
+                                        <line class="cls-28" x1="-43.5" y1="-4.5" x2="4.5" y2="43.5"/>
+                                        <line class="cls-28" x1="-37.5" y1="-4.5" x2="4.5" y2="37.5"/>
+                                        <line class="cls-28" x1="-31.5" y1="-4.5" x2="4.5" y2="31.5"/>
+                                        <line class="cls-28" x1="-25.5" y1="-4.5" x2="4.5" y2="25.5"/>
+                                        <line class="cls-28" x1="-19.5" y1="-4.5" x2="4.5" y2="19.5"/>
+                                        <line class="cls-28" x1="-13.5" y1="-4.5" x2="4.5" y2="13.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="-4.5" x2="4.5" y2="7.5"/>
+                                      </g>
+                                      <g>
+                                        <line class="cls-28" x1="64.5" y1="67.5" x2="148.5" y2="151.5"/>
+                                        <line class="cls-28" x1="70.5" y1="67.5" x2="148.5" y2="145.5"/>
+                                      </g>
+                                      <g>
+                                        <line class="cls-28" x1="-7.5" y1="67.5" x2="76.5" y2="151.5"/>
+                                        <line class="cls-28" x1="-1.5" y1="67.5" x2="76.5" y2="145.5"/>
+                                        <line class="cls-28" x1="4.5" y1="67.5" x2="76.5" y2="139.5"/>
+                                        <line class="cls-28" x1="10.5" y1="67.5" x2="76.5" y2="133.5"/>
+                                        <line class="cls-28" x1="16.5" y1="67.5" x2="76.5" y2="127.5"/>
+                                        <line class="cls-28" x1="22.5" y1="67.5" x2="76.5" y2="121.5"/>
+                                        <line class="cls-28" x1="28.5" y1="67.5" x2="76.5" y2="115.5"/>
+                                        <line class="cls-28" x1="34.5" y1="67.5" x2="76.5" y2="109.5"/>
+                                        <line class="cls-28" x1="40.5" y1="67.5" x2="76.5" y2="103.5"/>
+                                        <line class="cls-28" x1="46.5" y1="67.5" x2="76.5" y2="97.5"/>
+                                        <line class="cls-28" x1="52.5" y1="67.5" x2="76.5" y2="91.5"/>
+                                        <line class="cls-28" x1="58.5" y1="67.5" x2="76.5" y2="85.5"/>
+                                        <line class="cls-28" x1="64.5" y1="67.5" x2="76.5" y2="79.5"/>
+                                      </g>
+                                      <g>
+                                        <line class="cls-28" x1="-79.5" y1="67.5" x2="4.5" y2="151.5"/>
+                                        <line class="cls-28" x1="-73.5" y1="67.5" x2="4.5" y2="145.5"/>
+                                        <line class="cls-28" x1="-67.5" y1="67.5" x2="4.5" y2="139.5"/>
+                                        <line class="cls-28" x1="-61.5" y1="67.5" x2="4.5" y2="133.5"/>
+                                        <line class="cls-28" x1="-55.5" y1="67.5" x2="4.5" y2="127.5"/>
+                                        <line class="cls-28" x1="-49.5" y1="67.5" x2="4.5" y2="121.5"/>
+                                        <line class="cls-28" x1="-43.5" y1="67.5" x2="4.5" y2="115.5"/>
+                                        <line class="cls-28" x1="-37.5" y1="67.5" x2="4.5" y2="109.5"/>
+                                        <line class="cls-28" x1="-31.5" y1="67.5" x2="4.5" y2="103.5"/>
+                                        <line class="cls-28" x1="-25.5" y1="67.5" x2="4.5" y2="97.5"/>
+                                        <line class="cls-28" x1="-19.5" y1="67.5" x2="4.5" y2="91.5"/>
+                                        <line class="cls-28" x1="-13.5" y1="67.5" x2="4.5" y2="85.5"/>
+                                        <line class="cls-28" x1="-7.5" y1="67.5" x2="4.5" y2="79.5"/>
+                                      </g>
                                     </g>
                                   </g>
                                 </g>
@@ -418,16 +421,16 @@
   <rect id="SCS" class="cls-3" x="282" y="657.2" width="81.9" height="81.8"/>
   <rect id="Jon_Oakes_KLEVR_Lab" data-name="Jon Oakes KLEVR Lab" class="cls-9" x="218.2" y="818.8" width="64.7" height="57.5"/>
   <rect class="cls-8" x="270.1" y="818.1" width="9.6" height=".7"/>
-  <rect id="sound_studio" data-name="sound studio" class="cls-11" x="217.8" y="803" width="25.8" height="15.2"/>
+  <rect id="sound_studio" data-name="sound studio" class="cls-11" x="217.8" y="799.7" width="28.1" height="18.5"/>
   <g id="sound">
-    <path class="cls-26" d="M224,808.4c-.1,0-.2,0-.2.2v3.7s.1.2.2.2.2,0,.2-.2v-3.7s0-.2-.2-.2Z"/>
-    <path class="cls-26" d="M227.6,808.4c-.1,0-.2,0-.2.2v3.7s.1.2.2.2.2,0,.2-.2v-3.7s-.1-.2-.2-.2Z"/>
-    <path class="cls-26" d="M225.9,806.2c-.1,0-.2,0-.2.2v8.3s.1.2.2.2.2,0,.2-.2v-8.3s0-.2-.2-.2Z"/>
-    <path class="cls-26" d="M229.8,805.4c-.1,0-.2,0-.2.2v10s.1.2.2.2.2,0,.2-.2v-10s-.1-.2-.2-.2Z"/>
-    <path class="cls-26" d="M231.7,807.5c-.1,0-.2,0-.2.2v5.7s.1.2.2.2.2,0,.2-.2v-5.7s0-.2-.2-.2Z"/>
-    <path class="cls-26" d="M233.6,804.3c-.1,0-.2,0-.2.2v12.1s.1.2.2.2.2,0,.2-.2v-12.1s0-.2-.2-.2Z"/>
-    <path class="cls-26" d="M235.6,806.7c-.1,0-.2,0-.2.2v7.3s.1.2.2.2.2,0,.2-.2v-7.2c0-.2-.1-.3-.2-.3Z"/>
-    <path class="cls-26" d="M237.5,808.7c-.1,0-.2,0-.2.2v3.4s.1.2.2.2.2,0,.2-.2v-3.4s0-.2-.2-.2Z"/>
+    <path class="cls-26" d="M225.2,807.3c-.1,0-.2,0-.2.2v3.7s.1.2.2.2.2,0,.2-.2v-3.7s0-.2-.2-.2Z"/>
+    <path class="cls-26" d="M228.8,807.3c-.1,0-.2,0-.2.2v3.7s.1.2.2.2.2,0,.2-.2v-3.7s-.1-.2-.2-.2Z"/>
+    <path class="cls-26" d="M227.1,805.1c-.1,0-.2,0-.2.2v8.3s.1.2.2.2.2,0,.2-.2v-8.3s0-.2-.2-.2Z"/>
+    <path class="cls-26" d="M231,804.3c-.1,0-.2,0-.2.2v10s.1.2.2.2.2,0,.2-.2v-10s-.1-.2-.2-.2Z"/>
+    <path class="cls-26" d="M232.9,806.4c-.1,0-.2,0-.2.2v5.7s.1.2.2.2.2,0,.2-.2v-5.7s0-.2-.2-.2Z"/>
+    <path class="cls-26" d="M234.8,803.2c-.1,0-.2,0-.2.2v12.1s.1.2.2.2.2,0,.2-.2v-12.1s0-.2-.2-.2Z"/>
+    <path class="cls-26" d="M236.8,805.6c-.1,0-.2,0-.2.2v7.3s.1.2.2.2.2,0,.2-.2v-7.2c0-.2-.1-.3-.2-.3Z"/>
+    <path class="cls-26" d="M238.7,807.6c-.1,0-.2,0-.2.2v3.4s.1.2.2.2.2,0,.2-.2v-3.4s0-.2-.2-.2Z"/>
   </g>
   <polygon id="atrium" class="cls-2" points="285.1 425.4 361.6 424.8 361.2 578.6 284.6 579.2 285.1 425.4"/>
   <g id="restroom">
@@ -494,7 +497,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-15" transform="translate(303.3 685.2)"><tspan x="0" y="0">SCS</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-15" transform="translate(303.3 685.2)"><tspan x="0" y="0">SCS</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -509,7 +514,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-22" transform="translate(221.3 832)"><tspan x="0" y="0">Jon Oakes</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-22" transform="translate(221.3 832)"><tspan x="0" y="0">Jon Oakes</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -524,7 +531,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-21" transform="translate(221.3 847)"><tspan x="0" y="0">KLEVR</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-21" transform="translate(221.3 847)"><tspan x="0" y="0">KLEVR</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -539,7 +548,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-21" transform="translate(221.3 861)"><tspan x="0" y="0">Lab</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-21" transform="translate(221.3 861)"><tspan x="0" y="0">Lab</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -554,7 +565,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-15" transform="translate(304.8 726)"><tspan x="0" y="0">TTC</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-15" transform="translate(304.8 726)"><tspan x="0" y="0">TTC</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -570,7 +583,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-16" transform="translate(271.9 239.8)"><tspan x="0" y="0">Library Administration</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-16" transform="translate(271.9 239.8)"><tspan x="0" y="0">Library Administration</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -642,7 +657,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-20" transform="translate(646.7 17.2) rotate(53.1)"><tspan x="0" y="0">N</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-20" transform="translate(646.7 17.2) rotate(53.1)"><tspan x="0" y="0">N</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -659,7 +676,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-19" transform="translate(0 61.8)"><tspan x="0" y="0">4</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-19" transform="translate(0 61.8)"><tspan x="0" y="0">4</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -674,7 +693,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-18" transform="translate(46.4 20.4)"><tspan x="0" y="0">Student Computing Center</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-18" transform="translate(46.4 20.4)"><tspan x="0" y="0">Student Computing Center</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -689,7 +710,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-18" transform="translate(46.4 33.6)"><tspan x="0" y="0">Technology Training Center</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-18" transform="translate(46.4 33.6)"><tspan x="0" y="0">Technology Training Center</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -704,7 +727,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-18" transform="translate(46.4 46.8)"><tspan x="0" y="0">KLEVR Lab</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-18" transform="translate(46.4 46.8)"><tspan x="0" y="0">KLEVR Lab</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -719,7 +744,9 @@
             <g class="cls-23">
               <g class="cls-23">
                 <g class="cls-23">
-                  <text class="cls-18" transform="translate(46.4 60)"><tspan x="0" y="0">Library Administration</tspan></text>
+                  <g class="cls-23">
+                    <text class="cls-18" transform="translate(46.4 60)"><tspan x="0" y="0">Library Administration</tspan></text>
+                  </g>
                 </g>
               </g>
             </g>
@@ -18146,7 +18173,7 @@
         <path class="cls-13" d="M341.4,798.5c-.8-1.1-1.9-2.1-3.1-2.8"/>
       </g>
       <g id="LWPOLYLINE-813">
-        <rect class="cls-33" x="339.2" y="799.1" width="3" height=".4" transform="translate(-407.9 358.1) rotate(-36.4)"/>
+        <rect class="cls-33" x="339.1" y="799.1" width="3" height=".4" transform="translate(-407.8 358.1) rotate(-36.4)"/>
       </g>
       <g id="ARC-3985">
         <path class="cls-13" d="M310.4,803.8c.6.8,1.4,1.5,2.3,2"/>
@@ -18164,7 +18191,7 @@
         <path class="cls-13" d="M308,805.7c.9,1.1,2,2,3.2,2.7"/>
       </g>
       <g id="LWPOLYLINE-814">
-        <rect class="cls-39" x="307.4" y="804.5" width="3" height=".4" transform="translate(-434.6 368.5) rotate(-38.6)"/>
+        <rect class="cls-39" x="307.3" y="804.5" width="3" height=".4" transform="translate(-434.5 368.5) rotate(-38.6)"/>
       </g>
       <g id="ARC-4012">
         <path class="cls-13" d="M339.7,809.7c.4-.9,1-1.8,1.8-2.5"/>
@@ -18212,7 +18239,7 @@
         <line class="cls-13" x1="318.9" y1="794.6" x2="321.6" y2="796.6"/>
       </g>
       <g id="LWPOLYLINE-826">
-        <rect class="cls-37" x="317.1" y="795.2" width="4.5" height="3.3" transform="translate(-507.6 566.5) rotate(-52.6)"/>
+        <rect class="cls-37" x="317.1" y="795.1" width="4.5" height="3.3" transform="translate(-507.6 566.6) rotate(-52.6)"/>
       </g>
       <g id="LWPOLYLINE-827">
         <rect class="cls-37" x="319.1" y="798" width="3" height=".4" transform="translate(-508.2 568.1) rotate(-52.6)"/>
@@ -18382,7 +18409,7 @@
         <line class="cls-13" x1="269" y1="604.6" x2="266.6" y2="602.3"/>
       </g>
       <g id="LWPOLYLINE-823-2">
-        <rect class="cls-31" x="265" y="601.8" width="4.5" height="3.3" transform="translate(-353.6 379.8) rotate(-46.3)"/>
+        <rect class="cls-31" x="265.1" y="601.9" width="4.5" height="3.3" transform="translate(-353.7 379.8) rotate(-46.3)"/>
       </g>
       <g id="LWPOLYLINE-824-2">
         <rect class="cls-31" x="264.4" y="602.3" width="3" height=".4" transform="translate(-353.4 378.5) rotate(-46.3)"/>
@@ -18567,7 +18594,7 @@
         <rect class="cls-34" x="306.5" y="586.5" width="3.3" height="4.5" transform="translate(-328.4 398.1) rotate(-45.7)"/>
       </g>
       <g id="LWPOLYLINE-824-3">
-        <rect class="cls-34" x="306.7" y="588.7" width=".4" height="3" transform="translate(-329.9 397.6) rotate(-45.7)"/>
+        <rect class="cls-34" x="306.6" y="588.7" width=".4" height="3" transform="translate(-329.8 397.6) rotate(-45.7)"/>
       </g>
       <g id="LWPOLYLINE-825-3">
         <rect class="cls-34" x="309.3" y="586" width=".4" height="3" transform="translate(-327.1 398.7) rotate(-45.7)"/>
@@ -18579,7 +18606,7 @@
         <rect class="cls-37" x="314.2" y="587.3" width="4.5" height="3.3" transform="translate(-343.6 482.6) rotate(-52.6)"/>
       </g>
       <g id="LWPOLYLINE-827-3">
-        <rect class="cls-37" x="316.4" y="589.9" width="3" height=".4" transform="translate(-344 484.3) rotate(-52.6)"/>
+        <rect class="cls-37" x="316.4" y="590" width="3" height=".4" transform="translate(-344 484.2) rotate(-52.6)"/>
       </g>
       <g id="LWPOLYLINE-828-3">
         <rect class="cls-37" x="313.5" y="587.6" width="3" height=".4" transform="translate(-343.3 481) rotate(-52.6)"/>
@@ -21345,7 +21372,9 @@
           <g class="cls-23">
             <g class="cls-23">
               <g class="cls-23">
-                <text class="cls-17" transform="translate(308.5 496.6)"><tspan x="0" y="0">Atrium</tspan></text>
+                <g class="cls-23">
+                  <text class="cls-17" transform="translate(308.5 496.6)"><tspan x="0" y="0">Atrium</tspan></text>
+                </g>
               </g>
             </g>
           </g>
@@ -21357,10 +21386,14 @@
   <rect class="cls-7" x="217.8" y="589.5" width="3.3" height="48.7"/>
   <g class="cls-23">
     <g class="cls-23">
-      <text class="cls-22" transform="translate(223.4 611.4)"><tspan x="0" y="0">Video</tspan></text>
+      <g class="cls-23">
+        <text class="cls-22" transform="translate(223.4 611.4)"><tspan x="0" y="0">Video</tspan></text>
+      </g>
     </g>
     <g class="cls-23">
-      <text class="cls-22" transform="translate(223.4 618.4)"><tspan x="0" y="0">Wall</tspan></text>
+      <g class="cls-23">
+        <text class="cls-22" transform="translate(223.4 618.4)"><tspan x="0" y="0">Wall</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
