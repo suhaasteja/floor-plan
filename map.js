@@ -32,9 +32,14 @@ const legacyFloors = new Map([
   ["8", "Level 8"]
 ]);
 
-getQueries()
+
+
 
 //start process by loading json file that contains marker data
+(function ($) {
+  console.log('Javascript/jQuery works!');
+getQueries();
+
 $(document).ready(function() {
 
   google.charts.load('current', {
@@ -74,6 +79,7 @@ $(document).ready(function() {
 
 
 });
+})(jQuery);
 
 //Primary function - called after the JSON file of markers is loaded
 function buildMap (markers) {
@@ -82,6 +88,7 @@ function buildMap (markers) {
       minZoom: -2,
       maxZoom: 2,
       zoomSnap: 0.1,
+      scrollWheelZoom: false,
       attributionControl: false,
       center: latLngBounds.getCenter(),
       maxBounds: mapBounds,
@@ -89,7 +96,7 @@ function buildMap (markers) {
 
   });
   //use jquery when to make sure all svg files load before beginning to build the map - otherwise layers seem to appear out of order on the control
-  $.when( $.ajax("https://sjsu-library.github.io/floor-plan/0.svg"),  $.ajax("https://sjsu-library.github.io/floor-plan/1.svg"), $.ajax("https://sjsu-library.github.io/floor-plan/1M.svg"), $.ajax("https://sjsu-library.github.io/floor-plan/2.svg"),  $.ajax("https://sjsu-library.github.io/floor-plan/3.svg"),  $.ajax("https://sjsu-library.github.io/floor-plan/4.svg"),  $.ajax("https://sjsu-library.github.io/floor-plan/5.svg"),  $.ajax("https://sjsu-library.github.io/floor-plan/6.svg"), $.ajax("https://sjsu-library.github.io/floor-plan/7.svg"), $.ajax("https://sjsu-library.github.io/floor-plan/8.svg")).done(function (svg0, svg1, svg1M, svg2, svg3, svg4, svg5, svg6, svg7, svg8) {
+  $.when( $.ajax("https://d2jv02qf7xgjwx.cloudfront.net/sites/841/include/king-level-0.svg"),  $.ajax("https://d2jv02qf7xgjwx.cloudfront.net/sites/841/include/king-level-1.svg"), $.ajax("https://d2jv02qf7xgjwx.cloudfront.net/sites/841/include/king-level-1M.svg"), $.ajax("https://d2jv02qf7xgjwx.cloudfront.net/sites/841/include/king-level-2.svg"),  $.ajax("https://d2jv02qf7xgjwx.cloudfront.net/sites/841/include/king-level-3.svg"),  $.ajax("https://d2jv02qf7xgjwx.cloudfront.net/sites/841/include/king-level-4.svg"),  $.ajax("https://d2jv02qf7xgjwx.cloudfront.net/sites/841/include/king-level-5.svg"),  $.ajax("https://d2jv02qf7xgjwx.cloudfront.net/sites/841/include/king-level-6.svg"), $.ajax("https://d2jv02qf7xgjwx.cloudfront.net/sites/841/include/king-level-7.svg"), $.ajax("https://d2jv02qf7xgjwx.cloudfront.net/sites/841/include/king-level-8.svg")).done(function (svg0, svg1, svg1M, svg2, svg3, svg4, svg5, svg6, svg7, svg8) {
      XMLprocess(svg0[0],0);
      XMLprocess(svg1[0],1);
      XMLprocess(svg1M[0],2);
@@ -107,8 +114,9 @@ function buildMap (markers) {
        }).addTo(map);
 
      onBaseChange();
+    map.fitBounds(latLngBounds);//.panBy([0, 500], {animate:false});
   });
-  map.fitBounds(latLngBounds);//.panBy([0, 500], {animate:false});
+
 
 
   //set the function that runs when the level is changed
@@ -427,6 +435,25 @@ function getQueries() {
           urlParams.delete('f');
         }
     }
+    if (urlParams.get('n')) { //get parameters from Primo links
+      var locations = {'1st':'1','2nd':'2','3rd':'3','4th':'4','5th':'5','6th':'6','7th':'7','8th':'8','Lower Level':'Lower Level'};
+      var keys = Object.keys(locations);
+      let param_n  = urlParams.get('n');
+      for (let i = 0; i < keys.length; i++) {
+        key = keys[i];
+        if (param_n.includes(key)) {
+            let value = locations[key];
+            primoFloor = value;
+            if (key != 'Lower Level') {
+                primoFloor = 'Level ' + value;
+            }
+            break;
+          }
+      }
+      currentBaseLayer = primoFloor;
+      urlParams.delete('n');
+    }
+
       if ((urlParams).get('level')) {
         currentBaseLayer = urlParams.get('level').replace('%20',' ');
       }

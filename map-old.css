@@ -1,0 +1,312 @@
+/* Orange color for light color scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme=light],
+:root:not([data-theme=dark]) {
+  --primary: #0055a2;
+  --primary-hover: #002c54;
+}
+
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #map {
+    height: 100%;
+    width: 100vw;
+
+}
+
+#control-spacer {
+  height:90px;
+  display: block;
+  background: transparent;
+}
+
+#map-wrapper {
+  margin: auto;
+}
+
+#map {
+  background-color: #ffffff;
+ }
+
+#map-header {
+  position: absolute;
+  background: transparent;
+  top: 0;
+  left: 0;
+  z-index: 800;
+  height: 90px;
+  display: flex;
+  padding:0 10px;
+}
+
+#map text {
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: normal;
+}
+
+.leaflet-control-layers-list {
+  height:auto !important;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+#layers-accordion {
+  margin:0 0 2px;
+  padding:0;
+  min-width: 280px;
+  z-index: 900;
+  border: 1px solid #333;
+  padding: 10px;
+
+}
+
+.leaflet-control-layers-separator {
+  display:none;
+}
+#overlays-outer {
+  /* position: fixed;
+  bottom: 0;
+  left: 0; */
+  width: 100%;
+
+  z-index: 850;
+  display:none;
+}
+
+#overlays-accordion {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  max-width: 500px;
+  margin:auto;
+  background-color: #fff;
+  border:1px solid #333;
+  padding:10px;
+}
+
+.leaflet-control-layers-overlays, .leaflet-control-layers-base {
+  text-align: left;
+  /*display: flex; for now, let's not flex and let them show in one column */
+  flex-wrap: wrap;
+}
+
+.leaflet-control-layers-overlays label, .leaflet-control-layers-base label {
+  flex-basis:239px;
+}
+
+
+#zoom {
+  margin: 0 10px;
+  padding: 3px 10px;
+}
+
+#map-footer {
+  max-width: 500px;
+  margin:auto;
+  padding-bottom:150px;
+}
+
+[role=button] {
+  padding:0;
+  background-color:transparent;
+  border:0px;
+}
+
+.leaflet-popup-pane {
+
+}
+
+.leaflet-popup {
+
+}
+
+.leaflet-tooltip {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  text-align:center;
+  color:#fff;
+  background:transparent;
+  border:0px solid;
+  box-shadow:none;
+  font-size:0px;
+  text-wrap:wrap;
+  padding: 0;
+  width:0;
+}
+.tooltip-black-text {
+  color: #000;
+}
+
+.square-tooltip {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  white-space: break-spaces;
+}
+.leaflet-tooltip .squareText {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:.4em;
+  text-wrap: wrap;
+}
+.leaflet-tooltip .squareIcon {
+
+}
+
+.tooltip-icon-left  {
+  flex-direction: row-reverse;
+}
+.tooltip-icon-left .squareText {
+  text-align: left;
+  padding:.2em;
+}
+.tooltip-icon-left .squareIcon {
+}
+
+.tooltip-icon-right {
+  flex-direction: row;
+}
+.tooltip-icon-right .squareText {
+  text-align: right;
+  padding:.2em;
+}
+.tooltip-icon-right .squareIcon {
+
+}
+.tooltip-big-font .squareText {
+  font-size:0.8em;
+}
+.tooltip-big-font .squareIcon {
+  font-size:2em;
+}
+.tooltip-med-font .squareText {
+  font-size:0.6em;
+}
+.tooltip-med-font .squareIcon {
+  font-size:1.5em;
+}
+.circleIcon {
+  font-size: .8em;
+}
+
+.tooltip-big-circle .circleIcon {
+  font-size:1.5em;
+}
+.leaflet-tooltip-left:before {
+  border: 0px solid;
+}
+
+.leaflet-fixed-pane {
+  z-index:99999;
+  /*position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+    display: flex;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    min-width: 100%;
+    height: inherit;
+    min-height: 100%;
+    border: 0;
+    -webkit-backdrop-filter: rgba(213, 220, 226, 0.7);
+    backdrop-filter: rgba(213, 220, 226, 0.7);
+    background-color: rgba(213, 220, 226, 0.7);*/
+
+}
+
+.popup-fixed {
+  top: 0;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  transform: none !important;
+  margin: 0;
+  border-radius: 0;
+  position: fixed;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  max-width: 500px;
+  min-width: 150px;
+  width: 80%;
+  margin:auto;
+}
+.modal-content h4 {
+  margin-bottom:0;
+}
+.modal-content p {
+  margin-top:20px;
+}
+.modal-content img {
+}
+
+.modal-content button {
+  margin-top:20px;
+}
+.leaflet-popup-content-wrapper {
+  z-index: 999;
+}
+
+
+.leaflet-container a.leaflet-popup-close-button  {
+  width:100%;
+  height:100%;
+  color: #fff;
+  background-color:#fff;
+  opacity: 0.5;
+  z-index: 998;
+}
+.leaflet-container a.leaflet-popup-close-button:hover {
+  color:#fff;
+}
+
+.leaflet-popup-tip-container {
+  display: none;
+}
+
+.icon-svg text {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  text-align:center;
+}
+
+.number-svg text {
+  font-family: 'Barlow Condensed';
+  font-weight: 500 !important;
+}
+
+@media screen and (min-width: 1000px) {
+  #control-spacer {
+    height:0px;
+  }
+}
