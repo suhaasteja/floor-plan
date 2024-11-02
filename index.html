@@ -24,6 +24,14 @@
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"></script>
 
+        <!-- DataTables CSS -->
+      <link href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" rel="stylesheet" type="text/css">
+      <!-- search css -->
+      <link href="./search.css" rel="stylesheet" type="text/css">
+      <!-- DataTables JavaScript -->
+      <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+      <!-- script embed for search -->
+      <script src="searchTable.js"></script>
 
 </head>
 
@@ -33,13 +41,12 @@
 
 <div id="map-wrapper">
  <div id="map-header">
-  <div id="layers">
+   <table id="search-table" class="display" style="width:100%"></table>
+   <div id="layers">
   </div>
   <div id="zoom">
   </div>
 </div>
-
-
 
 
 

@@ -72,6 +72,7 @@ $(document).ready(function() {
       });
       markers = rows;
       buildMap(markers);
+      buildSearch(markers);
       //resizeToolTips();
     });
   });

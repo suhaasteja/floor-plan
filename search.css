@@ -1,0 +1,77 @@
+/* Limit the width and height of the wrapper container */
+#search-table_wrapper {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    max-width: 500px; /* Limit container width */
+    width: 100%;
+    max-height: 500px; /* Limit container height */
+    background-color: #fff;
+    z-index: 1000;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevents entire container from scrolling */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the search bar */
+.dt-search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dt-search label {
+    font-weight: bold;
+}
+
+.dt-search .dt-input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Enable both horizontal and vertical scrolling for the table */
+#search-table {
+    width: 100%; /* Ensure table fills container width */
+    border-collapse: collapse;
+    overflow: auto; /* Enable overflow on the table */
+    display: block;
+    max-height: 400px; /* Set height for vertical scrolling */
+}
+
+/* Ensure thead and tbody are separated for scrolling */
+#search-table tbody {
+    display: block;
+    width: 100%;
+}
+
+/* Scroll the tbody vertically and keep the header fixed */
+#search-table tbody {
+    height: 300px;
+    overflow-y: auto; /* Enable vertical scroll */
+    overflow-x: hidden; /* No horizontal scroll on tbody */
+}
+
+/* Allow horizontal scroll on the table */
+#search-table_wrapper table {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: block;
+}
+
+/* Add borders to table cells */
+ #search-table td {
+    width: calc(100% / 3); /* Adjust based on the number of columns */
+    padding: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    text-align: left;
+    word-wrap: break-word;
+}
