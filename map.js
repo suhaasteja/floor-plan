@@ -72,7 +72,7 @@ $(document).ready(function() {
       });
       markers = rows;
       buildMap(markers);
-      buildSearch(markers);
+      buildSearch(markers, map, currentBaseLayer);
       //resizeToolTips();
     });
   });
