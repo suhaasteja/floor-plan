@@ -323,7 +323,7 @@ function onBaseChange(e) {
             autoPan: false,
         })//add options here
 
-          .setContent('<div class = "modal-content"><h4>'+element.popupHead+'</h4><div class = "popUpText">'+popupBodyText+'</div><div class="popUpImage">'+popupBodyImage+'</div><div class="popUpButton">'+popupButton+'</div></div>');
+          .setContent('<div class = "modal-content"><h4>'+element.popupHead+'</h4><button class="close-button" aria-label="Close" rel="prev"></button><div class = "popUpText">'+popupBodyText+'</div><div class="popUpImage">'+popupBodyImage+'</div><div class="popUpButton">'+popupButton+'</div></div>');
         var circleContent = '<span class="circleIcon">'+markerContent+'</span>'
         var thisMarker = L.circle(location, {alt:element.popupHead, radius:size, color:markerColor, fillOpacity:markerBackgroundOpacity, opacity:markerBackgroundOpacity}).bindPopup(popup).bindTooltip(circleContent, {permanent:true, direction:"center", className:"circle-tooltip " + markerTextColor+ " " + bigIcon});
         if (element.markerShape == "square") {
