@@ -1,4 +1,4 @@
-function buildSearch(markers, map, currentBaseLayer) {
+function buildSearch(markers, map, changeLevel) {
   //   {
   //     "level": "Lower Level",
   //     "group": "",
@@ -68,18 +68,11 @@ function buildSearch(markers, map, currentBaseLayer) {
     let data = table.row(this).data();
     const [coordinates, level, head, body] = data;
     console.log(data, coordinates, level, head, body);
-    checkForLevelChange(level, currentBaseLayer);
+    changeLevel(level);
     addMarker(map, coordinates, head, body);
     map.fitBounds(latLngBounds);
   });
 
-}
-
-
-function checkForLevelChange(level, currentBaseLayer){
-  // check if we are in the same level; else change level
-  console.log("level", level);
-  
 }
 
 function addMarker(map, coordinates, popupHead, popupBody) {

@@ -72,7 +72,7 @@ $(document).ready(function() {
       });
       markers = rows;
       buildMap(markers);
-      buildSearch(markers, map, currentBaseLayer);
+      buildSearch(markers, map, changeLevel);
       //resizeToolTips();
     });
   });
@@ -528,4 +528,16 @@ function resizeToolTips(time) {
 
 }
 
+function changeLevel(level){
+  if(baseMaps[level]){
+    map.removeLayer(baseMaps[currentBaseLayer]);
+    baseMaps[level].addTo(map);
+    map.fireEvent('baselayerchange', {
+      name: level,
+      layer: baseMaps[level]
+    })
+  }else{
+    console.log("invalid level requested => ", level);
+  }
+}
 //end of function definitions
