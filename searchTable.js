@@ -83,8 +83,8 @@ function addMarker(map, coordinates, popupHead, popupBody) {
   const customIcon = L.divIcon({
       className: 'custom-marker', // Add a custom CSS class for the marker
       html: `<div class="marker-icon"></div>`, // Custom HTML for the icon
-      iconSize: [40, 40],
-      // popupAnchor: [0, -20]
+      iconSize: [0, 0],
+      popupAnchor: [0, -20]
   });
 
   // Add the marker with the custom icon
